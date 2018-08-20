@@ -26,11 +26,23 @@ module.exports = {
     ]
   },
   externals: {
+    'core-next-object': {
+      commonjs: 'next-core-object',
+      commonjs2: 'next-core-object',
+      amd: 'next-core-object',
+      root: 'next-core-object'
+    },
     'core-next-utilities': {
       commonjs: 'next-core-utilities',
       commonjs2: 'next-core-utilities',
       amd: 'next-core-utilities',
       root: 'next-core-utilities'
+    },
+    'core-next-validation': {
+      commonjs: 'next-core-validation',
+      commonjs2: 'next-core-validation',
+      amd: 'next-core-validation',
+      root: 'next-core-validation'
     },
     'lodash.clone': {
       commonjs: 'lodash.clone',
@@ -85,7 +97,7 @@ module.exports = {
       commonjs2: 'lodash.result',
       amd: 'lodash.result',
       root: 'lodash.result'
-    },
+    }
   },
   stats: "errors-only",
   devtool: "source-map",

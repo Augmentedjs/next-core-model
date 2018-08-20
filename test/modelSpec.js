@@ -44,13 +44,5 @@ describe("Given an Abstract Model", () => {
 			model.schema = {};
 			expect(model.supportsValidation()).to.be.true;
 		});
-
-		it("can generate a schema from a model", () => {
-			model.set({ "Name": "Bob", "ID": 123, "Email": "bob@augmentedjs.org", "Role": "Architect", "Active": true });
-      const v = new Model.ValidationFramework();
-			const schema = v.generateSchema(model);
-			expect(schema).to.not.be.undefined;
-			expect(Model.isObject(schema)).to.be.true;
-		});
 	});
 });

@@ -52,7 +52,9 @@
     "lodash.isequal": "^4.5.0",
     "lodash.iteratee": "^4.7.0",
     "lodash.result": "^4.5.2",
-    "next-core-object": "^2.5.4"
+    "next-core-object": "^2.5.4",
+    "next-core-utilities": "^2.5.4",
+    "next-core-validation": "^2.5.3"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/next-core-model/issues"

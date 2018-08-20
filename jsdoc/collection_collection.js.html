@@ -1,4 +1,104 @@
-import { AugmentedObject } from "next-core-object";
+<!-- start:source.tmpl.hbs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+		<title>collection/collection.js</title>
+		<link rel="icon" type="image/png" href="favicon.png"/>
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/prism.min.css">
+		<link type="text/css" rel="stylesheet" href="css/template.min.css">
+			<style>
+				.page-header,
+				pre.code-toolbar > .toolbar:hover {
+					background-color: #607D8B;
+				}
+				.callout-primary,
+				.toc .nav > li > a:hover,
+				.toc .nav > li > a:focus,
+				.toc .nav > li.active > a,
+				.toc .nav > li.active > a:hover,
+				.toc .nav > li.active > a:focus,
+				pre.code-toolbar > .toolbar:hover {
+					border-left-color: #607D8B;
+				}
+				pre.code-toolbar > .toolbar:hover {
+					border-bottom-color: #607D8B;
+				}
+				.callout-primary h5,
+				.symbol-title.collapsible-symbol .toggle-icon,
+				.breadcrumb li a,
+				.toc .nav > li > a:hover,
+				.toc .nav > li > a:focus,
+				.toc .nav > li.active > a,
+				.toc .nav > li.active > a:hover,
+				.toc .nav > li.active > a:focus {
+					color: #607D8B;
+				}
+			</style>
+		<script type="text/javascript">
+			window.TEMPLATE_OPTIONS = {"includeDate":true,"dateFormat":"ddd MMM Do YYYY","systemName":"Augmented.js Next Core","systemSummary":"Augmented.js Next Core - Simply Development.","systemLogo":"img/jensen-silo-circle-small.png","systemColor":"#607D8B","navMembers":[{"kind":"class","title":"Classes","summary":"All documented classes."},{"kind":"external","title":"Externals","summary":"All documented external members."},{"kind":"global","title":"Globals","summary":"All documented globals."},{"kind":"mixin","title":"Mixins","summary":"All documented mixins."},{"kind":"interface","title":"Interfaces","summary":"All documented interfaces."},{"kind":"module","title":"Modules","summary":"All documented modules."},{"kind":"namespace","title":"Namespaces","summary":"All documented namespaces."},{"kind":"tutorial","title":"Tutorials","summary":"All available tutorials."}],"footer":"<a href='http://www.augmentedjs.com'>Augmented.js Homepage</a>","copyright":"","linenums":true,"collapseSymbols":false,"inverseNav":true,"inlineNav":false,"outputSourceFiles":true,"sourceRootPath":null,"disablePackagePath":true,"outputSourcePath":true,"showTableOfContents":true,"showAccessFilter":true,"analytics":null,"methodHeadingReturns":false,"sort":"linenum, longname, version, since","search":true,"favicon":"favicon.png","stylesheets":[],"scripts":[],"monospaceLinks":false,"cleverLinks":false,"logoFile":"public/images/jensen-silo-circle-small.png","navType":"vertical","protocol":"html://"};
+			window.DOCLET_TOC_ENABLED = false;
+			window.DOCLET_AFILTER_ENABLED = false;
+		</script>
+</head>
+<body>
+	<!-- start:navbar.hbs -->
+	<header class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand branding-logo" href="index.html" style="background-image: url(img/jensen-silo-circle-small.png);">
+					Augmented.js Next Core
+				</a>
+				<!-- displayed on small devices -->
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse" id="topNavigation">
+				<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a href="list_class.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+											<li><a href="AbstractCollection.html">AbstractCollection</a></li>
+											<li><a href="AbstractModel.html">AbstractModel</a></li>
+											<li><a href="CollectionIterator.html">CollectionIterator</a></li>
+									</ul>
+								</li>
+				</ul>
+					<!-- start:lunr-search-navbar.hbs -->
+					<form class="navbar-form navbar-right" role="search">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search" id="lunr-search-input">
+							<div class="input-group-btn">
+								<button class="btn btn-default" id="lunr-search-submit">
+									<i class="glyphicon glyphicon-search"></i>
+								</button>
+							</div>
+						</div>
+					</form>
+					<!-- start:lunr-search-navbar.hbs -->		</div>
+		</div>
+	</header>
+	<!-- end:navbar.hbs -->		<div class="page-header">
+			<div class="container">
+				<span class="kind">source</span>
+				<h1><span class="name">collection/collection.js</span></h1>
+			</div>
+		</div>
+	<div class="container content">
+		<div class="row">
+			<div class="col-md-12 main-content">
+		<section class="source-section">
+			<article></article>
+			<pre class="prettyprint source language-javascript line-numbers"><code class="language-javascript">import AugmentedObject from "next-core-object";
 import { extend, uniqueId, isString, isFunction, some, splice, sortObjects } from "next-core-utilities";
 import AbstractModel from "../model/abstractModel.js";
 import { ValidationFramework } from "next-core-validation";
@@ -27,11 +127,11 @@ const addOptions = {
 };
 
 /**
- * Abstract Augmented Collection <br/>
- * Supports: <ul>
- * <li>Validation and Schemas</li>
- * <li>Security</li>
- * </ul>
+ * Abstract Augmented Collection &lt;br/>
+ * Supports: &lt;ul>
+ * &lt;li>Validation and Schemas&lt;/li>
+ * &lt;li>Security&lt;/li>
+ * &lt;/ul>
  * @extends Object
  */
 class AbstractCollection extends AugmentedObject {
@@ -89,7 +189,7 @@ class AbstractCollection extends AugmentedObject {
     //return this.map( (model) => { return model.toJSON(options); });
     let i = 0;
     const out = [], l = this.models.length;
-    for (i = 0; i < l; i++) {
+    for (i = 0; i &lt; l; i++) {
       out[i] = this.models[i].toJSON();
     }
     return out;
@@ -115,7 +215,7 @@ class AbstractCollection extends AugmentedObject {
     const singular = Array.isArray(models);
     models = singular ? [models] : models.slice();
     let removed = this._removeModels(models, options);
-    if (!options.silent && removed.length) {
+    if (!options.silent &amp;&amp; removed.length) {
       options.changes = {added: [], merged: [], removed: removed};
       this.trigger("update", this, options);
     }
@@ -133,7 +233,7 @@ class AbstractCollection extends AugmentedObject {
     }
 
     options = extend({}, setOptions, options);
-    if (options.parse && !this._isModel(models)) {
+    if (options.parse &amp;&amp; !this._isModel(models)) {
       models = this.parse(models, options) || [];
     }
 
@@ -145,7 +245,7 @@ class AbstractCollection extends AugmentedObject {
     let at = options.at;
     if (at != null) at = +at;
     if (at > this.length) at = this.length;
-    if (at < 0) at += this.length + 1;
+    if (at &lt; 0) at += this.length + 1;
 
     let set = [];
     let toAdd = [];
@@ -158,7 +258,7 @@ class AbstractCollection extends AugmentedObject {
     let remove = options.remove;
 
     let sort = false;
-    let sortable = this.comparator && at == null && options.sort !== false;
+    let sortable = this.comparator &amp;&amp; at == null &amp;&amp; options.sort !== false;
     let sortAttr = isString(this.comparator) ? this.comparator : null;
 
     // Turn bare objects into model references, and prevent invalid models
@@ -166,19 +266,19 @@ class AbstractCollection extends AugmentedObject {
     let model, i;
     const l = models.length;
 
-    for (i = 0; i < l; i++) {
+    for (i = 0; i &lt; l; i++) {
       model = models[i];
 
       // If a duplicate is found, prevent it from being added and
       // optionally merge it into the existing model.
       let existing = this.get(model);
       if (existing) {
-        if (merge && model !== existing) {
+        if (merge &amp;&amp; model !== existing) {
           let attrs = this._isModel(model) ? model.attributes : model;
           if (options.parse) attrs = existing.parse(attrs, options);
           existing.set(attrs, options);
           toMerge.push(existing);
-          if (sortable && !sort) sort = existing.hasChanged(sortAttr);
+          if (sortable &amp;&amp; !sort) sort = existing.hasChanged(sortAttr);
         }
         if (!modelMap[existing.cid]) {
           modelMap[existing.cid] = true;
@@ -200,7 +300,7 @@ class AbstractCollection extends AugmentedObject {
 
     // Remove stale models.
     if (remove) {
-      for (i = 0; i < this.length; i++) {
+      for (i = 0; i &lt; this.length; i++) {
         model = this.models[i];
         if (!modelMap[model.cid]) toRemove.push(model);
       }
@@ -209,8 +309,8 @@ class AbstractCollection extends AugmentedObject {
 
     // See if sorting is needed, update `length` and splice in new models.
     let orderChanged = false;
-    let replace = !sortable && add && remove;
-    if (set.length && replace) {
+    let replace = !sortable &amp;&amp; add &amp;&amp; remove;
+    if (set.length &amp;&amp; replace) {
       orderChanged = this.length !== set.length || some(this.models, (m, index) => {
         return m !== set[index];
       });
@@ -230,7 +330,7 @@ class AbstractCollection extends AugmentedObject {
 
     // Unless silenced, it"s time to fire all appropriate add/sort/update events.
     if (!options.silent) {
-      for (i = 0; i < toAdd.length; i++) {
+      for (i = 0; i &lt; toAdd.length; i++) {
         if (at != null) options.index = at + i;
         model = toAdd[i];
         model.trigger("add", model, this, options);
@@ -257,7 +357,7 @@ class AbstractCollection extends AugmentedObject {
    */
   reset(models, options) {
     options = options ? _clone(options) : {};
-    for (let i = 0; i < this.models.length; i++) {
+    for (let i = 0; i &lt; this.models.length; i++) {
       this._removeReference(this.models[i], options);
     }
     options.previousModels = this.models;
@@ -308,7 +408,7 @@ class AbstractCollection extends AugmentedObject {
     }
     return this._byId[obj] ||
       this._byId[this.modelId(this._isModel(obj) ? obj.attributes : obj)] ||
-      obj.cid && this._byId[obj.cid];
+      obj.cid &amp;&amp; this._byId[obj.cid];
   };
 
   /** Returns `true` if the model is in the collection.
@@ -320,7 +420,7 @@ class AbstractCollection extends AugmentedObject {
   /** Get the model at the given index.
    */
   at(index) {
-    if (index < 0) {
+    if (index &lt; 0) {
       index += this.length;
     }
     return this.models[index];
@@ -332,7 +432,7 @@ class AbstractCollection extends AugmentedObject {
    */
   find(attrs) {
     const results = findModelByMatchingProperties(this.models, attrs);
-    if (results && results.length > 0) {
+    if (results &amp;&amp; results.length > 0) {
       return results[0];
     }
     return null;
@@ -391,7 +491,7 @@ class AbstractCollection extends AugmentedObject {
   pluck(attr) {
     let i = 0;
     const out = [], l = this.models.length;
-    for (i = 0; i < l; i++) {
+    for (i = 0; i &lt; l; i++) {
       out[i] = this.models[i].toJSON()[attr];
     }
     return out;
@@ -443,7 +543,7 @@ class AbstractCollection extends AugmentedObject {
   /** Define how to uniquely identify models in the collection.
    */
   modelId(attrs) {
-    if (attrs && this.model && this.model.idAttribute) {
+    if (attrs &amp;&amp; this.model &amp;&amp; this.model.idAttribute) {
       return attrs[this.model.idAttribute || "id"];
     } else {
       return "id";
@@ -473,7 +573,7 @@ class AbstractCollection extends AugmentedObject {
    * @returns {boolean} Returns True if this collection supports validation
    */
   supportsValidation() {
-    const ret = (this.schema && this.schema !== null && this.schema !== {});
+    const ret = (this.schema &amp;&amp; this.schema !== null &amp;&amp; this.schema !== {});
     return (ret) ? true : false;
   };
 
@@ -490,7 +590,7 @@ class AbstractCollection extends AugmentedObject {
    * @returns {array} Returns the message is an array of objects.
    */
   getValidationMessages() {
-    return (this.validationMessages && this.validationMessages.messages) ? this.validationMessages.messages : [];
+    return (this.validationMessages &amp;&amp; this.validationMessages.messages) ? this.validationMessages.messages : [];
   };
 
   /**
@@ -503,7 +603,7 @@ class AbstractCollection extends AugmentedObject {
       let messages = [];
       this.validationMessages.messages = messages;
       this.validationMessages.valid = true;
-      const a = this.toJSON(), l = (a && Array.isArray(a)) ? a.length : 0;
+      const a = this.toJSON(), l = (a &amp;&amp; Array.isArray(a)) ? a.length : 0;
       let i = 0;
       if (!this._validationFramework) {
         this._validationFramework = new ValidationFramework();
@@ -511,7 +611,7 @@ class AbstractCollection extends AugmentedObject {
       const v = this._validationFramework;
 
       //console.debug("AUGMENTED: Collection Validate: Beginning with " + l + " models.");
-      for (i = 0; i < l; i++) {
+      for (i = 0; i &lt; l; i++) {
         messages[i] = v.validate(a[i], this.schema);
         if (!messages[i].valid) {
           this.validationMessages.valid = false;
@@ -625,7 +725,7 @@ class AbstractCollection extends AugmentedObject {
   // Internal method called by both remove and set.
   _removeModels(models, options) {
     let removed = [];
-    for (let i = 0; i < models.length; i++) {
+    for (let i = 0; i &lt; models.length; i++) {
       let model = this.get(models[i]);
       if (!model) continue;
 
@@ -679,7 +779,7 @@ class AbstractCollection extends AugmentedObject {
   // in other collections are ignored.
   _onModelEvent(event, model, collection, options) {
     if (model) {
-      if ((event === "add" || event === "remove") && collection !== this) return;
+      if ((event === "add" || event === "remove") &amp;&amp; collection !== this) return;
       if (event === "destroy") this.remove(model, options);
       if (event === "change") {
         let prevId = this.modelId(model.previousAttributes());
@@ -695,3 +795,38 @@ class AbstractCollection extends AugmentedObject {
 };
 
 export default AbstractCollection;
+</code></pre>
+		</section>
+			</div>
+		</div>
+	</div>
+	<footer>
+				<div class="footer-option"><a href='http://www.augmentedjs.com'>Augmented.js Homepage</a></div>
+			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Sun Aug 19th 2018 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/clipboard.min.js"></script>
+	<script src="js/prism.min.js"></script>
+	<script src="js/template.min.js"></script>
+		<!-- start:lunr-search-modal.hbs -->
+		<div class="modal fade" id="lunr-search-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Search results</h4>
+					</div>
+					<div class="modal-body" id="lunr-search-body">
+					</div>
+					<div class="modal-footer" id="lunr-search-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div>
+		<!-- end:lunr-search-modal.hbs -->		<script src="js/lunr.min.js"></script>
+	
+</body>
+</html>
+<!-- end:source.tmpl.hbs -->
