@@ -31,7 +31,7 @@ const wrapError = (model, options) => {
  * <li>Validation and Schemas</li>
  * <li>Security</li>
  * </ul>
- * @extends Object
+ * @extends AugmentedObject
  */
 class AbstractModel extends AugmentedObject {
   constructor(attributes, options, ...args) {
@@ -105,6 +105,13 @@ class AbstractModel extends AugmentedObject {
    * anyone who needs to know about the change in state.
    */
   set(key, val, options) {
+    // need stack trace for this:
+    /*try {
+      throw new Error("calling set.");
+    } catch(e) {
+      console.debug(e);
+    }*/
+
     if (key === null) {
       return this;
     }
@@ -113,6 +120,7 @@ class AbstractModel extends AugmentedObject {
     if (typeof key === "object") {
       attrs = key;
       options = val;
+      //console.debug("key is an object", attrs);
     } else {
       (attrs = {})[key] = val;
     }
@@ -123,13 +131,14 @@ class AbstractModel extends AugmentedObject {
 
     // Run validation.
     if (!this._validate(attrs, options)) {
+      console.warn("Model did not validate");
       return false;
     }
 
     // Extract attributes and options.
-    let unset      = options.unset;
-    let silent     = options.silent;
-    let changes    = [];
+    const unset      = options.unset;
+    const silent     = options.silent;
+    const changes    = [];
     let changing   = this._changing;
     this._changing = true;
 
@@ -140,12 +149,14 @@ class AbstractModel extends AugmentedObject {
 
     let current = this._attributes;
     let changed = this.changed;
-    let prev    = this._previousAttributes;
+    const prev    = this._previousAttributes;
 
     let attr;
     // For each `set` attribute, update or delete the current value.
     for (attr in attrs) {
+      //console.debug("attr to set", attr);
       val = attrs[attr];
+      //console.debug("attr value set", attrs[attr]);
       if (!_isEqual(current[attr], val)) {
         changes.push(attr);
       }
@@ -154,7 +165,11 @@ class AbstractModel extends AugmentedObject {
       } else {
         delete changed[attr];
       }
-      unset ? delete current[attr] : current[attr] = val;
+      if (unset) {
+        delete current[attr];
+      } else{
+        current[attr] = val;
+      }
     }
 
     // Update the `id`.
@@ -384,6 +399,7 @@ class AbstractModel extends AugmentedObject {
   };
 
 /* if needed these can be used from lodash or underscore against the model's attributes
+
   pairs() { // ??
 
   };
@@ -595,7 +611,7 @@ class AbstractModel extends AugmentedObject {
    * @private
    */
   _validate(attrs, options) {
-    if (!options.validate || !this.validate) {
+    if (options && (!options.validate || !this.validate)) {
       return true;
     }
     const messages = this.validate();
