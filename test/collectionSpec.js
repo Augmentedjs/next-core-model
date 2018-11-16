@@ -48,6 +48,25 @@ describe("Given an Augmented Collection", () => {
     c.add(data);
     expect(c.size()).to.equal(5);
   });
+
+  xit("can add data on construction", () => {
+    const arr = [ { "a": "x" }, { "a": "y" }, { "a": "z" }];
+    let i = 0;
+    const map = arr.map( (x) => {
+      x.id = i;
+      i++;
+      return x;
+    });
+
+
+    c = new Model.AbstractCollection(map);
+    //c.add(arr);
+    console.log("size", c.length);
+    const first = c.at(1);
+    console.log(first);
+    expect(first.get("a")).to.equal("y");
+  });
+
   it("can sort data by key", () => {
     c.add(data);
     c.sortByKey("Name");

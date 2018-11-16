@@ -59,7 +59,8 @@ class AbstractCollection extends AugmentedObject {
     this._reset();
     this.initialize(models, options);
     if (models) {
-      this.reset(models, extend({silent: true}, options));
+      // used to use reset but this collection never existed
+      this.add(models, extend({silent: true}, options));
     }
     if (!this.model) {
       this.model = new AbstractModel();
@@ -137,10 +138,12 @@ class AbstractCollection extends AugmentedObject {
       models = this.parse(models, options) || [];
     }
 
-    //console.log("models", models);
+    //console.debug("collection.add: models", models);
 
     let singular = !Array.isArray(models);
     models = singular ? [models] : models.slice();
+
+    //console.debug("collection.add: singular", singular);
 
     let at = options.at;
     if (at != null) at = +at;
@@ -157,6 +160,10 @@ class AbstractCollection extends AugmentedObject {
     let merge = options.merge;
     let remove = options.remove;
 
+    //console.debug("collection.add: options add", add);
+    //console.debug("collection.add: options merge", merge);
+    //console.debug("collection.add: options remove", remove);
+
     let sort = false;
     let sortable = this.comparator && at == null && options.sort !== false;
     let sortAttr = isString(this.comparator) ? this.comparator : null;
@@ -166,15 +173,21 @@ class AbstractCollection extends AugmentedObject {
     let model, i;
     const l = models.length;
 
+    //console.debug("collection.add: num models", l);
+
     for (i = 0; i < l; i++) {
       model = models[i];
+
+      //console.debug("collection.add: model", i, model);
 
       // If a duplicate is found, prevent it from being added and
       // optionally merge it into the existing model.
       let existing = this.get(model);
+
+      //console.debug("collection.add: existing", i, existing);
       if (existing) {
         if (merge && model !== existing) {
-          let attrs = this._isModel(model) ? model.attributes : model;
+          let attrs = this._isModel(model) ? model._attributes : model;
           if (options.parse) attrs = existing.parse(attrs, options);
           existing.set(attrs, options);
           toMerge.push(existing);
@@ -189,6 +202,9 @@ class AbstractCollection extends AugmentedObject {
       // If this is a new, valid model, push it to the `toAdd` list.
       } else if (add) {
         model = models[i] = this._prepareModel(model, options);
+
+        //console.debug("collection.add: add model", i, model);
+
         if (model) {
           toAdd.push(model);
           this._addReference(model, options);
@@ -197,6 +213,10 @@ class AbstractCollection extends AugmentedObject {
         }
       }
     }
+
+    //console.debug("collection.add: set models", set);
+    //console.debug("collection.add: toAdd models", toAdd);
+    //console.debug("collection.add: toMerge models", toMerge);
 
     // Remove stale models.
     if (remove) {
@@ -245,6 +265,8 @@ class AbstractCollection extends AugmentedObject {
         this.trigger("update", this, options);
       }
     }
+
+    //console.debug("collection.add: finished models", this.toJSON());
 
     // Return the added (or merged) model (or models).
     return singular ? models[0] : models;
@@ -303,11 +325,18 @@ class AbstractCollection extends AugmentedObject {
    * properties, or an attributes object that is transformed through modelId.
    */
   get(obj) {
+    //console.debug("get", obj);
+
     if (obj == null) {
       return void 0;
     }
+
+    /*console.debug("_byId", (this._byId[obj] ||
+      this._byId[this.modelId(this._isModel(obj) ? obj._attributes : obj)] ||
+      obj.cid && this._byId[obj.cid]));*/
+
     return this._byId[obj] ||
-      this._byId[this.modelId(this._isModel(obj) ? obj.attributes : obj)] ||
+      this._byId[this.modelId(this._isModel(obj) ? obj._attributes : obj)] ||
       obj.cid && this._byId[obj.cid];
   };
 
@@ -636,7 +665,7 @@ class AbstractCollection extends AugmentedObject {
       // Remove references before triggering "remove" event to prevent an
       // infinite loop. #3693
       delete this._byId[model.cid];
-      let id = this.modelId(model.attributes);
+      let id = this.modelId(model._attributes);
       if (id != null) delete this._byId[id];
 
       if (!options.silent) {
@@ -659,7 +688,7 @@ class AbstractCollection extends AugmentedObject {
   // Internal method to create a model's ties to a collection.
   _addReference(model, options) {
     this._byId[model.cid] = model;
-    let id = this.modelId(model.attributes);
+    let id = this.modelId(model._attributes);
     if (id != null) this._byId[id] = model;
     model.on("all", this._onModelEvent, this);
   };
@@ -667,7 +696,7 @@ class AbstractCollection extends AugmentedObject {
   // Internal method to sever a model's ties to a collection.
   _removeReference(model, options) {
     delete this._byId[model.cid];
-    let id = this.modelId(model.attributes);
+    let id = this.modelId(model._attributes);
     if (id != null) delete this._byId[id];
     if (this === model.collection) delete model.collection;
     model.off("all", this._onModelEvent, this);
@@ -683,7 +712,7 @@ class AbstractCollection extends AugmentedObject {
       if (event === "destroy") this.remove(model, options);
       if (event === "change") {
         let prevId = this.modelId(model.previousAttributes());
-        let id = this.modelId(model.attributes);
+        let id = this.modelId(model._attributes);
         if (prevId !== id) {
           if (prevId != null) delete this._byId[prevId];
           if (id != null) this._byId[id] = model;
