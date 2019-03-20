@@ -58,6 +58,363 @@ window.lunrData = {
           "list",
           "list:class"
         ],
+        "CollectionIterator.html": [
+          "allow",
+          "betweencollect",
+          "browser",
+          "class",
+          "collectioniter",
+          "function",
+          "implement",
+          "interoper",
+          "iter",
+          "javascript",
+          "javascript'",
+          "librarieswhich",
+          "loop",
+          "modern",
+          "oper",
+          "parti",
+          "protocol",
+          "theus",
+          "third"
+        ],
+        "CollectionIterator.html#next": [
+          "alway",
+          "collect",
+          "collectioniterator#next",
+          "collectiononc",
+          "done",
+          "exhaust",
+          "function",
+          "futurecal",
+          "method",
+          "model",
+          "next",
+          "refer",
+          "remov",
+          "return"
+        ],
+        "AbstractModel.html": [
+          "abstractmodel",
+          "class",
+          "schema",
+          "secur",
+          "support",
+          "valid"
+        ],
+        "AbstractModel.html#preinitialize": [
+          "abstractmodel#preiniti",
+          "function",
+          "messag",
+          "preiniti",
+          "properti",
+          "valid"
+        ],
+        "AbstractModel.html#get": [
+          "abstractmodel#get",
+          "attribut",
+          "form",
+          "function",
+          "model"
+        ],
+        "AbstractModel.html#set": [
+          "abstractmodel#set",
+          "attribut",
+          "chang",
+          "core",
+          "data",
+          "fire",
+          "function",
+          "hash",
+          "isth",
+          "know",
+          "model",
+          "need",
+          "notifyinganyon",
+          "object",
+          "oper",
+          "primit",
+          "quot;change&quot",
+          "set",
+          "state",
+          "updat"
+        ],
+        "AbstractModel.html#escape": [
+          "abstractmodel#escap",
+          "attribut",
+          "data",
+          "escap",
+          "function"
+        ],
+        "AbstractModel.html#has": [
+          "abstractmodel#ha",
+          "attribut",
+          "function",
+          "model"
+        ],
+        "AbstractModel.html#matches": [
+          "abstractmodel#match",
+          "case",
+          "function",
+          "match",
+          "method",
+          "proxi",
+          "special",
+          "underscore'"
+        ],
+        "AbstractModel.html#unset": [
+          "abstractmodel#unset",
+          "attribut",
+          "doesn't",
+          "exist",
+          "fire",
+          "function",
+          "model",
+          "noopif",
+          "quot;change&quot",
+          "remov",
+          "unset"
+        ],
+        "AbstractModel.html#clear": [
+          "abstractmodel#clear",
+          "attribut",
+          "clear",
+          "fire",
+          "function",
+          "model",
+          "quot;change&quot"
+        ],
+        "AbstractModel.html#toJSON": [
+          "abstractmodel#tojson",
+          "function",
+          "model",
+          "pure",
+          "tojson",
+          "transform"
+        ],
+        "AbstractModel.html#fetch": [
+          "abstractmodel#fetch",
+          "fetch",
+          "function",
+          "model"
+        ],
+        "AbstractModel.html#save": [
+          "abstractmodel#sav",
+          "creat",
+          "function",
+          "model",
+          "save"
+        ],
+        "AbstractModel.html#destroy": [
+          "abstractmodel#destroy",
+          "delet",
+          "destroy",
+          "function",
+          "model"
+        ],
+        "AbstractModel.html#url": [
+          "abstractmodel#url",
+          "call",
+          "chang",
+          "default",
+          "endpointthat",
+          "function",
+          "method",
+          "model'",
+          "overrid",
+          "represent",
+          "rest",
+          "server",
+          "url",
+          "you'reus"
+        ],
+        "AbstractModel.html#parse": [
+          "abstractmodel#pars",
+          "along",
+          "attribut",
+          "convert",
+          "default",
+          "function",
+          "hash",
+          "implement",
+          "model",
+          "onth",
+          "pars",
+          "pass",
+          "respons",
+          "set"
+        ],
+        "AbstractModel.html#clone": [
+          "abstractmodel#clon",
+          "attribut",
+          "clone",
+          "creat",
+          "function",
+          "ident",
+          "model",
+          "new",
+          "on"
+        ],
+        "AbstractModel.html#isNew": [
+          "abstractmodel#isnew",
+          "function",
+          "id",
+          "isnew",
+          "lack",
+          "model",
+          "never",
+          "new",
+          "save",
+          "server"
+        ],
+        "AbstractModel.html#hasChanged": [
+          "abstractmodel#haschang",
+          "attribut",
+          "chang",
+          "determin",
+          "event.if",
+          "function",
+          "haschang",
+          "last",
+          "model",
+          "name",
+          "quot;change&quot",
+          "specifi"
+        ],
+        "AbstractModel.html#changedAttributes": [
+          "abstractmodel#changedattribut",
+          "against",
+          "and/or",
+          "attribut",
+          "bepersist",
+          "chang",
+          "changedattribut",
+          "contain",
+          "determin",
+          "diff",
+          "function",
+          "model,determin",
+          "need",
+          "object",
+          "orfals",
+          "pass",
+          "return",
+          "server",
+          "set",
+          "undefined.y",
+          "unset",
+          "updat",
+          "us",
+          "view",
+          "whatpart"
+        ],
+        "AbstractModel.html#previous": [
+          "abstractmodel#previ",
+          "attribut",
+          "event",
+          "fire",
+          "function",
+          "last&quot;change&quot",
+          "previou",
+          "record",
+          "time",
+          "valu"
+        ],
+        "AbstractModel.html#previousAttributes": [
+          "abstractmodel#previousattribut",
+          "attribut",
+          "event",
+          "function",
+          "model",
+          "previous&quot;change&quot",
+          "previousattribut",
+          "time"
+        ],
+        "AbstractModel.html#supportsValidation": [
+          "abstractmodel#supportsvalid",
+          "function",
+          "model",
+          "return",
+          "support",
+          "supportsvalid",
+          "true",
+          "valid"
+        ],
+        "AbstractModel.html#isValid": [
+          "abstractmodel#isvalid",
+          "attribut",
+          "function",
+          "isvalid",
+          "json",
+          "level",
+          "model",
+          "return",
+          "schema",
+          "true",
+          "two",
+          "valid",
+          "validrun"
+        ],
+        "AbstractModel.html#validate": [
+          "abstractmodel#valid",
+          "function",
+          "model",
+          "valid"
+        ],
+        "AbstractModel.html#getValidationMessages": [
+          "abstractmodel#getvalidationmessag",
+          "array",
+          "function",
+          "get",
+          "getvalidationmessag",
+          "messag",
+          "valid"
+        ],
+        "AbstractModel.html#sync": [
+          "abstractmodel#sync",
+          "bound",
+          "call",
+          "data",
+          "function",
+          "model",
+          "rest",
+          "sync"
+        ],
+        "AbstractModel.html#reset": [
+          "abstractmodel#reset",
+          "clear",
+          "data",
+          "function",
+          "model",
+          "pass",
+          "reset",
+          "rewrit"
+        ],
+        "AbstractModel.html#isEmpty": [
+          "abstractmodel#isempti",
+          "empti",
+          "function",
+          "isempti",
+          "model",
+          "return",
+          "true"
+        ],
+        "AbstractModel.html#toString": [
+          "abstractmodel#tostr",
+          "data",
+          "function",
+          "model",
+          "return",
+          "string",
+          "tostr"
+        ],
+        "AbstractModel.html#update": [
+          "abstractmodel#upd",
+          "function",
+          "model",
+          "updat"
+        ],
         "AbstractCollection.html": [
           "abstract",
           "abstractcollect",
@@ -67,6 +424,14 @@ window.lunrData = {
           "schema",
           "secur",
           "support",
+          "valid"
+        ],
+        "AbstractCollection.html#preinitialize": [
+          "abstractcollection#preiniti",
+          "function",
+          "messag",
+          "preiniti",
+          "properti",
           "valid"
         ],
         "AbstractCollection.html#toJSON": [
@@ -481,371 +846,6 @@ window.lunrData = {
           "return",
           "string",
           "tostr"
-        ],
-        "AbstractCollection.html#preinitialize": [
-          "abstractcollection#preiniti",
-          "function",
-          "messag",
-          "preiniti",
-          "properti",
-          "valid"
-        ],
-        "CollectionIterator.html": [
-          "allow",
-          "betweencollect",
-          "browser",
-          "class",
-          "collectioniter",
-          "function",
-          "implement",
-          "interoper",
-          "iter",
-          "javascript",
-          "javascript'",
-          "librarieswhich",
-          "loop",
-          "modern",
-          "oper",
-          "parti",
-          "protocol",
-          "theus",
-          "third"
-        ],
-        "CollectionIterator.html#next": [
-          "alway",
-          "collect",
-          "collectioniterator#next",
-          "collectiononc",
-          "done",
-          "exhaust",
-          "function",
-          "futurecal",
-          "method",
-          "model",
-          "next",
-          "refer",
-          "remov",
-          "return"
-        ],
-        "AbstractModel.html": [
-          "abstractmodel",
-          "class",
-          "schema",
-          "secur",
-          "support",
-          "valid"
-        ],
-        "AbstractModel.html#get": [
-          "abstractmodel#get",
-          "attribut",
-          "form",
-          "function",
-          "model"
-        ],
-        "AbstractModel.html#set": [
-          "abstractmodel#set",
-          "attribut",
-          "chang",
-          "core",
-          "data",
-          "fire",
-          "function",
-          "hash",
-          "isth",
-          "know",
-          "model",
-          "need",
-          "notifyinganyon",
-          "object",
-          "oper",
-          "primit",
-          "quot;change&quot",
-          "set",
-          "state",
-          "updat"
-        ],
-        "AbstractModel.html#escape": [
-          "abstractmodel#escap",
-          "attribut",
-          "data",
-          "escap",
-          "function"
-        ],
-        "AbstractModel.html#has": [
-          "abstractmodel#ha",
-          "attribut",
-          "function",
-          "model"
-        ],
-        "AbstractModel.html#matches": [
-          "abstractmodel#match",
-          "case",
-          "function",
-          "match",
-          "method",
-          "proxi",
-          "special",
-          "underscore'"
-        ],
-        "AbstractModel.html#unset": [
-          "abstractmodel#unset",
-          "attribut",
-          "doesn't",
-          "exist",
-          "fire",
-          "function",
-          "model",
-          "noopif",
-          "quot;change&quot",
-          "remov",
-          "unset"
-        ],
-        "AbstractModel.html#clear": [
-          "abstractmodel#clear",
-          "attribut",
-          "clear",
-          "fire",
-          "function",
-          "model",
-          "quot;change&quot"
-        ],
-        "AbstractModel.html#toJSON": [
-          "abstractmodel#tojson",
-          "function",
-          "model",
-          "pure",
-          "tojson",
-          "transform"
-        ],
-        "AbstractModel.html#fetch": [
-          "abstractmodel#fetch",
-          "fetch",
-          "function",
-          "model"
-        ],
-        "AbstractModel.html#save": [
-          "abstractmodel#sav",
-          "creat",
-          "function",
-          "model",
-          "save"
-        ],
-        "AbstractModel.html#destroy": [
-          "abstractmodel#destroy",
-          "delet",
-          "destroy",
-          "function",
-          "model"
-        ],
-        "AbstractModel.html#url": [
-          "abstractmodel#url",
-          "call",
-          "chang",
-          "default",
-          "endpointthat",
-          "function",
-          "method",
-          "model'",
-          "overrid",
-          "represent",
-          "rest",
-          "server",
-          "url",
-          "you'reus"
-        ],
-        "AbstractModel.html#parse": [
-          "abstractmodel#pars",
-          "along",
-          "attribut",
-          "convert",
-          "default",
-          "function",
-          "hash",
-          "implement",
-          "model",
-          "onth",
-          "pars",
-          "pass",
-          "respons",
-          "set"
-        ],
-        "AbstractModel.html#clone": [
-          "abstractmodel#clon",
-          "attribut",
-          "clone",
-          "creat",
-          "function",
-          "ident",
-          "model",
-          "new",
-          "on"
-        ],
-        "AbstractModel.html#isNew": [
-          "abstractmodel#isnew",
-          "function",
-          "id",
-          "isnew",
-          "lack",
-          "model",
-          "never",
-          "new",
-          "save",
-          "server"
-        ],
-        "AbstractModel.html#hasChanged": [
-          "abstractmodel#haschang",
-          "attribut",
-          "chang",
-          "determin",
-          "event.if",
-          "function",
-          "haschang",
-          "last",
-          "model",
-          "name",
-          "quot;change&quot",
-          "specifi"
-        ],
-        "AbstractModel.html#changedAttributes": [
-          "abstractmodel#changedattribut",
-          "against",
-          "and/or",
-          "attribut",
-          "bepersist",
-          "chang",
-          "changedattribut",
-          "contain",
-          "determin",
-          "diff",
-          "function",
-          "model,determin",
-          "need",
-          "object",
-          "orfals",
-          "pass",
-          "return",
-          "server",
-          "set",
-          "undefined.y",
-          "unset",
-          "updat",
-          "us",
-          "view",
-          "whatpart"
-        ],
-        "AbstractModel.html#previous": [
-          "abstractmodel#previ",
-          "attribut",
-          "event",
-          "fire",
-          "function",
-          "last&quot;change&quot",
-          "previou",
-          "record",
-          "time",
-          "valu"
-        ],
-        "AbstractModel.html#previousAttributes": [
-          "abstractmodel#previousattribut",
-          "attribut",
-          "event",
-          "function",
-          "model",
-          "previous&quot;change&quot",
-          "previousattribut",
-          "time"
-        ],
-        "AbstractModel.html#supportsValidation": [
-          "abstractmodel#supportsvalid",
-          "function",
-          "model",
-          "return",
-          "support",
-          "supportsvalid",
-          "true",
-          "valid"
-        ],
-        "AbstractModel.html#isValid": [
-          "abstractmodel#isvalid",
-          "attribut",
-          "function",
-          "isvalid",
-          "json",
-          "level",
-          "model",
-          "return",
-          "schema",
-          "true",
-          "two",
-          "valid",
-          "validrun"
-        ],
-        "AbstractModel.html#validate": [
-          "abstractmodel#valid",
-          "function",
-          "model",
-          "valid"
-        ],
-        "AbstractModel.html#getValidationMessages": [
-          "abstractmodel#getvalidationmessag",
-          "array",
-          "function",
-          "get",
-          "getvalidationmessag",
-          "messag",
-          "valid"
-        ],
-        "AbstractModel.html#sync": [
-          "abstractmodel#sync",
-          "bound",
-          "call",
-          "data",
-          "function",
-          "model",
-          "rest",
-          "sync"
-        ],
-        "AbstractModel.html#reset": [
-          "abstractmodel#reset",
-          "clear",
-          "data",
-          "function",
-          "model",
-          "pass",
-          "reset",
-          "rewrit"
-        ],
-        "AbstractModel.html#isEmpty": [
-          "abstractmodel#isempti",
-          "empti",
-          "function",
-          "isempti",
-          "model",
-          "return",
-          "true"
-        ],
-        "AbstractModel.html#toString": [
-          "abstractmodel#tostr",
-          "data",
-          "function",
-          "model",
-          "return",
-          "string",
-          "tostr"
-        ],
-        "AbstractModel.html#update": [
-          "abstractmodel#upd",
-          "function",
-          "model",
-          "updat"
-        ],
-        "AbstractModel.html#preinitialize": [
-          "abstractmodel#preiniti",
-          "function",
-          "messag",
-          "preiniti",
-          "properti",
-          "valid"
         ]
       },
       "length": 75
@@ -895,6 +895,71 @@ window.lunrData = {
               }
             }
           },
+          "l": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "w": {
+                  "docs": {
+                    "CollectionIterator.html": {
+                      "ref": "CollectionIterator.html",
+                      "tf": 2.631578947368421
+                    }
+                  }
+                }
+              }
+            },
+            "w": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "y": {
+                  "docs": {
+                    "CollectionIterator.html#next": {
+                      "ref": "CollectionIterator.html#next",
+                      "tf": 3.8461538461538463
+                    }
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "d": {
+                    "docs": {},
+                    "i": {
+                      "docs": {
+                        "AbstractModel.html#destroy": {
+                          "ref": "AbstractModel.html#destroy",
+                          "tf": 2.941176470588235
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "g": {
+                  "docs": {
+                    "AbstractModel.html#parse": {
+                      "ref": "AbstractModel.html#parse",
+                      "tf": 3.8461538461538463
+                    }
+                  }
+                }
+              }
+            }
+          },
           "b": {
             "docs": {},
             "s": {
@@ -914,725 +979,6 @@ window.lunrData = {
                             "tf": 7.142857142857142
                           }
                         },
-                        "c": {
-                          "docs": {},
-                          "o": {
-                            "docs": {},
-                            "l": {
-                              "docs": {},
-                              "l": {
-                                "docs": {},
-                                "e": {
-                                  "docs": {},
-                                  "c": {
-                                    "docs": {},
-                                    "t": {
-                                      "docs": {
-                                        "AbstractCollection.html": {
-                                          "ref": "AbstractCollection.html",
-                                          "tf": 1900
-                                        }
-                                      },
-                                      "i": {
-                                        "docs": {},
-                                        "o": {
-                                          "docs": {},
-                                          "n": {
-                                            "docs": {},
-                                            "#": {
-                                              "docs": {},
-                                              "t": {
-                                                "docs": {},
-                                                "o": {
-                                                  "docs": {},
-                                                  "j": {
-                                                    "docs": {},
-                                                    "s": {
-                                                      "docs": {},
-                                                      "o": {
-                                                        "docs": {},
-                                                        "n": {
-                                                          "docs": {
-                                                            "AbstractCollection.html#toJSON": {
-                                                              "ref": "AbstractCollection.html#toJSON",
-                                                              "tf": 1150
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "s": {
-                                                    "docs": {},
-                                                    "t": {
-                                                      "docs": {},
-                                                      "r": {
-                                                        "docs": {
-                                                          "AbstractCollection.html#toString": {
-                                                            "ref": "AbstractCollection.html#toString",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "a": {
-                                                "docs": {},
-                                                "d": {
-                                                  "docs": {},
-                                                  "d": {
-                                                    "docs": {
-                                                      "AbstractCollection.html#add": {
-                                                        "ref": "AbstractCollection.html#add",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "t": {
-                                                  "docs": {
-                                                    "AbstractCollection.html#at": {
-                                                      "ref": "AbstractCollection.html#at",
-                                                      "tf": 1300
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "r": {
-                                                "docs": {},
-                                                "e": {
-                                                  "docs": {},
-                                                  "m": {
-                                                    "docs": {},
-                                                    "o": {
-                                                      "docs": {},
-                                                      "v": {
-                                                        "docs": {
-                                                          "AbstractCollection.html#remove": {
-                                                            "ref": "AbstractCollection.html#remove",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "s": {
-                                                    "docs": {},
-                                                    "e": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {
-                                                          "AbstractCollection.html#reset": {
-                                                            "ref": "AbstractCollection.html#reset",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "s": {
-                                                "docs": {
-                                                  "AbstractCollection.html#size": {
-                                                    "ref": "AbstractCollection.html#size",
-                                                    "tf": 1150
-                                                  }
-                                                },
-                                                "e": {
-                                                  "docs": {},
-                                                  "t": {
-                                                    "docs": {
-                                                      "AbstractCollection.html#set": {
-                                                        "ref": "AbstractCollection.html#set",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "h": {
-                                                  "docs": {},
-                                                  "i": {
-                                                    "docs": {},
-                                                    "f": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {
-                                                          "AbstractCollection.html#shift": {
-                                                            "ref": "AbstractCollection.html#shift",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "l": {
-                                                  "docs": {},
-                                                  "i": {
-                                                    "docs": {},
-                                                    "c": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#slice": {
-                                                          "ref": "AbstractCollection.html#slice",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "o": {
-                                                  "docs": {},
-                                                  "r": {
-                                                    "docs": {},
-                                                    "t": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#sort": {
-                                                          "ref": "AbstractCollection.html#sort",
-                                                          "tf": 1150
-                                                        }
-                                                      },
-                                                      "b": {
-                                                        "docs": {},
-                                                        "y": {
-                                                          "docs": {},
-                                                          "k": {
-                                                            "docs": {},
-                                                            "e": {
-                                                              "docs": {},
-                                                              "y": {
-                                                                "docs": {
-                                                                  "AbstractCollection.html#sortByKey": {
-                                                                    "ref": "AbstractCollection.html#sortByKey",
-                                                                    "tf": 1150
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "u": {
-                                                  "docs": {},
-                                                  "p": {
-                                                    "docs": {},
-                                                    "p": {
-                                                      "docs": {},
-                                                      "o": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {},
-                                                          "t": {
-                                                            "docs": {},
-                                                            "s": {
-                                                              "docs": {},
-                                                              "v": {
-                                                                "docs": {},
-                                                                "a": {
-                                                                  "docs": {},
-                                                                  "l": {
-                                                                    "docs": {},
-                                                                    "i": {
-                                                                      "docs": {},
-                                                                      "d": {
-                                                                        "docs": {
-                                                                          "AbstractCollection.html#supportsValidation": {
-                                                                            "ref": "AbstractCollection.html#supportsValidation",
-                                                                            "tf": 1150
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "y": {
-                                                  "docs": {},
-                                                  "n": {
-                                                    "docs": {},
-                                                    "c": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#sync": {
-                                                          "ref": "AbstractCollection.html#sync",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "a": {
-                                                  "docs": {},
-                                                  "v": {
-                                                    "docs": {
-                                                      "AbstractCollection.html#save": {
-                                                        "ref": "AbstractCollection.html#save",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "p": {
-                                                "docs": {},
-                                                "u": {
-                                                  "docs": {},
-                                                  "s": {
-                                                    "docs": {},
-                                                    "h": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#push": {
-                                                          "ref": "AbstractCollection.html#push",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "o": {
-                                                  "docs": {},
-                                                  "p": {
-                                                    "docs": {
-                                                      "AbstractCollection.html#pop": {
-                                                        "ref": "AbstractCollection.html#pop",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "l": {
-                                                  "docs": {},
-                                                  "u": {
-                                                    "docs": {},
-                                                    "c": {
-                                                      "docs": {},
-                                                      "k": {
-                                                        "docs": {
-                                                          "AbstractCollection.html#pluck": {
-                                                            "ref": "AbstractCollection.html#pluck",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "a": {
-                                                  "docs": {},
-                                                  "r": {
-                                                    "docs": {},
-                                                    "s": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#parse": {
-                                                          "ref": "AbstractCollection.html#parse",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "r": {
-                                                  "docs": {},
-                                                  "e": {
-                                                    "docs": {},
-                                                    "i": {
-                                                      "docs": {},
-                                                      "n": {
-                                                        "docs": {},
-                                                        "i": {
-                                                          "docs": {},
-                                                          "t": {
-                                                            "docs": {},
-                                                            "i": {
-                                                              "docs": {
-                                                                "AbstractCollection.html#preinitialize": {
-                                                                  "ref": "AbstractCollection.html#preinitialize",
-                                                                  "tf": 1150
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "u": {
-                                                "docs": {},
-                                                "n": {
-                                                  "docs": {},
-                                                  "s": {
-                                                    "docs": {},
-                                                    "h": {
-                                                      "docs": {},
-                                                      "i": {
-                                                        "docs": {},
-                                                        "f": {
-                                                          "docs": {},
-                                                          "t": {
-                                                            "docs": {
-                                                              "AbstractCollection.html#unshift": {
-                                                                "ref": "AbstractCollection.html#unshift",
-                                                                "tf": 1150
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "p": {
-                                                  "docs": {},
-                                                  "d": {
-                                                    "docs": {
-                                                      "AbstractCollection.html#update": {
-                                                        "ref": "AbstractCollection.html#update",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "g": {
-                                                "docs": {},
-                                                "e": {
-                                                  "docs": {},
-                                                  "t": {
-                                                    "docs": {
-                                                      "AbstractCollection.html#get": {
-                                                        "ref": "AbstractCollection.html#get",
-                                                        "tf": 1300
-                                                      }
-                                                    },
-                                                    "v": {
-                                                      "docs": {},
-                                                      "a": {
-                                                        "docs": {},
-                                                        "l": {
-                                                          "docs": {},
-                                                          "i": {
-                                                            "docs": {},
-                                                            "d": {
-                                                              "docs": {},
-                                                              "a": {
-                                                                "docs": {},
-                                                                "t": {
-                                                                  "docs": {},
-                                                                  "i": {
-                                                                    "docs": {},
-                                                                    "o": {
-                                                                      "docs": {},
-                                                                      "n": {
-                                                                        "docs": {},
-                                                                        "m": {
-                                                                          "docs": {},
-                                                                          "e": {
-                                                                            "docs": {},
-                                                                            "s": {
-                                                                              "docs": {},
-                                                                              "s": {
-                                                                                "docs": {},
-                                                                                "a": {
-                                                                                  "docs": {},
-                                                                                  "g": {
-                                                                                    "docs": {
-                                                                                      "AbstractCollection.html#getValidationMessages": {
-                                                                                        "ref": "AbstractCollection.html#getValidationMessages",
-                                                                                        "tf": 1150
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "h": {
-                                                "docs": {},
-                                                "a": {
-                                                  "docs": {
-                                                    "AbstractCollection.html#has": {
-                                                      "ref": "AbstractCollection.html#has",
-                                                      "tf": 1300
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "f": {
-                                                "docs": {},
-                                                "i": {
-                                                  "docs": {},
-                                                  "n": {
-                                                    "docs": {},
-                                                    "d": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#find": {
-                                                          "ref": "AbstractCollection.html#find",
-                                                          "tf": 1150
-                                                        }
-                                                      },
-                                                      "w": {
-                                                        "docs": {},
-                                                        "h": {
-                                                          "docs": {},
-                                                          "e": {
-                                                            "docs": {},
-                                                            "r": {
-                                                              "docs": {
-                                                                "AbstractCollection.html#findWhere": {
-                                                                  "ref": "AbstractCollection.html#findWhere",
-                                                                  "tf": 1150
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "l": {
-                                                    "docs": {},
-                                                    "t": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#filter": {
-                                                          "ref": "AbstractCollection.html#filter",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "e": {
-                                                  "docs": {},
-                                                  "t": {
-                                                    "docs": {},
-                                                    "c": {
-                                                      "docs": {},
-                                                      "h": {
-                                                        "docs": {
-                                                          "AbstractCollection.html#fetch": {
-                                                            "ref": "AbstractCollection.html#fetch",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "w": {
-                                                "docs": {},
-                                                "h": {
-                                                  "docs": {},
-                                                  "e": {
-                                                    "docs": {},
-                                                    "r": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#where": {
-                                                          "ref": "AbstractCollection.html#where",
-                                                          "tf": 1300
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "c": {
-                                                "docs": {},
-                                                "r": {
-                                                  "docs": {
-                                                    "AbstractCollection.html#create": {
-                                                      "ref": "AbstractCollection.html#create",
-                                                      "tf": 1150
-                                                    }
-                                                  }
-                                                },
-                                                "l": {
-                                                  "docs": {},
-                                                  "o": {
-                                                    "docs": {},
-                                                    "n": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#clone": {
-                                                          "ref": "AbstractCollection.html#clone",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "m": {
-                                                "docs": {},
-                                                "o": {
-                                                  "docs": {},
-                                                  "d": {
-                                                    "docs": {},
-                                                    "e": {
-                                                      "docs": {},
-                                                      "l": {
-                                                        "docs": {},
-                                                        "i": {
-                                                          "docs": {},
-                                                          "d": {
-                                                            "docs": {
-                                                              "AbstractCollection.html#modelId": {
-                                                                "ref": "AbstractCollection.html#modelId",
-                                                                "tf": 1150
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "v": {
-                                                "docs": {},
-                                                "a": {
-                                                  "docs": {},
-                                                  "l": {
-                                                    "docs": {},
-                                                    "u": {
-                                                      "docs": {
-                                                        "AbstractCollection.html#values": {
-                                                          "ref": "AbstractCollection.html#values",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    },
-                                                    "i": {
-                                                      "docs": {},
-                                                      "d": {
-                                                        "docs": {
-                                                          "AbstractCollection.html#validate": {
-                                                            "ref": "AbstractCollection.html#validate",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "k": {
-                                                "docs": {},
-                                                "e": {
-                                                  "docs": {},
-                                                  "y": {
-                                                    "docs": {
-                                                      "AbstractCollection.html#keys": {
-                                                        "ref": "AbstractCollection.html#keys",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "e": {
-                                                "docs": {},
-                                                "n": {
-                                                  "docs": {},
-                                                  "t": {
-                                                    "docs": {},
-                                                    "r": {
-                                                      "docs": {},
-                                                      "i": {
-                                                        "docs": {
-                                                          "AbstractCollection.html#entries": {
-                                                            "ref": "AbstractCollection.html#entries",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
-                                              "i": {
-                                                "docs": {},
-                                                "s": {
-                                                  "docs": {},
-                                                  "v": {
-                                                    "docs": {},
-                                                    "a": {
-                                                      "docs": {},
-                                                      "l": {
-                                                        "docs": {},
-                                                        "i": {
-                                                          "docs": {},
-                                                          "d": {
-                                                            "docs": {
-                                                              "AbstractCollection.html#isValid": {
-                                                                "ref": "AbstractCollection.html#isValid",
-                                                                "tf": 1150
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "e": {
-                                                    "docs": {},
-                                                    "m": {
-                                                      "docs": {},
-                                                      "p": {
-                                                        "docs": {},
-                                                        "t": {
-                                                          "docs": {},
-                                                          "i": {
-                                                            "docs": {
-                                                              "AbstractCollection.html#isEmpty": {
-                                                                "ref": "AbstractCollection.html#isEmpty",
-                                                                "tf": 1150
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        },
                         "m": {
                           "docs": {},
                           "o": {
@@ -1650,6 +996,98 @@ window.lunrData = {
                                   },
                                   "#": {
                                     "docs": {},
+                                    "p": {
+                                      "docs": {},
+                                      "r": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "i": {
+                                            "docs": {},
+                                            "n": {
+                                              "docs": {},
+                                              "i": {
+                                                "docs": {},
+                                                "t": {
+                                                  "docs": {},
+                                                  "i": {
+                                                    "docs": {
+                                                      "AbstractModel.html#preinitialize": {
+                                                        "ref": "AbstractModel.html#preinitialize",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "v": {
+                                            "docs": {},
+                                            "i": {
+                                              "docs": {
+                                                "AbstractModel.html#previous": {
+                                                  "ref": "AbstractModel.html#previous",
+                                                  "tf": 1150
+                                                }
+                                              },
+                                              "o": {
+                                                "docs": {},
+                                                "u": {
+                                                  "docs": {},
+                                                  "s": {
+                                                    "docs": {},
+                                                    "a": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {},
+                                                        "t": {
+                                                          "docs": {},
+                                                          "r": {
+                                                            "docs": {},
+                                                            "i": {
+                                                              "docs": {},
+                                                              "b": {
+                                                                "docs": {},
+                                                                "u": {
+                                                                  "docs": {},
+                                                                  "t": {
+                                                                    "docs": {
+                                                                      "AbstractModel.html#previousAttributes": {
+                                                                        "ref": "AbstractModel.html#previousAttributes",
+                                                                        "tf": 1150
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "a": {
+                                        "docs": {},
+                                        "r": {
+                                          "docs": {},
+                                          "s": {
+                                            "docs": {
+                                              "AbstractModel.html#parse": {
+                                                "ref": "AbstractModel.html#parse",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
                                     "g": {
                                       "docs": {},
                                       "e": {
@@ -2074,98 +1512,6 @@ window.lunrData = {
                                         }
                                       }
                                     },
-                                    "p": {
-                                      "docs": {},
-                                      "a": {
-                                        "docs": {},
-                                        "r": {
-                                          "docs": {},
-                                          "s": {
-                                            "docs": {
-                                              "AbstractModel.html#parse": {
-                                                "ref": "AbstractModel.html#parse",
-                                                "tf": 1150
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "r": {
-                                        "docs": {},
-                                        "e": {
-                                          "docs": {},
-                                          "v": {
-                                            "docs": {},
-                                            "i": {
-                                              "docs": {
-                                                "AbstractModel.html#previous": {
-                                                  "ref": "AbstractModel.html#previous",
-                                                  "tf": 1150
-                                                }
-                                              },
-                                              "o": {
-                                                "docs": {},
-                                                "u": {
-                                                  "docs": {},
-                                                  "s": {
-                                                    "docs": {},
-                                                    "a": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {},
-                                                        "t": {
-                                                          "docs": {},
-                                                          "r": {
-                                                            "docs": {},
-                                                            "i": {
-                                                              "docs": {},
-                                                              "b": {
-                                                                "docs": {},
-                                                                "u": {
-                                                                  "docs": {},
-                                                                  "t": {
-                                                                    "docs": {
-                                                                      "AbstractModel.html#previousAttributes": {
-                                                                        "ref": "AbstractModel.html#previousAttributes",
-                                                                        "tf": 1150
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          },
-                                          "i": {
-                                            "docs": {},
-                                            "n": {
-                                              "docs": {},
-                                              "i": {
-                                                "docs": {},
-                                                "t": {
-                                                  "docs": {},
-                                                  "i": {
-                                                    "docs": {
-                                                      "AbstractModel.html#preinitialize": {
-                                                        "ref": "AbstractModel.html#preinitialize",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    },
                                     "i": {
                                       "docs": {},
                                       "s": {
@@ -2271,33 +1617,727 @@ window.lunrData = {
                               }
                             }
                           }
+                        },
+                        "c": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "l": {
+                              "docs": {},
+                              "l": {
+                                "docs": {},
+                                "e": {
+                                  "docs": {},
+                                  "c": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {
+                                        "AbstractCollection.html": {
+                                          "ref": "AbstractCollection.html",
+                                          "tf": 1900
+                                        }
+                                      },
+                                      "i": {
+                                        "docs": {},
+                                        "o": {
+                                          "docs": {},
+                                          "n": {
+                                            "docs": {},
+                                            "#": {
+                                              "docs": {},
+                                              "p": {
+                                                "docs": {},
+                                                "r": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "i": {
+                                                      "docs": {},
+                                                      "n": {
+                                                        "docs": {},
+                                                        "i": {
+                                                          "docs": {},
+                                                          "t": {
+                                                            "docs": {},
+                                                            "i": {
+                                                              "docs": {
+                                                                "AbstractCollection.html#preinitialize": {
+                                                                  "ref": "AbstractCollection.html#preinitialize",
+                                                                  "tf": 1150
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "u": {
+                                                  "docs": {},
+                                                  "s": {
+                                                    "docs": {},
+                                                    "h": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#push": {
+                                                          "ref": "AbstractCollection.html#push",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "o": {
+                                                  "docs": {},
+                                                  "p": {
+                                                    "docs": {
+                                                      "AbstractCollection.html#pop": {
+                                                        "ref": "AbstractCollection.html#pop",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "l": {
+                                                  "docs": {},
+                                                  "u": {
+                                                    "docs": {},
+                                                    "c": {
+                                                      "docs": {},
+                                                      "k": {
+                                                        "docs": {
+                                                          "AbstractCollection.html#pluck": {
+                                                            "ref": "AbstractCollection.html#pluck",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "a": {
+                                                  "docs": {},
+                                                  "r": {
+                                                    "docs": {},
+                                                    "s": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#parse": {
+                                                          "ref": "AbstractCollection.html#parse",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "t": {
+                                                "docs": {},
+                                                "o": {
+                                                  "docs": {},
+                                                  "j": {
+                                                    "docs": {},
+                                                    "s": {
+                                                      "docs": {},
+                                                      "o": {
+                                                        "docs": {},
+                                                        "n": {
+                                                          "docs": {
+                                                            "AbstractCollection.html#toJSON": {
+                                                              "ref": "AbstractCollection.html#toJSON",
+                                                              "tf": 1150
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "s": {
+                                                    "docs": {},
+                                                    "t": {
+                                                      "docs": {},
+                                                      "r": {
+                                                        "docs": {
+                                                          "AbstractCollection.html#toString": {
+                                                            "ref": "AbstractCollection.html#toString",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "a": {
+                                                "docs": {},
+                                                "d": {
+                                                  "docs": {},
+                                                  "d": {
+                                                    "docs": {
+                                                      "AbstractCollection.html#add": {
+                                                        "ref": "AbstractCollection.html#add",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "t": {
+                                                  "docs": {
+                                                    "AbstractCollection.html#at": {
+                                                      "ref": "AbstractCollection.html#at",
+                                                      "tf": 1300
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "r": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "m": {
+                                                    "docs": {},
+                                                    "o": {
+                                                      "docs": {},
+                                                      "v": {
+                                                        "docs": {
+                                                          "AbstractCollection.html#remove": {
+                                                            "ref": "AbstractCollection.html#remove",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "s": {
+                                                    "docs": {},
+                                                    "e": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {
+                                                          "AbstractCollection.html#reset": {
+                                                            "ref": "AbstractCollection.html#reset",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "s": {
+                                                "docs": {
+                                                  "AbstractCollection.html#size": {
+                                                    "ref": "AbstractCollection.html#size",
+                                                    "tf": 1150
+                                                  }
+                                                },
+                                                "e": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {
+                                                      "AbstractCollection.html#set": {
+                                                        "ref": "AbstractCollection.html#set",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "h": {
+                                                  "docs": {},
+                                                  "i": {
+                                                    "docs": {},
+                                                    "f": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {
+                                                          "AbstractCollection.html#shift": {
+                                                            "ref": "AbstractCollection.html#shift",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "l": {
+                                                  "docs": {},
+                                                  "i": {
+                                                    "docs": {},
+                                                    "c": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#slice": {
+                                                          "ref": "AbstractCollection.html#slice",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "o": {
+                                                  "docs": {},
+                                                  "r": {
+                                                    "docs": {},
+                                                    "t": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#sort": {
+                                                          "ref": "AbstractCollection.html#sort",
+                                                          "tf": 1150
+                                                        }
+                                                      },
+                                                      "b": {
+                                                        "docs": {},
+                                                        "y": {
+                                                          "docs": {},
+                                                          "k": {
+                                                            "docs": {},
+                                                            "e": {
+                                                              "docs": {},
+                                                              "y": {
+                                                                "docs": {
+                                                                  "AbstractCollection.html#sortByKey": {
+                                                                    "ref": "AbstractCollection.html#sortByKey",
+                                                                    "tf": 1150
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "u": {
+                                                  "docs": {},
+                                                  "p": {
+                                                    "docs": {},
+                                                    "p": {
+                                                      "docs": {},
+                                                      "o": {
+                                                        "docs": {},
+                                                        "r": {
+                                                          "docs": {},
+                                                          "t": {
+                                                            "docs": {},
+                                                            "s": {
+                                                              "docs": {},
+                                                              "v": {
+                                                                "docs": {},
+                                                                "a": {
+                                                                  "docs": {},
+                                                                  "l": {
+                                                                    "docs": {},
+                                                                    "i": {
+                                                                      "docs": {},
+                                                                      "d": {
+                                                                        "docs": {
+                                                                          "AbstractCollection.html#supportsValidation": {
+                                                                            "ref": "AbstractCollection.html#supportsValidation",
+                                                                            "tf": 1150
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "y": {
+                                                  "docs": {},
+                                                  "n": {
+                                                    "docs": {},
+                                                    "c": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#sync": {
+                                                          "ref": "AbstractCollection.html#sync",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "a": {
+                                                  "docs": {},
+                                                  "v": {
+                                                    "docs": {
+                                                      "AbstractCollection.html#save": {
+                                                        "ref": "AbstractCollection.html#save",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "u": {
+                                                "docs": {},
+                                                "n": {
+                                                  "docs": {},
+                                                  "s": {
+                                                    "docs": {},
+                                                    "h": {
+                                                      "docs": {},
+                                                      "i": {
+                                                        "docs": {},
+                                                        "f": {
+                                                          "docs": {},
+                                                          "t": {
+                                                            "docs": {
+                                                              "AbstractCollection.html#unshift": {
+                                                                "ref": "AbstractCollection.html#unshift",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "p": {
+                                                  "docs": {},
+                                                  "d": {
+                                                    "docs": {
+                                                      "AbstractCollection.html#update": {
+                                                        "ref": "AbstractCollection.html#update",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "g": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {
+                                                      "AbstractCollection.html#get": {
+                                                        "ref": "AbstractCollection.html#get",
+                                                        "tf": 1300
+                                                      }
+                                                    },
+                                                    "v": {
+                                                      "docs": {},
+                                                      "a": {
+                                                        "docs": {},
+                                                        "l": {
+                                                          "docs": {},
+                                                          "i": {
+                                                            "docs": {},
+                                                            "d": {
+                                                              "docs": {},
+                                                              "a": {
+                                                                "docs": {},
+                                                                "t": {
+                                                                  "docs": {},
+                                                                  "i": {
+                                                                    "docs": {},
+                                                                    "o": {
+                                                                      "docs": {},
+                                                                      "n": {
+                                                                        "docs": {},
+                                                                        "m": {
+                                                                          "docs": {},
+                                                                          "e": {
+                                                                            "docs": {},
+                                                                            "s": {
+                                                                              "docs": {},
+                                                                              "s": {
+                                                                                "docs": {},
+                                                                                "a": {
+                                                                                  "docs": {},
+                                                                                  "g": {
+                                                                                    "docs": {
+                                                                                      "AbstractCollection.html#getValidationMessages": {
+                                                                                        "ref": "AbstractCollection.html#getValidationMessages",
+                                                                                        "tf": 1150
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "h": {
+                                                "docs": {},
+                                                "a": {
+                                                  "docs": {
+                                                    "AbstractCollection.html#has": {
+                                                      "ref": "AbstractCollection.html#has",
+                                                      "tf": 1300
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "f": {
+                                                "docs": {},
+                                                "i": {
+                                                  "docs": {},
+                                                  "n": {
+                                                    "docs": {},
+                                                    "d": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#find": {
+                                                          "ref": "AbstractCollection.html#find",
+                                                          "tf": 1150
+                                                        }
+                                                      },
+                                                      "w": {
+                                                        "docs": {},
+                                                        "h": {
+                                                          "docs": {},
+                                                          "e": {
+                                                            "docs": {},
+                                                            "r": {
+                                                              "docs": {
+                                                                "AbstractCollection.html#findWhere": {
+                                                                  "ref": "AbstractCollection.html#findWhere",
+                                                                  "tf": 1150
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "l": {
+                                                    "docs": {},
+                                                    "t": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#filter": {
+                                                          "ref": "AbstractCollection.html#filter",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "e": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {},
+                                                    "c": {
+                                                      "docs": {},
+                                                      "h": {
+                                                        "docs": {
+                                                          "AbstractCollection.html#fetch": {
+                                                            "ref": "AbstractCollection.html#fetch",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "w": {
+                                                "docs": {},
+                                                "h": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "r": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#where": {
+                                                          "ref": "AbstractCollection.html#where",
+                                                          "tf": 1300
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "c": {
+                                                "docs": {},
+                                                "r": {
+                                                  "docs": {
+                                                    "AbstractCollection.html#create": {
+                                                      "ref": "AbstractCollection.html#create",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                },
+                                                "l": {
+                                                  "docs": {},
+                                                  "o": {
+                                                    "docs": {},
+                                                    "n": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#clone": {
+                                                          "ref": "AbstractCollection.html#clone",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "m": {
+                                                "docs": {},
+                                                "o": {
+                                                  "docs": {},
+                                                  "d": {
+                                                    "docs": {},
+                                                    "e": {
+                                                      "docs": {},
+                                                      "l": {
+                                                        "docs": {},
+                                                        "i": {
+                                                          "docs": {},
+                                                          "d": {
+                                                            "docs": {
+                                                              "AbstractCollection.html#modelId": {
+                                                                "ref": "AbstractCollection.html#modelId",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "v": {
+                                                "docs": {},
+                                                "a": {
+                                                  "docs": {},
+                                                  "l": {
+                                                    "docs": {},
+                                                    "u": {
+                                                      "docs": {
+                                                        "AbstractCollection.html#values": {
+                                                          "ref": "AbstractCollection.html#values",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    },
+                                                    "i": {
+                                                      "docs": {},
+                                                      "d": {
+                                                        "docs": {
+                                                          "AbstractCollection.html#validate": {
+                                                            "ref": "AbstractCollection.html#validate",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "k": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "y": {
+                                                    "docs": {
+                                                      "AbstractCollection.html#keys": {
+                                                        "ref": "AbstractCollection.html#keys",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "e": {
+                                                "docs": {},
+                                                "n": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {},
+                                                    "r": {
+                                                      "docs": {},
+                                                      "i": {
+                                                        "docs": {
+                                                          "AbstractCollection.html#entries": {
+                                                            "ref": "AbstractCollection.html#entries",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "i": {
+                                                "docs": {},
+                                                "s": {
+                                                  "docs": {},
+                                                  "v": {
+                                                    "docs": {},
+                                                    "a": {
+                                                      "docs": {},
+                                                      "l": {
+                                                        "docs": {},
+                                                        "i": {
+                                                          "docs": {},
+                                                          "d": {
+                                                            "docs": {
+                                                              "AbstractCollection.html#isValid": {
+                                                                "ref": "AbstractCollection.html#isValid",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "e": {
+                                                    "docs": {},
+                                                    "m": {
+                                                      "docs": {},
+                                                      "p": {
+                                                        "docs": {},
+                                                        "t": {
+                                                          "docs": {},
+                                                          "i": {
+                                                            "docs": {
+                                                              "AbstractCollection.html#isEmpty": {
+                                                                "ref": "AbstractCollection.html#isEmpty",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
                         }
                       }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "y": {
-                  "docs": {
-                    "AbstractCollection.html#toJSON": {
-                      "ref": "AbstractCollection.html#toJSON",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractCollection.html#slice": {
-                      "ref": "AbstractCollection.html#slice",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractModel.html#getValidationMessages": {
-                      "ref": "AbstractModel.html#getValidationMessages",
-                      "tf": 12.5
                     }
                   }
                 }
@@ -2331,26 +2371,6 @@ window.lunrData = {
                       "docs": {},
                       "t": {
                         "docs": {
-                          "AbstractCollection.html#toJSON": {
-                            "ref": "AbstractCollection.html#toJSON",
-                            "tf": 8.333333333333332
-                          },
-                          "AbstractCollection.html#get": {
-                            "ref": "AbstractCollection.html#get",
-                            "tf": 3.8461538461538463
-                          },
-                          "AbstractCollection.html#where": {
-                            "ref": "AbstractCollection.html#where",
-                            "tf": 6.25
-                          },
-                          "AbstractCollection.html#findWhere": {
-                            "ref": "AbstractCollection.html#findWhere",
-                            "tf": 5.555555555555555
-                          },
-                          "AbstractCollection.html#pluck": {
-                            "ref": "AbstractCollection.html#pluck",
-                            "tf": 10
-                          },
                           "AbstractModel.html#get": {
                             "ref": "AbstractModel.html#get",
                             "tf": 16.666666666666664
@@ -2410,9 +2430,139 @@ window.lunrData = {
                           "AbstractModel.html#isValid": {
                             "ref": "AbstractModel.html#isValid",
                             "tf": 4.166666666666666
+                          },
+                          "AbstractCollection.html#toJSON": {
+                            "ref": "AbstractCollection.html#toJSON",
+                            "tf": 8.333333333333332
+                          },
+                          "AbstractCollection.html#get": {
+                            "ref": "AbstractCollection.html#get",
+                            "tf": 3.8461538461538463
+                          },
+                          "AbstractCollection.html#where": {
+                            "ref": "AbstractCollection.html#where",
+                            "tf": 6.25
+                          },
+                          "AbstractCollection.html#findWhere": {
+                            "ref": "AbstractCollection.html#findWhere",
+                            "tf": 5.555555555555555
+                          },
+                          "AbstractCollection.html#pluck": {
+                            "ref": "AbstractCollection.html#pluck",
+                            "tf": 10
                           }
                         }
                       }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "g": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "n": {
+                  "docs": {
+                    "AbstractModel.html#save": {
+                      "ref": "AbstractModel.html#save",
+                      "tf": 3.3333333333333335
+                    }
+                  },
+                  "s": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractModel.html#changedAttributes": {
+                          "ref": "AbstractModel.html#changedAttributes",
+                          "tf": 1.6666666666666667
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "AbstractCollection.html#create": {
+                    "ref": "AbstractCollection.html#create",
+                    "tf": 2.941176470588235
+                  }
+                }
+              }
+            }
+          },
+          "n": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "/": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "AbstractModel.html#changedAttributes": {
+                        "ref": "AbstractModel.html#changedAttributes",
+                        "tf": 1.6666666666666667
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "y": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "m": {
+                    "docs": {},
+                    "b": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "n": {
+                          "docs": {
+                            "AbstractCollection.html#add": {
+                              "ref": "AbstractCollection.html#add",
+                              "tf": 3.571428571428571
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "y": {
+                  "docs": {
+                    "AbstractModel.html#getValidationMessages": {
+                      "ref": "AbstractModel.html#getValidationMessages",
+                      "tf": 12.5
+                    },
+                    "AbstractCollection.html#toJSON": {
+                      "ref": "AbstractCollection.html#toJSON",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractCollection.html#slice": {
+                      "ref": "AbstractCollection.html#slice",
+                      "tf": 8.333333333333332
                     }
                   }
                 }
@@ -2458,156 +2608,6 @@ window.lunrData = {
                 }
               }
             }
-          },
-          "n": {
-            "docs": {},
-            "y": {
-              "docs": {},
-              "c": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "m": {
-                    "docs": {},
-                    "b": {
-                      "docs": {},
-                      "i": {
-                        "docs": {},
-                        "n": {
-                          "docs": {
-                            "AbstractCollection.html#add": {
-                              "ref": "AbstractCollection.html#add",
-                              "tf": 3.571428571428571
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "d": {
-              "docs": {},
-              "/": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "AbstractModel.html#changedAttributes": {
-                        "ref": "AbstractModel.html#changedAttributes",
-                        "tf": 1.6666666666666667
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "g": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractCollection.html#create": {
-                    "ref": "AbstractCollection.html#create",
-                    "tf": 2.941176470588235
-                  }
-                }
-              }
-            },
-            "a": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "n": {
-                  "docs": {
-                    "AbstractModel.html#save": {
-                      "ref": "AbstractModel.html#save",
-                      "tf": 3.3333333333333335
-                    }
-                  },
-                  "s": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "AbstractModel.html#changedAttributes": {
-                          "ref": "AbstractModel.html#changedAttributes",
-                          "tf": 1.6666666666666667
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "l": {
-            "docs": {},
-            "l": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "w": {
-                  "docs": {
-                    "CollectionIterator.html": {
-                      "ref": "CollectionIterator.html",
-                      "tf": 2.631578947368421
-                    }
-                  }
-                }
-              }
-            },
-            "w": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "y": {
-                  "docs": {
-                    "CollectionIterator.html#next": {
-                      "ref": "CollectionIterator.html#next",
-                      "tf": 3.8461538461538463
-                    }
-                  }
-                }
-              }
-            },
-            "r": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "d": {
-                    "docs": {},
-                    "i": {
-                      "docs": {
-                        "AbstractModel.html#destroy": {
-                          "ref": "AbstractModel.html#destroy",
-                          "tf": 2.941176470588235
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "o": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "g": {
-                  "docs": {
-                    "AbstractModel.html#parse": {
-                      "ref": "AbstractModel.html#parse",
-                      "tf": 3.8461538461538463
-                    }
-                  }
-                }
-              }
-            }
           }
         },
         "c": {
@@ -2622,13 +2622,13 @@ window.lunrData = {
                     "ref": "index.html",
                     "tf": 214
                   },
-                  "AbstractCollection.html#set": {
-                    "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
-                  },
                   "AbstractModel.html#set": {
                     "ref": "AbstractModel.html#set",
                     "tf": 2.631578947368421
+                  },
+                  "AbstractCollection.html#set": {
+                    "ref": "AbstractCollection.html#set",
+                    "tf": 1.8518518518518516
                   }
                 }
               }
@@ -2643,6 +2643,14 @@ window.lunrData = {
                     "docs": {},
                     "t": {
                       "docs": {
+                        "CollectionIterator.html#next": {
+                          "ref": "CollectionIterator.html#next",
+                          "tf": 3.8461538461538463
+                        },
+                        "AbstractModel.html#destroy": {
+                          "ref": "AbstractModel.html#destroy",
+                          "tf": 2.941176470588235
+                        },
                         "AbstractCollection.html": {
                           "ref": "AbstractCollection.html",
                           "tf": 7.142857142857142
@@ -2754,14 +2762,6 @@ window.lunrData = {
                         "AbstractCollection.html#toString": {
                           "ref": "AbstractCollection.html#toString",
                           "tf": 10
-                        },
-                        "CollectionIterator.html#next": {
-                          "ref": "CollectionIterator.html#next",
-                          "tf": 3.8461538461538463
-                        },
-                        "AbstractModel.html#destroy": {
-                          "ref": "AbstractModel.html#destroy",
-                          "tf": 2.941176470588235
                         }
                       },
                       "i": {
@@ -2770,62 +2770,6 @@ window.lunrData = {
                           "docs": {},
                           "n": {
                             "docs": {},
-                            ".": {
-                              "docs": {},
-                              "s": {
-                                "docs": {
-                                  "AbstractCollection.html#size": {
-                                    "ref": "AbstractCollection.html#size",
-                                    "tf": 12.5
-                                  }
-                                },
-                                "a": {
-                                  "docs": {},
-                                  "v": {
-                                    "docs": {
-                                      "AbstractCollection.html#save": {
-                                        "ref": "AbstractCollection.html#save",
-                                        "tf": 12.5
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              "u": {
-                                "docs": {},
-                                "p": {
-                                  "docs": {},
-                                  "d": {
-                                    "docs": {
-                                      "AbstractCollection.html#update": {
-                                        "ref": "AbstractCollection.html#update",
-                                        "tf": 12.5
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              "r": {
-                                "docs": {},
-                                "e": {
-                                  "docs": {},
-                                  "m": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "v": {
-                                        "docs": {
-                                          "AbstractCollection.html#remove": {
-                                            "ref": "AbstractCollection.html#remove",
-                                            "tf": 12.5
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
                             "i": {
                               "docs": {},
                               "t": {
@@ -2888,6 +2832,62 @@ window.lunrData = {
                                   }
                                 }
                               }
+                            },
+                            ".": {
+                              "docs": {},
+                              "s": {
+                                "docs": {
+                                  "AbstractCollection.html#size": {
+                                    "ref": "AbstractCollection.html#size",
+                                    "tf": 12.5
+                                  }
+                                },
+                                "a": {
+                                  "docs": {},
+                                  "v": {
+                                    "docs": {
+                                      "AbstractCollection.html#save": {
+                                        "ref": "AbstractCollection.html#save",
+                                        "tf": 12.5
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "u": {
+                                "docs": {},
+                                "p": {
+                                  "docs": {},
+                                  "d": {
+                                    "docs": {
+                                      "AbstractCollection.html#update": {
+                                        "ref": "AbstractCollection.html#update",
+                                        "tf": 12.5
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "r": {
+                                "docs": {},
+                                "e": {
+                                  "docs": {},
+                                  "m": {
+                                    "docs": {},
+                                    "o": {
+                                      "docs": {},
+                                      "v": {
+                                        "docs": {
+                                          "AbstractCollection.html#remove": {
+                                            "ref": "AbstractCollection.html#remove",
+                                            "tf": 12.5
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
                             }
                           }
                         }
@@ -2936,6 +2936,10 @@ window.lunrData = {
                     "docs": {},
                     "t": {
                       "docs": {
+                        "AbstractModel.html#parse": {
+                          "ref": "AbstractModel.html#parse",
+                          "tf": 3.8461538461538463
+                        },
                         "AbstractCollection.html#add": {
                           "ref": "AbstractCollection.html#add",
                           "tf": 3.571428571428571
@@ -2943,10 +2947,6 @@ window.lunrData = {
                         "AbstractCollection.html#parse": {
                           "ref": "AbstractCollection.html#parse",
                           "tf": 4.545454545454546
-                        },
-                        "AbstractModel.html#parse": {
-                          "ref": "AbstractModel.html#parse",
-                          "tf": 3.8461538461538463
                         }
                       }
                     }
@@ -2961,13 +2961,13 @@ window.lunrData = {
                     "docs": {},
                     "n": {
                       "docs": {
-                        "AbstractCollection.html#set": {
-                          "ref": "AbstractCollection.html#set",
-                          "tf": 1.8518518518518516
-                        },
                         "AbstractModel.html#changedAttributes": {
                           "ref": "AbstractModel.html#changedAttributes",
                           "tf": 1.6666666666666667
+                        },
+                        "AbstractCollection.html#set": {
+                          "ref": "AbstractCollection.html#set",
+                          "tf": 1.8518518518518516
                         }
                       }
                     }
@@ -2988,10 +2988,6 @@ window.lunrData = {
                       "ref": "list_class.html",
                       "tf": 635
                     },
-                    "AbstractCollection.html": {
-                      "ref": "AbstractCollection.html",
-                      "tf": 110
-                    },
                     "CollectionIterator.html": {
                       "ref": "CollectionIterator.html",
                       "tf": 110
@@ -2999,24 +2995,10 @@ window.lunrData = {
                     "AbstractModel.html": {
                       "ref": "AbstractModel.html",
                       "tf": 110
-                    }
-                  }
-                }
-              }
-            },
-            "o": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "e": {
-                  "docs": {
-                    "AbstractCollection.html#clone": {
-                      "ref": "AbstractCollection.html#clone",
-                      "tf": 750
                     },
-                    "AbstractModel.html#clone": {
-                      "ref": "AbstractModel.html#clone",
-                      "tf": 750
+                    "AbstractCollection.html": {
+                      "ref": "AbstractCollection.html",
+                      "tf": 110
                     }
                   }
                 }
@@ -3039,149 +3021,20 @@ window.lunrData = {
                   }
                 }
               }
-            }
-          },
-          "i": {
-            "docs": {},
-            "d": {
-              "docs": {
-                "AbstractCollection.html#get": {
-                  "ref": "AbstractCollection.html#get",
-                  "tf": 3.8461538461538463
-                }
-              },
-              "p": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "o": {
-                    "docs": {},
-                    "p": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "r": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "i": {
-                              "docs": {
-                                "AbstractCollection.html#get": {
-                                  "ref": "AbstractCollection.html#get",
-                                  "tf": 3.8461538461538463
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
             },
-            "r": {
+            "o": {
               "docs": {},
-              "c": {
+              "n": {
                 "docs": {},
-                "u": {
-                  "docs": {},
-                  "m": {
-                    "docs": {},
-                    "s": {
-                      "docs": {},
-                      "t": {
-                        "docs": {
-                          "AbstractCollection.html#sort": {
-                            "ref": "AbstractCollection.html#sort",
-                            "tf": 2.941176470588235
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
-            "s": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractCollection.html#where": {
-                    "ref": "AbstractCollection.html#where",
-                    "tf": 6.25
-                  },
-                  "AbstractCollection.html#create": {
-                    "ref": "AbstractCollection.html#create",
-                    "tf": 2.941176470588235
-                  },
-                  "AbstractModel.html#matches": {
-                    "ref": "AbstractModel.html#matches",
-                    "tf": 8.333333333333332
-                  }
-                },
-                "s": {
-                  "docs": {},
-                  "o": {
-                    "docs": {},
-                    "f": {
-                      "docs": {
-                        "AbstractCollection.html#findWhere": {
-                          "ref": "AbstractCollection.html#findWhere",
-                          "tf": 5.555555555555555
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "l": {
-              "docs": {},
-              "l": {
-                "docs": {
-                  "AbstractCollection.html#sort": {
-                    "ref": "AbstractCollection.html#sort",
-                    "tf": 2.941176470588235
-                  },
-                  "AbstractModel.html#url": {
-                    "ref": "AbstractModel.html#url",
-                    "tf": 4.166666666666666
-                  },
-                  "AbstractModel.html#sync": {
-                    "ref": "AbstractModel.html#sync",
-                    "tf": 8.333333333333332
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "t": {
+                "e": {
                   "docs": {
-                    "AbstractCollection.html#create": {
-                      "ref": "AbstractCollection.html#create",
-                      "tf": 752.9411764705883
+                    "AbstractModel.html#clone": {
+                      "ref": "AbstractModel.html#clone",
+                      "tf": 750
                     },
                     "AbstractCollection.html#clone": {
                       "ref": "AbstractCollection.html#clone",
-                      "tf": 7.142857142857142
-                    },
-                    "AbstractModel.html#clone": {
-                      "ref": "AbstractModel.html#clone",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractModel.html#save": {
-                      "ref": "AbstractModel.html#save",
-                      "tf": 12.5
+                      "tf": 750
                     }
                   }
                 }
@@ -3255,6 +3108,153 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "a": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "AbstractModel.html#matches": {
+                    "ref": "AbstractModel.html#matches",
+                    "tf": 8.333333333333332
+                  },
+                  "AbstractCollection.html#where": {
+                    "ref": "AbstractCollection.html#where",
+                    "tf": 6.25
+                  },
+                  "AbstractCollection.html#create": {
+                    "ref": "AbstractCollection.html#create",
+                    "tf": 2.941176470588235
+                  }
+                },
+                "s": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "f": {
+                      "docs": {
+                        "AbstractCollection.html#findWhere": {
+                          "ref": "AbstractCollection.html#findWhere",
+                          "tf": 5.555555555555555
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "l": {
+              "docs": {},
+              "l": {
+                "docs": {
+                  "AbstractModel.html#url": {
+                    "ref": "AbstractModel.html#url",
+                    "tf": 4.166666666666666
+                  },
+                  "AbstractModel.html#sync": {
+                    "ref": "AbstractModel.html#sync",
+                    "tf": 8.333333333333332
+                  },
+                  "AbstractCollection.html#sort": {
+                    "ref": "AbstractCollection.html#sort",
+                    "tf": 2.941176470588235
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractModel.html#clone": {
+                      "ref": "AbstractModel.html#clone",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractModel.html#save": {
+                      "ref": "AbstractModel.html#save",
+                      "tf": 12.5
+                    },
+                    "AbstractCollection.html#create": {
+                      "ref": "AbstractCollection.html#create",
+                      "tf": 752.9411764705883
+                    },
+                    "AbstractCollection.html#clone": {
+                      "ref": "AbstractCollection.html#clone",
+                      "tf": 7.142857142857142
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "d": {
+              "docs": {
+                "AbstractCollection.html#get": {
+                  "ref": "AbstractCollection.html#get",
+                  "tf": 3.8461538461538463
+                }
+              },
+              "p": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "p": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "r": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "i": {
+                              "docs": {
+                                "AbstractCollection.html#get": {
+                                  "ref": "AbstractCollection.html#get",
+                                  "tf": 3.8461538461538463
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "m": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "AbstractCollection.html#sort": {
+                            "ref": "AbstractCollection.html#sort",
+                            "tf": 2.941176470588235
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "d": {
@@ -3281,45 +3281,6 @@ window.lunrData = {
                 }
               }
             },
-            "f": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "u": {
-                  "docs": {},
-                  "l": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "AbstractCollection.html#parse": {
-                          "ref": "AbstractCollection.html#parse",
-                          "tf": 4.545454545454546
-                        },
-                        "AbstractModel.html#url": {
-                          "ref": "AbstractModel.html#url",
-                          "tf": 4.166666666666666
-                        },
-                        "AbstractModel.html#parse": {
-                          "ref": "AbstractModel.html#parse",
-                          "tf": 3.8461538461538463
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "i": {
-                "docs": {},
-                "n": {
-                  "docs": {
-                    "AbstractCollection.html#modelId": {
-                      "ref": "AbstractCollection.html#modelId",
-                      "tf": 10
-                    }
-                  }
-                }
-              }
-            },
             "s": {
               "docs": {},
               "t": {
@@ -3335,6 +3296,45 @@ window.lunrData = {
                           "tf": 762.5
                         }
                       }
+                    }
+                  }
+                }
+              }
+            },
+            "f": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "l": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractModel.html#url": {
+                          "ref": "AbstractModel.html#url",
+                          "tf": 4.166666666666666
+                        },
+                        "AbstractModel.html#parse": {
+                          "ref": "AbstractModel.html#parse",
+                          "tf": 3.8461538461538463
+                        },
+                        "AbstractCollection.html#parse": {
+                          "ref": "AbstractCollection.html#parse",
+                          "tf": 4.545454545454546
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "i": {
+                "docs": {},
+                "n": {
+                  "docs": {
+                    "AbstractCollection.html#modelId": {
+                      "ref": "AbstractCollection.html#modelId",
+                      "tf": 10
                     }
                   }
                 }
@@ -3413,6 +3413,14 @@ window.lunrData = {
             },
             "n": {
               "docs": {},
+              "e": {
+                "docs": {
+                  "CollectionIterator.html#next": {
+                    "ref": "CollectionIterator.html#next",
+                    "tf": 3.8461538461538463
+                  }
+                }
+              },
               "&": {
                 "docs": {},
                 "q": {
@@ -3436,14 +3444,6 @@ window.lunrData = {
                         }
                       }
                     }
-                  }
-                }
-              },
-              "e": {
-                "docs": {
-                  "CollectionIterator.html#next": {
-                    "ref": "CollectionIterator.html#next",
-                    "tf": 3.8461538461538463
                   }
                 }
               }
@@ -3475,14 +3475,6 @@ window.lunrData = {
               "docs": {},
               "a": {
                 "docs": {
-                  "AbstractCollection.html#set": {
-                    "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
-                  },
-                  "AbstractCollection.html#toString": {
-                    "ref": "AbstractCollection.html#toString",
-                    "tf": 10
-                  },
                   "AbstractModel.html#set": {
                     "ref": "AbstractModel.html#set",
                     "tf": 2.631578947368421
@@ -3501,6 +3493,14 @@ window.lunrData = {
                   },
                   "AbstractModel.html#toString": {
                     "ref": "AbstractModel.html#toString",
+                    "tf": 10
+                  },
+                  "AbstractCollection.html#set": {
+                    "ref": "AbstractCollection.html#set",
+                    "tf": 1.8518518518518516
+                  },
+                  "AbstractCollection.html#toString": {
+                    "ref": "AbstractCollection.html#toString",
                     "tf": 10
                   }
                 }
@@ -3593,6 +3593,32 @@ window.lunrData = {
                 }
               }
             },
+            "t": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "p": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "r": {
+                          "docs": {
+                            "CollectionIterator.html": {
+                              "ref": "CollectionIterator.html",
+                              "tf": 2.631578947368421
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "g": {
               "docs": {
                 "AbstractCollection.html#set": {
@@ -3620,27 +3646,55 @@ window.lunrData = {
                   }
                 }
               }
-            },
-            "t": {
+            }
+          },
+          "m": {
+            "docs": {},
+            "p": {
               "docs": {},
-              "e": {
+              "l": {
                 "docs": {},
-                "r": {
+                "e": {
                   "docs": {},
-                  "o": {
+                  "m": {
                     "docs": {},
-                    "p": {
+                    "e": {
                       "docs": {},
-                      "e": {
+                      "n": {
                         "docs": {},
-                        "r": {
+                        "t": {
                           "docs": {
                             "CollectionIterator.html": {
                               "ref": "CollectionIterator.html",
                               "tf": 2.631578947368421
+                            },
+                            "AbstractModel.html#parse": {
+                              "ref": "AbstractModel.html#parse",
+                              "tf": 3.8461538461538463
+                            },
+                            "AbstractCollection.html#parse": {
+                              "ref": "AbstractCollection.html#parse",
+                              "tf": 4.545454545454546
                             }
                           }
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "d": {
+                  "docs": {},
+                  "i": {
+                    "docs": {
+                      "AbstractCollection.html#create": {
+                        "ref": "AbstractCollection.html#create",
+                        "tf": 2.941176470588235
                       }
                     }
                   }
@@ -3652,6 +3706,26 @@ window.lunrData = {
             "docs": {},
             "e": {
               "docs": {},
+              "r": {
+                "docs": {
+                  "CollectionIterator.html": {
+                    "ref": "CollectionIterator.html",
+                    "tf": 5.263157894736842
+                  },
+                  "AbstractCollection.html#values": {
+                    "ref": "AbstractCollection.html#values",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractCollection.html#keys": {
+                    "ref": "AbstractCollection.html#keys",
+                    "tf": 12.5
+                  },
+                  "AbstractCollection.html#entries": {
+                    "ref": "AbstractCollection.html#entries",
+                    "tf": 10
+                  }
+                }
+              },
               "m": {
                 "docs": {
                   "AbstractCollection.html#reset": {
@@ -3665,26 +3739,6 @@ window.lunrData = {
                       "ref": "AbstractCollection.html#sort",
                       "tf": 2.941176470588235
                     }
-                  }
-                }
-              },
-              "r": {
-                "docs": {
-                  "AbstractCollection.html#values": {
-                    "ref": "AbstractCollection.html#values",
-                    "tf": 16.666666666666664
-                  },
-                  "AbstractCollection.html#keys": {
-                    "ref": "AbstractCollection.html#keys",
-                    "tf": 12.5
-                  },
-                  "AbstractCollection.html#entries": {
-                    "ref": "AbstractCollection.html#entries",
-                    "tf": 10
-                  },
-                  "CollectionIterator.html": {
-                    "ref": "CollectionIterator.html",
-                    "tf": 5.263157894736842
                   }
                 }
               }
@@ -3707,162 +3761,8 @@ window.lunrData = {
               }
             }
           },
-          "d": {
-            "docs": {
-              "AbstractCollection.html#get": {
-                "ref": "AbstractCollection.html#get",
-                "tf": 7.6923076923076925
-              },
-              "AbstractCollection.html#keys": {
-                "ref": "AbstractCollection.html#keys",
-                "tf": 12.5
-              },
-              "AbstractCollection.html#entries": {
-                "ref": "AbstractCollection.html#entries",
-                "tf": 10
-              },
-              "AbstractModel.html#isNew": {
-                "ref": "AbstractModel.html#isNew",
-                "tf": 7.142857142857142
-              }
-            },
-            "e": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractCollection.html#clone": {
-                      "ref": "AbstractCollection.html#clone",
-                      "tf": 7.142857142857142
-                    },
-                    "AbstractModel.html#clone": {
-                      "ref": "AbstractModel.html#clone",
-                      "tf": 8.333333333333332
-                    }
-                  },
-                  "i": {
-                    "docs": {},
-                    "f": {
-                      "docs": {},
-                      "i": {
-                        "docs": {
-                          "AbstractCollection.html#modelId": {
-                            "ref": "AbstractCollection.html#modelId",
-                            "tf": 10
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "m": {
-            "docs": {},
-            "m": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "d": {
-                  "docs": {},
-                  "i": {
-                    "docs": {
-                      "AbstractCollection.html#create": {
-                        "ref": "AbstractCollection.html#create",
-                        "tf": 2.941176470588235
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "p": {
-              "docs": {},
-              "l": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "m": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "t": {
-                          "docs": {
-                            "AbstractCollection.html#parse": {
-                              "ref": "AbstractCollection.html#parse",
-                              "tf": 4.545454545454546
-                            },
-                            "CollectionIterator.html": {
-                              "ref": "CollectionIterator.html",
-                              "tf": 2.631578947368421
-                            },
-                            "AbstractModel.html#parse": {
-                              "ref": "AbstractModel.html#parse",
-                              "tf": 3.8461538461538463
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
           "s": {
             "docs": {},
-            "v": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "l": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "d": {
-                      "docs": {
-                        "AbstractCollection.html#isValid": {
-                          "ref": "AbstractCollection.html#isValid",
-                          "tf": 760
-                        },
-                        "AbstractModel.html#isValid": {
-                          "ref": "AbstractModel.html#isValid",
-                          "tf": 754.1666666666666
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "e": {
-              "docs": {},
-              "m": {
-                "docs": {},
-                "p": {
-                  "docs": {},
-                  "t": {
-                    "docs": {},
-                    "i": {
-                      "docs": {
-                        "AbstractCollection.html#isEmpty": {
-                          "ref": "AbstractCollection.html#isEmpty",
-                          "tf": 760
-                        },
-                        "AbstractModel.html#isEmpty": {
-                          "ref": "AbstractModel.html#isEmpty",
-                          "tf": 760
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "t": {
               "docs": {},
               "h": {
@@ -3883,6 +3783,106 @@ window.lunrData = {
                     "AbstractModel.html#isNew": {
                       "ref": "AbstractModel.html#isNew",
                       "tf": 750
+                    }
+                  }
+                }
+              }
+            },
+            "v": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "d": {
+                      "docs": {
+                        "AbstractModel.html#isValid": {
+                          "ref": "AbstractModel.html#isValid",
+                          "tf": 754.1666666666666
+                        },
+                        "AbstractCollection.html#isValid": {
+                          "ref": "AbstractCollection.html#isValid",
+                          "tf": 760
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "e": {
+              "docs": {},
+              "m": {
+                "docs": {},
+                "p": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "i": {
+                      "docs": {
+                        "AbstractModel.html#isEmpty": {
+                          "ref": "AbstractModel.html#isEmpty",
+                          "tf": 760
+                        },
+                        "AbstractCollection.html#isEmpty": {
+                          "ref": "AbstractCollection.html#isEmpty",
+                          "tf": 760
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "d": {
+            "docs": {
+              "AbstractModel.html#isNew": {
+                "ref": "AbstractModel.html#isNew",
+                "tf": 7.142857142857142
+              },
+              "AbstractCollection.html#get": {
+                "ref": "AbstractCollection.html#get",
+                "tf": 7.6923076923076925
+              },
+              "AbstractCollection.html#keys": {
+                "ref": "AbstractCollection.html#keys",
+                "tf": 12.5
+              },
+              "AbstractCollection.html#entries": {
+                "ref": "AbstractCollection.html#entries",
+                "tf": 10
+              }
+            },
+            "e": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractModel.html#clone": {
+                      "ref": "AbstractModel.html#clone",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractCollection.html#clone": {
+                      "ref": "AbstractCollection.html#clone",
+                      "tf": 7.142857142857142
+                    }
+                  },
+                  "i": {
+                    "docs": {},
+                    "f": {
+                      "docs": {},
+                      "i": {
+                        "docs": {
+                          "AbstractCollection.html#modelId": {
+                            "ref": "AbstractCollection.html#modelId",
+                            "tf": 10
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -3909,6 +3909,67 @@ window.lunrData = {
                 }
               }
             },
+            "e": {
+              "docs": {},
+              "d": {
+                "docs": {
+                  "AbstractModel.html#set": {
+                    "ref": "AbstractModel.html#set",
+                    "tf": 2.631578947368421
+                  },
+                  "AbstractModel.html#changedAttributes": {
+                    "ref": "AbstractModel.html#changedAttributes",
+                    "tf": 3.3333333333333335
+                  },
+                  "AbstractCollection.html#sort": {
+                    "ref": "AbstractCollection.html#sort",
+                    "tf": 2.941176470588235
+                  }
+                }
+              }
+            },
+            "w": {
+              "docs": {
+                "AbstractModel.html#clone": {
+                  "ref": "AbstractModel.html#clone",
+                  "tf": 8.333333333333332
+                },
+                "AbstractModel.html#isNew": {
+                  "ref": "AbstractModel.html#isNew",
+                  "tf": 7.142857142857142
+                },
+                "AbstractCollection.html#set": {
+                  "ref": "AbstractCollection.html#set",
+                  "tf": 3.7037037037037033
+                },
+                "AbstractCollection.html#reset": {
+                  "ref": "AbstractCollection.html#reset",
+                  "tf": 2.083333333333333
+                },
+                "AbstractCollection.html#create": {
+                  "ref": "AbstractCollection.html#create",
+                  "tf": 2.941176470588235
+                },
+                "AbstractCollection.html#clone": {
+                  "ref": "AbstractCollection.html#clone",
+                  "tf": 7.142857142857142
+                }
+              }
+            },
+            "v": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "AbstractModel.html#isNew": {
+                      "ref": "AbstractModel.html#isNew",
+                      "tf": 7.142857142857142
+                    }
+                  }
+                }
+              }
+            },
             "c": {
               "docs": {},
               "e": {
@@ -3930,67 +3991,6 @@ window.lunrData = {
                           }
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            "w": {
-              "docs": {
-                "AbstractCollection.html#set": {
-                  "ref": "AbstractCollection.html#set",
-                  "tf": 3.7037037037037033
-                },
-                "AbstractCollection.html#reset": {
-                  "ref": "AbstractCollection.html#reset",
-                  "tf": 2.083333333333333
-                },
-                "AbstractCollection.html#create": {
-                  "ref": "AbstractCollection.html#create",
-                  "tf": 2.941176470588235
-                },
-                "AbstractCollection.html#clone": {
-                  "ref": "AbstractCollection.html#clone",
-                  "tf": 7.142857142857142
-                },
-                "AbstractModel.html#clone": {
-                  "ref": "AbstractModel.html#clone",
-                  "tf": 8.333333333333332
-                },
-                "AbstractModel.html#isNew": {
-                  "ref": "AbstractModel.html#isNew",
-                  "tf": 7.142857142857142
-                }
-              }
-            },
-            "e": {
-              "docs": {},
-              "d": {
-                "docs": {
-                  "AbstractCollection.html#sort": {
-                    "ref": "AbstractCollection.html#sort",
-                    "tf": 2.941176470588235
-                  },
-                  "AbstractModel.html#set": {
-                    "ref": "AbstractModel.html#set",
-                    "tf": 2.631578947368421
-                  },
-                  "AbstractModel.html#changedAttributes": {
-                    "ref": "AbstractModel.html#changedAttributes",
-                    "tf": 3.3333333333333335
-                  }
-                }
-              }
-            },
-            "v": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "AbstractModel.html#isNew": {
-                      "ref": "AbstractModel.html#isNew",
-                      "tf": 7.142857142857142
                     }
                   }
                 }
@@ -4096,31 +4096,15 @@ window.lunrData = {
                 }
               }
             },
-            "p": {
+            "f": {
               "docs": {},
-              "r": {
+              "e": {
                 "docs": {},
-                "e": {
-                  "docs": {},
-                  "s": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "t": {
-                          "docs": {
-                            "AbstractCollection.html#toJSON": {
-                              "ref": "AbstractCollection.html#toJSON",
-                              "tf": 8.333333333333332
-                            },
-                            "AbstractModel.html#url": {
-                              "ref": "AbstractModel.html#url",
-                              "tf": 4.166666666666666
-                            }
-                          }
-                        }
-                      }
+                "r": {
+                  "docs": {
+                    "CollectionIterator.html#next": {
+                      "ref": "CollectionIterator.html#next",
+                      "tf": 3.8461538461538463
                     }
                   }
                 }
@@ -4132,6 +4116,18 @@ window.lunrData = {
                 "docs": {},
                 "v": {
                   "docs": {
+                    "CollectionIterator.html#next": {
+                      "ref": "CollectionIterator.html#next",
+                      "tf": 3.8461538461538463
+                    },
+                    "AbstractModel.html#unset": {
+                      "ref": "AbstractModel.html#unset",
+                      "tf": 5
+                    },
+                    "AbstractModel.html#destroy": {
+                      "ref": "AbstractModel.html#destroy",
+                      "tf": 5.88235294117647
+                    },
                     "AbstractCollection.html#remove": {
                       "ref": "AbstractCollection.html#remove",
                       "tf": 762.5
@@ -4147,82 +4143,7 @@ window.lunrData = {
                     "AbstractCollection.html#shift": {
                       "ref": "AbstractCollection.html#shift",
                       "tf": 12.5
-                    },
-                    "CollectionIterator.html#next": {
-                      "ref": "CollectionIterator.html#next",
-                      "tf": 3.8461538461538463
-                    },
-                    "AbstractModel.html#unset": {
-                      "ref": "AbstractModel.html#unset",
-                      "tf": 5
-                    },
-                    "AbstractModel.html#destroy": {
-                      "ref": "AbstractModel.html#destroy",
-                      "tf": 5.88235294117647
                     }
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractCollection.html#reset": {
-                      "ref": "AbstractCollection.html#reset",
-                      "tf": 754.1666666666666
-                    },
-                    "AbstractModel.html#reset": {
-                      "ref": "AbstractModel.html#reset",
-                      "tf": 708.3333333333334
-                    }
-                  }
-                }
-              },
-              "p": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "n": {
-                    "docs": {},
-                    "s": {
-                      "docs": {
-                        "AbstractCollection.html#parse": {
-                          "ref": "AbstractCollection.html#parse",
-                          "tf": 4.545454545454546
-                        },
-                        "AbstractModel.html#fetch": {
-                          "ref": "AbstractModel.html#fetch",
-                          "tf": 4.166666666666666
-                        },
-                        "AbstractModel.html#parse": {
-                          "ref": "AbstractModel.html#parse",
-                          "tf": 7.6923076923076925
-                        }
-                      }
-                    },
-                    "d": {
-                      "docs": {
-                        "AbstractModel.html#destroy": {
-                          "ref": "AbstractModel.html#destroy",
-                          "tf": 2.941176470588235
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "t": {
-                "docs": {
-                  "AbstractModel.html#url": {
-                    "ref": "AbstractModel.html#url",
-                    "tf": 4.166666666666666
-                  },
-                  "AbstractModel.html#sync": {
-                    "ref": "AbstractModel.html#sync",
-                    "tf": 8.333333333333332
                   }
                 }
               }
@@ -4235,6 +4156,34 @@ window.lunrData = {
                   "docs": {},
                   "n": {
                     "docs": {
+                      "CollectionIterator.html#next": {
+                        "ref": "CollectionIterator.html#next",
+                        "tf": 3.8461538461538463
+                      },
+                      "AbstractModel.html#save": {
+                        "ref": "AbstractModel.html#save",
+                        "tf": 3.3333333333333335
+                      },
+                      "AbstractModel.html#changedAttributes": {
+                        "ref": "AbstractModel.html#changedAttributes",
+                        "tf": 1.6666666666666667
+                      },
+                      "AbstractModel.html#supportsValidation": {
+                        "ref": "AbstractModel.html#supportsValidation",
+                        "tf": 8.333333333333332
+                      },
+                      "AbstractModel.html#isValid": {
+                        "ref": "AbstractModel.html#isValid",
+                        "tf": 4.166666666666666
+                      },
+                      "AbstractModel.html#isEmpty": {
+                        "ref": "AbstractModel.html#isEmpty",
+                        "tf": 10
+                      },
+                      "AbstractModel.html#toString": {
+                        "ref": "AbstractModel.html#toString",
+                        "tf": 10
+                      },
                       "AbstractCollection.html#has": {
                         "ref": "AbstractCollection.html#has",
                         "tf": 12.5
@@ -4270,49 +4219,100 @@ window.lunrData = {
                       "AbstractCollection.html#toString": {
                         "ref": "AbstractCollection.html#toString",
                         "tf": 10
-                      },
-                      "CollectionIterator.html#next": {
-                        "ref": "CollectionIterator.html#next",
-                        "tf": 3.8461538461538463
-                      },
-                      "AbstractModel.html#save": {
-                        "ref": "AbstractModel.html#save",
-                        "tf": 3.3333333333333335
-                      },
-                      "AbstractModel.html#changedAttributes": {
-                        "ref": "AbstractModel.html#changedAttributes",
-                        "tf": 1.6666666666666667
-                      },
-                      "AbstractModel.html#supportsValidation": {
-                        "ref": "AbstractModel.html#supportsValidation",
-                        "tf": 8.333333333333332
-                      },
-                      "AbstractModel.html#isValid": {
-                        "ref": "AbstractModel.html#isValid",
-                        "tf": 4.166666666666666
-                      },
-                      "AbstractModel.html#isEmpty": {
-                        "ref": "AbstractModel.html#isEmpty",
-                        "tf": 10
-                      },
-                      "AbstractModel.html#toString": {
-                        "ref": "AbstractModel.html#toString",
-                        "tf": 10
                       }
                     }
                   }
                 }
               }
             },
-            "f": {
+            "s": {
               "docs": {},
+              "p": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "s": {
+                      "docs": {
+                        "AbstractModel.html#fetch": {
+                          "ref": "AbstractModel.html#fetch",
+                          "tf": 4.166666666666666
+                        },
+                        "AbstractModel.html#parse": {
+                          "ref": "AbstractModel.html#parse",
+                          "tf": 7.6923076923076925
+                        },
+                        "AbstractCollection.html#parse": {
+                          "ref": "AbstractCollection.html#parse",
+                          "tf": 4.545454545454546
+                        }
+                      }
+                    },
+                    "d": {
+                      "docs": {
+                        "AbstractModel.html#destroy": {
+                          "ref": "AbstractModel.html#destroy",
+                          "tf": 2.941176470588235
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "t": {
+                "docs": {
+                  "AbstractModel.html#url": {
+                    "ref": "AbstractModel.html#url",
+                    "tf": 4.166666666666666
+                  },
+                  "AbstractModel.html#sync": {
+                    "ref": "AbstractModel.html#sync",
+                    "tf": 8.333333333333332
+                  }
+                }
+              },
               "e": {
                 "docs": {},
-                "r": {
+                "t": {
                   "docs": {
-                    "CollectionIterator.html#next": {
-                      "ref": "CollectionIterator.html#next",
-                      "tf": 3.8461538461538463
+                    "AbstractModel.html#reset": {
+                      "ref": "AbstractModel.html#reset",
+                      "tf": 708.3333333333334
+                    },
+                    "AbstractCollection.html#reset": {
+                      "ref": "AbstractCollection.html#reset",
+                      "tf": 754.1666666666666
+                    }
+                  }
+                }
+              }
+            },
+            "p": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "t": {
+                          "docs": {
+                            "AbstractModel.html#url": {
+                              "ref": "AbstractModel.html#url",
+                              "tf": 4.166666666666666
+                            },
+                            "AbstractCollection.html#toJSON": {
+                              "ref": "AbstractCollection.html#toJSON",
+                              "tf": 8.333333333333332
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -4434,10 +4434,6 @@ window.lunrData = {
                   "docs": {},
                   "a": {
                     "docs": {
-                      "AbstractCollection.html": {
-                        "ref": "AbstractCollection.html",
-                        "tf": 7.142857142857142
-                      },
                       "AbstractModel.html": {
                         "ref": "AbstractModel.html",
                         "tf": 10
@@ -4445,6 +4441,10 @@ window.lunrData = {
                       "AbstractModel.html#isValid": {
                         "ref": "AbstractModel.html#isValid",
                         "tf": 4.166666666666666
+                      },
+                      "AbstractCollection.html": {
+                        "ref": "AbstractCollection.html",
+                        "tf": 7.142857142857142
                       }
                     }
                   }
@@ -4460,13 +4460,13 @@ window.lunrData = {
                 "docs": {},
                 "r": {
                   "docs": {
-                    "AbstractCollection.html": {
-                      "ref": "AbstractCollection.html",
-                      "tf": 7.142857142857142
-                    },
                     "AbstractModel.html": {
                       "ref": "AbstractModel.html",
                       "tf": 10
+                    },
+                    "AbstractCollection.html": {
+                      "ref": "AbstractCollection.html",
+                      "tf": 7.142857142857142
                     }
                   }
                 }
@@ -4474,6 +4474,22 @@ window.lunrData = {
             },
             "t": {
               "docs": {
+                "AbstractModel.html#set": {
+                  "ref": "AbstractModel.html#set",
+                  "tf": 752.6315789473684
+                },
+                "AbstractModel.html#save": {
+                  "ref": "AbstractModel.html#save",
+                  "tf": 6.666666666666667
+                },
+                "AbstractModel.html#parse": {
+                  "ref": "AbstractModel.html#parse",
+                  "tf": 3.8461538461538463
+                },
+                "AbstractModel.html#changedAttributes": {
+                  "ref": "AbstractModel.html#changedAttributes",
+                  "tf": 1.6666666666666667
+                },
                 "AbstractCollection.html#add": {
                   "ref": "AbstractCollection.html#add",
                   "tf": 3.571428571428571
@@ -4497,22 +4513,6 @@ window.lunrData = {
                 "AbstractCollection.html#sort": {
                   "ref": "AbstractCollection.html#sort",
                   "tf": 2.941176470588235
-                },
-                "AbstractModel.html#set": {
-                  "ref": "AbstractModel.html#set",
-                  "tf": 752.6315789473684
-                },
-                "AbstractModel.html#save": {
-                  "ref": "AbstractModel.html#save",
-                  "tf": 6.666666666666667
-                },
-                "AbstractModel.html#parse": {
-                  "ref": "AbstractModel.html#parse",
-                  "tf": 3.8461538461538463
-                },
-                "AbstractModel.html#changedAttributes": {
-                  "ref": "AbstractModel.html#changedAttributes",
-                  "tf": 1.6666666666666667
                 }
               }
             },
@@ -4524,10 +4524,6 @@ window.lunrData = {
                   "docs": {},
                   "r": {
                     "docs": {
-                      "AbstractCollection.html#create": {
-                        "ref": "AbstractCollection.html#create",
-                        "tf": 2.941176470588235
-                      },
                       "AbstractModel.html#fetch": {
                         "ref": "AbstractModel.html#fetch",
                         "tf": 4.166666666666666
@@ -4551,6 +4547,10 @@ window.lunrData = {
                       "AbstractModel.html#changedAttributes": {
                         "ref": "AbstractModel.html#changedAttributes",
                         "tf": 1.6666666666666667
+                      },
+                      "AbstractCollection.html#create": {
+                        "ref": "AbstractCollection.html#create",
+                        "tf": 2.941176470588235
                       }
                     },
                     ".": {
@@ -4584,20 +4584,20 @@ window.lunrData = {
                     "docs": {},
                     "t": {
                       "docs": {
-                        "AbstractCollection.html": {
-                          "ref": "AbstractCollection.html",
-                          "tf": 7.142857142857142
-                        },
-                        "AbstractCollection.html#supportsValidation": {
-                          "ref": "AbstractCollection.html#supportsValidation",
-                          "tf": 8.333333333333332
-                        },
                         "AbstractModel.html": {
                           "ref": "AbstractModel.html",
                           "tf": 10
                         },
                         "AbstractModel.html#supportsValidation": {
                           "ref": "AbstractModel.html#supportsValidation",
+                          "tf": 8.333333333333332
+                        },
+                        "AbstractCollection.html": {
+                          "ref": "AbstractCollection.html",
+                          "tf": 7.142857142857142
+                        },
+                        "AbstractCollection.html#supportsValidation": {
+                          "ref": "AbstractCollection.html#supportsValidation",
                           "tf": 8.333333333333332
                         }
                       },
@@ -4613,12 +4613,12 @@ window.lunrData = {
                                 "docs": {},
                                 "d": {
                                   "docs": {
-                                    "AbstractCollection.html#supportsValidation": {
-                                      "ref": "AbstractCollection.html#supportsValidation",
-                                      "tf": 758.3333333333334
-                                    },
                                     "AbstractModel.html#supportsValidation": {
                                       "ref": "AbstractModel.html#supportsValidation",
+                                      "tf": 758.3333333333334
+                                    },
+                                    "AbstractCollection.html#supportsValidation": {
+                                      "ref": "AbstractCollection.html#supportsValidation",
                                       "tf": 758.3333333333334
                                     }
                                   }
@@ -4638,6 +4638,122 @@ window.lunrData = {
                 "AbstractCollection.html#slice": {
                   "ref": "AbstractCollection.html#slice",
                   "tf": 8.333333333333332
+                }
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "e": {
+                  "docs": {
+                    "AbstractModel.html#set": {
+                      "ref": "AbstractModel.html#set",
+                      "tf": 2.631578947368421
+                    }
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "g": {
+                    "docs": {
+                      "AbstractModel.html#toString": {
+                        "ref": "AbstractModel.html#toString",
+                        "tf": 10
+                      },
+                      "AbstractCollection.html#toString": {
+                        "ref": "AbstractCollection.html#toString",
+                        "tf": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "l": {
+                      "docs": {
+                        "AbstractModel.html#matches": {
+                          "ref": "AbstractModel.html#matches",
+                          "tf": 8.333333333333332
+                        }
+                      }
+                    }
+                  },
+                  "f": {
+                    "docs": {},
+                    "i": {
+                      "docs": {
+                        "AbstractModel.html#hasChanged": {
+                          "ref": "AbstractModel.html#hasChanged",
+                          "tf": 4.166666666666666
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "v": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "AbstractModel.html#save": {
+                    "ref": "AbstractModel.html#save",
+                    "tf": 775
+                  },
+                  "AbstractModel.html#isNew": {
+                    "ref": "AbstractModel.html#isNew",
+                    "tf": 7.142857142857142
+                  },
+                  "AbstractCollection.html#save": {
+                    "ref": "AbstractCollection.html#save",
+                    "tf": 762.5
+                  }
+                }
+              }
+            }
+          },
+          "y": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "c": {
+                "docs": {
+                  "AbstractModel.html#save": {
+                    "ref": "AbstractModel.html#save",
+                    "tf": 3.3333333333333335
+                  },
+                  "AbstractModel.html#sync": {
+                    "ref": "AbstractModel.html#sync",
+                    "tf": 758.3333333333334
+                  },
+                  "AbstractCollection.html#sync": {
+                    "ref": "AbstractCollection.html#sync",
+                    "tf": 750
+                  }
                 }
               }
             }
@@ -4713,122 +4829,6 @@ window.lunrData = {
                 }
               }
             }
-          },
-          "y": {
-            "docs": {},
-            "n": {
-              "docs": {},
-              "c": {
-                "docs": {
-                  "AbstractCollection.html#sync": {
-                    "ref": "AbstractCollection.html#sync",
-                    "tf": 750
-                  },
-                  "AbstractModel.html#save": {
-                    "ref": "AbstractModel.html#save",
-                    "tf": 3.3333333333333335
-                  },
-                  "AbstractModel.html#sync": {
-                    "ref": "AbstractModel.html#sync",
-                    "tf": 758.3333333333334
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
-            "v": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractCollection.html#save": {
-                    "ref": "AbstractCollection.html#save",
-                    "tf": 762.5
-                  },
-                  "AbstractModel.html#save": {
-                    "ref": "AbstractModel.html#save",
-                    "tf": 775
-                  },
-                  "AbstractModel.html#isNew": {
-                    "ref": "AbstractModel.html#isNew",
-                    "tf": 7.142857142857142
-                  }
-                }
-              }
-            }
-          },
-          "t": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "n": {
-                  "docs": {},
-                  "g": {
-                    "docs": {
-                      "AbstractCollection.html#toString": {
-                        "ref": "AbstractCollection.html#toString",
-                        "tf": 10
-                      },
-                      "AbstractModel.html#toString": {
-                        "ref": "AbstractModel.html#toString",
-                        "tf": 10
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "a": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "e": {
-                  "docs": {
-                    "AbstractModel.html#set": {
-                      "ref": "AbstractModel.html#set",
-                      "tf": 2.631578947368421
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "p": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "c": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "l": {
-                      "docs": {
-                        "AbstractModel.html#matches": {
-                          "ref": "AbstractModel.html#matches",
-                          "tf": 8.333333333333332
-                        }
-                      }
-                    }
-                  },
-                  "f": {
-                    "docs": {},
-                    "i": {
-                      "docs": {
-                        "AbstractModel.html#hasChanged": {
-                          "ref": "AbstractModel.html#hasChanged",
-                          "tf": 4.166666666666666
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
           }
         },
         "g": {
@@ -4847,49 +4847,6 @@ window.lunrData = {
                         "ref": "global.html",
                         "tf": 2045
                       }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "a": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "u": {
-                  "docs": {},
-                  "l": {
-                    "docs": {},
-                    "a": {
-                      "docs": {},
-                      "r": {
-                        "docs": {
-                          "AbstractCollection.html#reset": {
-                            "ref": "AbstractCollection.html#reset",
-                            "tf": 2.083333333333333
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "i": {
-            "docs": {},
-            "v": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "n": {
-                  "docs": {
-                    "AbstractCollection.html#at": {
-                      "ref": "AbstractCollection.html#at",
-                      "tf": 16.666666666666664
                     }
                   }
                 }
@@ -4937,13 +4894,13 @@ window.lunrData = {
                                             "docs": {},
                                             "g": {
                                               "docs": {
-                                                "AbstractCollection.html#getValidationMessages": {
-                                                  "ref": "AbstractCollection.html#getValidationMessages",
-                                                  "tf": 762.5
-                                                },
                                                 "AbstractModel.html#getValidationMessages": {
                                                   "ref": "AbstractModel.html#getValidationMessages",
                                                   "tf": 750
+                                                },
+                                                "AbstractCollection.html#getValidationMessages": {
+                                                  "ref": "AbstractCollection.html#getValidationMessages",
+                                                  "tf": 762.5
                                                 }
                                               }
                                             }
@@ -4958,6 +4915,49 @@ window.lunrData = {
                           }
                         }
                       }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "l": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "r": {
+                        "docs": {
+                          "AbstractCollection.html#reset": {
+                            "ref": "AbstractCollection.html#reset",
+                            "tf": 2.083333333333333
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "v": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "n": {
+                  "docs": {
+                    "AbstractCollection.html#at": {
+                      "ref": "AbstractCollection.html#at",
+                      "tf": 16.666666666666664
                     }
                   }
                 }
@@ -5071,6 +5071,17 @@ window.lunrData = {
           },
           "o": {
             "docs": {},
+            "o": {
+              "docs": {},
+              "p": {
+                "docs": {
+                  "CollectionIterator.html": {
+                    "ref": "CollectionIterator.html",
+                    "tf": 2.631578947368421
+                  }
+                }
+              }
+            },
             "n": {
               "docs": {},
               "g": {
@@ -5084,17 +5095,6 @@ window.lunrData = {
                         "tf": 1.8518518518518516
                       }
                     }
-                  }
-                }
-              }
-            },
-            "o": {
-              "docs": {},
-              "p": {
-                "docs": {
-                  "CollectionIterator.html": {
-                    "ref": "CollectionIterator.html",
-                    "tf": 2.631578947368421
                   }
                 }
               }
@@ -5199,104 +5199,179 @@ window.lunrData = {
             }
           }
         },
-        "v": {
+        "b": {
           "docs": {},
-          "a": {
+          "e": {
             "docs": {},
-            "l": {
+            "t": {
               "docs": {},
-              "i": {
+              "w": {
                 "docs": {},
-                "d": {
-                  "docs": {
-                    "AbstractCollection.html": {
-                      "ref": "AbstractCollection.html",
-                      "tf": 7.142857142857142
-                    },
-                    "AbstractCollection.html#supportsValidation": {
-                      "ref": "AbstractCollection.html#supportsValidation",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractCollection.html#isValid": {
-                      "ref": "AbstractCollection.html#isValid",
-                      "tf": 10
-                    },
-                    "AbstractCollection.html#getValidationMessages": {
-                      "ref": "AbstractCollection.html#getValidationMessages",
-                      "tf": 12.5
-                    },
-                    "AbstractCollection.html#validate": {
-                      "ref": "AbstractCollection.html#validate",
-                      "tf": 775
-                    },
-                    "AbstractCollection.html#preinitialize": {
-                      "ref": "AbstractCollection.html#preinitialize",
-                      "tf": 16.666666666666664
-                    },
-                    "AbstractModel.html": {
-                      "ref": "AbstractModel.html",
-                      "tf": 10
-                    },
-                    "AbstractModel.html#supportsValidation": {
-                      "ref": "AbstractModel.html#supportsValidation",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractModel.html#isValid": {
-                      "ref": "AbstractModel.html#isValid",
-                      "tf": 4.166666666666666
-                    },
-                    "AbstractModel.html#validate": {
-                      "ref": "AbstractModel.html#validate",
-                      "tf": 775
-                    },
-                    "AbstractModel.html#getValidationMessages": {
-                      "ref": "AbstractModel.html#getValidationMessages",
-                      "tf": 12.5
-                    },
-                    "AbstractModel.html#preinitialize": {
-                      "ref": "AbstractModel.html#preinitialize",
-                      "tf": 16.666666666666664
-                    }
-                  },
-                  "r": {
+                "e": {
+                  "docs": {},
+                  "e": {
                     "docs": {},
-                    "u": {
+                    "n": {
                       "docs": {},
-                      "n": {
-                        "docs": {
-                          "AbstractModel.html#isValid": {
-                            "ref": "AbstractModel.html#isValid",
-                            "tf": 4.166666666666666
+                      "c": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "l": {
+                            "docs": {},
+                            "l": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "c": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {
+                                      "CollectionIterator.html": {
+                                        "ref": "CollectionIterator.html",
+                                        "tf": 2.631578947368421
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
                           }
                         }
                       }
                     }
                   }
                 }
-              },
-              "u": {
-                "docs": {
-                  "AbstractCollection.html#values": {
-                    "ref": "AbstractCollection.html#values",
-                    "tf": 750
-                  },
-                  "AbstractModel.html#previous": {
-                    "ref": "AbstractModel.html#previous",
-                    "tf": 6.25
+              }
+            },
+            "f": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "AbstractModel.html#destroy": {
+                      "ref": "AbstractModel.html#destroy",
+                      "tf": 2.941176470588235
+                    }
+                  }
+                }
+              }
+            },
+            "p": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "i": {
+                      "docs": {},
+                      "s": {
+                        "docs": {},
+                        "t": {
+                          "docs": {
+                            "AbstractModel.html#changedAttributes": {
+                              "ref": "AbstractModel.html#changedAttributes",
+                              "tf": 1.6666666666666667
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "d": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "l": {
+                      "docs": {
+                        "AbstractCollection.html#add": {
+                          "ref": "AbstractCollection.html#add",
+                          "tf": 3.571428571428571
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "g": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "n": {
+                  "docs": {
+                    "AbstractCollection.html#unshift": {
+                      "ref": "AbstractCollection.html#unshift",
+                      "tf": 12.5
+                    },
+                    "AbstractCollection.html#shift": {
+                      "ref": "AbstractCollection.html#shift",
+                      "tf": 12.5
+                    }
                   }
                 }
               }
             }
           },
-          "i": {
+          "r": {
             "docs": {},
-            "e": {
+            "o": {
               "docs": {},
               "w": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "CollectionIterator.html": {
+                          "ref": "CollectionIterator.html",
+                          "tf": 2.631578947368421
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "AbstractModel.html#sync": {
+                      "ref": "AbstractModel.html#sync",
+                      "tf": 8.333333333333332
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "k": {
                 "docs": {
-                  "AbstractModel.html#changedAttributes": {
-                    "ref": "AbstractModel.html#changedAttributes",
-                    "tf": 1.6666666666666667
+                  "AbstractCollection.html#reset": {
+                    "ref": "AbstractCollection.html#reset",
+                    "tf": 2.083333333333333
                   }
                 }
               }
@@ -5319,6 +5394,134 @@ window.lunrData = {
                       "docs": {},
                       "n": {
                         "docs": {
+                          "CollectionIterator.html": {
+                            "ref": "CollectionIterator.html",
+                            "tf": 2.631578947368421
+                          },
+                          "CollectionIterator.html#next": {
+                            "ref": "CollectionIterator.html#next",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#preinitialize": {
+                            "ref": "AbstractModel.html#preinitialize",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#get": {
+                            "ref": "AbstractModel.html#get",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#set": {
+                            "ref": "AbstractModel.html#set",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#escape": {
+                            "ref": "AbstractModel.html#escape",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#has": {
+                            "ref": "AbstractModel.html#has",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#matches": {
+                            "ref": "AbstractModel.html#matches",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#unset": {
+                            "ref": "AbstractModel.html#unset",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#clear": {
+                            "ref": "AbstractModel.html#clear",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#toJSON": {
+                            "ref": "AbstractModel.html#toJSON",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#fetch": {
+                            "ref": "AbstractModel.html#fetch",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#save": {
+                            "ref": "AbstractModel.html#save",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#destroy": {
+                            "ref": "AbstractModel.html#destroy",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#url": {
+                            "ref": "AbstractModel.html#url",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#parse": {
+                            "ref": "AbstractModel.html#parse",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#clone": {
+                            "ref": "AbstractModel.html#clone",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#isNew": {
+                            "ref": "AbstractModel.html#isNew",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#hasChanged": {
+                            "ref": "AbstractModel.html#hasChanged",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#changedAttributes": {
+                            "ref": "AbstractModel.html#changedAttributes",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#previous": {
+                            "ref": "AbstractModel.html#previous",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#previousAttributes": {
+                            "ref": "AbstractModel.html#previousAttributes",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#supportsValidation": {
+                            "ref": "AbstractModel.html#supportsValidation",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#isValid": {
+                            "ref": "AbstractModel.html#isValid",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#validate": {
+                            "ref": "AbstractModel.html#validate",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#getValidationMessages": {
+                            "ref": "AbstractModel.html#getValidationMessages",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#sync": {
+                            "ref": "AbstractModel.html#sync",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#reset": {
+                            "ref": "AbstractModel.html#reset",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#isEmpty": {
+                            "ref": "AbstractModel.html#isEmpty",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#toString": {
+                            "ref": "AbstractModel.html#toString",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#update": {
+                            "ref": "AbstractModel.html#update",
+                            "tf": 110
+                          },
+                          "AbstractCollection.html#preinitialize": {
+                            "ref": "AbstractCollection.html#preinitialize",
+                            "tf": 110
+                          },
                           "AbstractCollection.html#toJSON": {
                             "ref": "AbstractCollection.html#toJSON",
                             "tf": 110
@@ -5470,134 +5673,6 @@ window.lunrData = {
                           "AbstractCollection.html#toString": {
                             "ref": "AbstractCollection.html#toString",
                             "tf": 110
-                          },
-                          "AbstractCollection.html#preinitialize": {
-                            "ref": "AbstractCollection.html#preinitialize",
-                            "tf": 110
-                          },
-                          "CollectionIterator.html": {
-                            "ref": "CollectionIterator.html",
-                            "tf": 2.631578947368421
-                          },
-                          "CollectionIterator.html#next": {
-                            "ref": "CollectionIterator.html#next",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#get": {
-                            "ref": "AbstractModel.html#get",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#set": {
-                            "ref": "AbstractModel.html#set",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#escape": {
-                            "ref": "AbstractModel.html#escape",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#has": {
-                            "ref": "AbstractModel.html#has",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#matches": {
-                            "ref": "AbstractModel.html#matches",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#unset": {
-                            "ref": "AbstractModel.html#unset",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#clear": {
-                            "ref": "AbstractModel.html#clear",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#toJSON": {
-                            "ref": "AbstractModel.html#toJSON",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#fetch": {
-                            "ref": "AbstractModel.html#fetch",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#save": {
-                            "ref": "AbstractModel.html#save",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#destroy": {
-                            "ref": "AbstractModel.html#destroy",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#url": {
-                            "ref": "AbstractModel.html#url",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#parse": {
-                            "ref": "AbstractModel.html#parse",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#clone": {
-                            "ref": "AbstractModel.html#clone",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#isNew": {
-                            "ref": "AbstractModel.html#isNew",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#hasChanged": {
-                            "ref": "AbstractModel.html#hasChanged",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#changedAttributes": {
-                            "ref": "AbstractModel.html#changedAttributes",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#previous": {
-                            "ref": "AbstractModel.html#previous",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#previousAttributes": {
-                            "ref": "AbstractModel.html#previousAttributes",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#supportsValidation": {
-                            "ref": "AbstractModel.html#supportsValidation",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#isValid": {
-                            "ref": "AbstractModel.html#isValid",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#validate": {
-                            "ref": "AbstractModel.html#validate",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#getValidationMessages": {
-                            "ref": "AbstractModel.html#getValidationMessages",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#sync": {
-                            "ref": "AbstractModel.html#sync",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#reset": {
-                            "ref": "AbstractModel.html#reset",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#isEmpty": {
-                            "ref": "AbstractModel.html#isEmpty",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#toString": {
-                            "ref": "AbstractModel.html#toString",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#update": {
-                            "ref": "AbstractModel.html#update",
-                            "tf": 110
-                          },
-                          "AbstractModel.html#preinitialize": {
-                            "ref": "AbstractModel.html#preinitialize",
-                            "tf": 110
                           }
                         }
                       }
@@ -5633,8 +5708,91 @@ window.lunrData = {
               }
             }
           },
+          "o": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "m": {
+                "docs": {
+                  "AbstractModel.html#get": {
+                    "ref": "AbstractModel.html#get",
+                    "tf": 16.666666666666664
+                  }
+                }
+              },
+              "c": {
+                "docs": {
+                  "AbstractCollection.html#sort": {
+                    "ref": "AbstractCollection.html#sort",
+                    "tf": 2.941176470588235
+                  }
+                }
+              }
+            }
+          },
           "i": {
             "docs": {},
+            "r": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "AbstractModel.html#set": {
+                    "ref": "AbstractModel.html#set",
+                    "tf": 2.631578947368421
+                  },
+                  "AbstractModel.html#unset": {
+                    "ref": "AbstractModel.html#unset",
+                    "tf": 5
+                  },
+                  "AbstractModel.html#clear": {
+                    "ref": "AbstractModel.html#clear",
+                    "tf": 10
+                  },
+                  "AbstractModel.html#previous": {
+                    "ref": "AbstractModel.html#previous",
+                    "tf": 6.25
+                  },
+                  "AbstractCollection.html#reset": {
+                    "ref": "AbstractCollection.html#reset",
+                    "tf": 2.083333333333333
+                  }
+                }
+              },
+              "i": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "g": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "i": {
+                          "docs": {
+                            "AbstractCollection.html#reset": {
+                              "ref": "AbstractCollection.html#reset",
+                              "tf": 2.083333333333333
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "s": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractCollection.html#findWhere": {
+                      "ref": "AbstractCollection.html#findWhere",
+                      "tf": 5.555555555555555
+                    }
+                  }
+                }
+              }
+            },
             "n": {
               "docs": {},
               "i": {
@@ -5696,67 +5854,6 @@ window.lunrData = {
                 }
               }
             },
-            "r": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractCollection.html#reset": {
-                    "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
-                  },
-                  "AbstractModel.html#set": {
-                    "ref": "AbstractModel.html#set",
-                    "tf": 2.631578947368421
-                  },
-                  "AbstractModel.html#unset": {
-                    "ref": "AbstractModel.html#unset",
-                    "tf": 5
-                  },
-                  "AbstractModel.html#clear": {
-                    "ref": "AbstractModel.html#clear",
-                    "tf": 10
-                  },
-                  "AbstractModel.html#previous": {
-                    "ref": "AbstractModel.html#previous",
-                    "tf": 6.25
-                  }
-                }
-              },
-              "i": {
-                "docs": {},
-                "n": {
-                  "docs": {},
-                  "g": {
-                    "docs": {},
-                    "a": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "i": {
-                          "docs": {
-                            "AbstractCollection.html#reset": {
-                              "ref": "AbstractCollection.html#reset",
-                              "tf": 2.083333333333333
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "s": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractCollection.html#findWhere": {
-                      "ref": "AbstractCollection.html#findWhere",
-                      "tf": 5.555555555555555
-                    }
-                  }
-                }
-              }
-            },
             "l": {
               "docs": {},
               "t": {
@@ -5779,28 +5876,6 @@ window.lunrData = {
               }
             }
           },
-          "o": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "c": {
-                "docs": {
-                  "AbstractCollection.html#sort": {
-                    "ref": "AbstractCollection.html#sort",
-                    "tf": 2.941176470588235
-                  }
-                }
-              },
-              "m": {
-                "docs": {
-                  "AbstractModel.html#get": {
-                    "ref": "AbstractModel.html#get",
-                    "tf": 16.666666666666664
-                  }
-                }
-              }
-            }
-          },
           "e": {
             "docs": {},
             "t": {
@@ -5809,13 +5884,13 @@ window.lunrData = {
                 "docs": {},
                 "h": {
                   "docs": {
-                    "AbstractCollection.html#fetch": {
-                      "ref": "AbstractCollection.html#fetch",
-                      "tf": 775
-                    },
                     "AbstractModel.html#fetch": {
                       "ref": "AbstractModel.html#fetch",
                       "tf": 783.3333333333334
+                    },
+                    "AbstractCollection.html#fetch": {
+                      "ref": "AbstractCollection.html#fetch",
+                      "tf": 775
                     }
                   }
                 }
@@ -5825,24 +5900,6 @@ window.lunrData = {
         },
         "j": {
           "docs": {},
-          "s": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "n": {
-                "docs": {
-                  "AbstractCollection.html#toJSON": {
-                    "ref": "AbstractCollection.html#toJSON",
-                    "tf": 8.333333333333332
-                  },
-                  "AbstractModel.html#isValid": {
-                    "ref": "AbstractModel.html#isValid",
-                    "tf": 4.166666666666666
-                  }
-                }
-              }
-            }
-          },
           "a": {
             "docs": {},
             "v": {
@@ -5861,13 +5918,13 @@ window.lunrData = {
                           "docs": {},
                           "t": {
                             "docs": {
-                              "AbstractCollection.html#add": {
-                                "ref": "AbstractCollection.html#add",
-                                "tf": 3.571428571428571
-                              },
                               "CollectionIterator.html": {
                                 "ref": "CollectionIterator.html",
                                 "tf": 2.631578947368421
+                              },
+                              "AbstractCollection.html#add": {
+                                "ref": "AbstractCollection.html#add",
+                                "tf": 3.571428571428571
                               }
                             },
                             "'": {
@@ -5886,524 +5943,20 @@ window.lunrData = {
                 }
               }
             }
-          }
-        },
-        "t": {
-          "docs": {},
-          "h": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "m": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "d": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "l": {
-                        "docs": {},
-                        "s": {
-                          "docs": {},
-                          "&": {
-                            "docs": {},
-                            "q": {
-                              "docs": {},
-                              "u": {
-                                "docs": {},
-                                "o": {
-                                  "docs": {},
-                                  "t": {
-                                    "docs": {
-                                      "AbstractCollection.html#toJSON": {
-                                        "ref": "AbstractCollection.html#toJSON",
-                                        "tf": 8.333333333333332
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "c": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "l": {
-                    "docs": {},
-                    "l": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "c": {
-                          "docs": {},
-                          "t": {
-                            "docs": {
-                              "AbstractCollection.html#create": {
-                                "ref": "AbstractCollection.html#create",
-                                "tf": 2.941176470588235
-                              },
-                              "AbstractCollection.html#parse": {
-                                "ref": "AbstractCollection.html#parse",
-                                "tf": 4.545454545454546
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "u": {
-                "docs": {},
-                "s": {
-                  "docs": {
-                    "CollectionIterator.html": {
-                      "ref": "CollectionIterator.html",
-                      "tf": 2.631578947368421
-                    }
-                  }
-                }
-              }
-            },
-            "a": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "l": {
-                    "docs": {},
-                    "r": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "a": {
-                          "docs": {},
-                          "d": {
-                            "docs": {},
-                            "i": {
-                              "docs": {
-                                "AbstractCollection.html#set": {
-                                  "ref": "AbstractCollection.html#set",
-                                  "tf": 1.8518518518518516
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "r": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "u": {
-                  "docs": {},
-                  "g": {
-                    "docs": {},
-                    "h": {
-                      "docs": {
-                        "AbstractCollection.html#get": {
-                          "ref": "AbstractCollection.html#get",
-                          "tf": 3.8461538461538463
-                        },
-                        "AbstractCollection.html#parse": {
-                          "ref": "AbstractCollection.html#parse",
-                          "tf": 4.545454545454546
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "r": {
-                "docs": {},
-                "d": {
-                  "docs": {
-                    "CollectionIterator.html": {
-                      "ref": "CollectionIterator.html",
-                      "tf": 2.631578947368421
-                    }
-                  }
-                }
-              }
-            }
           },
-          "o": {
-            "docs": {},
-            "j": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "AbstractCollection.html#toJSON": {
-                        "ref": "AbstractCollection.html#toJSON",
-                        "tf": 750
-                      },
-                      "AbstractModel.html#toJSON": {
-                        "ref": "AbstractModel.html#toJSON",
-                        "tf": 762.5
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "AbstractCollection.html#toString": {
-                      "ref": "AbstractCollection.html#toString",
-                      "tf": 760
-                    },
-                    "AbstractModel.html#toString": {
-                      "ref": "AbstractModel.html#toString",
-                      "tf": 760
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "w": {
+          "s": {
             "docs": {},
             "o": {
-              "docs": {
-                "AbstractCollection.html#add": {
-                  "ref": "AbstractCollection.html#add",
-                  "tf": 3.571428571428571
-                },
-                "AbstractModel.html#isValid": {
-                  "ref": "AbstractModel.html#isValid",
-                  "tf": 4.166666666666666
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "a": {
               "docs": {},
               "n": {
-                "docs": {},
-                "s": {
-                  "docs": {},
-                  "f": {
-                    "docs": {},
-                    "o": {
-                      "docs": {},
-                      "r": {
-                        "docs": {},
-                        "m": {
-                          "docs": {
-                            "AbstractCollection.html#get": {
-                              "ref": "AbstractCollection.html#get",
-                              "tf": 3.8461538461538463
-                            },
-                            "AbstractModel.html#toJSON": {
-                              "ref": "AbstractModel.html#toJSON",
-                              "tf": 12.5
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "u": {
-              "docs": {},
-              "e": {
                 "docs": {
-                  "AbstractCollection.html#has": {
-                    "ref": "AbstractCollection.html#has",
-                    "tf": 12.5
-                  },
-                  "AbstractCollection.html#create": {
-                    "ref": "AbstractCollection.html#create",
-                    "tf": 2.941176470588235
-                  },
-                  "AbstractCollection.html#supportsValidation": {
-                    "ref": "AbstractCollection.html#supportsValidation",
-                    "tf": 8.333333333333332
-                  },
-                  "AbstractCollection.html#isValid": {
-                    "ref": "AbstractCollection.html#isValid",
-                    "tf": 10
-                  },
-                  "AbstractCollection.html#isEmpty": {
-                    "ref": "AbstractCollection.html#isEmpty",
-                    "tf": 10
-                  },
-                  "AbstractModel.html#destroy": {
-                    "ref": "AbstractModel.html#destroy",
-                    "tf": 2.941176470588235
-                  },
-                  "AbstractModel.html#supportsValidation": {
-                    "ref": "AbstractModel.html#supportsValidation",
-                    "tf": 8.333333333333332
-                  },
                   "AbstractModel.html#isValid": {
                     "ref": "AbstractModel.html#isValid",
                     "tf": 4.166666666666666
                   },
-                  "AbstractModel.html#isEmpty": {
-                    "ref": "AbstractModel.html#isEmpty",
-                    "tf": 10
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "g": {
-                "docs": {},
-                "g": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "r": {
-                      "docs": {
-                        "AbstractModel.html#fetch": {
-                          "ref": "AbstractModel.html#fetch",
-                          "tf": 4.166666666666666
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "u": {
-            "docs": {},
-            "p": {
-              "docs": {},
-              "l": {
-                "docs": {
-                  "AbstractCollection.html#entries": {
-                    "ref": "AbstractCollection.html#entries",
-                    "tf": 10
-                  }
-                }
-              }
-            }
-          },
-          "i": {
-            "docs": {},
-            "m": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractModel.html#previous": {
-                    "ref": "AbstractModel.html#previous",
-                    "tf": 6.25
-                  },
-                  "AbstractModel.html#previousAttributes": {
-                    "ref": "AbstractModel.html#previousAttributes",
-                    "tf": 10
-                  }
-                }
-              }
-            }
-          }
-        },
-        "b": {
-          "docs": {},
-          "e": {
-            "docs": {},
-            "m": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "d": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "l": {
-                      "docs": {
-                        "AbstractCollection.html#add": {
-                          "ref": "AbstractCollection.html#add",
-                          "tf": 3.571428571428571
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "g": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "n": {
-                  "docs": {
-                    "AbstractCollection.html#unshift": {
-                      "ref": "AbstractCollection.html#unshift",
-                      "tf": 12.5
-                    },
-                    "AbstractCollection.html#shift": {
-                      "ref": "AbstractCollection.html#shift",
-                      "tf": 12.5
-                    }
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "w": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "n": {
-                      "docs": {},
-                      "c": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "l": {
-                            "docs": {},
-                            "l": {
-                              "docs": {},
-                              "e": {
-                                "docs": {},
-                                "c": {
-                                  "docs": {},
-                                  "t": {
-                                    "docs": {
-                                      "CollectionIterator.html": {
-                                        "ref": "CollectionIterator.html",
-                                        "tf": 2.631578947368421
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "f": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "AbstractModel.html#destroy": {
-                      "ref": "AbstractModel.html#destroy",
-                      "tf": 2.941176470588235
-                    }
-                  }
-                }
-              }
-            },
-            "p": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "s": {
-                    "docs": {},
-                    "i": {
-                      "docs": {},
-                      "s": {
-                        "docs": {},
-                        "t": {
-                          "docs": {
-                            "AbstractModel.html#changedAttributes": {
-                              "ref": "AbstractModel.html#changedAttributes",
-                              "tf": 1.6666666666666667
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "u": {
-            "docs": {},
-            "l": {
-              "docs": {},
-              "k": {
-                "docs": {
-                  "AbstractCollection.html#reset": {
-                    "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "w": {
-                "docs": {},
-                "s": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "r": {
-                      "docs": {
-                        "CollectionIterator.html": {
-                          "ref": "CollectionIterator.html",
-                          "tf": 2.631578947368421
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "o": {
-            "docs": {},
-            "u": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "d": {
-                  "docs": {
-                    "AbstractModel.html#sync": {
-                      "ref": "AbstractModel.html#sync",
-                      "tf": 8.333333333333332
-                    }
+                  "AbstractCollection.html#toJSON": {
+                    "ref": "AbstractCollection.html#toJSON",
+                    "tf": 8.333333333333332
                   }
                 }
               }
@@ -6418,8 +5971,111 @@ window.lunrData = {
               "docs": {},
               "e": {
                 "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "CollectionIterator.html": {
+                        "ref": "CollectionIterator.html",
+                        "tf": 2.631578947368421
+                      }
+                    }
+                  }
+                },
                 "l": {
                   "docs": {
+                    "CollectionIterator.html#next": {
+                      "ref": "CollectionIterator.html#next",
+                      "tf": 3.8461538461538463
+                    },
+                    "AbstractModel.html#get": {
+                      "ref": "AbstractModel.html#get",
+                      "tf": 16.666666666666664
+                    },
+                    "AbstractModel.html#set": {
+                      "ref": "AbstractModel.html#set",
+                      "tf": 5.263157894736842
+                    },
+                    "AbstractModel.html#has": {
+                      "ref": "AbstractModel.html#has",
+                      "tf": 25
+                    },
+                    "AbstractModel.html#unset": {
+                      "ref": "AbstractModel.html#unset",
+                      "tf": 5
+                    },
+                    "AbstractModel.html#clear": {
+                      "ref": "AbstractModel.html#clear",
+                      "tf": 10
+                    },
+                    "AbstractModel.html#toJSON": {
+                      "ref": "AbstractModel.html#toJSON",
+                      "tf": 12.5
+                    },
+                    "AbstractModel.html#fetch": {
+                      "ref": "AbstractModel.html#fetch",
+                      "tf": 16.666666666666664
+                    },
+                    "AbstractModel.html#save": {
+                      "ref": "AbstractModel.html#save",
+                      "tf": 12.5
+                    },
+                    "AbstractModel.html#destroy": {
+                      "ref": "AbstractModel.html#destroy",
+                      "tf": 12.5
+                    },
+                    "AbstractModel.html#parse": {
+                      "ref": "AbstractModel.html#parse",
+                      "tf": 3.8461538461538463
+                    },
+                    "AbstractModel.html#clone": {
+                      "ref": "AbstractModel.html#clone",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractModel.html#isNew": {
+                      "ref": "AbstractModel.html#isNew",
+                      "tf": 7.142857142857142
+                    },
+                    "AbstractModel.html#hasChanged": {
+                      "ref": "AbstractModel.html#hasChanged",
+                      "tf": 4.166666666666666
+                    },
+                    "AbstractModel.html#previousAttributes": {
+                      "ref": "AbstractModel.html#previousAttributes",
+                      "tf": 10
+                    },
+                    "AbstractModel.html#supportsValidation": {
+                      "ref": "AbstractModel.html#supportsValidation",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractModel.html#isValid": {
+                      "ref": "AbstractModel.html#isValid",
+                      "tf": 4.166666666666666
+                    },
+                    "AbstractModel.html#validate": {
+                      "ref": "AbstractModel.html#validate",
+                      "tf": 25
+                    },
+                    "AbstractModel.html#sync": {
+                      "ref": "AbstractModel.html#sync",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractModel.html#reset": {
+                      "ref": "AbstractModel.html#reset",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractModel.html#isEmpty": {
+                      "ref": "AbstractModel.html#isEmpty",
+                      "tf": 10
+                    },
+                    "AbstractModel.html#toString": {
+                      "ref": "AbstractModel.html#toString",
+                      "tf": 10
+                    },
+                    "AbstractModel.html#update": {
+                      "ref": "AbstractModel.html#update",
+                      "tf": 12.5
+                    },
                     "AbstractCollection.html#add": {
                       "ref": "AbstractCollection.html#add",
                       "tf": 14.285714285714285
@@ -6515,139 +6171,6 @@ window.lunrData = {
                     "AbstractCollection.html#entries": {
                       "ref": "AbstractCollection.html#entries",
                       "tf": 10
-                    },
-                    "CollectionIterator.html#next": {
-                      "ref": "CollectionIterator.html#next",
-                      "tf": 3.8461538461538463
-                    },
-                    "AbstractModel.html#get": {
-                      "ref": "AbstractModel.html#get",
-                      "tf": 16.666666666666664
-                    },
-                    "AbstractModel.html#set": {
-                      "ref": "AbstractModel.html#set",
-                      "tf": 5.263157894736842
-                    },
-                    "AbstractModel.html#has": {
-                      "ref": "AbstractModel.html#has",
-                      "tf": 25
-                    },
-                    "AbstractModel.html#unset": {
-                      "ref": "AbstractModel.html#unset",
-                      "tf": 5
-                    },
-                    "AbstractModel.html#clear": {
-                      "ref": "AbstractModel.html#clear",
-                      "tf": 10
-                    },
-                    "AbstractModel.html#toJSON": {
-                      "ref": "AbstractModel.html#toJSON",
-                      "tf": 12.5
-                    },
-                    "AbstractModel.html#fetch": {
-                      "ref": "AbstractModel.html#fetch",
-                      "tf": 16.666666666666664
-                    },
-                    "AbstractModel.html#save": {
-                      "ref": "AbstractModel.html#save",
-                      "tf": 12.5
-                    },
-                    "AbstractModel.html#destroy": {
-                      "ref": "AbstractModel.html#destroy",
-                      "tf": 12.5
-                    },
-                    "AbstractModel.html#parse": {
-                      "ref": "AbstractModel.html#parse",
-                      "tf": 3.8461538461538463
-                    },
-                    "AbstractModel.html#clone": {
-                      "ref": "AbstractModel.html#clone",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractModel.html#isNew": {
-                      "ref": "AbstractModel.html#isNew",
-                      "tf": 7.142857142857142
-                    },
-                    "AbstractModel.html#hasChanged": {
-                      "ref": "AbstractModel.html#hasChanged",
-                      "tf": 4.166666666666666
-                    },
-                    "AbstractModel.html#previousAttributes": {
-                      "ref": "AbstractModel.html#previousAttributes",
-                      "tf": 10
-                    },
-                    "AbstractModel.html#supportsValidation": {
-                      "ref": "AbstractModel.html#supportsValidation",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractModel.html#isValid": {
-                      "ref": "AbstractModel.html#isValid",
-                      "tf": 4.166666666666666
-                    },
-                    "AbstractModel.html#validate": {
-                      "ref": "AbstractModel.html#validate",
-                      "tf": 25
-                    },
-                    "AbstractModel.html#sync": {
-                      "ref": "AbstractModel.html#sync",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractModel.html#reset": {
-                      "ref": "AbstractModel.html#reset",
-                      "tf": 8.333333333333332
-                    },
-                    "AbstractModel.html#isEmpty": {
-                      "ref": "AbstractModel.html#isEmpty",
-                      "tf": 10
-                    },
-                    "AbstractModel.html#toString": {
-                      "ref": "AbstractModel.html#toString",
-                      "tf": 10
-                    },
-                    "AbstractModel.html#update": {
-                      "ref": "AbstractModel.html#update",
-                      "tf": 12.5
-                    }
-                  },
-                  "#": {
-                    "docs": {},
-                    "s": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          ",": {
-                            "docs": {},
-                            "t": {
-                              "docs": {},
-                              "h": {
-                                "docs": {
-                                  "AbstractCollection.html#set": {
-                                    "ref": "AbstractCollection.html#set",
-                                    "tf": 1.8518518518518516
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "i": {
-                    "docs": {},
-                    "d": {
-                      "docs": {
-                        "AbstractCollection.html#get": {
-                          "ref": "AbstractCollection.html#get",
-                          "tf": 3.8461538461538463
-                        },
-                        "AbstractCollection.html#modelId": {
-                          "ref": "AbstractCollection.html#modelId",
-                          "tf": 750
-                        }
-                      }
                     }
                   },
                   "'": {
@@ -6717,15 +6240,45 @@ window.lunrData = {
                         }
                       }
                     }
-                  }
-                },
-                "r": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "CollectionIterator.html": {
-                        "ref": "CollectionIterator.html",
-                        "tf": 2.631578947368421
+                  },
+                  "#": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          ",": {
+                            "docs": {},
+                            "t": {
+                              "docs": {},
+                              "h": {
+                                "docs": {
+                                  "AbstractCollection.html#set": {
+                                    "ref": "AbstractCollection.html#set",
+                                    "tf": 1.8518518518518516
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "i": {
+                    "docs": {},
+                    "d": {
+                      "docs": {
+                        "AbstractCollection.html#get": {
+                          "ref": "AbstractCollection.html#get",
+                          "tf": 3.8461538461538463
+                        },
+                        "AbstractCollection.html#modelId": {
+                          "ref": "AbstractCollection.html#modelId",
+                          "tf": 750
+                        }
                       }
                     }
                   }
@@ -6746,50 +6299,6 @@ window.lunrData = {
           },
           "e": {
             "docs": {},
-            "r": {
-              "docs": {},
-              "g": {
-                "docs": {
-                  "AbstractCollection.html#set": {
-                    "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
-                  },
-                  "AbstractModel.html#fetch": {
-                    "ref": "AbstractModel.html#fetch",
-                    "tf": 4.166666666666666
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "g": {
-                    "docs": {
-                      "AbstractCollection.html#getValidationMessages": {
-                        "ref": "AbstractCollection.html#getValidationMessages",
-                        "tf": 12.5
-                      },
-                      "AbstractCollection.html#preinitialize": {
-                        "ref": "AbstractCollection.html#preinitialize",
-                        "tf": 16.666666666666664
-                      },
-                      "AbstractModel.html#getValidationMessages": {
-                        "ref": "AbstractModel.html#getValidationMessages",
-                        "tf": 12.5
-                      },
-                      "AbstractModel.html#preinitialize": {
-                        "ref": "AbstractModel.html#preinitialize",
-                        "tf": 16.666666666666664
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "t": {
               "docs": {},
               "h": {
@@ -6814,6 +6323,50 @@ window.lunrData = {
                   }
                 }
               }
+            },
+            "s": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "g": {
+                    "docs": {
+                      "AbstractModel.html#preinitialize": {
+                        "ref": "AbstractModel.html#preinitialize",
+                        "tf": 16.666666666666664
+                      },
+                      "AbstractModel.html#getValidationMessages": {
+                        "ref": "AbstractModel.html#getValidationMessages",
+                        "tf": 12.5
+                      },
+                      "AbstractCollection.html#preinitialize": {
+                        "ref": "AbstractCollection.html#preinitialize",
+                        "tf": 16.666666666666664
+                      },
+                      "AbstractCollection.html#getValidationMessages": {
+                        "ref": "AbstractCollection.html#getValidationMessages",
+                        "tf": 12.5
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "g": {
+                "docs": {
+                  "AbstractModel.html#fetch": {
+                    "ref": "AbstractModel.html#fetch",
+                    "tf": 4.166666666666666
+                  },
+                  "AbstractCollection.html#set": {
+                    "ref": "AbstractCollection.html#set",
+                    "tf": 1.8518518518518516
+                  }
+                }
+              }
             }
           },
           "a": {
@@ -6824,6 +6377,10 @@ window.lunrData = {
                 "docs": {},
                 "h": {
                   "docs": {
+                    "AbstractModel.html#matches": {
+                      "ref": "AbstractModel.html#matches",
+                      "tf": 758.3333333333334
+                    },
                     "AbstractCollection.html#find": {
                       "ref": "AbstractCollection.html#find",
                       "tf": 12.5
@@ -6839,10 +6396,6 @@ window.lunrData = {
                     "AbstractCollection.html#findWhere": {
                       "ref": "AbstractCollection.html#findWhere",
                       "tf": 5.555555555555555
-                    },
-                    "AbstractModel.html#matches": {
-                      "ref": "AbstractModel.html#matches",
-                      "tf": 758.3333333333334
                     }
                   }
                 }
@@ -6875,6 +6428,46 @@ window.lunrData = {
         },
         "o": {
           "docs": {},
+          "p": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "r": {
+                "docs": {
+                  "CollectionIterator.html": {
+                    "ref": "CollectionIterator.html",
+                    "tf": 2.631578947368421
+                  },
+                  "AbstractModel.html#set": {
+                    "ref": "AbstractModel.html#set",
+                    "tf": 2.631578947368421
+                  },
+                  "AbstractCollection.html#set": {
+                    "ref": "AbstractCollection.html#set",
+                    "tf": 1.8518518518518516
+                  },
+                  "AbstractCollection.html#reset": {
+                    "ref": "AbstractCollection.html#reset",
+                    "tf": 2.083333333333333
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "m": {
+                  "docs": {
+                    "AbstractCollection.html#reset": {
+                      "ref": "AbstractCollection.html#reset",
+                      "tf": 2.083333333333333
+                    }
+                  }
+                }
+              }
+            }
+          },
           "b": {
             "docs": {},
             "j": {
@@ -6885,14 +6478,6 @@ window.lunrData = {
                   "docs": {},
                   "t": {
                     "docs": {
-                      "AbstractCollection.html#add": {
-                        "ref": "AbstractCollection.html#add",
-                        "tf": 3.571428571428571
-                      },
-                      "AbstractCollection.html#get": {
-                        "ref": "AbstractCollection.html#get",
-                        "tf": 7.6923076923076925
-                      },
                       "AbstractModel.html#set": {
                         "ref": "AbstractModel.html#set",
                         "tf": 2.631578947368421
@@ -6900,6 +6485,14 @@ window.lunrData = {
                       "AbstractModel.html#changedAttributes": {
                         "ref": "AbstractModel.html#changedAttributes",
                         "tf": 3.3333333333333335
+                      },
+                      "AbstractCollection.html#add": {
+                        "ref": "AbstractCollection.html#add",
+                        "tf": 3.571428571428571
+                      },
+                      "AbstractCollection.html#get": {
+                        "ref": "AbstractCollection.html#get",
+                        "tf": 7.6923076923076925
                       }
                     }
                   }
@@ -6909,17 +6502,31 @@ window.lunrData = {
           },
           "n": {
             "docs": {
-              "AbstractCollection.html#clone": {
-                "ref": "AbstractCollection.html#clone",
-                "tf": 7.142857142857142
-              },
               "AbstractModel.html#clone": {
                 "ref": "AbstractModel.html#clone",
                 "tf": 8.333333333333332
+              },
+              "AbstractCollection.html#clone": {
+                "ref": "AbstractCollection.html#clone",
+                "tf": 7.142857142857142
               }
             },
             "e": {
               "docs": {},
+              ".": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "f": {
+                    "docs": {
+                      "AbstractModel.html#destroy": {
+                        "ref": "AbstractModel.html#destroy",
+                        "tf": 2.941176470588235
+                      }
+                    }
+                  }
+                }
+              },
               "s": {
                 "docs": {},
                 ",": {
@@ -6945,20 +6552,6 @@ window.lunrData = {
                     }
                   }
                 }
-              },
-              ".": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "f": {
-                    "docs": {
-                      "AbstractModel.html#destroy": {
-                        "ref": "AbstractModel.html#destroy",
-                        "tf": 2.941176470588235
-                      }
-                    }
-                  }
-                }
               }
             },
             "t": {
@@ -6968,91 +6561,6 @@ window.lunrData = {
                   "AbstractModel.html#parse": {
                     "ref": "AbstractModel.html#parse",
                     "tf": 3.8461538461538463
-                  }
-                }
-              }
-            }
-          },
-          "p": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "r": {
-                "docs": {
-                  "AbstractCollection.html#set": {
-                    "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
-                  },
-                  "AbstractCollection.html#reset": {
-                    "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
-                  },
-                  "CollectionIterator.html": {
-                    "ref": "CollectionIterator.html",
-                    "tf": 2.631578947368421
-                  },
-                  "AbstractModel.html#set": {
-                    "ref": "AbstractModel.html#set",
-                    "tf": 2.631578947368421
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "m": {
-                  "docs": {
-                    "AbstractCollection.html#reset": {
-                      "ref": "AbstractCollection.html#reset",
-                      "tf": 2.083333333333333
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "u": {
-            "docs": {},
-            "t": {
-              "docs": {
-                "AbstractCollection.html#slice": {
-                  "ref": "AbstractCollection.html#slice",
-                  "tf": 8.333333333333332
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "d": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "AbstractCollection.html#sort": {
-                      "ref": "AbstractCollection.html#sort",
-                      "tf": 2.941176470588235
-                    }
-                  }
-                }
-              }
-            },
-            "f": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "l": {
-                  "docs": {},
-                  "s": {
-                    "docs": {
-                      "AbstractModel.html#changedAttributes": {
-                        "ref": "AbstractModel.html#changedAttributes",
-                        "tf": 1.6666666666666667
-                      }
-                    }
                   }
                 }
               }
@@ -7080,218 +6588,48 @@ window.lunrData = {
                 }
               }
             }
-          }
-        },
-        "e": {
-          "docs": {},
-          "x": {
+          },
+          "r": {
             "docs": {},
-            "i": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractCollection.html#set": {
-                      "ref": "AbstractCollection.html#set",
-                      "tf": 1.8518518518518516
-                    },
-                    "AbstractModel.html#unset": {
-                      "ref": "AbstractModel.html#unset",
-                      "tf": 5
-                    }
-                  }
-                }
-              }
-            },
-            "h": {
+            "f": {
               "docs": {},
               "a": {
                 "docs": {},
-                "u": {
+                "l": {
                   "docs": {},
                   "s": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "CollectionIterator.html#next": {
-                          "ref": "CollectionIterator.html#next",
-                          "tf": 3.8461538461538463
-                        }
+                    "docs": {
+                      "AbstractModel.html#changedAttributes": {
+                        "ref": "AbstractModel.html#changedAttributes",
+                        "tf": 1.6666666666666667
                       }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "n": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "AbstractCollection.html#reset": {
-                      "ref": "AbstractCollection.html#reset",
-                      "tf": 2.083333333333333
-                    }
-                  }
-                }
-              },
-              "r": {
-                "docs": {},
-                "i": {
-                  "docs": {
-                    "AbstractCollection.html#entries": {
-                      "ref": "AbstractCollection.html#entries",
-                      "tf": 750
                     }
                   }
                 }
               }
             },
             "d": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "AbstractCollection.html#sort": {
+                      "ref": "AbstractCollection.html#sort",
+                      "tf": 2.941176470588235
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "t": {
               "docs": {
-                "AbstractCollection.html#push": {
-                  "ref": "AbstractCollection.html#push",
-                  "tf": 12.5
-                },
-                "AbstractCollection.html#pop": {
-                  "ref": "AbstractCollection.html#pop",
-                  "tf": 12.5
-                }
-              },
-              "p": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "n": {
-                      "docs": {},
-                      "t": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          "h": {
-                            "docs": {},
-                            "a": {
-                              "docs": {},
-                              "t": {
-                                "docs": {
-                                  "AbstractModel.html#url": {
-                                    "ref": "AbstractModel.html#url",
-                                    "tf": 4.166666666666666
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "v": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractCollection.html#reset": {
-                      "ref": "AbstractCollection.html#reset",
-                      "tf": 2.083333333333333
-                    },
-                    "AbstractModel.html#fetch": {
-                      "ref": "AbstractModel.html#fetch",
-                      "tf": 4.166666666666666
-                    },
-                    "AbstractModel.html#previous": {
-                      "ref": "AbstractModel.html#previous",
-                      "tf": 6.25
-                    },
-                    "AbstractModel.html#previousAttributes": {
-                      "ref": "AbstractModel.html#previousAttributes",
-                      "tf": 10
-                    }
-                  },
-                  ".": {
-                    "docs": {},
-                    "i": {
-                      "docs": {},
-                      "f": {
-                        "docs": {
-                          "AbstractModel.html#hasChanged": {
-                            "ref": "AbstractModel.html#hasChanged",
-                            "tf": 4.166666666666666
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
-            "c": {
-              "docs": {},
-              "h": {
-                "docs": {
-                  "AbstractCollection.html#sort": {
-                    "ref": "AbstractCollection.html#sort",
-                    "tf": 2.941176470588235
-                  },
-                  "AbstractCollection.html#pluck": {
-                    "ref": "AbstractCollection.html#pluck",
-                    "tf": 10
-                  }
-                }
-              }
-            }
-          },
-          "m": {
-            "docs": {},
-            "p": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "i": {
-                  "docs": {
-                    "AbstractCollection.html#isEmpty": {
-                      "ref": "AbstractCollection.html#isEmpty",
-                      "tf": 10
-                    },
-                    "AbstractModel.html#isEmpty": {
-                      "ref": "AbstractModel.html#isEmpty",
-                      "tf": 10
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "s": {
-            "docs": {},
-            "c": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "p": {
-                  "docs": {
-                    "AbstractModel.html#escape": {
-                      "ref": "AbstractModel.html#escape",
-                      "tf": 766.6666666666666
-                    }
-                  }
+                "AbstractCollection.html#slice": {
+                  "ref": "AbstractCollection.html#slice",
+                  "tf": 8.333333333333332
                 }
               }
             }
@@ -7299,27 +6637,140 @@ window.lunrData = {
         },
         "p": {
           "docs": {},
-          "r": {
+          "a": {
             "docs": {},
-            "e": {
+            "r": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "i": {
+                  "docs": {
+                    "CollectionIterator.html": {
+                      "ref": "CollectionIterator.html",
+                      "tf": 2.631578947368421
+                    }
+                  }
+                }
+              },
+              "s": {
+                "docs": {
+                  "AbstractModel.html#parse": {
+                    "ref": "AbstractModel.html#parse",
+                    "tf": 753.8461538461538
+                  },
+                  "AbstractCollection.html#parse": {
+                    "ref": "AbstractCollection.html#parse",
+                    "tf": 754.5454545454545
+                  }
+                }
+              }
+            },
+            "s": {
               "docs": {},
               "s": {
+                "docs": {
+                  "AbstractModel.html#destroy": {
+                    "ref": "AbstractModel.html#destroy",
+                    "tf": 2.941176470588235
+                  },
+                  "AbstractModel.html#parse": {
+                    "ref": "AbstractModel.html#parse",
+                    "tf": 3.8461538461538463
+                  },
+                  "AbstractModel.html#changedAttributes": {
+                    "ref": "AbstractModel.html#changedAttributes",
+                    "tf": 1.6666666666666667
+                  },
+                  "AbstractModel.html#reset": {
+                    "ref": "AbstractModel.html#reset",
+                    "tf": 8.333333333333332
+                  },
+                  "AbstractCollection.html#create": {
+                    "ref": "AbstractCollection.html#create",
+                    "tf": 2.941176470588235
+                  },
+                  "AbstractCollection.html#parse": {
+                    "ref": "AbstractCollection.html#parse",
+                    "tf": 4.545454545454546
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "t": {
                 "docs": {},
-                "e": {
+                "o": {
                   "docs": {},
-                  "n": {
+                  "c": {
                     "docs": {},
-                    "t": {
-                      "docs": {
-                        "AbstractCollection.html#set": {
-                          "ref": "AbstractCollection.html#set",
-                          "tf": 1.8518518518518516
+                    "o": {
+                      "docs": {},
+                      "l": {
+                        "docs": {
+                          "CollectionIterator.html": {
+                            "ref": "CollectionIterator.html",
+                            "tf": 2.631578947368421
+                          }
                         }
                       }
                     }
                   }
                 }
               },
+              "p": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "i": {
+                        "docs": {
+                          "AbstractModel.html#preinitialize": {
+                            "ref": "AbstractModel.html#preinitialize",
+                            "tf": 16.666666666666664
+                          },
+                          "AbstractCollection.html#preinitialize": {
+                            "ref": "AbstractCollection.html#preinitialize",
+                            "tf": 16.666666666666664
+                          },
+                          "AbstractCollection.html#find": {
+                            "ref": "AbstractCollection.html#find",
+                            "tf": 12.5
+                          },
+                          "AbstractCollection.html#filter": {
+                            "ref": "AbstractCollection.html#filter",
+                            "tf": 12.5
+                          },
+                          "AbstractCollection.html#sortByKey": {
+                            "ref": "AbstractCollection.html#sortByKey",
+                            "tf": 10
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "x": {
+                "docs": {},
+                "i": {
+                  "docs": {
+                    "AbstractModel.html#matches": {
+                      "ref": "AbstractModel.html#matches",
+                      "tf": 8.333333333333332
+                    }
+                  }
+                }
+              }
+            },
+            "e": {
+              "docs": {},
               "i": {
                 "docs": {},
                 "n": {
@@ -7330,12 +6781,12 @@ window.lunrData = {
                       "docs": {},
                       "i": {
                         "docs": {
-                          "AbstractCollection.html#preinitialize": {
-                            "ref": "AbstractCollection.html#preinitialize",
-                            "tf": 750
-                          },
                           "AbstractModel.html#preinitialize": {
                             "ref": "AbstractModel.html#preinitialize",
+                            "tf": 750
+                          },
+                          "AbstractCollection.html#preinitialize": {
+                            "ref": "AbstractCollection.html#preinitialize",
                             "tf": 750
                           }
                         }
@@ -7448,73 +6899,20 @@ window.lunrData = {
                     }
                   }
                 }
-              }
-            },
-            "o": {
-              "docs": {},
-              "p": {
+              },
+              "s": {
                 "docs": {},
                 "e": {
                   "docs": {},
-                  "r": {
+                  "n": {
                     "docs": {},
                     "t": {
-                      "docs": {},
-                      "i": {
-                        "docs": {
-                          "AbstractCollection.html#find": {
-                            "ref": "AbstractCollection.html#find",
-                            "tf": 12.5
-                          },
-                          "AbstractCollection.html#filter": {
-                            "ref": "AbstractCollection.html#filter",
-                            "tf": 12.5
-                          },
-                          "AbstractCollection.html#sortByKey": {
-                            "ref": "AbstractCollection.html#sortByKey",
-                            "tf": 10
-                          },
-                          "AbstractCollection.html#preinitialize": {
-                            "ref": "AbstractCollection.html#preinitialize",
-                            "tf": 16.666666666666664
-                          },
-                          "AbstractModel.html#preinitialize": {
-                            "ref": "AbstractModel.html#preinitialize",
-                            "tf": 16.666666666666664
-                          }
+                      "docs": {
+                        "AbstractCollection.html#set": {
+                          "ref": "AbstractCollection.html#set",
+                          "tf": 1.8518518518518516
                         }
                       }
-                    }
-                  }
-                }
-              },
-              "t": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "c": {
-                    "docs": {},
-                    "o": {
-                      "docs": {},
-                      "l": {
-                        "docs": {
-                          "CollectionIterator.html": {
-                            "ref": "CollectionIterator.html",
-                            "tf": 2.631578947368421
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "x": {
-                "docs": {},
-                "i": {
-                  "docs": {
-                    "AbstractModel.html#matches": {
-                      "ref": "AbstractModel.html#matches",
-                      "tf": 8.333333333333332
                     }
                   }
                 }
@@ -7540,17 +6938,6 @@ window.lunrData = {
           },
           "u": {
             "docs": {},
-            "s": {
-              "docs": {},
-              "h": {
-                "docs": {
-                  "AbstractCollection.html#push": {
-                    "ref": "AbstractCollection.html#push",
-                    "tf": 750
-                  }
-                }
-              }
-            },
             "r": {
               "docs": {},
               "e": {
@@ -7561,91 +6948,14 @@ window.lunrData = {
                   }
                 }
               }
-            }
-          },
-          "o": {
-            "docs": {},
-            "p": {
-              "docs": {
-                "AbstractCollection.html#pop": {
-                  "ref": "AbstractCollection.html#pop",
-                  "tf": 750
-                }
-              }
-            }
-          },
-          "l": {
-            "docs": {},
-            "u": {
-              "docs": {},
-              "c": {
-                "docs": {},
-                "k": {
-                  "docs": {
-                    "AbstractCollection.html#pluck": {
-                      "ref": "AbstractCollection.html#pluck",
-                      "tf": 760
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
+            },
             "s": {
               "docs": {},
-              "s": {
+              "h": {
                 "docs": {
-                  "AbstractCollection.html#create": {
-                    "ref": "AbstractCollection.html#create",
-                    "tf": 2.941176470588235
-                  },
-                  "AbstractCollection.html#parse": {
-                    "ref": "AbstractCollection.html#parse",
-                    "tf": 4.545454545454546
-                  },
-                  "AbstractModel.html#destroy": {
-                    "ref": "AbstractModel.html#destroy",
-                    "tf": 2.941176470588235
-                  },
-                  "AbstractModel.html#parse": {
-                    "ref": "AbstractModel.html#parse",
-                    "tf": 3.8461538461538463
-                  },
-                  "AbstractModel.html#changedAttributes": {
-                    "ref": "AbstractModel.html#changedAttributes",
-                    "tf": 1.6666666666666667
-                  },
-                  "AbstractModel.html#reset": {
-                    "ref": "AbstractModel.html#reset",
-                    "tf": 8.333333333333332
-                  }
-                }
-              }
-            },
-            "r": {
-              "docs": {},
-              "s": {
-                "docs": {
-                  "AbstractCollection.html#parse": {
-                    "ref": "AbstractCollection.html#parse",
-                    "tf": 754.5454545454545
-                  },
-                  "AbstractModel.html#parse": {
-                    "ref": "AbstractModel.html#parse",
-                    "tf": 753.8461538461538
-                  }
-                }
-              },
-              "t": {
-                "docs": {},
-                "i": {
-                  "docs": {
-                    "CollectionIterator.html": {
-                      "ref": "CollectionIterator.html",
-                      "tf": 2.631578947368421
-                    }
+                  "AbstractCollection.html#push": {
+                    "ref": "AbstractCollection.html#push",
+                    "tf": 750
                   }
                 }
               }
@@ -7706,37 +7016,476 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "o": {
+            "docs": {},
+            "p": {
+              "docs": {
+                "AbstractCollection.html#pop": {
+                  "ref": "AbstractCollection.html#pop",
+                  "tf": 750
+                }
+              }
+            }
+          },
+          "l": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "k": {
+                  "docs": {
+                    "AbstractCollection.html#pluck": {
+                      "ref": "AbstractCollection.html#pluck",
+                      "tf": 760
+                    }
+                  }
+                }
+              }
+            }
           }
         },
-        "u": {
+        "t": {
           "docs": {},
-          "p": {
+          "h": {
             "docs": {},
-            "d": {
+            "e": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "s": {
+                  "docs": {
+                    "CollectionIterator.html": {
+                      "ref": "CollectionIterator.html",
+                      "tf": 2.631578947368421
+                    }
+                  }
+                }
+              },
+              "m": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "d": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "s": {
+                          "docs": {},
+                          "&": {
+                            "docs": {},
+                            "q": {
+                              "docs": {},
+                              "u": {
+                                "docs": {},
+                                "o": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {
+                                      "AbstractCollection.html#toJSON": {
+                                        "ref": "AbstractCollection.html#toJSON",
+                                        "tf": 8.333333333333332
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "c": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "l": {
+                    "docs": {},
+                    "l": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "c": {
+                          "docs": {},
+                          "t": {
+                            "docs": {
+                              "AbstractCollection.html#create": {
+                                "ref": "AbstractCollection.html#create",
+                                "tf": 2.941176470588235
+                              },
+                              "AbstractCollection.html#parse": {
+                                "ref": "AbstractCollection.html#parse",
+                                "tf": 4.545454545454546
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "CollectionIterator.html": {
+                      "ref": "CollectionIterator.html",
+                      "tf": 2.631578947368421
+                    }
+                  }
+                }
+              }
+            },
+            "a": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "l": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "a": {
+                          "docs": {},
+                          "d": {
+                            "docs": {},
+                            "i": {
+                              "docs": {
+                                "AbstractCollection.html#set": {
+                                  "ref": "AbstractCollection.html#set",
+                                  "tf": 1.8518518518518516
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "g": {
+                    "docs": {},
+                    "h": {
+                      "docs": {
+                        "AbstractCollection.html#get": {
+                          "ref": "AbstractCollection.html#get",
+                          "tf": 3.8461538461538463
+                        },
+                        "AbstractCollection.html#parse": {
+                          "ref": "AbstractCollection.html#parse",
+                          "tf": 4.545454545454546
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "j": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "AbstractModel.html#toJSON": {
+                        "ref": "AbstractModel.html#toJSON",
+                        "tf": 762.5
+                      },
+                      "AbstractCollection.html#toJSON": {
+                        "ref": "AbstractCollection.html#toJSON",
+                        "tf": 750
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "AbstractModel.html#toString": {
+                      "ref": "AbstractModel.html#toString",
+                      "tf": 760
+                    },
+                    "AbstractCollection.html#toString": {
+                      "ref": "AbstractCollection.html#toString",
+                      "tf": 760
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "f": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "r": {
+                        "docs": {},
+                        "m": {
+                          "docs": {
+                            "AbstractModel.html#toJSON": {
+                              "ref": "AbstractModel.html#toJSON",
+                              "tf": 12.5
+                            },
+                            "AbstractCollection.html#get": {
+                              "ref": "AbstractCollection.html#get",
+                              "tf": 3.8461538461538463
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "g": {
+                "docs": {},
+                "g": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "AbstractModel.html#fetch": {
+                          "ref": "AbstractModel.html#fetch",
+                          "tf": 4.166666666666666
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "u": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "AbstractModel.html#destroy": {
+                    "ref": "AbstractModel.html#destroy",
+                    "tf": 2.941176470588235
+                  },
+                  "AbstractModel.html#supportsValidation": {
+                    "ref": "AbstractModel.html#supportsValidation",
+                    "tf": 8.333333333333332
+                  },
+                  "AbstractModel.html#isValid": {
+                    "ref": "AbstractModel.html#isValid",
+                    "tf": 4.166666666666666
+                  },
+                  "AbstractModel.html#isEmpty": {
+                    "ref": "AbstractModel.html#isEmpty",
+                    "tf": 10
+                  },
+                  "AbstractCollection.html#has": {
+                    "ref": "AbstractCollection.html#has",
+                    "tf": 12.5
+                  },
+                  "AbstractCollection.html#create": {
+                    "ref": "AbstractCollection.html#create",
+                    "tf": 2.941176470588235
+                  },
+                  "AbstractCollection.html#supportsValidation": {
+                    "ref": "AbstractCollection.html#supportsValidation",
+                    "tf": 8.333333333333332
+                  },
+                  "AbstractCollection.html#isValid": {
+                    "ref": "AbstractCollection.html#isValid",
+                    "tf": 10
+                  },
+                  "AbstractCollection.html#isEmpty": {
+                    "ref": "AbstractCollection.html#isEmpty",
+                    "tf": 10
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "AbstractModel.html#previous": {
+                    "ref": "AbstractModel.html#previous",
+                    "tf": 6.25
+                  },
+                  "AbstractModel.html#previousAttributes": {
+                    "ref": "AbstractModel.html#previousAttributes",
+                    "tf": 10
+                  }
+                }
+              }
+            }
+          },
+          "w": {
+            "docs": {},
+            "o": {
+              "docs": {
+                "AbstractModel.html#isValid": {
+                  "ref": "AbstractModel.html#isValid",
+                  "tf": 4.166666666666666
+                },
+                "AbstractCollection.html#add": {
+                  "ref": "AbstractCollection.html#add",
+                  "tf": 3.571428571428571
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "l": {
+                "docs": {
+                  "AbstractCollection.html#entries": {
+                    "ref": "AbstractCollection.html#entries",
+                    "tf": 10
+                  }
+                }
+              }
+            }
+          }
+        },
+        "e": {
+          "docs": {},
+          "x": {
+            "docs": {},
+            "h": {
               "docs": {},
               "a": {
                 "docs": {},
+                "u": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "CollectionIterator.html#next": {
+                          "ref": "CollectionIterator.html#next",
+                          "tf": 3.8461538461538463
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "s": {
+                "docs": {},
                 "t": {
                   "docs": {
+                    "AbstractModel.html#unset": {
+                      "ref": "AbstractModel.html#unset",
+                      "tf": 5
+                    },
                     "AbstractCollection.html#set": {
                       "ref": "AbstractCollection.html#set",
-                      "tf": 3.7037037037037033
+                      "tf": 1.8518518518518516
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "s": {
+            "docs": {},
+            "c": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "p": {
+                  "docs": {
+                    "AbstractModel.html#escape": {
+                      "ref": "AbstractModel.html#escape",
+                      "tf": 766.6666666666666
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "v": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractModel.html#fetch": {
+                      "ref": "AbstractModel.html#fetch",
+                      "tf": 4.166666666666666
                     },
-                    "AbstractCollection.html#update": {
-                      "ref": "AbstractCollection.html#update",
-                      "tf": 762.5
+                    "AbstractModel.html#previous": {
+                      "ref": "AbstractModel.html#previous",
+                      "tf": 6.25
                     },
-                    "AbstractModel.html#set": {
-                      "ref": "AbstractModel.html#set",
-                      "tf": 2.631578947368421
+                    "AbstractModel.html#previousAttributes": {
+                      "ref": "AbstractModel.html#previousAttributes",
+                      "tf": 10
                     },
-                    "AbstractModel.html#changedAttributes": {
-                      "ref": "AbstractModel.html#changedAttributes",
-                      "tf": 1.6666666666666667
-                    },
-                    "AbstractModel.html#update": {
-                      "ref": "AbstractModel.html#update",
-                      "tf": 787.5
+                    "AbstractCollection.html#reset": {
+                      "ref": "AbstractCollection.html#reset",
+                      "tf": 2.083333333333333
+                    }
+                  },
+                  ".": {
+                    "docs": {},
+                    "i": {
+                      "docs": {},
+                      "f": {
+                        "docs": {
+                          "AbstractModel.html#hasChanged": {
+                            "ref": "AbstractModel.html#hasChanged",
+                            "tf": 4.166666666666666
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -7745,105 +7494,39 @@ window.lunrData = {
           },
           "n": {
             "docs": {},
-            "s": {
-              "docs": {},
-              "h": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "f": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "AbstractCollection.html#unshift": {
-                          "ref": "AbstractCollection.html#unshift",
-                          "tf": 750
-                        }
-                      }
-                    }
-                  }
+            "d": {
+              "docs": {
+                "AbstractCollection.html#push": {
+                  "ref": "AbstractCollection.html#push",
+                  "tf": 12.5
+                },
+                "AbstractCollection.html#pop": {
+                  "ref": "AbstractCollection.html#pop",
+                  "tf": 12.5
                 }
               },
-              "e": {
+              "p": {
                 "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractModel.html#unset": {
-                      "ref": "AbstractModel.html#unset",
-                      "tf": 755
-                    },
-                    "AbstractModel.html#changedAttributes": {
-                      "ref": "AbstractModel.html#changedAttributes",
-                      "tf": 1.6666666666666667
-                    }
-                  }
-                }
-              }
-            },
-            "d": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "n": {
-                    "docs": {},
-                    "o": {
-                      "docs": {},
-                      "r": {
-                        "docs": {},
-                        "m": {
-                          "docs": {
-                            "AbstractCollection.html#sort": {
-                              "ref": "AbstractCollection.html#sort",
-                              "tf": 2.941176470588235
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "s": {
-                    "docs": {},
-                    "c": {
-                      "docs": {},
-                      "o": {
-                        "docs": {},
-                        "r": {
-                          "docs": {},
-                          "e": {
-                            "docs": {},
-                            "'": {
-                              "docs": {
-                                "AbstractModel.html#matches": {
-                                  "ref": "AbstractModel.html#matches",
-                                  "tf": 8.333333333333332
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "f": {
+                "o": {
                   "docs": {},
                   "i": {
                     "docs": {},
                     "n": {
                       "docs": {},
-                      "e": {
+                      "t": {
                         "docs": {},
-                        "d": {
+                        "t": {
                           "docs": {},
-                          ".": {
+                          "h": {
                             "docs": {},
-                            "y": {
-                              "docs": {
-                                "AbstractModel.html#changedAttributes": {
-                                  "ref": "AbstractModel.html#changedAttributes",
-                                  "tf": 1.6666666666666667
+                            "a": {
+                              "docs": {},
+                              "t": {
+                                "docs": {
+                                  "AbstractModel.html#url": {
+                                    "ref": "AbstractModel.html#url",
+                                    "tf": 4.166666666666666
+                                  }
                                 }
                               }
                             }
@@ -7855,31 +7538,46 @@ window.lunrData = {
                 }
               }
             },
-            "l": {
+            "t": {
               "docs": {},
-              "e": {
+              "i": {
                 "docs": {},
-                "s": {
-                  "docs": {},
-                  "s": {
-                    "docs": {
-                      "AbstractCollection.html#create": {
-                        "ref": "AbstractCollection.html#create",
-                        "tf": 2.941176470588235
-                      }
+                "r": {
+                  "docs": {
+                    "AbstractCollection.html#reset": {
+                      "ref": "AbstractCollection.html#reset",
+                      "tf": 2.083333333333333
+                    }
+                  }
+                }
+              },
+              "r": {
+                "docs": {},
+                "i": {
+                  "docs": {
+                    "AbstractCollection.html#entries": {
+                      "ref": "AbstractCollection.html#entries",
+                      "tf": 750
                     }
                   }
                 }
               }
-            },
-            "i": {
+            }
+          },
+          "m": {
+            "docs": {},
+            "p": {
               "docs": {},
-              "q": {
+              "t": {
                 "docs": {},
-                "u": {
+                "i": {
                   "docs": {
-                    "AbstractCollection.html#modelId": {
-                      "ref": "AbstractCollection.html#modelId",
+                    "AbstractModel.html#isEmpty": {
+                      "ref": "AbstractModel.html#isEmpty",
+                      "tf": 10
+                    },
+                    "AbstractCollection.html#isEmpty": {
+                      "ref": "AbstractCollection.html#isEmpty",
                       "tf": 10
                     }
                   }
@@ -7887,60 +7585,109 @@ window.lunrData = {
               }
             }
           },
-          "s": {
-            "docs": {
-              "AbstractCollection.html#where": {
-                "ref": "AbstractCollection.html#where",
-                "tf": 6.25
-              },
-              "AbstractCollection.html#findWhere": {
-                "ref": "AbstractCollection.html#findWhere",
-                "tf": 5.555555555555555
-              },
-              "AbstractModel.html#changedAttributes": {
-                "ref": "AbstractModel.html#changedAttributes",
-                "tf": 1.6666666666666667
-              }
-            }
-          },
-          "r": {
+          "a": {
             "docs": {},
-            "l": {
-              "docs": {
-                "AbstractModel.html#url": {
-                  "ref": "AbstractModel.html#url",
-                  "tf": 754.1666666666666
+            "c": {
+              "docs": {},
+              "h": {
+                "docs": {
+                  "AbstractCollection.html#sort": {
+                    "ref": "AbstractCollection.html#sort",
+                    "tf": 2.941176470588235
+                  },
+                  "AbstractCollection.html#pluck": {
+                    "ref": "AbstractCollection.html#pluck",
+                    "tf": 10
+                  }
                 }
               }
             }
           }
         },
-        "w": {
+        "v": {
           "docs": {},
           "a": {
             "docs": {},
-            "n": {
+            "l": {
               "docs": {},
-              "t": {
-                "docs": {
-                  "AbstractCollection.html#reset": {
-                    "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
+              "i": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "AbstractModel.html": {
+                      "ref": "AbstractModel.html",
+                      "tf": 10
+                    },
+                    "AbstractModel.html#preinitialize": {
+                      "ref": "AbstractModel.html#preinitialize",
+                      "tf": 16.666666666666664
+                    },
+                    "AbstractModel.html#supportsValidation": {
+                      "ref": "AbstractModel.html#supportsValidation",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractModel.html#isValid": {
+                      "ref": "AbstractModel.html#isValid",
+                      "tf": 4.166666666666666
+                    },
+                    "AbstractModel.html#validate": {
+                      "ref": "AbstractModel.html#validate",
+                      "tf": 775
+                    },
+                    "AbstractModel.html#getValidationMessages": {
+                      "ref": "AbstractModel.html#getValidationMessages",
+                      "tf": 12.5
+                    },
+                    "AbstractCollection.html": {
+                      "ref": "AbstractCollection.html",
+                      "tf": 7.142857142857142
+                    },
+                    "AbstractCollection.html#preinitialize": {
+                      "ref": "AbstractCollection.html#preinitialize",
+                      "tf": 16.666666666666664
+                    },
+                    "AbstractCollection.html#supportsValidation": {
+                      "ref": "AbstractCollection.html#supportsValidation",
+                      "tf": 8.333333333333332
+                    },
+                    "AbstractCollection.html#isValid": {
+                      "ref": "AbstractCollection.html#isValid",
+                      "tf": 10
+                    },
+                    "AbstractCollection.html#getValidationMessages": {
+                      "ref": "AbstractCollection.html#getValidationMessages",
+                      "tf": 12.5
+                    },
+                    "AbstractCollection.html#validate": {
+                      "ref": "AbstractCollection.html#validate",
+                      "tf": 775
+                    }
+                  },
+                  "r": {
+                    "docs": {},
+                    "u": {
+                      "docs": {},
+                      "n": {
+                        "docs": {
+                          "AbstractModel.html#isValid": {
+                            "ref": "AbstractModel.html#isValid",
+                            "tf": 4.166666666666666
+                          }
+                        }
+                      }
+                    }
                   }
                 }
-              }
-            },
-            "i": {
-              "docs": {},
-              "t": {
+              },
+              "u": {
                 "docs": {
-                  "AbstractCollection.html#create": {
-                    "ref": "AbstractCollection.html#create",
-                    "tf": 2.941176470588235
+                  "AbstractModel.html#previous": {
+                    "ref": "AbstractModel.html#previous",
+                    "tf": 6.25
                   },
-                  "AbstractModel.html#destroy": {
-                    "ref": "AbstractModel.html#destroy",
-                    "tf": 5.88235294117647
+                  "AbstractCollection.html#values": {
+                    "ref": "AbstractCollection.html#values",
+                    "tf": 750
                   }
                 }
               }
@@ -7948,64 +7695,54 @@ window.lunrData = {
           },
           "i": {
             "docs": {},
-            "t": {
+            "e": {
+              "docs": {},
+              "w": {
+                "docs": {
+                  "AbstractModel.html#changedAttributes": {
+                    "ref": "AbstractModel.html#changedAttributes",
+                    "tf": 1.6666666666666667
+                  }
+                }
+              }
+            }
+          }
+        },
+        "h": {
+          "docs": {},
+          "a": {
+            "docs": {},
+            "s": {
               "docs": {},
               "h": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "u": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "AbstractCollection.html#reset": {
-                          "ref": "AbstractCollection.html#reset",
-                          "tf": 2.083333333333333
-                        }
-                      }
-                    }
+                "docs": {
+                  "AbstractModel.html#set": {
+                    "ref": "AbstractModel.html#set",
+                    "tf": 2.631578947368421
+                  },
+                  "AbstractModel.html#save": {
+                    "ref": "AbstractModel.html#save",
+                    "tf": 6.666666666666667
+                  },
+                  "AbstractModel.html#parse": {
+                    "ref": "AbstractModel.html#parse",
+                    "tf": 3.8461538461538463
                   }
                 }
-              }
-            }
-          },
-          "e": {
-            "docs": {},
-            "w": {
-              "docs": {},
-              "a": {
+              },
+              "c": {
                 "docs": {},
-                "i": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "AbstractCollection.html#create": {
-                        "ref": "AbstractCollection.html#create",
-                        "tf": 2.941176470588235
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "h": {
-            "docs": {},
-            "a": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "p": {
+                "h": {
                   "docs": {},
                   "a": {
                     "docs": {},
-                    "r": {
+                    "n": {
                       "docs": {},
-                      "t": {
+                      "g": {
                         "docs": {
-                          "AbstractModel.html#changedAttributes": {
-                            "ref": "AbstractModel.html#changedAttributes",
-                            "tf": 1.6666666666666667
+                          "AbstractModel.html#hasChanged": {
+                            "ref": "AbstractModel.html#hasChanged",
+                            "tf": 750
                           }
                         }
                       }
@@ -8018,6 +7755,20 @@ window.lunrData = {
         },
         "k": {
           "docs": {},
+          "n": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "w": {
+                "docs": {
+                  "AbstractModel.html#set": {
+                    "ref": "AbstractModel.html#set",
+                    "tf": 2.631578947368421
+                  }
+                }
+              }
+            }
+          },
           "e": {
             "docs": {},
             "y": {
@@ -8029,20 +7780,6 @@ window.lunrData = {
                 "AbstractCollection.html#sortByKey": {
                   "ref": "AbstractCollection.html#sortByKey",
                   "tf": 60
-                }
-              }
-            }
-          },
-          "n": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "w": {
-                "docs": {
-                  "AbstractModel.html#set": {
-                    "ref": "AbstractModel.html#set",
-                    "tf": 2.631578947368421
-                  }
                 }
               }
             }
@@ -8060,41 +7797,6 @@ window.lunrData = {
                   "docs": {},
                   "c": {
                     "docs": {},
-                    "r": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "a": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "e": {
-                              "docs": {},
-                              "&": {
-                                "docs": {},
-                                "q": {
-                                  "docs": {},
-                                  "u": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {
-                                          "AbstractCollection.html#save": {
-                                            "ref": "AbstractCollection.html#save",
-                                            "tf": 12.5
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
                     "h": {
                       "docs": {},
                       "a": {
@@ -8134,6 +7836,41 @@ window.lunrData = {
                                           "AbstractModel.html#hasChanged": {
                                             "ref": "AbstractModel.html#hasChanged",
                                             "tf": 4.166666666666666
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "r": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "a": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "&": {
+                                "docs": {},
+                                "q": {
+                                  "docs": {},
+                                  "u": {
+                                    "docs": {},
+                                    "o": {
+                                      "docs": {},
+                                      "t": {
+                                        "docs": {
+                                          "AbstractCollection.html#save": {
+                                            "ref": "AbstractCollection.html#save",
+                                            "tf": 12.5
                                           }
                                         }
                                       }
@@ -8228,43 +7965,306 @@ window.lunrData = {
             }
           }
         },
-        "h": {
+        "u": {
           "docs": {},
-          "a": {
+          "p": {
             "docs": {},
-            "s": {
+            "d": {
               "docs": {},
-              "h": {
-                "docs": {
-                  "AbstractModel.html#set": {
-                    "ref": "AbstractModel.html#set",
-                    "tf": 2.631578947368421
-                  },
-                  "AbstractModel.html#save": {
-                    "ref": "AbstractModel.html#save",
-                    "tf": 6.666666666666667
-                  },
-                  "AbstractModel.html#parse": {
-                    "ref": "AbstractModel.html#parse",
-                    "tf": 3.8461538461538463
+              "a": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractModel.html#set": {
+                      "ref": "AbstractModel.html#set",
+                      "tf": 2.631578947368421
+                    },
+                    "AbstractModel.html#changedAttributes": {
+                      "ref": "AbstractModel.html#changedAttributes",
+                      "tf": 1.6666666666666667
+                    },
+                    "AbstractModel.html#update": {
+                      "ref": "AbstractModel.html#update",
+                      "tf": 787.5
+                    },
+                    "AbstractCollection.html#set": {
+                      "ref": "AbstractCollection.html#set",
+                      "tf": 3.7037037037037033
+                    },
+                    "AbstractCollection.html#update": {
+                      "ref": "AbstractCollection.html#update",
+                      "tf": 762.5
+                    }
                   }
                 }
-              },
-              "c": {
+              }
+            }
+          },
+          "n": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "e": {
                 "docs": {},
-                "h": {
+                "r": {
                   "docs": {},
-                  "a": {
+                  "s": {
+                    "docs": {},
+                    "c": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "r": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "'": {
+                              "docs": {
+                                "AbstractModel.html#matches": {
+                                  "ref": "AbstractModel.html#matches",
+                                  "tf": 8.333333333333332
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "n": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "r": {
+                        "docs": {},
+                        "m": {
+                          "docs": {
+                            "AbstractCollection.html#sort": {
+                              "ref": "AbstractCollection.html#sort",
+                              "tf": 2.941176470588235
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "f": {
+                  "docs": {},
+                  "i": {
                     "docs": {},
                     "n": {
                       "docs": {},
-                      "g": {
-                        "docs": {
-                          "AbstractModel.html#hasChanged": {
-                            "ref": "AbstractModel.html#hasChanged",
-                            "tf": 750
+                      "e": {
+                        "docs": {},
+                        "d": {
+                          "docs": {},
+                          ".": {
+                            "docs": {},
+                            "y": {
+                              "docs": {
+                                "AbstractModel.html#changedAttributes": {
+                                  "ref": "AbstractModel.html#changedAttributes",
+                                  "tf": 1.6666666666666667
+                                }
+                              }
+                            }
                           }
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractModel.html#unset": {
+                      "ref": "AbstractModel.html#unset",
+                      "tf": 755
+                    },
+                    "AbstractModel.html#changedAttributes": {
+                      "ref": "AbstractModel.html#changedAttributes",
+                      "tf": 1.6666666666666667
+                    }
+                  }
+                }
+              },
+              "h": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "f": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractCollection.html#unshift": {
+                          "ref": "AbstractCollection.html#unshift",
+                          "tf": 750
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "l": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "s": {
+                    "docs": {
+                      "AbstractCollection.html#create": {
+                        "ref": "AbstractCollection.html#create",
+                        "tf": 2.941176470588235
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "q": {
+                "docs": {},
+                "u": {
+                  "docs": {
+                    "AbstractCollection.html#modelId": {
+                      "ref": "AbstractCollection.html#modelId",
+                      "tf": 10
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "l": {
+              "docs": {
+                "AbstractModel.html#url": {
+                  "ref": "AbstractModel.html#url",
+                  "tf": 754.1666666666666
+                }
+              }
+            }
+          },
+          "s": {
+            "docs": {
+              "AbstractModel.html#changedAttributes": {
+                "ref": "AbstractModel.html#changedAttributes",
+                "tf": 1.6666666666666667
+              },
+              "AbstractCollection.html#where": {
+                "ref": "AbstractCollection.html#where",
+                "tf": 6.25
+              },
+              "AbstractCollection.html#findWhere": {
+                "ref": "AbstractCollection.html#findWhere",
+                "tf": 5.555555555555555
+              }
+            }
+          }
+        },
+        "w": {
+          "docs": {},
+          "a": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "AbstractModel.html#destroy": {
+                    "ref": "AbstractModel.html#destroy",
+                    "tf": 5.88235294117647
+                  },
+                  "AbstractCollection.html#create": {
+                    "ref": "AbstractCollection.html#create",
+                    "tf": 2.941176470588235
+                  }
+                }
+              }
+            },
+            "n": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "AbstractCollection.html#reset": {
+                    "ref": "AbstractCollection.html#reset",
+                    "tf": 2.083333333333333
+                  }
+                }
+              }
+            }
+          },
+          "h": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "p": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "AbstractModel.html#changedAttributes": {
+                            "ref": "AbstractModel.html#changedAttributes",
+                            "tf": 1.6666666666666667
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "h": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "u": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractCollection.html#reset": {
+                          "ref": "AbstractCollection.html#reset",
+                          "tf": 2.083333333333333
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "e": {
+            "docs": {},
+            "w": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "AbstractCollection.html#create": {
+                        "ref": "AbstractCollection.html#create",
+                        "tf": 2.941176470588235
                       }
                     }
                   }
@@ -8664,6 +8664,328 @@ window.lunrData = {
       "description": "",
       "body": ""
     },
+    "CollectionIterator.html": {
+      "id": "CollectionIterator.html",
+      "kind": "class",
+      "title": "CollectionIterator",
+      "longname": "CollectionIterator",
+      "name": "CollectionIterator",
+      "tags": "CollectionIterator",
+      "summary": "",
+      "description": "A CollectionIterator implements JavaScript's Iterator protocol, allowing theuse of for of loops in modern browsers and interoperation betweenCollection and other JavaScript functions and third-party librarieswhich can operate on Iterables.",
+      "body": ""
+    },
+    "CollectionIterator.html#next": {
+      "id": "CollectionIterator.html#next",
+      "kind": "function",
+      "title": "next()",
+      "longname": "CollectionIterator#next",
+      "name": "next",
+      "tags": "CollectionIterator#next next",
+      "summary": "",
+      "description": "Next model in collectionOnce exhausted, remove the reference to the collection so futurecalls to the next method always return done."
+    },
+    "AbstractModel.html": {
+      "id": "AbstractModel.html",
+      "kind": "class",
+      "title": "AbstractModel",
+      "longname": "AbstractModel",
+      "name": "AbstractModel",
+      "tags": "AbstractModel",
+      "summary": "",
+      "description": "AbstractModel Supports: Validation and Schemas Security",
+      "body": ""
+    },
+    "AbstractModel.html#preinitialize": {
+      "id": "AbstractModel.html#preinitialize",
+      "kind": "function",
+      "title": "preinitialize()",
+      "longname": "AbstractModel#preinitialize",
+      "name": "preinitialize",
+      "tags": "AbstractModel#preinitialize preinitialize",
+      "summary": "",
+      "description": "Validation Message property"
+    },
+    "AbstractModel.html#get": {
+      "id": "AbstractModel.html#get",
+      "kind": "function",
+      "title": "get()",
+      "longname": "AbstractModel#get",
+      "name": "get",
+      "tags": "AbstractModel#get get",
+      "summary": "",
+      "description": "Get the attribute form the Model"
+    },
+    "AbstractModel.html#set": {
+      "id": "AbstractModel.html#set",
+      "kind": "function",
+      "title": "set()",
+      "longname": "AbstractModel#set",
+      "name": "set",
+      "tags": "AbstractModel#set set",
+      "summary": "",
+      "description": "Set a hash of model attributes on the object, firing &quot;change&quot;. This isthe core primitive operation of a model, updating the data and notifyinganyone who needs to know about the change in state."
+    },
+    "AbstractModel.html#escape": {
+      "id": "AbstractModel.html#escape",
+      "kind": "function",
+      "title": "escape()",
+      "longname": "AbstractModel#escape",
+      "name": "escape",
+      "tags": "AbstractModel#escape escape",
+      "summary": "",
+      "description": "Escape the attribute data"
+    },
+    "AbstractModel.html#has": {
+      "id": "AbstractModel.html#has",
+      "kind": "function",
+      "title": "has()",
+      "longname": "AbstractModel#has",
+      "name": "has",
+      "tags": "AbstractModel#has has",
+      "summary": "",
+      "description": "Has an attribute in the Model"
+    },
+    "AbstractModel.html#matches": {
+      "id": "AbstractModel.html#matches",
+      "kind": "function",
+      "title": "matches()",
+      "longname": "AbstractModel#matches",
+      "name": "matches",
+      "tags": "AbstractModel#matches matches",
+      "summary": "",
+      "description": "Special-cased proxy to underscore's matches method."
+    },
+    "AbstractModel.html#unset": {
+      "id": "AbstractModel.html#unset",
+      "kind": "function",
+      "title": "unset()",
+      "longname": "AbstractModel#unset",
+      "name": "unset",
+      "tags": "AbstractModel#unset unset",
+      "summary": "",
+      "description": "Remove an attribute from the model, firing &quot;change&quot;. unset is a noopif the attribute doesn't exist."
+    },
+    "AbstractModel.html#clear": {
+      "id": "AbstractModel.html#clear",
+      "kind": "function",
+      "title": "clear()",
+      "longname": "AbstractModel#clear",
+      "name": "clear",
+      "tags": "AbstractModel#clear clear",
+      "summary": "",
+      "description": "Clear all attributes on the model, firing &quot;change&quot;."
+    },
+    "AbstractModel.html#toJSON": {
+      "id": "AbstractModel.html#toJSON",
+      "kind": "function",
+      "title": "toJSON()",
+      "longname": "AbstractModel#toJSON",
+      "name": "toJSON",
+      "tags": "AbstractModel#toJSON toJSON",
+      "summary": "",
+      "description": "Transforms model to pure toJSON"
+    },
+    "AbstractModel.html#fetch": {
+      "id": "AbstractModel.html#fetch",
+      "kind": "function",
+      "title": "fetch()",
+      "longname": "AbstractModel#fetch",
+      "name": "fetch",
+      "tags": "AbstractModel#fetch fetch",
+      "summary": "",
+      "description": "fetch - Fetches the model as a 'get'"
+    },
+    "AbstractModel.html#save": {
+      "id": "AbstractModel.html#save",
+      "kind": "function",
+      "title": "save()",
+      "longname": "AbstractModel#save",
+      "name": "save",
+      "tags": "AbstractModel#save save",
+      "summary": "",
+      "description": "save - Saves the model as a 'create'"
+    },
+    "AbstractModel.html#destroy": {
+      "id": "AbstractModel.html#destroy",
+      "kind": "function",
+      "title": "destroy()",
+      "longname": "AbstractModel#destroy",
+      "name": "destroy",
+      "tags": "AbstractModel#destroy destroy",
+      "summary": "",
+      "description": "destroy - Deletes the model as a 'delete'"
+    },
+    "AbstractModel.html#url": {
+      "id": "AbstractModel.html#url",
+      "kind": "function",
+      "title": "url()",
+      "longname": "AbstractModel#url",
+      "name": "url",
+      "tags": "AbstractModel#url url",
+      "summary": "",
+      "description": "Default URL for the model's representation on the server -- if you'reusing restful methods, override this to change the endpointthat will be called."
+    },
+    "AbstractModel.html#parse": {
+      "id": "AbstractModel.html#parse",
+      "kind": "function",
+      "title": "parse()",
+      "longname": "AbstractModel#parse",
+      "name": "parse",
+      "tags": "AbstractModel#parse parse",
+      "summary": "",
+      "description": "*parse** converts a response into the hash of attributes to be set onthe model. The default implementation is just to pass the response along."
+    },
+    "AbstractModel.html#clone": {
+      "id": "AbstractModel.html#clone",
+      "kind": "function",
+      "title": "clone()",
+      "longname": "AbstractModel#clone",
+      "name": "clone",
+      "tags": "AbstractModel#clone clone",
+      "summary": "",
+      "description": "Create a new model with identical attributes to this one."
+    },
+    "AbstractModel.html#isNew": {
+      "id": "AbstractModel.html#isNew",
+      "kind": "function",
+      "title": "isNew()",
+      "longname": "AbstractModel#isNew",
+      "name": "isNew",
+      "tags": "AbstractModel#isNew isNew",
+      "summary": "",
+      "description": "A model is new if it has never been saved to the server, and lacks an id."
+    },
+    "AbstractModel.html#hasChanged": {
+      "id": "AbstractModel.html#hasChanged",
+      "kind": "function",
+      "title": "hasChanged()",
+      "longname": "AbstractModel#hasChanged",
+      "name": "hasChanged",
+      "tags": "AbstractModel#hasChanged hasChanged",
+      "summary": "",
+      "description": "Determine if the model has changed since the last &quot;change&quot; event.If you specify an attribute name, determine if that attribute has changed."
+    },
+    "AbstractModel.html#changedAttributes": {
+      "id": "AbstractModel.html#changedAttributes",
+      "kind": "function",
+      "title": "changedAttributes()",
+      "longname": "AbstractModel#changedAttributes",
+      "name": "changedAttributes",
+      "tags": "AbstractModel#changedAttributes changedAttributes",
+      "summary": "",
+      "description": "Return an object containing all the attributes that have changed, orfalse if there are no changed attributes. Useful for determining whatparts of a view need to be updated and/or what attributes need to bepersisted to the server. Unset attributes will be set to undefined.You can also pass an attributes object to diff against the model,determining if there would be a change."
+    },
+    "AbstractModel.html#previous": {
+      "id": "AbstractModel.html#previous",
+      "kind": "function",
+      "title": "previous()",
+      "longname": "AbstractModel#previous",
+      "name": "previous",
+      "tags": "AbstractModel#previous previous",
+      "summary": "",
+      "description": "Get the previous value of an attribute, recorded at the time the last&quot;change&quot; event was fired."
+    },
+    "AbstractModel.html#previousAttributes": {
+      "id": "AbstractModel.html#previousAttributes",
+      "kind": "function",
+      "title": "previousAttributes()",
+      "longname": "AbstractModel#previousAttributes",
+      "name": "previousAttributes",
+      "tags": "AbstractModel#previousAttributes previousAttributes",
+      "summary": "",
+      "description": "Get all of the attributes of the model at the time of the previous&quot;change&quot; event."
+    },
+    "AbstractModel.html#supportsValidation": {
+      "id": "AbstractModel.html#supportsValidation",
+      "kind": "function",
+      "title": "supportsValidation()",
+      "longname": "AbstractModel#supportsValidation",
+      "name": "supportsValidation",
+      "tags": "AbstractModel#supportsValidation supportsValidation",
+      "summary": "",
+      "description": "supportsValidation - Returns True if this model supports validation"
+    },
+    "AbstractModel.html#isValid": {
+      "id": "AbstractModel.html#isValid",
+      "kind": "function",
+      "title": "isValid()",
+      "longname": "AbstractModel#isValid",
+      "name": "isValid",
+      "tags": "AbstractModel#isValid isValid",
+      "summary": "",
+      "description": "isValid - Returns True if this model is validRuns two level validation, attribute-level then JSON Schema"
+    },
+    "AbstractModel.html#validate": {
+      "id": "AbstractModel.html#validate",
+      "kind": "function",
+      "title": "validate()",
+      "longname": "AbstractModel#validate",
+      "name": "validate",
+      "tags": "AbstractModel#validate validate",
+      "summary": "",
+      "description": "Validates the model"
+    },
+    "AbstractModel.html#getValidationMessages": {
+      "id": "AbstractModel.html#getValidationMessages",
+      "kind": "function",
+      "title": "getValidationMessages()",
+      "longname": "AbstractModel#getValidationMessages",
+      "name": "getValidationMessages",
+      "tags": "AbstractModel#getValidationMessages getValidationMessages",
+      "summary": "",
+      "description": "Gets the validation messages only in an array"
+    },
+    "AbstractModel.html#sync": {
+      "id": "AbstractModel.html#sync",
+      "kind": "function",
+      "title": "sync()",
+      "longname": "AbstractModel#sync",
+      "name": "sync",
+      "tags": "AbstractModel#sync sync",
+      "summary": "",
+      "description": "Sync model data to bound REST call"
+    },
+    "AbstractModel.html#reset": {
+      "id": "AbstractModel.html#reset",
+      "kind": "function",
+      "title": "reset( data )",
+      "longname": "AbstractModel#reset",
+      "name": "reset",
+      "tags": "AbstractModel#reset reset",
+      "summary": "",
+      "description": "reset - clear and rewrite the model with passed data"
+    },
+    "AbstractModel.html#isEmpty": {
+      "id": "AbstractModel.html#isEmpty",
+      "kind": "function",
+      "title": "isEmpty()",
+      "longname": "AbstractModel#isEmpty",
+      "name": "isEmpty",
+      "tags": "AbstractModel#isEmpty isEmpty",
+      "summary": "",
+      "description": "isEmpty - returns true is the model is empty"
+    },
+    "AbstractModel.html#toString": {
+      "id": "AbstractModel.html#toString",
+      "kind": "function",
+      "title": "toString()",
+      "longname": "AbstractModel#toString",
+      "name": "toString",
+      "tags": "AbstractModel#toString toString",
+      "summary": "",
+      "description": "toString - returns the model data as a string"
+    },
+    "AbstractModel.html#update": {
+      "id": "AbstractModel.html#update",
+      "kind": "function",
+      "title": "update()",
+      "longname": "AbstractModel#update",
+      "name": "update",
+      "tags": "AbstractModel#update update",
+      "summary": "",
+      "description": "update - Updates the model as a 'update'"
+    },
     "AbstractCollection.html": {
       "id": "AbstractCollection.html",
       "kind": "class",
@@ -8674,6 +8996,16 @@ window.lunrData = {
       "summary": "",
       "description": "Abstract Augmented Collection Supports: Validation and Schemas Security",
       "body": ""
+    },
+    "AbstractCollection.html#preinitialize": {
+      "id": "AbstractCollection.html#preinitialize",
+      "kind": "function",
+      "title": "preinitialize()",
+      "longname": "AbstractCollection#preinitialize",
+      "name": "preinitialize",
+      "tags": "AbstractCollection#preinitialize preinitialize",
+      "summary": "",
+      "description": "Validation Message property"
     },
     "AbstractCollection.html#toJSON": {
       "id": "AbstractCollection.html#toJSON",
@@ -9054,338 +9386,6 @@ window.lunrData = {
       "tags": "AbstractCollection#toString toString",
       "summary": "",
       "description": "toString - returns the collection data as a string"
-    },
-    "AbstractCollection.html#preinitialize": {
-      "id": "AbstractCollection.html#preinitialize",
-      "kind": "function",
-      "title": "preinitialize()",
-      "longname": "AbstractCollection#preinitialize",
-      "name": "preinitialize",
-      "tags": "AbstractCollection#preinitialize preinitialize",
-      "summary": "",
-      "description": "Validation Message property"
-    },
-    "CollectionIterator.html": {
-      "id": "CollectionIterator.html",
-      "kind": "class",
-      "title": "CollectionIterator",
-      "longname": "CollectionIterator",
-      "name": "CollectionIterator",
-      "tags": "CollectionIterator",
-      "summary": "",
-      "description": "A CollectionIterator implements JavaScript's Iterator protocol, allowing theuse of for of loops in modern browsers and interoperation betweenCollection and other JavaScript functions and third-party librarieswhich can operate on Iterables.",
-      "body": ""
-    },
-    "CollectionIterator.html#next": {
-      "id": "CollectionIterator.html#next",
-      "kind": "function",
-      "title": "next()",
-      "longname": "CollectionIterator#next",
-      "name": "next",
-      "tags": "CollectionIterator#next next",
-      "summary": "",
-      "description": "Next model in collectionOnce exhausted, remove the reference to the collection so futurecalls to the next method always return done."
-    },
-    "AbstractModel.html": {
-      "id": "AbstractModel.html",
-      "kind": "class",
-      "title": "AbstractModel",
-      "longname": "AbstractModel",
-      "name": "AbstractModel",
-      "tags": "AbstractModel",
-      "summary": "",
-      "description": "AbstractModel Supports: Validation and Schemas Security",
-      "body": ""
-    },
-    "AbstractModel.html#get": {
-      "id": "AbstractModel.html#get",
-      "kind": "function",
-      "title": "get()",
-      "longname": "AbstractModel#get",
-      "name": "get",
-      "tags": "AbstractModel#get get",
-      "summary": "",
-      "description": "Get the attribute form the Model"
-    },
-    "AbstractModel.html#set": {
-      "id": "AbstractModel.html#set",
-      "kind": "function",
-      "title": "set()",
-      "longname": "AbstractModel#set",
-      "name": "set",
-      "tags": "AbstractModel#set set",
-      "summary": "",
-      "description": "Set a hash of model attributes on the object, firing &quot;change&quot;. This isthe core primitive operation of a model, updating the data and notifyinganyone who needs to know about the change in state."
-    },
-    "AbstractModel.html#escape": {
-      "id": "AbstractModel.html#escape",
-      "kind": "function",
-      "title": "escape()",
-      "longname": "AbstractModel#escape",
-      "name": "escape",
-      "tags": "AbstractModel#escape escape",
-      "summary": "",
-      "description": "Escape the attribute data"
-    },
-    "AbstractModel.html#has": {
-      "id": "AbstractModel.html#has",
-      "kind": "function",
-      "title": "has()",
-      "longname": "AbstractModel#has",
-      "name": "has",
-      "tags": "AbstractModel#has has",
-      "summary": "",
-      "description": "Has an attribute in the Model"
-    },
-    "AbstractModel.html#matches": {
-      "id": "AbstractModel.html#matches",
-      "kind": "function",
-      "title": "matches()",
-      "longname": "AbstractModel#matches",
-      "name": "matches",
-      "tags": "AbstractModel#matches matches",
-      "summary": "",
-      "description": "Special-cased proxy to underscore's matches method."
-    },
-    "AbstractModel.html#unset": {
-      "id": "AbstractModel.html#unset",
-      "kind": "function",
-      "title": "unset()",
-      "longname": "AbstractModel#unset",
-      "name": "unset",
-      "tags": "AbstractModel#unset unset",
-      "summary": "",
-      "description": "Remove an attribute from the model, firing &quot;change&quot;. unset is a noopif the attribute doesn't exist."
-    },
-    "AbstractModel.html#clear": {
-      "id": "AbstractModel.html#clear",
-      "kind": "function",
-      "title": "clear()",
-      "longname": "AbstractModel#clear",
-      "name": "clear",
-      "tags": "AbstractModel#clear clear",
-      "summary": "",
-      "description": "Clear all attributes on the model, firing &quot;change&quot;."
-    },
-    "AbstractModel.html#toJSON": {
-      "id": "AbstractModel.html#toJSON",
-      "kind": "function",
-      "title": "toJSON()",
-      "longname": "AbstractModel#toJSON",
-      "name": "toJSON",
-      "tags": "AbstractModel#toJSON toJSON",
-      "summary": "",
-      "description": "Transforms model to pure toJSON"
-    },
-    "AbstractModel.html#fetch": {
-      "id": "AbstractModel.html#fetch",
-      "kind": "function",
-      "title": "fetch()",
-      "longname": "AbstractModel#fetch",
-      "name": "fetch",
-      "tags": "AbstractModel#fetch fetch",
-      "summary": "",
-      "description": "fetch - Fetches the model as a 'get'"
-    },
-    "AbstractModel.html#save": {
-      "id": "AbstractModel.html#save",
-      "kind": "function",
-      "title": "save()",
-      "longname": "AbstractModel#save",
-      "name": "save",
-      "tags": "AbstractModel#save save",
-      "summary": "",
-      "description": "save - Saves the model as a 'create'"
-    },
-    "AbstractModel.html#destroy": {
-      "id": "AbstractModel.html#destroy",
-      "kind": "function",
-      "title": "destroy()",
-      "longname": "AbstractModel#destroy",
-      "name": "destroy",
-      "tags": "AbstractModel#destroy destroy",
-      "summary": "",
-      "description": "destroy - Deletes the model as a 'delete'"
-    },
-    "AbstractModel.html#url": {
-      "id": "AbstractModel.html#url",
-      "kind": "function",
-      "title": "url()",
-      "longname": "AbstractModel#url",
-      "name": "url",
-      "tags": "AbstractModel#url url",
-      "summary": "",
-      "description": "Default URL for the model's representation on the server -- if you'reusing restful methods, override this to change the endpointthat will be called."
-    },
-    "AbstractModel.html#parse": {
-      "id": "AbstractModel.html#parse",
-      "kind": "function",
-      "title": "parse()",
-      "longname": "AbstractModel#parse",
-      "name": "parse",
-      "tags": "AbstractModel#parse parse",
-      "summary": "",
-      "description": "*parse** converts a response into the hash of attributes to be set onthe model. The default implementation is just to pass the response along."
-    },
-    "AbstractModel.html#clone": {
-      "id": "AbstractModel.html#clone",
-      "kind": "function",
-      "title": "clone()",
-      "longname": "AbstractModel#clone",
-      "name": "clone",
-      "tags": "AbstractModel#clone clone",
-      "summary": "",
-      "description": "Create a new model with identical attributes to this one."
-    },
-    "AbstractModel.html#isNew": {
-      "id": "AbstractModel.html#isNew",
-      "kind": "function",
-      "title": "isNew()",
-      "longname": "AbstractModel#isNew",
-      "name": "isNew",
-      "tags": "AbstractModel#isNew isNew",
-      "summary": "",
-      "description": "A model is new if it has never been saved to the server, and lacks an id."
-    },
-    "AbstractModel.html#hasChanged": {
-      "id": "AbstractModel.html#hasChanged",
-      "kind": "function",
-      "title": "hasChanged()",
-      "longname": "AbstractModel#hasChanged",
-      "name": "hasChanged",
-      "tags": "AbstractModel#hasChanged hasChanged",
-      "summary": "",
-      "description": "Determine if the model has changed since the last &quot;change&quot; event.If you specify an attribute name, determine if that attribute has changed."
-    },
-    "AbstractModel.html#changedAttributes": {
-      "id": "AbstractModel.html#changedAttributes",
-      "kind": "function",
-      "title": "changedAttributes()",
-      "longname": "AbstractModel#changedAttributes",
-      "name": "changedAttributes",
-      "tags": "AbstractModel#changedAttributes changedAttributes",
-      "summary": "",
-      "description": "Return an object containing all the attributes that have changed, orfalse if there are no changed attributes. Useful for determining whatparts of a view need to be updated and/or what attributes need to bepersisted to the server. Unset attributes will be set to undefined.You can also pass an attributes object to diff against the model,determining if there would be a change."
-    },
-    "AbstractModel.html#previous": {
-      "id": "AbstractModel.html#previous",
-      "kind": "function",
-      "title": "previous()",
-      "longname": "AbstractModel#previous",
-      "name": "previous",
-      "tags": "AbstractModel#previous previous",
-      "summary": "",
-      "description": "Get the previous value of an attribute, recorded at the time the last&quot;change&quot; event was fired."
-    },
-    "AbstractModel.html#previousAttributes": {
-      "id": "AbstractModel.html#previousAttributes",
-      "kind": "function",
-      "title": "previousAttributes()",
-      "longname": "AbstractModel#previousAttributes",
-      "name": "previousAttributes",
-      "tags": "AbstractModel#previousAttributes previousAttributes",
-      "summary": "",
-      "description": "Get all of the attributes of the model at the time of the previous&quot;change&quot; event."
-    },
-    "AbstractModel.html#supportsValidation": {
-      "id": "AbstractModel.html#supportsValidation",
-      "kind": "function",
-      "title": "supportsValidation()",
-      "longname": "AbstractModel#supportsValidation",
-      "name": "supportsValidation",
-      "tags": "AbstractModel#supportsValidation supportsValidation",
-      "summary": "",
-      "description": "supportsValidation - Returns True if this model supports validation"
-    },
-    "AbstractModel.html#isValid": {
-      "id": "AbstractModel.html#isValid",
-      "kind": "function",
-      "title": "isValid()",
-      "longname": "AbstractModel#isValid",
-      "name": "isValid",
-      "tags": "AbstractModel#isValid isValid",
-      "summary": "",
-      "description": "isValid - Returns True if this model is validRuns two level validation, attribute-level then JSON Schema"
-    },
-    "AbstractModel.html#validate": {
-      "id": "AbstractModel.html#validate",
-      "kind": "function",
-      "title": "validate()",
-      "longname": "AbstractModel#validate",
-      "name": "validate",
-      "tags": "AbstractModel#validate validate",
-      "summary": "",
-      "description": "Validates the model"
-    },
-    "AbstractModel.html#getValidationMessages": {
-      "id": "AbstractModel.html#getValidationMessages",
-      "kind": "function",
-      "title": "getValidationMessages()",
-      "longname": "AbstractModel#getValidationMessages",
-      "name": "getValidationMessages",
-      "tags": "AbstractModel#getValidationMessages getValidationMessages",
-      "summary": "",
-      "description": "Gets the validation messages only in an array"
-    },
-    "AbstractModel.html#sync": {
-      "id": "AbstractModel.html#sync",
-      "kind": "function",
-      "title": "sync()",
-      "longname": "AbstractModel#sync",
-      "name": "sync",
-      "tags": "AbstractModel#sync sync",
-      "summary": "",
-      "description": "Sync model data to bound REST call"
-    },
-    "AbstractModel.html#reset": {
-      "id": "AbstractModel.html#reset",
-      "kind": "function",
-      "title": "reset( data )",
-      "longname": "AbstractModel#reset",
-      "name": "reset",
-      "tags": "AbstractModel#reset reset",
-      "summary": "",
-      "description": "reset - clear and rewrite the model with passed data"
-    },
-    "AbstractModel.html#isEmpty": {
-      "id": "AbstractModel.html#isEmpty",
-      "kind": "function",
-      "title": "isEmpty()",
-      "longname": "AbstractModel#isEmpty",
-      "name": "isEmpty",
-      "tags": "AbstractModel#isEmpty isEmpty",
-      "summary": "",
-      "description": "isEmpty - returns true is the model is empty"
-    },
-    "AbstractModel.html#toString": {
-      "id": "AbstractModel.html#toString",
-      "kind": "function",
-      "title": "toString()",
-      "longname": "AbstractModel#toString",
-      "name": "toString",
-      "tags": "AbstractModel#toString toString",
-      "summary": "",
-      "description": "toString - returns the model data as a string"
-    },
-    "AbstractModel.html#update": {
-      "id": "AbstractModel.html#update",
-      "kind": "function",
-      "title": "update()",
-      "longname": "AbstractModel#update",
-      "name": "update",
-      "tags": "AbstractModel#update update",
-      "summary": "",
-      "description": "update - Updates the model as a 'update'"
-    },
-    "AbstractModel.html#preinitialize": {
-      "id": "AbstractModel.html#preinitialize",
-      "kind": "function",
-      "title": "preinitialize()",
-      "longname": "AbstractModel#preinitialize",
-      "name": "preinitialize",
-      "tags": "AbstractModel#preinitialize preinitialize",
-      "summary": "",
-      "description": "Validation Message property"
     }
   }
 };
