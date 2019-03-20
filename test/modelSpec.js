@@ -45,4 +45,20 @@ describe("Given an Abstract Model", () => {
 			expect(model.supportsValidation()).to.be.true;
 		});
 	});
+
+  describe("Given updated data", () => {
+    beforeEach(() => {
+	    model = new Model.AbstractModel();
+	  });
+	  afterEach(() => {
+	    model = null;
+	  });
+
+    it("can set with data and fires a change event", () => {
+      model.set({ "x": "x" });
+      console.log(model._events);
+      expect(model.get("x")).to.equal("x");
+    });
+
+  });
 });

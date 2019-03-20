@@ -47,6 +47,46 @@ describe("Given an Augmented Collection", () => {
   it("can populate data", () => {
     c.add(data);
     expect(c.size()).to.equal(5);
+    expect(c.at(2).get("ID")).to.equal(345);
+  });
+
+  it("can add data", () => {
+    const puppies = [
+      {
+        "X": "Poodle",
+        "Y": 50,
+        "style": "red"
+      },
+      {
+        "X": "Yorkie",
+        "Y": 15,
+        "style": "purple"
+      },
+      {
+        "X": "Dachshund",
+        "Y": 20,
+        "style": "blue"
+      },
+      {
+        "X": "Labrador",
+        "Y": 90,
+        "style": "green"
+      },
+      {
+        "X": "Chihuahua",
+        "Y": 12,
+        "style": "yellow"
+      },
+      {
+        "X": "Corgi",
+        "Y": 30,
+        "style": "orange"
+      }
+    ];
+
+    c.add(puppies);
+    expect(c.size()).to.equal(6);
+    expect(c.at(2).get("X")).to.equal("Dachshund");
   });
 
   xit("can add data on construction", () => {

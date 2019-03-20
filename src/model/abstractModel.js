@@ -129,6 +129,8 @@ class AbstractModel extends AugmentedObject {
       options = {};
     }
 
+    //console.debug("model change attrs", attrs);
+
     // Run validation.
     if (!this._validate(attrs, options)) {
       console.warn("Model did not validate");
@@ -157,17 +159,28 @@ class AbstractModel extends AugmentedObject {
       //console.debug("attr to set", attr);
       val = attrs[attr];
       //console.debug("attr value set", attrs[attr]);
-      if (!_isEqual(current[attr], val)) {
+      //console.debug("current[attr], val", current[attr], val);
+      if ( (typeof current[attr] === "string") && (typeof val === "string") && current[attr] !== val ) {
+        changes.push(attr);
+      } else if (!_isEqual(current[attr], val)) {
+        //console.debug("notequal current[attr], val", current[attr], val);
         changes.push(attr);
       }
-      if (!_isEqual(prev[attr], val)) {
+      //console.debug("prev[attr], val", prev[attr], val);
+      if ( (typeof prev[attr] === "string") && (typeof val === "string") && prev[attr] !== val ) {
+        changed[attr] = val;
+      } else if (!_isEqual(prev[attr], val)) {
+        //console.debug("assign changed[attr]", val);
         changed[attr] = val;
       } else {
+        //console.debug("deleted changed[attr]");
         delete changed[attr];
       }
       if (unset) {
+        //console.debug("unset deleted current[attr]");
         delete current[attr];
       } else{
+        //console.debug("assign current[attr]", val);
         current[attr] = val;
       }
     }
@@ -179,6 +192,8 @@ class AbstractModel extends AugmentedObject {
 
     // Trigger all relevant attribute changes.
     if (!silent) {
+      //console.debug("model set: not silent");
+      //console.debug("model changes to act on", changes);
       if (changes.length) {
         this._pending = options;
       }
