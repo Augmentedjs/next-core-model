@@ -405,38 +405,38 @@ class AbstractModel extends AugmentedObject {
     return base.replace(/[^\/]$/, "$&/") + encodeURIComponent(id);
   };
 
+  /**
+   * Keys of the attributes in this Model
+   */
   keys() {
     return Object.keys(this._attributes);
   };
 
+  /**
+   * Values of the attributes in this Model
+   */
   values() {
     return Object.values(this._attributes);
   };
 
-/* if needed these can be used from lodash or underscore against the model's attributes
-
+  /* if needed these can be used from lodash or underscore against the model's attributes
   pairs() { // ??
-
   };
 
   invert() { // ??
-
   };
 
   pick() { // ??
-
   };
 
   omit() { // ??
-
   };
 
   chain() { // ??
-
   };
-*/
+  */
 
-  /** **parse** converts a response into the hash of attributes to be `set` on
+  /** Converts a response into the hash of attributes to be `set` on
    * the model. The default implementation is just to pass the response along.
    */
   parse(resp, options) {

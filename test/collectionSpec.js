@@ -44,13 +44,13 @@ describe("Given an Augmented Collection", () => {
     expect(c.isEmpty()).to.be.true;
   });
 
-  it("can populate data", () => {
-    c.add(data);
-    expect(c.size()).to.equal(5);
-    expect(c.at(2).get("ID")).to.equal(345);
+  it("can populate data", async () => {
+    await c.add(data);
+    expect(await c.size()).to.equal(5);
+    expect(await c.at(2).get("ID")).to.equal(345);
   });
 
-  it("can add data", () => {
+  it("can add data", async () => {
     const puppies = [
       {
         "X": "Poodle",
@@ -84,48 +84,48 @@ describe("Given an Augmented Collection", () => {
       }
     ];
 
-    c.add(puppies);
-    expect(c.size()).to.equal(6);
-    expect(c.at(2).get("X")).to.equal("Dachshund");
+    await c.add(puppies);
+    expect(await c.size()).to.equal(6);
+    expect(await c.at(2).get("X")).to.equal("Dachshund");
   });
 
-  xit("can add data on construction", () => {
-    const arr = [ { "a": "x" }, { "a": "y" }, { "a": "z" }];
+  it("can add data on construction", async () => {
+    const arr = [ { "a": "x" }, { "a": "y" }, { "a": "z" } ];
     let i = 0;
-    const map = arr.map( (x) => {
+    const map = await arr.map( (x) => {
       x.id = i;
       i++;
       return x;
     });
 
-
     c = new Model.AbstractCollection(map);
     //c.add(arr);
-    console.log("size", c.length);
-    const first = c.at(1);
-    console.log(first);
-    expect(first.get("a")).to.equal("y");
+    //console.log("size", c.length);
+    const first = await c.at(0);
+    //console.log(first);
+    const data = await first.get("a");
+    expect(data).to.equal("x");
   });
 
-  it("can sort data by key", () => {
-    c.add(data);
-    c.sortByKey("Name");
-    let first = c.at(1);
-    expect(first.get("Name")).to.equal("Corey");
+  it("can sort data by key", async () => {
+    await c.add(data);
+    await c.sortByKey("Name");
+    const first = await c.at(1);
+    expect(await first.get("Name")).to.equal("Corey");
   });
-  it("can validate", () => {
+  it("can validate", async () => {
     c.schema = schema;
-    c.add(data);
-    c.validate();
+    await c.add(data);
+    await c.validate();
     //console.debug(c.validationMessages);
-    expect(c.isValid()).to.be.true;
+    expect(await c.isValid()).to.be.true;
   });
-  it("validation returns messages on invalid data", () => {
+  it("validation returns messages on invalid data", async () => {
     c.schema = schema;
-    c.add({bubba: "junk"});
-    c.validate();
-    console.debug(c.validationMessages);
-    expect(c.isValid()).to.be.false;
+    await c.add({ bubba: "junk" });
+    await c.validate();
+    //console.debug(c.validationMessages);
+    expect(await c.isValid()).to.be.false;
   });
 
   it("with no Schema does not support Validation", () => {
@@ -137,15 +137,15 @@ describe("Given an Augmented Collection", () => {
     expect(c.supportsValidation()).to.be.true;
   });
 
-  it("can find a model by matching properties", () => {
-    c.add(data);
-    const result = c.find({ "Name": "Karen" });
-    expect(result.get("Name")).to.equal("Karen");
+  it("can find a model by matching properties", async () => {
+    await c.add(data);
+    const result = await c.find({ "Name": "Karen" });
+    expect(await result.get("Name")).to.equal("Karen");
   });
 
-  it("can filter a model by matching properties", () => {
-    c.add(data);
-    const result = c.filter({ "ID": 123 });
-    expect(result[0].get("Name")).to.equal("Bob");
+  it("can filter a model by matching properties", async () => {
+    await c.add(data);
+    const result = await c.filter({ "ID": 123 });
+    expect(await result[0].get("Name")).to.equal("Bob");
   });
 });

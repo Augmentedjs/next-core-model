@@ -60,9 +60,10 @@
         ],
         "CollectionIterator.html": [
           "allow",
-          "betweencollect",
+          "between",
           "browser",
           "class",
+          "collect",
           "collectioniter",
           "function",
           "implement",
@@ -70,27 +71,28 @@
           "iter",
           "javascript",
           "javascript'",
-          "librarieswhich",
+          "librari",
           "loop",
           "modern",
           "oper",
           "parti",
           "protocol",
-          "theus",
-          "third"
+          "third",
+          "us"
         ],
         "CollectionIterator.html#next": [
           "alway",
+          "call",
           "collect",
           "collectioniterator#next",
-          "collectiononc",
           "done",
           "exhaust",
           "function",
-          "futurecal",
+          "futur",
           "method",
           "model",
           "next",
+          "onc",
           "refer",
           "remov",
           "return"
@@ -120,6 +122,7 @@
         ],
         "AbstractModel.html#set": [
           "abstractmodel#set",
+          "anyon",
           "attribut",
           "chang",
           "core",
@@ -127,11 +130,10 @@
           "fire",
           "function",
           "hash",
-          "isth",
           "know",
           "model",
           "need",
-          "notifyinganyon",
+          "notifi",
           "object",
           "oper",
           "primit",
@@ -171,7 +173,7 @@
           "fire",
           "function",
           "model",
-          "noopif",
+          "noop",
           "quot;change&quot",
           "remov",
           "unset"
@@ -218,7 +220,7 @@
           "call",
           "chang",
           "default",
-          "endpointthat",
+          "endpoint",
           "function",
           "method",
           "model'",
@@ -227,7 +229,22 @@
           "rest",
           "server",
           "url",
-          "you'reus"
+          "us",
+          "you'r"
+        ],
+        "AbstractModel.html#keys": [
+          "abstractmodel#key",
+          "attribut",
+          "function",
+          "key",
+          "model"
+        ],
+        "AbstractModel.html#values": [
+          "abstractmodel#valu",
+          "attribut",
+          "function",
+          "model",
+          "valu"
         ],
         "AbstractModel.html#parse": [
           "abstractmodel#pars",
@@ -239,7 +256,6 @@
           "hash",
           "implement",
           "model",
-          "onth",
           "pars",
           "pass",
           "respons",
@@ -273,7 +289,7 @@
           "attribut",
           "chang",
           "determin",
-          "event.if",
+          "event",
           "function",
           "haschang",
           "last",
@@ -287,27 +303,27 @@
           "against",
           "and/or",
           "attribut",
-          "bepersist",
           "chang",
           "changedattribut",
           "contain",
           "determin",
           "diff",
+          "fals",
           "function",
-          "model,determin",
+          "model",
           "need",
           "object",
-          "orfals",
+          "part",
           "pass",
+          "persist",
           "return",
           "server",
           "set",
-          "undefined.y",
+          "undefin",
           "unset",
           "updat",
           "us",
-          "view",
-          "whatpart"
+          "view"
         ],
         "AbstractModel.html#previous": [
           "abstractmodel#previ",
@@ -315,8 +331,9 @@
           "event",
           "fire",
           "function",
-          "last&quot;change&quot",
+          "last",
           "previou",
+          "quot;change&quot",
           "record",
           "time",
           "valu"
@@ -327,8 +344,9 @@
           "event",
           "function",
           "model",
-          "previous&quot;change&quot",
+          "previou",
           "previousattribut",
+          "quot;change&quot",
           "time"
         ],
         "AbstractModel.html#supportsValidation": [
@@ -350,11 +368,11 @@
           "level",
           "model",
           "return",
+          "run",
           "schema",
           "true",
           "two",
-          "valid",
-          "validrun"
+          "valid"
         ],
         "AbstractModel.html#validate": [
           "abstractmodel#valid",
@@ -441,15 +459,14 @@
           "collect",
           "function",
           "json",
+          "models&quot",
           "represent",
-          "themodels&quot",
           "tojson"
         ],
         "AbstractCollection.html#add": [
           "abstractcollection#add",
           "add",
-          "anycombin",
-          "bemodel",
+          "combin",
           "convert",
           "function",
           "javascript",
@@ -471,6 +488,7 @@
         "AbstractCollection.html#set": [
           "abstractcollection#set",
           "ad",
+          "alreadi",
           "collect",
           "contain",
           "core",
@@ -482,15 +500,15 @@
           "longer",
           "merg",
           "model",
-          "model#set,th",
+          "model#set",
           "necessari",
           "new",
-          "ones,remov",
+          "on",
           "oper",
           "present",
+          "remov",
           "set",
           "similar",
-          "thatalreadi",
           "updat"
         ],
         "AbstractCollection.html#reset": [
@@ -499,12 +517,11 @@
           "bulk",
           "entir",
           "event",
-          "finished.us",
+          "finish",
           "fire",
-          "firingani",
           "function",
           "granular",
-          "individually,y",
+          "individu",
           "item",
           "list",
           "model",
@@ -515,6 +532,7 @@
           "remov",
           "reset",
           "set",
+          "us",
           "want",
           "without"
         ],
@@ -568,12 +586,12 @@
           "abstractcollection#get",
           "attribut",
           "cid",
-          "cidproperti",
           "function",
           "id",
           "model",
           "modelid",
           "object",
+          "properti",
           "set",
           "through",
           "transform"
@@ -627,7 +645,7 @@
         "AbstractCollection.html#findWhere": [
           "abstractcollection#findwher",
           "attribut",
-          "casesof",
+          "case",
           "find",
           "findwher",
           "first",
@@ -648,15 +666,16 @@
           "each",
           "forc",
           "function",
-          "itemi",
+          "item",
           "itself",
           "maintain",
           "need",
+          "normal",
           "order",
           "re",
           "set",
           "sort",
-          "undernorm"
+          "under"
         ],
         "AbstractCollection.html#pluck": [
           "abstractcollection#pluck",
@@ -687,15 +706,14 @@
           "new",
           "pass",
           "server",
-          "thecollect",
           "true",
           "unless",
-          "wait",
-          "wewait"
+          "wait"
         ],
         "AbstractCollection.html#parse": [
           "abstractcollection#pars",
           "ad",
+          "collect",
           "convert",
           "default",
           "function",
@@ -705,7 +723,6 @@
           "pars",
           "pass",
           "respons",
-          "thecollect",
           "through"
         ],
         "AbstractCollection.html#clone": [
@@ -848,7 +865,7 @@
           "tostr"
         ]
       },
-      "length": 75
+      "length": 77
     },
     "tokenStore": {
       "root": {
@@ -905,7 +922,7 @@
                   "docs": {
                     "CollectionIterator.html": {
                       "ref": "CollectionIterator.html",
-                      "tf": 2.631578947368421
+                      "tf": 2.5
                     }
                   }
                 }
@@ -919,7 +936,7 @@
                   "docs": {
                     "CollectionIterator.html#next": {
                       "ref": "CollectionIterator.html#next",
-                      "tf": 3.8461538461538463
+                      "tf": 3.3333333333333335
                     }
                   }
                 }
@@ -937,7 +954,11 @@
                       "docs": {
                         "AbstractModel.html#destroy": {
                           "ref": "AbstractModel.html#destroy",
-                          "tf": 2.941176470588235
+                          "tf": 2.7777777777777777
+                        },
+                        "AbstractCollection.html#set": {
+                          "ref": "AbstractCollection.html#set",
+                          "tf": 1.7857142857142856
                         }
                       }
                     }
@@ -953,7 +974,7 @@
                   "docs": {
                     "AbstractModel.html#parse": {
                       "ref": "AbstractModel.html#parse",
-                      "tf": 3.8461538461538463
+                      "tf": 4.545454545454546
                     }
                   }
                 }
@@ -1512,6 +1533,48 @@
                                         }
                                       }
                                     },
+                                    "k": {
+                                      "docs": {},
+                                      "e": {
+                                        "docs": {},
+                                        "y": {
+                                          "docs": {
+                                            "AbstractModel.html#keys": {
+                                              "ref": "AbstractModel.html#keys",
+                                              "tf": 1150
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "v": {
+                                      "docs": {},
+                                      "a": {
+                                        "docs": {},
+                                        "l": {
+                                          "docs": {},
+                                          "u": {
+                                            "docs": {
+                                              "AbstractModel.html#values": {
+                                                "ref": "AbstractModel.html#values",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          },
+                                          "i": {
+                                            "docs": {},
+                                            "d": {
+                                              "docs": {
+                                                "AbstractModel.html#validate": {
+                                                  "ref": "AbstractModel.html#validate",
+                                                  "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
                                     "i": {
                                       "docs": {},
                                       "s": {
@@ -1565,26 +1628,6 @@
                                                       "tf": 1150
                                                     }
                                                   }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "v": {
-                                      "docs": {},
-                                      "a": {
-                                        "docs": {},
-                                        "l": {
-                                          "docs": {},
-                                          "i": {
-                                            "docs": {},
-                                            "d": {
-                                              "docs": {
-                                                "AbstractModel.html#validate": {
-                                                  "ref": "AbstractModel.html#validate",
-                                                  "tf": 1150
                                                 }
                                               }
                                             }
@@ -2397,15 +2440,23 @@
                           },
                           "AbstractModel.html#fetch": {
                             "ref": "AbstractModel.html#fetch",
-                            "tf": 8.333333333333332
+                            "tf": 7.6923076923076925
                           },
                           "AbstractModel.html#save": {
                             "ref": "AbstractModel.html#save",
-                            "tf": 6.666666666666667
+                            "tf": 6.25
+                          },
+                          "AbstractModel.html#keys": {
+                            "ref": "AbstractModel.html#keys",
+                            "tf": 16.666666666666664
+                          },
+                          "AbstractModel.html#values": {
+                            "ref": "AbstractModel.html#values",
+                            "tf": 16.666666666666664
                           },
                           "AbstractModel.html#parse": {
                             "ref": "AbstractModel.html#parse",
-                            "tf": 3.8461538461538463
+                            "tf": 4.545454545454546
                           },
                           "AbstractModel.html#clone": {
                             "ref": "AbstractModel.html#clone",
@@ -2417,19 +2468,19 @@
                           },
                           "AbstractModel.html#changedAttributes": {
                             "ref": "AbstractModel.html#changedAttributes",
-                            "tf": 8.333333333333332
+                            "tf": 8.064516129032258
                           },
                           "AbstractModel.html#previous": {
                             "ref": "AbstractModel.html#previous",
-                            "tf": 6.25
+                            "tf": 5.555555555555555
                           },
                           "AbstractModel.html#previousAttributes": {
                             "ref": "AbstractModel.html#previousAttributes",
-                            "tf": 10
+                            "tf": 8.333333333333332
                           },
                           "AbstractModel.html#isValid": {
                             "ref": "AbstractModel.html#isValid",
-                            "tf": 4.166666666666666
+                            "tf": 3.8461538461538463
                           },
                           "AbstractCollection.html#toJSON": {
                             "ref": "AbstractCollection.html#toJSON",
@@ -2437,7 +2488,7 @@
                           },
                           "AbstractCollection.html#get": {
                             "ref": "AbstractCollection.html#get",
-                            "tf": 3.8461538461538463
+                            "tf": 3.571428571428571
                           },
                           "AbstractCollection.html#where": {
                             "ref": "AbstractCollection.html#where",
@@ -2459,6 +2510,40 @@
               }
             }
           },
+          "n": {
+            "docs": {},
+            "y": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "n": {
+                  "docs": {
+                    "AbstractModel.html#set": {
+                      "ref": "AbstractModel.html#set",
+                      "tf": 2.631578947368421
+                    }
+                  }
+                }
+              }
+            },
+            "d": {
+              "docs": {},
+              "/": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "AbstractModel.html#changedAttributes": {
+                        "ref": "AbstractModel.html#changedAttributes",
+                        "tf": 1.6129032258064515
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "g": {
             "docs": {},
             "a": {
@@ -2469,7 +2554,7 @@
                   "docs": {
                     "AbstractModel.html#save": {
                       "ref": "AbstractModel.html#save",
-                      "tf": 3.3333333333333335
+                      "tf": 3.125
                     }
                   },
                   "s": {
@@ -2478,7 +2563,7 @@
                       "docs": {
                         "AbstractModel.html#changedAttributes": {
                           "ref": "AbstractModel.html#changedAttributes",
-                          "tf": 1.6666666666666667
+                          "tf": 1.6129032258064515
                         }
                       }
                     }
@@ -2493,52 +2578,6 @@
                   "AbstractCollection.html#create": {
                     "ref": "AbstractCollection.html#create",
                     "tf": 2.941176470588235
-                  }
-                }
-              }
-            }
-          },
-          "n": {
-            "docs": {},
-            "d": {
-              "docs": {},
-              "/": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "AbstractModel.html#changedAttributes": {
-                        "ref": "AbstractModel.html#changedAttributes",
-                        "tf": 1.6666666666666667
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "y": {
-              "docs": {},
-              "c": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "m": {
-                    "docs": {},
-                    "b": {
-                      "docs": {},
-                      "i": {
-                        "docs": {},
-                        "n": {
-                          "docs": {
-                            "AbstractCollection.html#add": {
-                              "ref": "AbstractCollection.html#add",
-                              "tf": 3.571428571428571
-                            }
-                          }
-                        }
-                      }
-                    }
                   }
                 }
               }
@@ -2573,11 +2612,11 @@
             "docs": {
               "AbstractCollection.html#set": {
                 "ref": "AbstractCollection.html#set",
-                "tf": 1.8518518518518516
+                "tf": 1.7857142857142856
               },
               "AbstractCollection.html#sort": {
                 "ref": "AbstractCollection.html#sort",
-                "tf": 2.941176470588235
+                "tf": 2.7777777777777777
               },
               "AbstractCollection.html#parse": {
                 "ref": "AbstractCollection.html#parse",
@@ -2592,7 +2631,7 @@
                 },
                 "AbstractCollection.html#reset": {
                   "ref": "AbstractCollection.html#reset",
-                  "tf": 4.166666666666666
+                  "tf": 4
                 },
                 "AbstractCollection.html#push": {
                   "ref": "AbstractCollection.html#push",
@@ -2628,7 +2667,7 @@
                   },
                   "AbstractCollection.html#set": {
                     "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
+                    "tf": 1.7857142857142856
                   }
                 }
               }
@@ -2643,13 +2682,17 @@
                     "docs": {},
                     "t": {
                       "docs": {
+                        "CollectionIterator.html": {
+                          "ref": "CollectionIterator.html",
+                          "tf": 2.5
+                        },
                         "CollectionIterator.html#next": {
                           "ref": "CollectionIterator.html#next",
-                          "tf": 3.8461538461538463
+                          "tf": 6.666666666666667
                         },
                         "AbstractModel.html#destroy": {
                           "ref": "AbstractModel.html#destroy",
-                          "tf": 2.941176470588235
+                          "tf": 2.7777777777777777
                         },
                         "AbstractCollection.html": {
                           "ref": "AbstractCollection.html",
@@ -2661,7 +2704,7 @@
                         },
                         "AbstractCollection.html#set": {
                           "ref": "AbstractCollection.html#set",
-                          "tf": 5.555555555555555
+                          "tf": 5.357142857142857
                         },
                         "AbstractCollection.html#push": {
                           "ref": "AbstractCollection.html#push",
@@ -2689,7 +2732,7 @@
                         },
                         "AbstractCollection.html#sort": {
                           "ref": "AbstractCollection.html#sort",
-                          "tf": 2.941176470588235
+                          "tf": 2.7777777777777777
                         },
                         "AbstractCollection.html#pluck": {
                           "ref": "AbstractCollection.html#pluck",
@@ -2701,7 +2744,11 @@
                         },
                         "AbstractCollection.html#create": {
                           "ref": "AbstractCollection.html#create",
-                          "tf": 2.941176470588235
+                          "tf": 5.88235294117647
+                        },
+                        "AbstractCollection.html#parse": {
+                          "ref": "AbstractCollection.html#parse",
+                          "tf": 4.545454545454546
                         },
                         "AbstractCollection.html#clone": {
                           "ref": "AbstractCollection.html#clone",
@@ -2780,7 +2827,7 @@
                                     "docs": {
                                       "CollectionIterator.html": {
                                         "ref": "CollectionIterator.html",
-                                        "tf": 1902.6315789473683
+                                        "tf": 1902.5
                                       }
                                     },
                                     "a": {
@@ -2814,20 +2861,6 @@
                                           }
                                         }
                                       }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "o": {
-                              "docs": {},
-                              "n": {
-                                "docs": {},
-                                "c": {
-                                  "docs": {
-                                    "CollectionIterator.html#next": {
-                                      "ref": "CollectionIterator.html#next",
-                                      "tf": 3.8461538461538463
                                     }
                                   }
                                 }
@@ -2938,7 +2971,7 @@
                       "docs": {
                         "AbstractModel.html#parse": {
                           "ref": "AbstractModel.html#parse",
-                          "tf": 3.8461538461538463
+                          "tf": 4.545454545454546
                         },
                         "AbstractCollection.html#add": {
                           "ref": "AbstractCollection.html#add",
@@ -2963,12 +2996,29 @@
                       "docs": {
                         "AbstractModel.html#changedAttributes": {
                           "ref": "AbstractModel.html#changedAttributes",
-                          "tf": 1.6666666666666667
+                          "tf": 1.6129032258064515
                         },
                         "AbstractCollection.html#set": {
                           "ref": "AbstractCollection.html#set",
-                          "tf": 1.8518518518518516
+                          "tf": 1.7857142857142856
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "b": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "AbstractCollection.html#add": {
+                        "ref": "AbstractCollection.html#add",
+                        "tf": 3.571428571428571
                       }
                     }
                   }
@@ -3041,6 +3091,55 @@
               }
             }
           },
+          "a": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "l": {
+                "docs": {
+                  "CollectionIterator.html#next": {
+                    "ref": "CollectionIterator.html#next",
+                    "tf": 3.3333333333333335
+                  },
+                  "AbstractModel.html#url": {
+                    "ref": "AbstractModel.html#url",
+                    "tf": 3.8461538461538463
+                  },
+                  "AbstractModel.html#sync": {
+                    "ref": "AbstractModel.html#sync",
+                    "tf": 8.333333333333332
+                  },
+                  "AbstractCollection.html#sort": {
+                    "ref": "AbstractCollection.html#sort",
+                    "tf": 2.7777777777777777
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "AbstractModel.html#matches": {
+                    "ref": "AbstractModel.html#matches",
+                    "tf": 8.333333333333332
+                  },
+                  "AbstractCollection.html#where": {
+                    "ref": "AbstractCollection.html#where",
+                    "tf": 6.25
+                  },
+                  "AbstractCollection.html#findWhere": {
+                    "ref": "AbstractCollection.html#findWhere",
+                    "tf": 5.555555555555555
+                  },
+                  "AbstractCollection.html#create": {
+                    "ref": "AbstractCollection.html#create",
+                    "tf": 2.941176470588235
+                  }
+                }
+              }
+            }
+          },
           "h": {
             "docs": {},
             "a": {
@@ -3055,11 +3154,11 @@
                     },
                     "AbstractModel.html#fetch": {
                       "ref": "AbstractModel.html#fetch",
-                      "tf": 4.166666666666666
+                      "tf": 3.8461538461538463
                     },
                     "AbstractModel.html#url": {
                       "ref": "AbstractModel.html#url",
-                      "tf": 4.166666666666666
+                      "tf": 3.8461538461538463
                     },
                     "AbstractModel.html#hasChanged": {
                       "ref": "AbstractModel.html#hasChanged",
@@ -3067,7 +3166,7 @@
                     },
                     "AbstractModel.html#changedAttributes": {
                       "ref": "AbstractModel.html#changedAttributes",
-                      "tf": 5
+                      "tf": 4.838709677419355
                     }
                   },
                   "e": {
@@ -3109,61 +3208,6 @@
               }
             }
           },
-          "a": {
-            "docs": {},
-            "s": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractModel.html#matches": {
-                    "ref": "AbstractModel.html#matches",
-                    "tf": 8.333333333333332
-                  },
-                  "AbstractCollection.html#where": {
-                    "ref": "AbstractCollection.html#where",
-                    "tf": 6.25
-                  },
-                  "AbstractCollection.html#create": {
-                    "ref": "AbstractCollection.html#create",
-                    "tf": 2.941176470588235
-                  }
-                },
-                "s": {
-                  "docs": {},
-                  "o": {
-                    "docs": {},
-                    "f": {
-                      "docs": {
-                        "AbstractCollection.html#findWhere": {
-                          "ref": "AbstractCollection.html#findWhere",
-                          "tf": 5.555555555555555
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "l": {
-              "docs": {},
-              "l": {
-                "docs": {
-                  "AbstractModel.html#url": {
-                    "ref": "AbstractModel.html#url",
-                    "tf": 4.166666666666666
-                  },
-                  "AbstractModel.html#sync": {
-                    "ref": "AbstractModel.html#sync",
-                    "tf": 8.333333333333332
-                  },
-                  "AbstractCollection.html#sort": {
-                    "ref": "AbstractCollection.html#sort",
-                    "tf": 2.941176470588235
-                  }
-                }
-              }
-            }
-          },
           "r": {
             "docs": {},
             "e": {
@@ -3199,36 +3243,7 @@
               "docs": {
                 "AbstractCollection.html#get": {
                   "ref": "AbstractCollection.html#get",
-                  "tf": 3.8461538461538463
-                }
-              },
-              "p": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "o": {
-                    "docs": {},
-                    "p": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "r": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "i": {
-                              "docs": {
-                                "AbstractCollection.html#get": {
-                                  "ref": "AbstractCollection.html#get",
-                                  "tf": 3.8461538461538463
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
+                  "tf": 7.142857142857142
                 }
               }
             },
@@ -3246,7 +3261,7 @@
                         "docs": {
                           "AbstractCollection.html#sort": {
                             "ref": "AbstractCollection.html#sort",
-                            "tf": 2.941176470588235
+                            "tf": 2.7777777777777777
                           }
                         }
                       }
@@ -3313,11 +3328,11 @@
                       "docs": {
                         "AbstractModel.html#url": {
                           "ref": "AbstractModel.html#url",
-                          "tf": 4.166666666666666
+                          "tf": 3.8461538461538463
                         },
                         "AbstractModel.html#parse": {
                           "ref": "AbstractModel.html#parse",
-                          "tf": 3.8461538461538463
+                          "tf": 4.545454545454546
                         },
                         "AbstractCollection.html#parse": {
                           "ref": "AbstractCollection.html#parse",
@@ -3358,7 +3373,7 @@
                           },
                           "AbstractModel.html#changedAttributes": {
                             "ref": "AbstractModel.html#changedAttributes",
-                            "tf": 1.6666666666666667
+                            "tf": 3.225806451612903
                           }
                         }
                       }
@@ -3417,7 +3432,7 @@
                 "docs": {
                   "CollectionIterator.html#next": {
                     "ref": "CollectionIterator.html#next",
-                    "tf": 3.8461538461538463
+                    "tf": 3.3333333333333335
                   }
                 }
               },
@@ -3437,7 +3452,7 @@
                             "docs": {
                               "AbstractCollection.html#sort": {
                                 "ref": "AbstractCollection.html#sort",
-                                "tf": 2.941176470588235
+                                "tf": 2.7777777777777777
                               }
                             }
                           }
@@ -3497,7 +3512,7 @@
                   },
                   "AbstractCollection.html#set": {
                     "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
+                    "tf": 1.7857142857142856
                   },
                   "AbstractCollection.html#toString": {
                     "ref": "AbstractCollection.html#toString",
@@ -3515,7 +3530,7 @@
                 "docs": {
                   "AbstractModel.html#changedAttributes": {
                     "ref": "AbstractModel.html#changedAttributes",
-                    "tf": 1.6666666666666667
+                    "tf": 1.6129032258064515
                   }
                 },
                 "e": {
@@ -3524,7 +3539,7 @@
                     "docs": {
                       "AbstractModel.html#save": {
                         "ref": "AbstractModel.html#save",
-                        "tf": 3.3333333333333335
+                        "tf": 3.125
                       }
                     }
                   }
@@ -3563,28 +3578,10 @@
                     "d": {
                       "docs": {},
                       "u": {
-                        "docs": {},
-                        "a": {
-                          "docs": {},
-                          "l": {
-                            "docs": {},
-                            "l": {
-                              "docs": {},
-                              "y": {
-                                "docs": {},
-                                ",": {
-                                  "docs": {},
-                                  "y": {
-                                    "docs": {
-                                      "AbstractCollection.html#reset": {
-                                        "ref": "AbstractCollection.html#reset",
-                                        "tf": 2.083333333333333
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
+                        "docs": {
+                          "AbstractCollection.html#reset": {
+                            "ref": "AbstractCollection.html#reset",
+                            "tf": 2
                           }
                         }
                       }
@@ -3609,7 +3606,7 @@
                           "docs": {
                             "CollectionIterator.html": {
                               "ref": "CollectionIterator.html",
-                              "tf": 2.631578947368421
+                              "tf": 2.5
                             }
                           }
                         }
@@ -3623,7 +3620,7 @@
               "docs": {
                 "AbstractCollection.html#set": {
                   "ref": "AbstractCollection.html#set",
-                  "tf": 1.8518518518518516
+                  "tf": 1.7857142857142856
                 }
               }
             },
@@ -3666,11 +3663,11 @@
                           "docs": {
                             "CollectionIterator.html": {
                               "ref": "CollectionIterator.html",
-                              "tf": 2.631578947368421
+                              "tf": 2.5
                             },
                             "AbstractModel.html#parse": {
                               "ref": "AbstractModel.html#parse",
-                              "tf": 3.8461538461538463
+                              "tf": 4.545454545454546
                             },
                             "AbstractCollection.html#parse": {
                               "ref": "AbstractCollection.html#parse",
@@ -3710,7 +3707,7 @@
                 "docs": {
                   "CollectionIterator.html": {
                     "ref": "CollectionIterator.html",
-                    "tf": 5.263157894736842
+                    "tf": 5
                   },
                   "AbstractCollection.html#values": {
                     "ref": "AbstractCollection.html#values",
@@ -3730,15 +3727,11 @@
                 "docs": {
                   "AbstractCollection.html#reset": {
                     "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
-                  }
-                },
-                "i": {
-                  "docs": {
-                    "AbstractCollection.html#sort": {
-                      "ref": "AbstractCollection.html#sort",
-                      "tf": 2.941176470588235
-                    }
+                    "tf": 2
+                  },
+                  "AbstractCollection.html#sort": {
+                    "ref": "AbstractCollection.html#sort",
+                    "tf": 2.7777777777777777
                   }
                 }
               }
@@ -3753,83 +3746,7 @@
                     "docs": {
                       "AbstractCollection.html#sort": {
                         "ref": "AbstractCollection.html#sort",
-                        "tf": 2.941176470588235
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "s": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "h": {
-                "docs": {
-                  "AbstractModel.html#set": {
-                    "ref": "AbstractModel.html#set",
-                    "tf": 2.631578947368421
-                  }
-                }
-              }
-            },
-            "n": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "w": {
-                  "docs": {
-                    "AbstractModel.html#isNew": {
-                      "ref": "AbstractModel.html#isNew",
-                      "tf": 750
-                    }
-                  }
-                }
-              }
-            },
-            "v": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "l": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "d": {
-                      "docs": {
-                        "AbstractModel.html#isValid": {
-                          "ref": "AbstractModel.html#isValid",
-                          "tf": 754.1666666666666
-                        },
-                        "AbstractCollection.html#isValid": {
-                          "ref": "AbstractCollection.html#isValid",
-                          "tf": 760
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "e": {
-              "docs": {},
-              "m": {
-                "docs": {},
-                "p": {
-                  "docs": {},
-                  "t": {
-                    "docs": {},
-                    "i": {
-                      "docs": {
-                        "AbstractModel.html#isEmpty": {
-                          "ref": "AbstractModel.html#isEmpty",
-                          "tf": 760
-                        },
-                        "AbstractCollection.html#isEmpty": {
-                          "ref": "AbstractCollection.html#isEmpty",
-                          "tf": 760
-                        }
+                        "tf": 2.7777777777777777
                       }
                     }
                   }
@@ -3845,7 +3762,7 @@
               },
               "AbstractCollection.html#get": {
                 "ref": "AbstractCollection.html#get",
-                "tf": 7.6923076923076925
+                "tf": 7.142857142857142
               },
               "AbstractCollection.html#keys": {
                 "ref": "AbstractCollection.html#keys",
@@ -3888,6 +3805,71 @@
                 }
               }
             }
+          },
+          "s": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "w": {
+                  "docs": {
+                    "AbstractModel.html#isNew": {
+                      "ref": "AbstractModel.html#isNew",
+                      "tf": 750
+                    }
+                  }
+                }
+              }
+            },
+            "v": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "d": {
+                      "docs": {
+                        "AbstractModel.html#isValid": {
+                          "ref": "AbstractModel.html#isValid",
+                          "tf": 753.8461538461538
+                        },
+                        "AbstractCollection.html#isValid": {
+                          "ref": "AbstractCollection.html#isValid",
+                          "tf": 760
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "e": {
+              "docs": {},
+              "m": {
+                "docs": {},
+                "p": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "i": {
+                      "docs": {
+                        "AbstractModel.html#isEmpty": {
+                          "ref": "AbstractModel.html#isEmpty",
+                          "tf": 760
+                        },
+                        "AbstractCollection.html#isEmpty": {
+                          "ref": "AbstractCollection.html#isEmpty",
+                          "tf": 760
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "n": {
@@ -3904,7 +3886,7 @@
                   },
                   "CollectionIterator.html#next": {
                     "ref": "CollectionIterator.html#next",
-                    "tf": 757.6923076923077
+                    "tf": 756.6666666666666
                   }
                 }
               }
@@ -3919,11 +3901,11 @@
                   },
                   "AbstractModel.html#changedAttributes": {
                     "ref": "AbstractModel.html#changedAttributes",
-                    "tf": 3.3333333333333335
+                    "tf": 3.225806451612903
                   },
                   "AbstractCollection.html#sort": {
                     "ref": "AbstractCollection.html#sort",
-                    "tf": 2.941176470588235
+                    "tf": 2.7777777777777777
                   }
                 }
               }
@@ -3940,11 +3922,11 @@
                 },
                 "AbstractCollection.html#set": {
                   "ref": "AbstractCollection.html#set",
-                  "tf": 3.7037037037037033
+                  "tf": 3.571428571428571
                 },
                 "AbstractCollection.html#reset": {
                   "ref": "AbstractCollection.html#reset",
-                  "tf": 2.083333333333333
+                  "tf": 2
                 },
                 "AbstractCollection.html#create": {
                   "ref": "AbstractCollection.html#create",
@@ -3986,7 +3968,7 @@
                           "docs": {
                             "AbstractCollection.html#set": {
                               "ref": "AbstractCollection.html#set",
-                              "tf": 1.8518518518518516
+                              "tf": 1.7857142857142856
                             }
                           }
                         }
@@ -4005,35 +3987,11 @@
                 "docs": {},
                 "f": {
                   "docs": {},
-                  "y": {
-                    "docs": {},
-                    "i": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "g": {
-                          "docs": {},
-                          "a": {
-                            "docs": {},
-                            "n": {
-                              "docs": {},
-                              "y": {
-                                "docs": {},
-                                "o": {
-                                  "docs": {},
-                                  "n": {
-                                    "docs": {
-                                      "AbstractModel.html#set": {
-                                        "ref": "AbstractModel.html#set",
-                                        "tf": 2.631578947368421
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
+                  "i": {
+                    "docs": {
+                      "AbstractModel.html#set": {
+                        "ref": "AbstractModel.html#set",
+                        "tf": 2.631578947368421
                       }
                     }
                   }
@@ -4043,14 +4001,25 @@
             "o": {
               "docs": {},
               "p": {
+                "docs": {
+                  "AbstractModel.html#unset": {
+                    "ref": "AbstractModel.html#unset",
+                    "tf": 5
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "m": {
                 "docs": {},
-                "i": {
+                "a": {
                   "docs": {},
-                  "f": {
+                  "l": {
                     "docs": {
-                      "AbstractModel.html#unset": {
-                        "ref": "AbstractModel.html#unset",
-                        "tf": 5
+                      "AbstractCollection.html#sort": {
+                        "ref": "AbstractCollection.html#sort",
+                        "tf": 2.7777777777777777
                       }
                     }
                   }
@@ -4079,7 +4048,7 @@
             "docs": {
               "AbstractCollection.html#sort": {
                 "ref": "AbstractCollection.html#sort",
-                "tf": 2.941176470588235
+                "tf": 2.7777777777777777
               }
             },
             "a": {
@@ -4104,7 +4073,7 @@
                   "docs": {
                     "CollectionIterator.html#next": {
                       "ref": "CollectionIterator.html#next",
-                      "tf": 3.8461538461538463
+                      "tf": 3.3333333333333335
                     }
                   }
                 }
@@ -4118,7 +4087,7 @@
                   "docs": {
                     "CollectionIterator.html#next": {
                       "ref": "CollectionIterator.html#next",
-                      "tf": 3.8461538461538463
+                      "tf": 3.3333333333333335
                     },
                     "AbstractModel.html#unset": {
                       "ref": "AbstractModel.html#unset",
@@ -4126,15 +4095,19 @@
                     },
                     "AbstractModel.html#destroy": {
                       "ref": "AbstractModel.html#destroy",
-                      "tf": 5.88235294117647
+                      "tf": 5.555555555555555
                     },
                     "AbstractCollection.html#remove": {
                       "ref": "AbstractCollection.html#remove",
                       "tf": 762.5
                     },
+                    "AbstractCollection.html#set": {
+                      "ref": "AbstractCollection.html#set",
+                      "tf": 1.7857142857142856
+                    },
                     "AbstractCollection.html#reset": {
                       "ref": "AbstractCollection.html#reset",
-                      "tf": 4.166666666666666
+                      "tf": 4
                     },
                     "AbstractCollection.html#pop": {
                       "ref": "AbstractCollection.html#pop",
@@ -4158,15 +4131,15 @@
                     "docs": {
                       "CollectionIterator.html#next": {
                         "ref": "CollectionIterator.html#next",
-                        "tf": 3.8461538461538463
+                        "tf": 3.3333333333333335
                       },
                       "AbstractModel.html#save": {
                         "ref": "AbstractModel.html#save",
-                        "tf": 3.3333333333333335
+                        "tf": 3.125
                       },
                       "AbstractModel.html#changedAttributes": {
                         "ref": "AbstractModel.html#changedAttributes",
-                        "tf": 1.6666666666666667
+                        "tf": 1.6129032258064515
                       },
                       "AbstractModel.html#supportsValidation": {
                         "ref": "AbstractModel.html#supportsValidation",
@@ -4174,7 +4147,7 @@
                       },
                       "AbstractModel.html#isValid": {
                         "ref": "AbstractModel.html#isValid",
-                        "tf": 4.166666666666666
+                        "tf": 3.8461538461538463
                       },
                       "AbstractModel.html#isEmpty": {
                         "ref": "AbstractModel.html#isEmpty",
@@ -4237,11 +4210,11 @@
                       "docs": {
                         "AbstractModel.html#fetch": {
                           "ref": "AbstractModel.html#fetch",
-                          "tf": 4.166666666666666
+                          "tf": 3.8461538461538463
                         },
                         "AbstractModel.html#parse": {
                           "ref": "AbstractModel.html#parse",
-                          "tf": 7.6923076923076925
+                          "tf": 9.090909090909092
                         },
                         "AbstractCollection.html#parse": {
                           "ref": "AbstractCollection.html#parse",
@@ -4253,7 +4226,7 @@
                       "docs": {
                         "AbstractModel.html#destroy": {
                           "ref": "AbstractModel.html#destroy",
-                          "tf": 2.941176470588235
+                          "tf": 2.7777777777777777
                         }
                       }
                     }
@@ -4264,7 +4237,7 @@
                 "docs": {
                   "AbstractModel.html#url": {
                     "ref": "AbstractModel.html#url",
-                    "tf": 4.166666666666666
+                    "tf": 3.8461538461538463
                   },
                   "AbstractModel.html#sync": {
                     "ref": "AbstractModel.html#sync",
@@ -4282,7 +4255,7 @@
                     },
                     "AbstractCollection.html#reset": {
                       "ref": "AbstractCollection.html#reset",
-                      "tf": 754.1666666666666
+                      "tf": 754
                     }
                   }
                 }
@@ -4304,7 +4277,7 @@
                           "docs": {
                             "AbstractModel.html#url": {
                               "ref": "AbstractModel.html#url",
-                              "tf": 4.166666666666666
+                              "tf": 3.8461538461538463
                             },
                             "AbstractCollection.html#toJSON": {
                               "ref": "AbstractCollection.html#toJSON",
@@ -4328,7 +4301,7 @@
                     "docs": {
                       "AbstractModel.html#previous": {
                         "ref": "AbstractModel.html#previous",
-                        "tf": 6.25
+                        "tf": 5.555555555555555
                       }
                     }
                   }
@@ -4349,6 +4322,17 @@
                       }
                     }
                   }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "n": {
+              "docs": {
+                "AbstractModel.html#isValid": {
+                  "ref": "AbstractModel.html#isValid",
+                  "tf": 3.8461538461538463
                 }
               }
             }
@@ -4404,7 +4388,7 @@
                       "docs": {
                         "AbstractCollection.html#set": {
                           "ref": "AbstractCollection.html#set",
-                          "tf": 1.8518518518518516
+                          "tf": 1.7857142857142856
                         }
                       }
                     }
@@ -4440,7 +4424,7 @@
                       },
                       "AbstractModel.html#isValid": {
                         "ref": "AbstractModel.html#isValid",
-                        "tf": 4.166666666666666
+                        "tf": 3.8461538461538463
                       },
                       "AbstractCollection.html": {
                         "ref": "AbstractCollection.html",
@@ -4480,15 +4464,15 @@
                 },
                 "AbstractModel.html#save": {
                   "ref": "AbstractModel.html#save",
-                  "tf": 6.666666666666667
+                  "tf": 6.25
                 },
                 "AbstractModel.html#parse": {
                   "ref": "AbstractModel.html#parse",
-                  "tf": 3.8461538461538463
+                  "tf": 4.545454545454546
                 },
                 "AbstractModel.html#changedAttributes": {
                   "ref": "AbstractModel.html#changedAttributes",
-                  "tf": 1.6666666666666667
+                  "tf": 1.6129032258064515
                 },
                 "AbstractCollection.html#add": {
                   "ref": "AbstractCollection.html#add",
@@ -4500,19 +4484,19 @@
                 },
                 "AbstractCollection.html#set": {
                   "ref": "AbstractCollection.html#set",
-                  "tf": 751.8518518518518
+                  "tf": 751.7857142857143
                 },
                 "AbstractCollection.html#reset": {
                   "ref": "AbstractCollection.html#reset",
-                  "tf": 2.083333333333333
+                  "tf": 2
                 },
                 "AbstractCollection.html#get": {
                   "ref": "AbstractCollection.html#get",
-                  "tf": 3.8461538461538463
+                  "tf": 3.571428571428571
                 },
                 "AbstractCollection.html#sort": {
                   "ref": "AbstractCollection.html#sort",
-                  "tf": 2.941176470588235
+                  "tf": 2.7777777777777777
                 }
               }
             },
@@ -4526,19 +4510,19 @@
                     "docs": {
                       "AbstractModel.html#fetch": {
                         "ref": "AbstractModel.html#fetch",
-                        "tf": 4.166666666666666
+                        "tf": 3.8461538461538463
                       },
                       "AbstractModel.html#save": {
                         "ref": "AbstractModel.html#save",
-                        "tf": 3.3333333333333335
+                        "tf": 6.25
                       },
                       "AbstractModel.html#destroy": {
                         "ref": "AbstractModel.html#destroy",
-                        "tf": 5.88235294117647
+                        "tf": 5.555555555555555
                       },
                       "AbstractModel.html#url": {
                         "ref": "AbstractModel.html#url",
-                        "tf": 4.166666666666666
+                        "tf": 3.8461538461538463
                       },
                       "AbstractModel.html#isNew": {
                         "ref": "AbstractModel.html#isNew",
@@ -4546,25 +4530,11 @@
                       },
                       "AbstractModel.html#changedAttributes": {
                         "ref": "AbstractModel.html#changedAttributes",
-                        "tf": 1.6666666666666667
+                        "tf": 1.6129032258064515
                       },
                       "AbstractCollection.html#create": {
                         "ref": "AbstractCollection.html#create",
                         "tf": 2.941176470588235
-                      }
-                    },
-                    ".": {
-                      "docs": {},
-                      "i": {
-                        "docs": {},
-                        "f": {
-                          "docs": {
-                            "AbstractModel.html#save": {
-                              "ref": "AbstractModel.html#save",
-                              "tf": 3.3333333333333335
-                            }
-                          }
-                        }
                       }
                     }
                   }
@@ -4653,6 +4623,10 @@
                     "AbstractModel.html#set": {
                       "ref": "AbstractModel.html#set",
                       "tf": 2.631578947368421
+                    },
+                    "AbstractModel.html#save": {
+                      "ref": "AbstractModel.html#save",
+                      "tf": 3.125
                     }
                   }
                 }
@@ -4744,7 +4718,7 @@
                 "docs": {
                   "AbstractModel.html#save": {
                     "ref": "AbstractModel.html#save",
-                    "tf": 3.3333333333333335
+                    "tf": 3.125
                   },
                   "AbstractModel.html#sync": {
                     "ref": "AbstractModel.html#sync",
@@ -4800,7 +4774,7 @@
                 "docs": {
                   "AbstractCollection.html#sort": {
                     "ref": "AbstractCollection.html#sort",
-                    "tf": 755.8823529411765
+                    "tf": 755.5555555555555
                   },
                   "AbstractCollection.html#sortByKey": {
                     "ref": "AbstractCollection.html#sortByKey",
@@ -4937,7 +4911,7 @@
                         "docs": {
                           "AbstractCollection.html#reset": {
                             "ref": "AbstractCollection.html#reset",
-                            "tf": 2.083333333333333
+                            "tf": 2
                           }
                         }
                       }
@@ -4987,11 +4961,11 @@
                   },
                   "AbstractCollection.html#set": {
                     "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
+                    "tf": 1.7857142857142856
                   },
                   "AbstractCollection.html#reset": {
                     "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
+                    "tf": 2
                   },
                   "AbstractCollection.html#parse": {
                     "ref": "AbstractCollection.html#parse",
@@ -5036,31 +5010,10 @@
                   "r": {
                     "docs": {},
                     "i": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "s": {
-                          "docs": {},
-                          "w": {
-                            "docs": {},
-                            "h": {
-                              "docs": {},
-                              "i": {
-                                "docs": {},
-                                "c": {
-                                  "docs": {},
-                                  "h": {
-                                    "docs": {
-                                      "CollectionIterator.html": {
-                                        "ref": "CollectionIterator.html",
-                                        "tf": 2.631578947368421
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
+                      "docs": {
+                        "CollectionIterator.html": {
+                          "ref": "CollectionIterator.html",
+                          "tf": 2.5
                         }
                       }
                     }
@@ -5077,7 +5030,21 @@
                 "docs": {
                   "CollectionIterator.html": {
                     "ref": "CollectionIterator.html",
-                    "tf": 2.631578947368421
+                    "tf": 2.5
+                  }
+                }
+              }
+            },
+            "c": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "AbstractModel.html#fetch": {
+                      "ref": "AbstractModel.html#fetch",
+                      "tf": 3.8461538461538463
+                    }
                   }
                 }
               }
@@ -5092,7 +5059,7 @@
                     "docs": {
                       "AbstractCollection.html#set": {
                         "ref": "AbstractCollection.html#set",
-                        "tf": 1.8518518518518516
+                        "tf": 1.7857142857142856
                       }
                     }
                   }
@@ -5120,62 +5087,10 @@
                   "AbstractModel.html#hasChanged": {
                     "ref": "AbstractModel.html#hasChanged",
                     "tf": 4.166666666666666
-                  }
-                },
-                "&": {
-                  "docs": {},
-                  "q": {
-                    "docs": {},
-                    "u": {
-                      "docs": {},
-                      "o": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          ";": {
-                            "docs": {},
-                            "c": {
-                              "docs": {},
-                              "h": {
-                                "docs": {},
-                                "a": {
-                                  "docs": {},
-                                  "n": {
-                                    "docs": {},
-                                    "g": {
-                                      "docs": {},
-                                      "e": {
-                                        "docs": {},
-                                        "&": {
-                                          "docs": {},
-                                          "q": {
-                                            "docs": {},
-                                            "u": {
-                                              "docs": {},
-                                              "o": {
-                                                "docs": {},
-                                                "t": {
-                                                  "docs": {
-                                                    "AbstractModel.html#previous": {
-                                                      "ref": "AbstractModel.html#previous",
-                                                      "tf": 6.25
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
+                  },
+                  "AbstractModel.html#previous": {
+                    "ref": "AbstractModel.html#previous",
+                    "tf": 5.555555555555555
                   }
                 }
               }
@@ -5191,7 +5106,7 @@
                   "docs": {
                     "AbstractModel.html#isValid": {
                       "ref": "AbstractModel.html#isValid",
-                      "tf": 8.333333333333332
+                      "tf": 7.6923076923076925
                     }
                   }
                 }
@@ -5212,31 +5127,10 @@
                   "e": {
                     "docs": {},
                     "n": {
-                      "docs": {},
-                      "c": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "l": {
-                            "docs": {},
-                            "l": {
-                              "docs": {},
-                              "e": {
-                                "docs": {},
-                                "c": {
-                                  "docs": {},
-                                  "t": {
-                                    "docs": {
-                                      "CollectionIterator.html": {
-                                        "ref": "CollectionIterator.html",
-                                        "tf": 2.631578947368421
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
+                      "docs": {
+                        "CollectionIterator.html": {
+                          "ref": "CollectionIterator.html",
+                          "tf": 2.5
                         }
                       }
                     }
@@ -5252,53 +5146,7 @@
                   "docs": {
                     "AbstractModel.html#destroy": {
                       "ref": "AbstractModel.html#destroy",
-                      "tf": 2.941176470588235
-                    }
-                  }
-                }
-              }
-            },
-            "p": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "s": {
-                    "docs": {},
-                    "i": {
-                      "docs": {},
-                      "s": {
-                        "docs": {},
-                        "t": {
-                          "docs": {
-                            "AbstractModel.html#changedAttributes": {
-                              "ref": "AbstractModel.html#changedAttributes",
-                              "tf": 1.6666666666666667
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "m": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "d": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "l": {
-                      "docs": {
-                        "AbstractCollection.html#add": {
-                          "ref": "AbstractCollection.html#add",
-                          "tf": 3.571428571428571
-                        }
-                      }
+                      "tf": 2.7777777777777777
                     }
                   }
                 }
@@ -5337,7 +5185,7 @@
                       "docs": {
                         "CollectionIterator.html": {
                           "ref": "CollectionIterator.html",
-                          "tf": 2.631578947368421
+                          "tf": 2.5
                         }
                       }
                     }
@@ -5371,7 +5219,7 @@
                 "docs": {
                   "AbstractCollection.html#reset": {
                     "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
+                    "tf": 2
                   }
                 }
               }
@@ -5396,7 +5244,7 @@
                         "docs": {
                           "CollectionIterator.html": {
                             "ref": "CollectionIterator.html",
-                            "tf": 2.631578947368421
+                            "tf": 2.5
                           },
                           "CollectionIterator.html#next": {
                             "ref": "CollectionIterator.html#next",
@@ -5452,6 +5300,14 @@
                           },
                           "AbstractModel.html#url": {
                             "ref": "AbstractModel.html#url",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#keys": {
+                            "ref": "AbstractModel.html#keys",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#values": {
+                            "ref": "AbstractModel.html#values",
                             "tf": 110
                           },
                           "AbstractModel.html#parse": {
@@ -5686,22 +5542,10 @@
               "u": {
                 "docs": {},
                 "r": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "c": {
-                      "docs": {},
-                      "a": {
-                        "docs": {},
-                        "l": {
-                          "docs": {
-                            "CollectionIterator.html#next": {
-                              "ref": "CollectionIterator.html#next",
-                              "tf": 3.8461538461538463
-                            }
-                          }
-                        }
-                      }
+                  "docs": {
+                    "CollectionIterator.html#next": {
+                      "ref": "CollectionIterator.html#next",
+                      "tf": 3.3333333333333335
                     }
                   }
                 }
@@ -5724,7 +5568,7 @@
                 "docs": {
                   "AbstractCollection.html#sort": {
                     "ref": "AbstractCollection.html#sort",
-                    "tf": 2.941176470588235
+                    "tf": 2.7777777777777777
                   }
                 }
               }
@@ -5750,34 +5594,11 @@
                   },
                   "AbstractModel.html#previous": {
                     "ref": "AbstractModel.html#previous",
-                    "tf": 6.25
+                    "tf": 5.555555555555555
                   },
                   "AbstractCollection.html#reset": {
                     "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
-                  }
-                }
-              },
-              "i": {
-                "docs": {},
-                "n": {
-                  "docs": {},
-                  "g": {
-                    "docs": {},
-                    "a": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "i": {
-                          "docs": {
-                            "AbstractCollection.html#reset": {
-                              "ref": "AbstractCollection.html#reset",
-                              "tf": 2.083333333333333
-                            }
-                          }
-                        }
-                      }
-                    }
+                    "tf": 4
                   }
                 }
               },
@@ -5800,25 +5621,10 @@
                 "s": {
                   "docs": {},
                   "h": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "d": {
-                        "docs": {},
-                        ".": {
-                          "docs": {},
-                          "u": {
-                            "docs": {},
-                            "s": {
-                              "docs": {
-                                "AbstractCollection.html#reset": {
-                                  "ref": "AbstractCollection.html#reset",
-                                  "tf": 2.083333333333333
-                                }
-                              }
-                            }
-                          }
-                        }
+                    "docs": {
+                      "AbstractCollection.html#reset": {
+                        "ref": "AbstractCollection.html#reset",
+                        "tf": 2
                       }
                     }
                   }
@@ -5896,6 +5702,20 @@
                 }
               }
             }
+          },
+          "a": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "s": {
+                "docs": {
+                  "AbstractModel.html#changedAttributes": {
+                    "ref": "AbstractModel.html#changedAttributes",
+                    "tf": 1.6129032258064515
+                  }
+                }
+              }
+            }
           }
         },
         "j": {
@@ -5920,7 +5740,7 @@
                             "docs": {
                               "CollectionIterator.html": {
                                 "ref": "CollectionIterator.html",
-                                "tf": 2.631578947368421
+                                "tf": 2.5
                               },
                               "AbstractCollection.html#add": {
                                 "ref": "AbstractCollection.html#add",
@@ -5931,7 +5751,7 @@
                               "docs": {
                                 "CollectionIterator.html": {
                                   "ref": "CollectionIterator.html",
-                                  "tf": 2.631578947368421
+                                  "tf": 2.5
                                 }
                               }
                             }
@@ -5952,7 +5772,7 @@
                 "docs": {
                   "AbstractModel.html#isValid": {
                     "ref": "AbstractModel.html#isValid",
-                    "tf": 4.166666666666666
+                    "tf": 3.8461538461538463
                   },
                   "AbstractCollection.html#toJSON": {
                     "ref": "AbstractCollection.html#toJSON",
@@ -5977,7 +5797,7 @@
                     "docs": {
                       "CollectionIterator.html": {
                         "ref": "CollectionIterator.html",
-                        "tf": 2.631578947368421
+                        "tf": 2.5
                       }
                     }
                   }
@@ -5986,7 +5806,7 @@
                   "docs": {
                     "CollectionIterator.html#next": {
                       "ref": "CollectionIterator.html#next",
-                      "tf": 3.8461538461538463
+                      "tf": 3.3333333333333335
                     },
                     "AbstractModel.html#get": {
                       "ref": "AbstractModel.html#get",
@@ -6024,9 +5844,17 @@
                       "ref": "AbstractModel.html#destroy",
                       "tf": 12.5
                     },
+                    "AbstractModel.html#keys": {
+                      "ref": "AbstractModel.html#keys",
+                      "tf": 16.666666666666664
+                    },
+                    "AbstractModel.html#values": {
+                      "ref": "AbstractModel.html#values",
+                      "tf": 16.666666666666664
+                    },
                     "AbstractModel.html#parse": {
                       "ref": "AbstractModel.html#parse",
-                      "tf": 3.8461538461538463
+                      "tf": 4.545454545454546
                     },
                     "AbstractModel.html#clone": {
                       "ref": "AbstractModel.html#clone",
@@ -6040,9 +5868,13 @@
                       "ref": "AbstractModel.html#hasChanged",
                       "tf": 4.166666666666666
                     },
+                    "AbstractModel.html#changedAttributes": {
+                      "ref": "AbstractModel.html#changedAttributes",
+                      "tf": 1.6129032258064515
+                    },
                     "AbstractModel.html#previousAttributes": {
                       "ref": "AbstractModel.html#previousAttributes",
-                      "tf": 10
+                      "tf": 8.333333333333332
                     },
                     "AbstractModel.html#supportsValidation": {
                       "ref": "AbstractModel.html#supportsValidation",
@@ -6050,7 +5882,7 @@
                     },
                     "AbstractModel.html#isValid": {
                       "ref": "AbstractModel.html#isValid",
-                      "tf": 4.166666666666666
+                      "tf": 3.8461538461538463
                     },
                     "AbstractModel.html#validate": {
                       "ref": "AbstractModel.html#validate",
@@ -6078,7 +5910,7 @@
                     },
                     "AbstractCollection.html#add": {
                       "ref": "AbstractCollection.html#add",
-                      "tf": 14.285714285714285
+                      "tf": 17.857142857142858
                     },
                     "AbstractCollection.html#remove": {
                       "ref": "AbstractCollection.html#remove",
@@ -6086,11 +5918,11 @@
                     },
                     "AbstractCollection.html#set": {
                       "ref": "AbstractCollection.html#set",
-                      "tf": 5.555555555555555
+                      "tf": 5.357142857142857
                     },
                     "AbstractCollection.html#reset": {
                       "ref": "AbstractCollection.html#reset",
-                      "tf": 2.083333333333333
+                      "tf": 2
                     },
                     "AbstractCollection.html#push": {
                       "ref": "AbstractCollection.html#push",
@@ -6114,7 +5946,7 @@
                     },
                     "AbstractCollection.html#get": {
                       "ref": "AbstractCollection.html#get",
-                      "tf": 7.6923076923076925
+                      "tf": 7.142857142857142
                     },
                     "AbstractCollection.html#has": {
                       "ref": "AbstractCollection.html#has",
@@ -6175,64 +6007,35 @@
                   },
                   "'": {
                     "docs": {
+                      "AbstractModel.html#fetch": {
+                        "ref": "AbstractModel.html#fetch",
+                        "tf": 3.8461538461538463
+                      },
+                      "AbstractModel.html#save": {
+                        "ref": "AbstractModel.html#save",
+                        "tf": 3.125
+                      },
                       "AbstractModel.html#url": {
                         "ref": "AbstractModel.html#url",
-                        "tf": 4.166666666666666
-                      }
-                    },
-                    "s": {
-                      "docs": {},
-                      "l": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "c": {
-                            "docs": {
-                              "AbstractModel.html#fetch": {
-                                "ref": "AbstractModel.html#fetch",
-                                "tf": 4.166666666666666
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "s": {
-                        "docs": {},
-                        "t": {
-                          "docs": {
-                            "AbstractModel.html#save": {
-                              "ref": "AbstractModel.html#save",
-                              "tf": 3.3333333333333335
-                            }
-                          }
-                        }
+                        "tf": 3.8461538461538463
                       }
                     }
                   },
-                  ",": {
+                  "s": {
                     "docs": {},
-                    "d": {
+                    "&": {
                       "docs": {},
-                      "e": {
+                      "q": {
                         "docs": {},
-                        "t": {
+                        "u": {
                           "docs": {},
-                          "e": {
+                          "o": {
                             "docs": {},
-                            "r": {
-                              "docs": {},
-                              "m": {
-                                "docs": {},
-                                "i": {
-                                  "docs": {},
-                                  "n": {
-                                    "docs": {
-                                      "AbstractModel.html#changedAttributes": {
-                                        "ref": "AbstractModel.html#changedAttributes",
-                                        "tf": 1.6666666666666667
-                                      }
-                                    }
-                                  }
+                            "t": {
+                              "docs": {
+                                "AbstractCollection.html#toJSON": {
+                                  "ref": "AbstractCollection.html#toJSON",
+                                  "tf": 8.333333333333332
                                 }
                               }
                             }
@@ -6248,19 +6051,10 @@
                       "e": {
                         "docs": {},
                         "t": {
-                          "docs": {},
-                          ",": {
-                            "docs": {},
-                            "t": {
-                              "docs": {},
-                              "h": {
-                                "docs": {
-                                  "AbstractCollection.html#set": {
-                                    "ref": "AbstractCollection.html#set",
-                                    "tf": 1.8518518518518516
-                                  }
-                                }
-                              }
+                          "docs": {
+                            "AbstractCollection.html#set": {
+                              "ref": "AbstractCollection.html#set",
+                              "tf": 1.7857142857142856
                             }
                           }
                         }
@@ -6273,7 +6067,7 @@
                       "docs": {
                         "AbstractCollection.html#get": {
                           "ref": "AbstractCollection.html#get",
-                          "tf": 3.8461538461538463
+                          "tf": 3.571428571428571
                         },
                         "AbstractCollection.html#modelId": {
                           "ref": "AbstractCollection.html#modelId",
@@ -6291,7 +6085,7 @@
                 "docs": {
                   "AbstractCollection.html#reset": {
                     "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
+                    "tf": 2
                   }
                 }
               }
@@ -6309,7 +6103,7 @@
                     "docs": {
                       "CollectionIterator.html#next": {
                         "ref": "CollectionIterator.html#next",
-                        "tf": 3.8461538461538463
+                        "tf": 3.3333333333333335
                       },
                       "AbstractModel.html#matches": {
                         "ref": "AbstractModel.html#matches",
@@ -6317,7 +6111,7 @@
                       },
                       "AbstractModel.html#url": {
                         "ref": "AbstractModel.html#url",
-                        "tf": 4.166666666666666
+                        "tf": 3.8461538461538463
                       }
                     }
                   }
@@ -6359,11 +6153,11 @@
                 "docs": {
                   "AbstractModel.html#fetch": {
                     "ref": "AbstractModel.html#fetch",
-                    "tf": 4.166666666666666
+                    "tf": 3.8461538461538463
                   },
                   "AbstractCollection.html#set": {
                     "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
+                    "tf": 1.7857142857142856
                   }
                 }
               }
@@ -6415,7 +6209,7 @@
                         "docs": {
                           "AbstractCollection.html#sort": {
                             "ref": "AbstractCollection.html#sort",
-                            "tf": 2.941176470588235
+                            "tf": 2.7777777777777777
                           }
                         }
                       }
@@ -6436,7 +6230,7 @@
                 "docs": {
                   "CollectionIterator.html": {
                     "ref": "CollectionIterator.html",
-                    "tf": 2.631578947368421
+                    "tf": 2.5
                   },
                   "AbstractModel.html#set": {
                     "ref": "AbstractModel.html#set",
@@ -6444,11 +6238,11 @@
                   },
                   "AbstractCollection.html#set": {
                     "ref": "AbstractCollection.html#set",
-                    "tf": 1.8518518518518516
+                    "tf": 1.7857142857142856
                   },
                   "AbstractCollection.html#reset": {
                     "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
+                    "tf": 2
                   }
                 }
               }
@@ -6461,9 +6255,51 @@
                   "docs": {
                     "AbstractCollection.html#reset": {
                       "ref": "AbstractCollection.html#reset",
-                      "tf": 2.083333333333333
+                      "tf": 2
+                    }
+                  },
+                  "i": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "AbstractModel.html#destroy": {
+                            "ref": "AbstractModel.html#destroy",
+                            "tf": 2.7777777777777777
+                          }
+                        }
+                      }
                     }
                   }
+                }
+              }
+            }
+          },
+          "n": {
+            "docs": {
+              "AbstractModel.html#destroy": {
+                "ref": "AbstractModel.html#destroy",
+                "tf": 2.7777777777777777
+              },
+              "AbstractModel.html#clone": {
+                "ref": "AbstractModel.html#clone",
+                "tf": 8.333333333333332
+              },
+              "AbstractCollection.html#set": {
+                "ref": "AbstractCollection.html#set",
+                "tf": 1.7857142857142856
+              },
+              "AbstractCollection.html#clone": {
+                "ref": "AbstractCollection.html#clone",
+                "tf": 7.142857142857142
+              }
+            },
+            "c": {
+              "docs": {
+                "CollectionIterator.html#next": {
+                  "ref": "CollectionIterator.html#next",
+                  "tf": 3.3333333333333335
                 }
               }
             }
@@ -6484,7 +6320,7 @@
                       },
                       "AbstractModel.html#changedAttributes": {
                         "ref": "AbstractModel.html#changedAttributes",
-                        "tf": 3.3333333333333335
+                        "tf": 3.225806451612903
                       },
                       "AbstractCollection.html#add": {
                         "ref": "AbstractCollection.html#add",
@@ -6492,75 +6328,9 @@
                       },
                       "AbstractCollection.html#get": {
                         "ref": "AbstractCollection.html#get",
-                        "tf": 7.6923076923076925
+                        "tf": 7.142857142857142
                       }
                     }
-                  }
-                }
-              }
-            }
-          },
-          "n": {
-            "docs": {
-              "AbstractModel.html#clone": {
-                "ref": "AbstractModel.html#clone",
-                "tf": 8.333333333333332
-              },
-              "AbstractCollection.html#clone": {
-                "ref": "AbstractCollection.html#clone",
-                "tf": 7.142857142857142
-              }
-            },
-            "e": {
-              "docs": {},
-              ".": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "f": {
-                    "docs": {
-                      "AbstractModel.html#destroy": {
-                        "ref": "AbstractModel.html#destroy",
-                        "tf": 2.941176470588235
-                      }
-                    }
-                  }
-                }
-              },
-              "s": {
-                "docs": {},
-                ",": {
-                  "docs": {},
-                  "r": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "m": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "v": {
-                            "docs": {
-                              "AbstractCollection.html#set": {
-                                "ref": "AbstractCollection.html#set",
-                                "tf": 1.8518518518518516
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "h": {
-                "docs": {
-                  "AbstractModel.html#parse": {
-                    "ref": "AbstractModel.html#parse",
-                    "tf": 3.8461538461538463
                   }
                 }
               }
@@ -6580,43 +6350,9 @@
                       "docs": {
                         "AbstractModel.html#url": {
                           "ref": "AbstractModel.html#url",
-                          "tf": 4.166666666666666
+                          "tf": 3.8461538461538463
                         }
                       }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "f": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "l": {
-                  "docs": {},
-                  "s": {
-                    "docs": {
-                      "AbstractModel.html#changedAttributes": {
-                        "ref": "AbstractModel.html#changedAttributes",
-                        "tf": 1.6666666666666667
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "d": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "AbstractCollection.html#sort": {
-                      "ref": "AbstractCollection.html#sort",
-                      "tf": 2.941176470588235
                     }
                   }
                 }
@@ -6633,6 +6369,23 @@
                 }
               }
             }
+          },
+          "r": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "AbstractCollection.html#sort": {
+                      "ref": "AbstractCollection.html#sort",
+                      "tf": 2.7777777777777777
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "p": {
@@ -6642,12 +6395,17 @@
             "r": {
               "docs": {},
               "t": {
-                "docs": {},
+                "docs": {
+                  "AbstractModel.html#changedAttributes": {
+                    "ref": "AbstractModel.html#changedAttributes",
+                    "tf": 1.6129032258064515
+                  }
+                },
                 "i": {
                   "docs": {
                     "CollectionIterator.html": {
                       "ref": "CollectionIterator.html",
-                      "tf": 2.631578947368421
+                      "tf": 2.5
                     }
                   }
                 }
@@ -6656,7 +6414,7 @@
                 "docs": {
                   "AbstractModel.html#parse": {
                     "ref": "AbstractModel.html#parse",
-                    "tf": 753.8461538461538
+                    "tf": 750
                   },
                   "AbstractCollection.html#parse": {
                     "ref": "AbstractCollection.html#parse",
@@ -6671,15 +6429,15 @@
                 "docs": {
                   "AbstractModel.html#destroy": {
                     "ref": "AbstractModel.html#destroy",
-                    "tf": 2.941176470588235
+                    "tf": 2.7777777777777777
                   },
                   "AbstractModel.html#parse": {
                     "ref": "AbstractModel.html#parse",
-                    "tf": 3.8461538461538463
+                    "tf": 4.545454545454546
                   },
                   "AbstractModel.html#changedAttributes": {
                     "ref": "AbstractModel.html#changedAttributes",
-                    "tf": 1.6666666666666667
+                    "tf": 1.6129032258064515
                   },
                   "AbstractModel.html#reset": {
                     "ref": "AbstractModel.html#reset",
@@ -6713,7 +6471,7 @@
                         "docs": {
                           "CollectionIterator.html": {
                             "ref": "CollectionIterator.html",
-                            "tf": 2.631578947368421
+                            "tf": 2.5
                           }
                         }
                       }
@@ -6738,6 +6496,10 @@
                           "AbstractCollection.html#preinitialize": {
                             "ref": "AbstractCollection.html#preinitialize",
                             "tf": 16.666666666666664
+                          },
+                          "AbstractCollection.html#get": {
+                            "ref": "AbstractCollection.html#get",
+                            "tf": 3.571428571428571
                           },
                           "AbstractCollection.html#find": {
                             "ref": "AbstractCollection.html#find",
@@ -6805,67 +6567,15 @@
                       "docs": {
                         "AbstractModel.html#previous": {
                           "ref": "AbstractModel.html#previous",
-                          "tf": 756.25
+                          "tf": 755.5555555555555
+                        },
+                        "AbstractModel.html#previousAttributes": {
+                          "ref": "AbstractModel.html#previousAttributes",
+                          "tf": 8.333333333333332
                         }
                       },
                       "s": {
                         "docs": {},
-                        "&": {
-                          "docs": {},
-                          "q": {
-                            "docs": {},
-                            "u": {
-                              "docs": {},
-                              "o": {
-                                "docs": {},
-                                "t": {
-                                  "docs": {},
-                                  ";": {
-                                    "docs": {},
-                                    "c": {
-                                      "docs": {},
-                                      "h": {
-                                        "docs": {},
-                                        "a": {
-                                          "docs": {},
-                                          "n": {
-                                            "docs": {},
-                                            "g": {
-                                              "docs": {},
-                                              "e": {
-                                                "docs": {},
-                                                "&": {
-                                                  "docs": {},
-                                                  "q": {
-                                                    "docs": {},
-                                                    "u": {
-                                                      "docs": {},
-                                                      "o": {
-                                                        "docs": {},
-                                                        "t": {
-                                                          "docs": {
-                                                            "AbstractModel.html#previousAttributes": {
-                                                              "ref": "AbstractModel.html#previousAttributes",
-                                                              "tf": 10
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        },
                         "a": {
                           "docs": {},
                           "t": {
@@ -6910,7 +6620,7 @@
                       "docs": {
                         "AbstractCollection.html#set": {
                           "ref": "AbstractCollection.html#set",
-                          "tf": 1.8518518518518516
+                          "tf": 1.7857142857142856
                         }
                       }
                     }
@@ -6972,43 +6682,14 @@
                   "s": {
                     "docs": {},
                     "t": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "d": {
-                          "docs": {},
-                          ".": {
-                            "docs": {},
-                            "o": {
-                              "docs": {},
-                              "p": {
-                                "docs": {},
-                                "t": {
-                                  "docs": {},
-                                  "i": {
-                                    "docs": {},
-                                    "m": {
-                                      "docs": {},
-                                      "i": {
-                                        "docs": {},
-                                        "s": {
-                                          "docs": {},
-                                          "t": {
-                                            "docs": {
-                                              "AbstractModel.html#destroy": {
-                                                "ref": "AbstractModel.html#destroy",
-                                                "tf": 2.941176470588235
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
+                      "docs": {
+                        "AbstractModel.html#destroy": {
+                          "ref": "AbstractModel.html#destroy",
+                          "tf": 2.7777777777777777
+                        },
+                        "AbstractModel.html#changedAttributes": {
+                          "ref": "AbstractModel.html#changedAttributes",
+                          "tf": 1.6129032258064515
                         }
                       }
                     }
@@ -7050,88 +6731,6 @@
           "docs": {},
           "h": {
             "docs": {},
-            "e": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "s": {
-                  "docs": {
-                    "CollectionIterator.html": {
-                      "ref": "CollectionIterator.html",
-                      "tf": 2.631578947368421
-                    }
-                  }
-                }
-              },
-              "m": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "d": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "l": {
-                        "docs": {},
-                        "s": {
-                          "docs": {},
-                          "&": {
-                            "docs": {},
-                            "q": {
-                              "docs": {},
-                              "u": {
-                                "docs": {},
-                                "o": {
-                                  "docs": {},
-                                  "t": {
-                                    "docs": {
-                                      "AbstractCollection.html#toJSON": {
-                                        "ref": "AbstractCollection.html#toJSON",
-                                        "tf": 8.333333333333332
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "c": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "l": {
-                    "docs": {},
-                    "l": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "c": {
-                          "docs": {},
-                          "t": {
-                            "docs": {
-                              "AbstractCollection.html#create": {
-                                "ref": "AbstractCollection.html#create",
-                                "tf": 2.941176470588235
-                              },
-                              "AbstractCollection.html#parse": {
-                                "ref": "AbstractCollection.html#parse",
-                                "tf": 4.545454545454546
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "i": {
               "docs": {},
               "r": {
@@ -7140,39 +6739,7 @@
                   "docs": {
                     "CollectionIterator.html": {
                       "ref": "CollectionIterator.html",
-                      "tf": 2.631578947368421
-                    }
-                  }
-                }
-              }
-            },
-            "a": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "l": {
-                    "docs": {},
-                    "r": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "a": {
-                          "docs": {},
-                          "d": {
-                            "docs": {},
-                            "i": {
-                              "docs": {
-                                "AbstractCollection.html#set": {
-                                  "ref": "AbstractCollection.html#set",
-                                  "tf": 1.8518518518518516
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
+                      "tf": 2.5
                     }
                   }
                 }
@@ -7190,7 +6757,7 @@
                       "docs": {
                         "AbstractCollection.html#get": {
                           "ref": "AbstractCollection.html#get",
-                          "tf": 3.8461538461538463
+                          "tf": 3.571428571428571
                         },
                         "AbstractCollection.html#parse": {
                           "ref": "AbstractCollection.html#parse",
@@ -7267,7 +6834,7 @@
                             },
                             "AbstractCollection.html#get": {
                               "ref": "AbstractCollection.html#get",
-                              "tf": 3.8461538461538463
+                              "tf": 3.571428571428571
                             }
                           }
                         }
@@ -7289,7 +6856,7 @@
                       "docs": {
                         "AbstractModel.html#fetch": {
                           "ref": "AbstractModel.html#fetch",
-                          "tf": 4.166666666666666
+                          "tf": 3.8461538461538463
                         }
                       }
                     }
@@ -7303,7 +6870,7 @@
                 "docs": {
                   "AbstractModel.html#destroy": {
                     "ref": "AbstractModel.html#destroy",
-                    "tf": 2.941176470588235
+                    "tf": 2.7777777777777777
                   },
                   "AbstractModel.html#supportsValidation": {
                     "ref": "AbstractModel.html#supportsValidation",
@@ -7311,7 +6878,7 @@
                   },
                   "AbstractModel.html#isValid": {
                     "ref": "AbstractModel.html#isValid",
-                    "tf": 4.166666666666666
+                    "tf": 3.8461538461538463
                   },
                   "AbstractModel.html#isEmpty": {
                     "ref": "AbstractModel.html#isEmpty",
@@ -7349,11 +6916,11 @@
                 "docs": {
                   "AbstractModel.html#previous": {
                     "ref": "AbstractModel.html#previous",
-                    "tf": 6.25
+                    "tf": 5.555555555555555
                   },
                   "AbstractModel.html#previousAttributes": {
                     "ref": "AbstractModel.html#previousAttributes",
-                    "tf": 10
+                    "tf": 8.333333333333332
                   }
                 }
               }
@@ -7365,7 +6932,7 @@
               "docs": {
                 "AbstractModel.html#isValid": {
                   "ref": "AbstractModel.html#isValid",
-                  "tf": 4.166666666666666
+                  "tf": 3.8461538461538463
                 },
                 "AbstractCollection.html#add": {
                   "ref": "AbstractCollection.html#add",
@@ -7389,6 +6956,201 @@
             }
           }
         },
+        "u": {
+          "docs": {},
+          "s": {
+            "docs": {
+              "CollectionIterator.html": {
+                "ref": "CollectionIterator.html",
+                "tf": 2.5
+              },
+              "AbstractModel.html#url": {
+                "ref": "AbstractModel.html#url",
+                "tf": 3.8461538461538463
+              },
+              "AbstractModel.html#changedAttributes": {
+                "ref": "AbstractModel.html#changedAttributes",
+                "tf": 1.6129032258064515
+              },
+              "AbstractCollection.html#reset": {
+                "ref": "AbstractCollection.html#reset",
+                "tf": 2
+              },
+              "AbstractCollection.html#where": {
+                "ref": "AbstractCollection.html#where",
+                "tf": 6.25
+              },
+              "AbstractCollection.html#findWhere": {
+                "ref": "AbstractCollection.html#findWhere",
+                "tf": 5.555555555555555
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractModel.html#set": {
+                      "ref": "AbstractModel.html#set",
+                      "tf": 2.631578947368421
+                    },
+                    "AbstractModel.html#changedAttributes": {
+                      "ref": "AbstractModel.html#changedAttributes",
+                      "tf": 1.6129032258064515
+                    },
+                    "AbstractModel.html#update": {
+                      "ref": "AbstractModel.html#update",
+                      "tf": 787.5
+                    },
+                    "AbstractCollection.html#set": {
+                      "ref": "AbstractCollection.html#set",
+                      "tf": 3.571428571428571
+                    },
+                    "AbstractCollection.html#update": {
+                      "ref": "AbstractCollection.html#update",
+                      "tf": 762.5
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "n": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "AbstractCollection.html#sort": {
+                      "ref": "AbstractCollection.html#sort",
+                      "tf": 2.7777777777777777
+                    }
+                  },
+                  "s": {
+                    "docs": {},
+                    "c": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "r": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "'": {
+                              "docs": {
+                                "AbstractModel.html#matches": {
+                                  "ref": "AbstractModel.html#matches",
+                                  "tf": 8.333333333333332
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "f": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "n": {
+                      "docs": {
+                        "AbstractModel.html#changedAttributes": {
+                          "ref": "AbstractModel.html#changedAttributes",
+                          "tf": 1.6129032258064515
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractModel.html#unset": {
+                      "ref": "AbstractModel.html#unset",
+                      "tf": 755
+                    },
+                    "AbstractModel.html#changedAttributes": {
+                      "ref": "AbstractModel.html#changedAttributes",
+                      "tf": 1.6129032258064515
+                    }
+                  }
+                }
+              },
+              "h": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "f": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractCollection.html#unshift": {
+                          "ref": "AbstractCollection.html#unshift",
+                          "tf": 750
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "l": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "s": {
+                    "docs": {
+                      "AbstractCollection.html#create": {
+                        "ref": "AbstractCollection.html#create",
+                        "tf": 2.941176470588235
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "q": {
+                "docs": {},
+                "u": {
+                  "docs": {
+                    "AbstractCollection.html#modelId": {
+                      "ref": "AbstractCollection.html#modelId",
+                      "tf": 10
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "l": {
+              "docs": {
+                "AbstractModel.html#url": {
+                  "ref": "AbstractModel.html#url",
+                  "tf": 753.8461538461538
+                }
+              }
+            }
+          }
+        },
         "e": {
           "docs": {},
           "x": {
@@ -7405,7 +7167,7 @@
                       "docs": {
                         "CollectionIterator.html#next": {
                           "ref": "CollectionIterator.html#next",
-                          "tf": 3.8461538461538463
+                          "tf": 3.3333333333333335
                         }
                       }
                     }
@@ -7425,7 +7187,7 @@
                     },
                     "AbstractCollection.html#set": {
                       "ref": "AbstractCollection.html#set",
-                      "tf": 1.8518518518518516
+                      "tf": 1.7857142857142856
                     }
                   }
                 }
@@ -7459,33 +7221,23 @@
                   "docs": {
                     "AbstractModel.html#fetch": {
                       "ref": "AbstractModel.html#fetch",
+                      "tf": 3.8461538461538463
+                    },
+                    "AbstractModel.html#hasChanged": {
+                      "ref": "AbstractModel.html#hasChanged",
                       "tf": 4.166666666666666
                     },
                     "AbstractModel.html#previous": {
                       "ref": "AbstractModel.html#previous",
-                      "tf": 6.25
+                      "tf": 5.555555555555555
                     },
                     "AbstractModel.html#previousAttributes": {
                       "ref": "AbstractModel.html#previousAttributes",
-                      "tf": 10
+                      "tf": 8.333333333333332
                     },
                     "AbstractCollection.html#reset": {
                       "ref": "AbstractCollection.html#reset",
-                      "tf": 2.083333333333333
-                    }
-                  },
-                  ".": {
-                    "docs": {},
-                    "i": {
-                      "docs": {},
-                      "f": {
-                        "docs": {
-                          "AbstractModel.html#hasChanged": {
-                            "ref": "AbstractModel.html#hasChanged",
-                            "tf": 4.166666666666666
-                          }
-                        }
-                      }
+                      "tf": 2
                     }
                   }
                 }
@@ -7514,22 +7266,10 @@
                     "n": {
                       "docs": {},
                       "t": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          "h": {
-                            "docs": {},
-                            "a": {
-                              "docs": {},
-                              "t": {
-                                "docs": {
-                                  "AbstractModel.html#url": {
-                                    "ref": "AbstractModel.html#url",
-                                    "tf": 4.166666666666666
-                                  }
-                                }
-                              }
-                            }
+                        "docs": {
+                          "AbstractModel.html#url": {
+                            "ref": "AbstractModel.html#url",
+                            "tf": 3.8461538461538463
                           }
                         }
                       }
@@ -7546,7 +7286,7 @@
                   "docs": {
                     "AbstractCollection.html#reset": {
                       "ref": "AbstractCollection.html#reset",
-                      "tf": 2.083333333333333
+                      "tf": 2
                     }
                   }
                 }
@@ -7593,7 +7333,7 @@
                 "docs": {
                   "AbstractCollection.html#sort": {
                     "ref": "AbstractCollection.html#sort",
-                    "tf": 2.941176470588235
+                    "tf": 2.7777777777777777
                   },
                   "AbstractCollection.html#pluck": {
                     "ref": "AbstractCollection.html#pluck",
@@ -7628,7 +7368,7 @@
                     },
                     "AbstractModel.html#isValid": {
                       "ref": "AbstractModel.html#isValid",
-                      "tf": 4.166666666666666
+                      "tf": 7.6923076923076925
                     },
                     "AbstractModel.html#validate": {
                       "ref": "AbstractModel.html#validate",
@@ -7662,28 +7402,18 @@
                       "ref": "AbstractCollection.html#validate",
                       "tf": 775
                     }
-                  },
-                  "r": {
-                    "docs": {},
-                    "u": {
-                      "docs": {},
-                      "n": {
-                        "docs": {
-                          "AbstractModel.html#isValid": {
-                            "ref": "AbstractModel.html#isValid",
-                            "tf": 4.166666666666666
-                          }
-                        }
-                      }
-                    }
                   }
                 }
               },
               "u": {
                 "docs": {
+                  "AbstractModel.html#values": {
+                    "ref": "AbstractModel.html#values",
+                    "tf": 766.6666666666666
+                  },
                   "AbstractModel.html#previous": {
                     "ref": "AbstractModel.html#previous",
-                    "tf": 6.25
+                    "tf": 5.555555555555555
                   },
                   "AbstractCollection.html#values": {
                     "ref": "AbstractCollection.html#values",
@@ -7701,7 +7431,7 @@
                 "docs": {
                   "AbstractModel.html#changedAttributes": {
                     "ref": "AbstractModel.html#changedAttributes",
-                    "tf": 1.6666666666666667
+                    "tf": 1.6129032258064515
                   }
                 }
               }
@@ -7722,11 +7452,11 @@
                   },
                   "AbstractModel.html#save": {
                     "ref": "AbstractModel.html#save",
-                    "tf": 6.666666666666667
+                    "tf": 6.25
                   },
                   "AbstractModel.html#parse": {
                     "ref": "AbstractModel.html#parse",
-                    "tf": 3.8461538461538463
+                    "tf": 4.545454545454546
                   }
                 }
               },
@@ -7773,6 +7503,10 @@
             "docs": {},
             "y": {
               "docs": {
+                "AbstractModel.html#keys": {
+                  "ref": "AbstractModel.html#keys",
+                  "tf": 766.6666666666666
+                },
                 "AbstractCollection.html#keys": {
                   "ref": "AbstractCollection.html#keys",
                   "tf": 750
@@ -7831,11 +7565,19 @@
                                           },
                                           "AbstractModel.html#fetch": {
                                             "ref": "AbstractModel.html#fetch",
-                                            "tf": 4.166666666666666
+                                            "tf": 3.8461538461538463
                                           },
                                           "AbstractModel.html#hasChanged": {
                                             "ref": "AbstractModel.html#hasChanged",
                                             "tf": 4.166666666666666
+                                          },
+                                          "AbstractModel.html#previous": {
+                                            "ref": "AbstractModel.html#previous",
+                                            "tf": 5.555555555555555
+                                          },
+                                          "AbstractModel.html#previousAttributes": {
+                                            "ref": "AbstractModel.html#previousAttributes",
+                                            "tf": 8.333333333333332
                                           }
                                         }
                                       }
@@ -7965,213 +7707,6 @@
             }
           }
         },
-        "u": {
-          "docs": {},
-          "p": {
-            "docs": {},
-            "d": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractModel.html#set": {
-                      "ref": "AbstractModel.html#set",
-                      "tf": 2.631578947368421
-                    },
-                    "AbstractModel.html#changedAttributes": {
-                      "ref": "AbstractModel.html#changedAttributes",
-                      "tf": 1.6666666666666667
-                    },
-                    "AbstractModel.html#update": {
-                      "ref": "AbstractModel.html#update",
-                      "tf": 787.5
-                    },
-                    "AbstractCollection.html#set": {
-                      "ref": "AbstractCollection.html#set",
-                      "tf": 3.7037037037037033
-                    },
-                    "AbstractCollection.html#update": {
-                      "ref": "AbstractCollection.html#update",
-                      "tf": 762.5
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "n": {
-            "docs": {},
-            "d": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "s": {
-                    "docs": {},
-                    "c": {
-                      "docs": {},
-                      "o": {
-                        "docs": {},
-                        "r": {
-                          "docs": {},
-                          "e": {
-                            "docs": {},
-                            "'": {
-                              "docs": {
-                                "AbstractModel.html#matches": {
-                                  "ref": "AbstractModel.html#matches",
-                                  "tf": 8.333333333333332
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "n": {
-                    "docs": {},
-                    "o": {
-                      "docs": {},
-                      "r": {
-                        "docs": {},
-                        "m": {
-                          "docs": {
-                            "AbstractCollection.html#sort": {
-                              "ref": "AbstractCollection.html#sort",
-                              "tf": 2.941176470588235
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "f": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "n": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "d": {
-                          "docs": {},
-                          ".": {
-                            "docs": {},
-                            "y": {
-                              "docs": {
-                                "AbstractModel.html#changedAttributes": {
-                                  "ref": "AbstractModel.html#changedAttributes",
-                                  "tf": 1.6666666666666667
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractModel.html#unset": {
-                      "ref": "AbstractModel.html#unset",
-                      "tf": 755
-                    },
-                    "AbstractModel.html#changedAttributes": {
-                      "ref": "AbstractModel.html#changedAttributes",
-                      "tf": 1.6666666666666667
-                    }
-                  }
-                }
-              },
-              "h": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "f": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "AbstractCollection.html#unshift": {
-                          "ref": "AbstractCollection.html#unshift",
-                          "tf": 750
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "l": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "s": {
-                  "docs": {},
-                  "s": {
-                    "docs": {
-                      "AbstractCollection.html#create": {
-                        "ref": "AbstractCollection.html#create",
-                        "tf": 2.941176470588235
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "q": {
-                "docs": {},
-                "u": {
-                  "docs": {
-                    "AbstractCollection.html#modelId": {
-                      "ref": "AbstractCollection.html#modelId",
-                      "tf": 10
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "l": {
-              "docs": {
-                "AbstractModel.html#url": {
-                  "ref": "AbstractModel.html#url",
-                  "tf": 754.1666666666666
-                }
-              }
-            }
-          },
-          "s": {
-            "docs": {
-              "AbstractModel.html#changedAttributes": {
-                "ref": "AbstractModel.html#changedAttributes",
-                "tf": 1.6666666666666667
-              },
-              "AbstractCollection.html#where": {
-                "ref": "AbstractCollection.html#where",
-                "tf": 6.25
-              },
-              "AbstractCollection.html#findWhere": {
-                "ref": "AbstractCollection.html#findWhere",
-                "tf": 5.555555555555555
-              }
-            }
-          }
-        },
         "w": {
           "docs": {},
           "a": {
@@ -8182,11 +7717,11 @@
                 "docs": {
                   "AbstractModel.html#destroy": {
                     "ref": "AbstractModel.html#destroy",
-                    "tf": 5.88235294117647
+                    "tf": 5.555555555555555
                   },
                   "AbstractCollection.html#create": {
                     "ref": "AbstractCollection.html#create",
-                    "tf": 2.941176470588235
+                    "tf": 5.88235294117647
                   }
                 }
               }
@@ -8197,33 +7732,7 @@
                 "docs": {
                   "AbstractCollection.html#reset": {
                     "ref": "AbstractCollection.html#reset",
-                    "tf": 2.083333333333333
-                  }
-                }
-              }
-            }
-          },
-          "h": {
-            "docs": {},
-            "a": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "p": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "r": {
-                      "docs": {},
-                      "t": {
-                        "docs": {
-                          "AbstractModel.html#changedAttributes": {
-                            "ref": "AbstractModel.html#changedAttributes",
-                            "tf": 1.6666666666666667
-                          }
-                        }
-                      }
-                    }
+                    "tf": 2
                   }
                 }
               }
@@ -8243,28 +7752,8 @@
                       "docs": {
                         "AbstractCollection.html#reset": {
                           "ref": "AbstractCollection.html#reset",
-                          "tf": 2.083333333333333
+                          "tf": 2
                         }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "e": {
-            "docs": {},
-            "w": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "AbstractCollection.html#create": {
-                        "ref": "AbstractCollection.html#create",
-                        "tf": 2.941176470588235
                       }
                     }
                   }
@@ -8282,19 +7771,10 @@
               "'": {
                 "docs": {},
                 "r": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "u": {
-                      "docs": {},
-                      "s": {
-                        "docs": {
-                          "AbstractModel.html#url": {
-                            "ref": "AbstractModel.html#url",
-                            "tf": 4.166666666666666
-                          }
-                        }
-                      }
+                  "docs": {
+                    "AbstractModel.html#url": {
+                      "ref": "AbstractModel.html#url",
+                      "tf": 3.8461538461538463
                     }
                   }
                 }
@@ -8303,7 +7783,7 @@
           }
         }
       },
-      "length": 706
+      "length": 721
     },
     "corpusTokens": [
       "abstract",
@@ -8361,6 +7841,7 @@
       "abstractmodel#isempti",
       "abstractmodel#isnew",
       "abstractmodel#isvalid",
+      "abstractmodel#key",
       "abstractmodel#match",
       "abstractmodel#pars",
       "abstractmodel#preiniti",
@@ -8377,6 +7858,7 @@
       "abstractmodel#upd",
       "abstractmodel#url",
       "abstractmodel#valid",
+      "abstractmodel#valu",
       "ad",
       "add",
       "again",
@@ -8387,7 +7869,7 @@
       "alreadi",
       "alway",
       "and/or",
-      "anycombin",
+      "anyon",
       "array",
       "attr",
       "attribut",
@@ -8395,19 +7877,15 @@
       "augmented.j",
       "befor",
       "begin",
-      "bemodel",
-      "bepersist",
-      "betweencollect",
+      "between",
       "bound",
       "browser",
       "bulk",
       "call",
       "case",
-      "casesof",
       "chang",
       "changedattribut",
       "cid",
-      "cidproperti",
       "circumst",
       "class",
       "clear",
@@ -8420,7 +7898,7 @@
       "collection.upd",
       "collectioniter",
       "collectioniterator#next",
-      "collectiononc",
+      "combin",
       "contain",
       "convert",
       "core",
@@ -8441,26 +7919,25 @@
       "each",
       "empti",
       "end",
-      "endpointthat",
+      "endpoint",
       "entir",
       "entri",
       "escap",
       "event",
-      "event.if",
       "exhaust",
       "exist",
+      "fals",
       "fetch",
       "filter",
       "find",
       "findwher",
-      "finished.us",
+      "finish",
       "fire",
-      "firingani",
       "first",
       "forc",
       "form",
       "function",
-      "futurecal",
+      "futur",
       "get",
       "getvalidationmessag",
       "given",
@@ -8474,16 +7951,14 @@
       "immedi",
       "implement",
       "index",
-      "individually,y",
+      "individu",
       "ing",
       "instanc",
       "interoper",
       "isempti",
       "isnew",
-      "isth",
       "isvalid",
       "item",
-      "itemi",
       "iter",
       "itself",
       "javascript",
@@ -8493,11 +7968,11 @@
       "know",
       "lack",
       "last",
-      "last&quot;change&quot",
       "level",
-      "librarieswhich",
+      "librari",
       "list",
       "list:class",
+      "local",
       "longer",
       "loop",
       "maintain",
@@ -8506,12 +7981,10 @@
       "messag",
       "method",
       "model",
-      "model#set,th",
+      "model#set",
       "model'",
-      "model'sloc",
-      "model'sst",
-      "model,determin",
       "modelid",
+      "models&quot",
       "modern",
       "more",
       "name",
@@ -8520,29 +7993,28 @@
       "never",
       "new",
       "next",
-      "noopif",
-      "notifyinganyon",
+      "noop",
+      "normal",
+      "notifi",
       "object",
       "on",
-      "one.if",
-      "ones,remov",
-      "onth",
+      "onc",
       "oper",
       "optim",
+      "optimist",
       "order",
-      "orfals",
       "out",
       "overrid",
       "pars",
+      "part",
       "parti",
       "pass",
-      "persisted.optimist",
+      "persist",
       "pluck",
       "pop",
       "preiniti",
       "present",
       "previou",
-      "previous&quot;change&quot",
       "previousattribut",
       "primit",
       "properti",
@@ -8567,11 +8039,11 @@
       "rest",
       "return",
       "rewrit",
+      "run",
       "save",
       "schema",
       "secur",
       "server",
-      "server.if",
       "set",
       "shift",
       "similar",
@@ -8589,10 +8061,6 @@
       "support",
       "supportsvalid",
       "sync",
-      "thatalreadi",
-      "thecollect",
-      "themodels&quot",
-      "theus",
       "third",
       "through",
       "time",
@@ -8603,8 +8071,8 @@
       "true",
       "tupl",
       "two",
-      "undefined.y",
-      "undernorm",
+      "undefin",
+      "under",
       "underscore'",
       "uniqu",
       "unless",
@@ -8614,15 +8082,12 @@
       "url",
       "us",
       "valid",
-      "validrun",
       "valu",
       "view",
       "wait",
       "want",
-      "wewait",
-      "whatpart",
       "without",
-      "you'reus"
+      "you'r"
     ],
     "pipeline": [
       "trimmer",
@@ -8672,7 +8137,7 @@
       "name": "CollectionIterator",
       "tags": "CollectionIterator",
       "summary": "",
-      "description": "A CollectionIterator implements JavaScript's Iterator protocol, allowing theuse of for of loops in modern browsers and interoperation betweenCollection and other JavaScript functions and third-party librarieswhich can operate on Iterables.",
+      "description": "A CollectionIterator implements JavaScript's Iterator protocol, allowing the use of for of loops in modern browsers and interoperation between Collection and other JavaScript functions and third-party libraries which can operate on Iterables.",
       "body": ""
     },
     "CollectionIterator.html#next": {
@@ -8683,7 +8148,7 @@
       "name": "next",
       "tags": "CollectionIterator#next next",
       "summary": "",
-      "description": "Next model in collectionOnce exhausted, remove the reference to the collection so futurecalls to the next method always return done."
+      "description": "Next model in collection Once exhausted, remove the reference to the collection so future calls to the next method always return done."
     },
     "AbstractModel.html": {
       "id": "AbstractModel.html",
@@ -8724,7 +8189,7 @@
       "name": "set",
       "tags": "AbstractModel#set set",
       "summary": "",
-      "description": "Set a hash of model attributes on the object, firing &quot;change&quot;. This isthe core primitive operation of a model, updating the data and notifyinganyone who needs to know about the change in state."
+      "description": "Set a hash of model attributes on the object, firing &quot;change&quot;. This is the core primitive operation of a model, updating the data and notifying anyone who needs to know about the change in state."
     },
     "AbstractModel.html#escape": {
       "id": "AbstractModel.html#escape",
@@ -8764,7 +8229,7 @@
       "name": "unset",
       "tags": "AbstractModel#unset unset",
       "summary": "",
-      "description": "Remove an attribute from the model, firing &quot;change&quot;. unset is a noopif the attribute doesn't exist."
+      "description": "Remove an attribute from the model, firing &quot;change&quot;. unset is a noop if the attribute doesn't exist."
     },
     "AbstractModel.html#clear": {
       "id": "AbstractModel.html#clear",
@@ -8824,7 +8289,27 @@
       "name": "url",
       "tags": "AbstractModel#url url",
       "summary": "",
-      "description": "Default URL for the model's representation on the server -- if you'reusing restful methods, override this to change the endpointthat will be called."
+      "description": "Default URL for the model's representation on the server -- if you're using restful methods, override this to change the endpoint that will be called."
+    },
+    "AbstractModel.html#keys": {
+      "id": "AbstractModel.html#keys",
+      "kind": "function",
+      "title": "keys()",
+      "longname": "AbstractModel#keys",
+      "name": "keys",
+      "tags": "AbstractModel#keys keys",
+      "summary": "",
+      "description": "Keys of the attributes in this Model"
+    },
+    "AbstractModel.html#values": {
+      "id": "AbstractModel.html#values",
+      "kind": "function",
+      "title": "values()",
+      "longname": "AbstractModel#values",
+      "name": "values",
+      "tags": "AbstractModel#values values",
+      "summary": "",
+      "description": "Values of the attributes in this Model"
     },
     "AbstractModel.html#parse": {
       "id": "AbstractModel.html#parse",
@@ -8834,7 +8319,7 @@
       "name": "parse",
       "tags": "AbstractModel#parse parse",
       "summary": "",
-      "description": "*parse** converts a response into the hash of attributes to be set onthe model. The default implementation is just to pass the response along."
+      "description": "Converts a response into the hash of attributes to be set on the model. The default implementation is just to pass the response along."
     },
     "AbstractModel.html#clone": {
       "id": "AbstractModel.html#clone",
@@ -8864,7 +8349,7 @@
       "name": "hasChanged",
       "tags": "AbstractModel#hasChanged hasChanged",
       "summary": "",
-      "description": "Determine if the model has changed since the last &quot;change&quot; event.If you specify an attribute name, determine if that attribute has changed."
+      "description": "Determine if the model has changed since the last &quot;change&quot; event. If you specify an attribute name, determine if that attribute has changed."
     },
     "AbstractModel.html#changedAttributes": {
       "id": "AbstractModel.html#changedAttributes",
@@ -8874,7 +8359,7 @@
       "name": "changedAttributes",
       "tags": "AbstractModel#changedAttributes changedAttributes",
       "summary": "",
-      "description": "Return an object containing all the attributes that have changed, orfalse if there are no changed attributes. Useful for determining whatparts of a view need to be updated and/or what attributes need to bepersisted to the server. Unset attributes will be set to undefined.You can also pass an attributes object to diff against the model,determining if there would be a change."
+      "description": "Return an object containing all the attributes that have changed, or false if there are no changed attributes. Useful for determining what parts of a view need to be updated and/or what attributes need to be persisted to the server. Unset attributes will be set to undefined. You can also pass an attributes object to diff against the model, determining if there would be a change."
     },
     "AbstractModel.html#previous": {
       "id": "AbstractModel.html#previous",
@@ -8884,7 +8369,7 @@
       "name": "previous",
       "tags": "AbstractModel#previous previous",
       "summary": "",
-      "description": "Get the previous value of an attribute, recorded at the time the last&quot;change&quot; event was fired."
+      "description": "Get the previous value of an attribute, recorded at the time the last &quot;change&quot; event was fired."
     },
     "AbstractModel.html#previousAttributes": {
       "id": "AbstractModel.html#previousAttributes",
@@ -8894,7 +8379,7 @@
       "name": "previousAttributes",
       "tags": "AbstractModel#previousAttributes previousAttributes",
       "summary": "",
-      "description": "Get all of the attributes of the model at the time of the previous&quot;change&quot; event."
+      "description": "Get all of the attributes of the model at the time of the previous &quot;change&quot; event."
     },
     "AbstractModel.html#supportsValidation": {
       "id": "AbstractModel.html#supportsValidation",
@@ -8914,7 +8399,7 @@
       "name": "isValid",
       "tags": "AbstractModel#isValid isValid",
       "summary": "",
-      "description": "isValid - Returns True if this model is validRuns two level validation, attribute-level then JSON Schema"
+      "description": "isValid - Returns True if this model is valid Runs two level validation, attribute-level then JSON Schema"
     },
     "AbstractModel.html#validate": {
       "id": "AbstractModel.html#validate",
@@ -9015,7 +8500,7 @@
       "name": "toJSON",
       "tags": "AbstractCollection#toJSON toJSON",
       "summary": "",
-      "description": "The JSON representation of a Collection is an array of themodels&quot; attributes."
+      "description": "The JSON representation of a Collection is an array of the models&quot; attributes."
     },
     "AbstractCollection.html#add": {
       "id": "AbstractCollection.html#add",
@@ -9025,7 +8510,7 @@
       "name": "add",
       "tags": "AbstractCollection#add add",
       "summary": "",
-      "description": "Add a model, or list of models to the set. models may beModels or raw JavaScript objects to be converted to Models, or anycombination of the two."
+      "description": "Add a model, or list of models to the set. models may be Models or raw JavaScript objects to be converted to Models, or any combination of the two."
     },
     "AbstractCollection.html#remove": {
       "id": "AbstractCollection.html#remove",
@@ -9045,7 +8530,7 @@
       "name": "set",
       "tags": "AbstractCollection#set set",
       "summary": "",
-      "description": "Update a collection by set-ing a new list of models, adding new ones,removing models that are no longer present, and merging models thatalready exist in the collection, as necessary. Similar to Model#set,the core operation for updating the data contained by the collection."
+      "description": "Update a collection by set-ing a new list of models, adding new ones, removing models that are no longer present, and merging models that already exist in the collection, as necessary. Similar to Model#set, the core operation for updating the data contained by the collection."
     },
     "AbstractCollection.html#reset": {
       "id": "AbstractCollection.html#reset",
@@ -9055,7 +8540,7 @@
       "name": "reset",
       "tags": "AbstractCollection#reset reset",
       "summary": "",
-      "description": "When you have more items than you want to add or remove individually,you can reset the entire set with a new list of models, without firingany granular add or remove events. Fires reset when finished.Useful for bulk operations and optimizations."
+      "description": "When you have more items than you want to add or remove individually, you can reset the entire set with a new list of models, without firing any granular add or remove events. Fires reset when finished. Useful for bulk operations and optimizations."
     },
     "AbstractCollection.html#push": {
       "id": "AbstractCollection.html#push",
@@ -9115,7 +8600,7 @@
       "name": "get",
       "tags": "AbstractCollection#get get",
       "summary": "",
-      "description": "Get a model from the set by id, cid, model object with id or cidproperties, or an attributes object that is transformed through modelId."
+      "description": "Get a model from the set by id, cid, model object with id or cid properties, or an attributes object that is transformed through modelId."
     },
     "AbstractCollection.html#has": {
       "id": "AbstractCollection.html#has",
@@ -9175,7 +8660,7 @@
       "name": "findWhere",
       "tags": "AbstractCollection#findWhere findWhere",
       "summary": "",
-      "description": "Return the first model with matching attributes. Useful for simple casesof find."
+      "description": "Return the first model with matching attributes. Useful for simple cases of find."
     },
     "AbstractCollection.html#sort": {
       "id": "AbstractCollection.html#sort",
@@ -9185,7 +8670,7 @@
       "name": "sort",
       "tags": "AbstractCollection#sort sort",
       "summary": "",
-      "description": "Force the collection to re-sort itself. You don&quot;t need to call this undernormal circumstances, as the set will maintain sort order as each itemis added."
+      "description": "Force the collection to re-sort itself. You don&quot;t need to call this under normal circumstances, as the set will maintain sort order as each item is added."
     },
     "AbstractCollection.html#pluck": {
       "id": "AbstractCollection.html#pluck",
@@ -9215,7 +8700,7 @@
       "name": "create",
       "tags": "AbstractCollection#create create",
       "summary": "",
-      "description": "Create a new instance of a model in this collection. Add the model to thecollection immediately, unless wait: true is passed, in which case wewait for the server to agree."
+      "description": "Create a new instance of a model in this collection. Add the model to the collection immediately, unless wait: true is passed, in which case we wait for the server to agree."
     },
     "AbstractCollection.html#parse": {
       "id": "AbstractCollection.html#parse",
@@ -9225,7 +8710,7 @@
       "name": "parse",
       "tags": "AbstractCollection#parse parse",
       "summary": "",
-      "description": "*parse** converts a response into a list of models to be added to thecollection. The default implementation is just to pass it through."
+      "description": "parse* converts a response into a list of models to be added to the collection. The default implementation is just to pass it through."
     },
     "AbstractCollection.html#clone": {
       "id": "AbstractCollection.html#clone",
