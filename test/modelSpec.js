@@ -59,6 +59,14 @@ describe("Given an Abstract Model", () => {
       //console.log(model._events);
       expect(await model.get("x")).to.equal("x");
     });
+  });
 
+  describe("Given a new model", async () => {
+    it("can set with data on construction", async () => {
+      const model = new Model.AbstractModel( { "data" : "xyz" });
+      const data = await model.get("data");
+      //console.log(model._events);
+      expect(data).to.equal("xyz");
+    });
   });
 });
