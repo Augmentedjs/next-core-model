@@ -26,19 +26,19 @@ module.exports = {
     ]
   },
   externals: {
-    'core-next-object': {
+    'next-core-object': {
       commonjs: 'next-core-object',
       commonjs2: 'next-core-object',
       amd: 'next-core-object',
       root: 'next-core-object'
     },
-    'core-next-utilities': {
+    'next-core-utilities': {
       commonjs: 'next-core-utilities',
       commonjs2: 'next-core-utilities',
       amd: 'next-core-utilities',
       root: 'next-core-utilities'
     },
-    'core-next-validation': {
+    'next-core-validation': {
       commonjs: 'next-core-validation',
       commonjs2: 'next-core-validation',
       amd: 'next-core-validation',
