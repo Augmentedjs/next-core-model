@@ -8,7 +8,7 @@ global.navigator = {
   userAgent: 'node.js'
 };
 
-global.Model = require("../dist/core-next-model.js");
+global.Model = require("../src/index.js");
 
 const chai = require("chai");
 global.chai = chai;

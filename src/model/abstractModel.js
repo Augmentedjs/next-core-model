@@ -1,19 +1,11 @@
 import { AugmentedObject } from "next-core-object";
-import { extend, uniqueId, allKeys } from "next-core-utilities";
+import { extend, uniqueId } from "next-core-utilities";
 import { ValidationFramework } from "next-core-validation";
 
 // for now
-const _clone = require("lodash.clone"); // 6
-const _result = require("lodash.result"); // 4
-//const _isEmpty = require("lodash.isempty"); // 2
-const _isEmpty = obj => [Object, Array].includes((obj || {}).constructor) && !Object.entries((obj || {})).length;
+import { clone, has, result, defaults, isEqual, iteratee, defer, escape } from "lodash";
 
-const _has = require("lodash.has"); // 2
-const _isEqual = require("lodash.isequal"); // 4
-const _defaults = require("lodash.defaults"); // 2
-const _iteratee = require("lodash.iteratee"); // 2
-const _defer = require("lodash.defer"); // 2
-const _escape = require("lodash.escape"); // 2
+const _isEmpty = obj => [Object, Array].includes((obj || {}).constructor) && !Object.entries((obj || {})).length;
 
 const wrapError = (model, options) => {
   if (model) {
@@ -36,7 +28,7 @@ const wrapError = (model, options) => {
  * @extends AugmentedObject
  */
 class AbstractModel extends AugmentedObject {
-  constructor(attributes, options, ...args) {
+  constructor(attributes, options = {}, ...args) {
     super(options);
     this.id = 0;
     this.idAttribute = "id"; // ????
@@ -48,10 +40,6 @@ class AbstractModel extends AugmentedObject {
     this._changing = false;
     this._previousAttributes = null;
     this._attributes = (attributes) ? attributes : {};
-    if (!options) {
-      options = {};
-    }
-
     this.schema = null;
     this.validationMessages = {
      valid: true
@@ -71,8 +59,8 @@ class AbstractModel extends AugmentedObject {
       attrs = this.parse(attrs, options) || {};
     }
 
-    this.defaults = _result(this, "defaults");
-    attrs = _defaults(extend({}, this.defaults, attrs), this.defaults);
+    this.defaults = result(this, "defaults");
+    attrs = defaults(extend({}, this.defaults, attrs), this.defaults);
     this.set(attrs, options);
     this.changed = {};
     this.initialize(args);
@@ -87,7 +75,6 @@ class AbstractModel extends AugmentedObject {
    * Validation Message property
    * @property {object} validationMessages The property holding validation message data
    */
-
 
   preinitialize(...args) {
   };
@@ -107,13 +94,6 @@ class AbstractModel extends AugmentedObject {
    * anyone who needs to know about the change in state.
    */
   set(key, val, options) {
-    // need stack trace for this:
-    /*try {
-      throw new Error("calling set.");
-    } catch(e) {
-      console.debug(e);
-    }*/
-
     if (key === null) {
       return this;
     }
@@ -147,7 +127,7 @@ class AbstractModel extends AugmentedObject {
     this._changing = true;
 
     if (!changing) {
-      this._previousAttributes = _clone(this._attributes);
+      this._previousAttributes = clone(this._attributes);
       this.changed = {};
     }
 
@@ -164,14 +144,14 @@ class AbstractModel extends AugmentedObject {
       //console.debug("current[attr], val", current[attr], val);
       if ( (typeof current[attr] === "string") && (typeof val === "string") && current[attr] !== val ) {
         changes.push(attr);
-      } else if (!_isEqual(current[attr], val)) {
+      } else if (!isEqual(current[attr], val)) {
         //console.debug("notequal current[attr], val", current[attr], val);
         changes.push(attr);
       }
       //console.debug("prev[attr], val", prev[attr], val);
       if ( (typeof prev[attr] === "string") && (typeof val === "string") && prev[attr] !== val ) {
         changed[attr] = val;
-      } else if (!_isEqual(prev[attr], val)) {
+      } else if (!isEqual(prev[attr], val)) {
         //console.debug("assign changed[attr]", val);
         changed[attr] = val;
       } else {
@@ -225,7 +205,7 @@ class AbstractModel extends AugmentedObject {
   /** Escape the attribute data
    */
   escape(attribute) {
-    return _escape(this.get(attribute));
+    return escape(this.get(attribute));
   };
 
   /** Has an attribute in the Model
@@ -238,7 +218,7 @@ class AbstractModel extends AugmentedObject {
   /** Special-cased proxy to underscore's `matches` method.
    */
   matches(attrs) {
-    return !!_iteratee(attrs, this)(this._attributes);
+    return !!iteratee(attrs, this)(this._attributes);
   };
 
   /** Remove an attribute from the model, firing `"change"`. `unset` is a noop
@@ -260,7 +240,7 @@ class AbstractModel extends AugmentedObject {
    * Transforms model to pure toJSON
    */
   toJSON() {
-    return _clone(this._attributes);
+    return clone(this._attributes);
   };
 
   //– sync x
@@ -268,7 +248,7 @@ class AbstractModel extends AugmentedObject {
   /** Fetch the model from the server, merging the response with the model's
    * local attributes. Any changed attributes will trigger a "change" event.
    */
-  fetch(options) {
+  fetch(options = {}) {
     options = extend({parse: true}, options);
     let model = this;
     let success = options.success;
@@ -290,7 +270,7 @@ class AbstractModel extends AugmentedObject {
    * If the server returns an attributes hash that differs, the model's
    * state will be `set` again.
    */
-  save(key, val, options) {
+  save(key, val, options = {}) {
     // Handle both `"key", value` and `{key: value}` -style arguments.
     let attrs;
     if (key == null || typeof key === "object") {
@@ -357,8 +337,8 @@ class AbstractModel extends AugmentedObject {
    * Optimistically removes the model from its collection, if it has one.
    * If `wait: true` is passed, waits for the server to respond before removal.
    */
-  destroy(options) {
-    options = options ? _clone(options) : {};
+  destroy(options = {}) {
+    options = options ? clone(options) : {};
     let model = this;
     let success = options.success;
     let wait = options.wait;
@@ -382,7 +362,7 @@ class AbstractModel extends AugmentedObject {
 
     let request = false;
     if (this.isNew()) {
-      _defer(options.success);
+      defer(options.success);
     } else {
       wrapError(this, options);
       request = this.sync("delete", this, options);
@@ -397,8 +377,8 @@ class AbstractModel extends AugmentedObject {
    */
   url() {
     let base =
-      _result(this, "urlRoot") ||
-      _result(this.collection, "url") ||
+      result(this, "urlRoot") ||
+      result(this.collection, "url") ||
       urlError();
     if (this.isNew()) {
       return base;
@@ -464,7 +444,7 @@ class AbstractModel extends AugmentedObject {
    if (attr == null) {
      return !_isEmpty(this.changed);
    }
-   return _has(this.changed, attr);
+   return has(this.changed, attr);
   };
 
   /** Return an object containing all the attributes that have changed, or
@@ -476,14 +456,14 @@ class AbstractModel extends AugmentedObject {
    */
   changedAttributes(diff) {
     if (!diff) {
-      return this.hasChanged() ? _clone(this.changed) : false;
+      return this.hasChanged() ? clone(this.changed) : false;
     }
     let old = this._changing ? this._previousAttributes : this._attributes;
     let changed = {};
     let hasChanged;
     for (let attr in diff) {
       let val = diff[attr];
-      if (_isEqual(old[attr], val)) {
+      if (isEqual(old[attr], val)) {
         continue;
       }
       changed[attr] = val;
@@ -506,7 +486,7 @@ class AbstractModel extends AugmentedObject {
    * `"change"` event.
    */
   previousAttributes() {
-    return _clone(this._previousAttributes);
+    return clone(this._previousAttributes);
   };
 
   /**
@@ -525,7 +505,7 @@ class AbstractModel extends AugmentedObject {
    * Runs two level validation, attribute-level then JSON Schema
    * @returns {boolean} Returns True if this model is valid
    */
-  isValid(options) {
+  isValid(options = {}) {
     const valid = this._validate({}, extend({}, options, {validate: true}));
     if (valid) {
       const messages = this.validate();
@@ -567,7 +547,7 @@ class AbstractModel extends AugmentedObject {
     return messages;
   };
   /**
-   * Sync model data to bound REST call
+   * Sync model data (Should override as needed)
    */
   sync(method, model, options) {
   };

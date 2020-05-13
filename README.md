@@ -81,9 +81,9 @@ Augmented.js Next Core - Model & Collection
     -   [toJSON](#tojson-1)
     -   [add](#add)
         -   [Parameters](#parameters-27)
-    -   [remove](#remove)
+    -   [addModels](#addmodels)
         -   [Parameters](#parameters-28)
-    -   [remove](#remove-1)
+    -   [removeModels](#removemodels)
         -   [Parameters](#parameters-29)
     -   [set](#set-1)
         -   [Parameters](#parameters-30)
@@ -139,13 +139,15 @@ Augmented.js Next Core - Model & Collection
         -   [Parameters](#parameters-51)
     -   [update](#update-1)
         -   [Parameters](#parameters-52)
-    -   [sortByKey](#sortbykey)
+    -   [remove](#remove)
         -   [Parameters](#parameters-53)
+    -   [sortByKey](#sortbykey)
+        -   [Parameters](#parameters-54)
     -   [isEmpty](#isempty-1)
     -   [size](#size)
     -   [toString](#tostring-1)
 -   [CollectionIterator](#collectioniterator)
-    -   [Parameters](#parameters-54)
+    -   [Parameters](#parameters-55)
     -   [next](#next)
 
 ## AbstractModel
@@ -162,7 +164,7 @@ Supports: <ul>
 ### Parameters
 
 -   `attributes`  
--   `options`  
+-   `options`   (optional, default `{}`)
 -   `args` **...any** 
 
 ### preinitialize
@@ -266,7 +268,7 @@ local attributes. Any changed attributes will trigger a "change" event.
 
 #### Parameters
 
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### fetch
 
@@ -286,7 +288,7 @@ state will be `set` again.
 
 -   `key`  
 -   `val`  
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### save
 
@@ -304,7 +306,7 @@ If `wait: true` is passed, waits for the server to respond before removal.
 
 #### Parameters
 
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### destroy
 
@@ -395,7 +397,7 @@ Runs two level validation, attribute-level then JSON Schema
 
 #### Parameters
 
--   `options`  
+-   `options`   (optional, default `{}`)
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** Returns True if this model is valid
 
@@ -413,7 +415,7 @@ Returns **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Gl
 
 ### sync
 
-Sync model data to bound REST call
+Sync model data (Should override as needed)
 
 #### Parameters
 
@@ -451,7 +453,7 @@ update - Updates the model as a 'update'
 
 ## AbstractCollection
 
-**Extends Object**
+**Extends AugmentedObject**
 
 Abstract Augmented Collection <br/>
 Supports: <ul>
@@ -507,22 +509,32 @@ combination of the two.
 -   `models`  
 -   `options`  
 
-### remove
+**Meta**
+
+-   **deprecated**: call addModels
+
+
+### addModels
+
+Add a model, or list of models to the set. `models` may be
+Models or raw JavaScript objects to be converted to Models, or any
+combination of the two.
+
+#### Parameters
+
+-   `models` **(Model | [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** Models to add or single model
+-   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Option s to add
+
+Returns **Model** Return the added (or merged) model (or models).
+
+### removeModels
 
 Remove a model, or a list of models from the set.
 
 #### Parameters
 
--   `models`  
--   `options`  
-
-### remove
-
-Collection.remove - Remove from the collection as a "delete"
-
-#### Parameters
-
--   `options`  
+-   `models`   (optional, default `[]`)
+-   `options`   (optional, default `{}`)
 
 ### set
 
@@ -644,7 +656,7 @@ Return models with matching attributes. Useful for simple cases of `filter`.
 -   `attrs` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** properties to match
 -   `first`  
 
-Returns **(Augmented.AbstractModel | [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** models that matched
+Returns **(Model | [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** models that matched
 
 ### findWhere
 
@@ -775,6 +787,14 @@ Collection.update - Updates the collection as an "update"
 #### Parameters
 
 -   `options`  
+
+### remove
+
+Collection.remove - Remove from the collection as a "delete"
+
+#### Parameters
+
+-   `options`   (optional, default `{}`)
 
 ### sortByKey
 

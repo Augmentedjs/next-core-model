@@ -99,10 +99,11 @@
 		<section class="source-section">
 			<article></article>
 			<pre class="prettyprint source language-javascript line-numbers"><code class="language-javascript">import { AugmentedObject } from "next-core-object";
-import { extend, uniqueId, isString, isFunction, some, splice, sortObjects } from "next-core-utilities";
+import { extend, isString, isFunction, some, splice, sortObjects } from "next-core-utilities";
 import AbstractModel from "../model/abstractModel.js";
 import { ValidationFramework } from "next-core-validation";
 import CollectionIterator from "./iterator.js";
+import { clone } from "lodash";
 
 const findModelByMatchingProperties = (set, properties) => {
   return set.filter( (entry) => {
@@ -111,8 +112,6 @@ const findModelByMatchingProperties = (set, properties) => {
     });
   });
 };
-
-const _clone = require("lodash.clone");
 
 // Default options for `Collection#set`.
 const setOptions = {
@@ -132,7 +131,7 @@ const addOptions = {
  * &lt;li>Validation and Schemas&lt;/li>
  * &lt;li>Security&lt;/li>
  * &lt;/ul>
- * @extends Object
+ * @extends AugmentedObject
  */
 class AbstractCollection extends AugmentedObject {
   constructor(models, options) {
@@ -204,20 +203,33 @@ class AbstractCollection extends AugmentedObject {
    * Add a model, or list of models to the set. `models` may be
    * Models or raw JavaScript objects to be converted to Models, or any
    * combination of the two.
+   * @deprecated call addModels
    */
   add(models, options) {
+    return this.addModels(models, options);
+  };
+
+  /**
+   * Add a model, or list of models to the set. `models` may be
+   * Models or raw JavaScript objects to be converted to Models, or any
+   * combination of the two.
+   * @param {Model|array} models Models to add or single model
+   * @param {object} options Option s to add
+   * @returns {Model} Return the added (or merged) model (or models).
+   */
+  addModels(models, options) {
     return this.set(models, extend({ merge: false }, options, addOptions));
   };
 
   /** Remove a model, or a list of models from the set.
   */
-  remove(models, options) {
+  removeModels(models = [], options = {}) {
     options = extend({}, options);
-    const singular = Array.isArray(models);
+    const singular = !Array.isArray(models);
     models = singular ? [models] : models.slice();
-    let removed = this._removeModels(models, options);
+    const removed = this._removeModels(models, options);
     if (!options.silent &amp;&amp; removed.length) {
-      options.changes = {added: [], merged: [], removed: removed};
+      options.changes = { added: [], merged: [], removed: removed };
       this.trigger("update", this, options);
     }
     return singular ? removed[0] : removed;
@@ -378,7 +390,7 @@ class AbstractCollection extends AugmentedObject {
    * Useful for bulk operations and optimizations.
    */
   reset(models, options) {
-    options = options ? _clone(options) : {};
+    options = options ? clone(options) : {};
     for (let i = 0; i &lt; this.models.length; i++) {
       this._removeReference(this.models[i], options);
     }
@@ -477,7 +489,7 @@ class AbstractCollection extends AugmentedObject {
 
   /** Return models with matching attributes. Useful for simple cases of `filter`.
     * @param {object} attrs properties to match
-    * @returns {Augmented.AbstractModel|array} models that matched
+    * @returns {Model|array} models that matched
    */
   where(attrs, first) {
     if (first) {
@@ -538,7 +550,7 @@ class AbstractCollection extends AugmentedObject {
    * wait for the server to agree.
    */
   create(model, options) {
-    options = options ? _clone(options) : {};
+    options = options ? clone(options) : {};
     let wait = options.wait;
     model = this._prepareModel(model, options);
     if (!model) return false;
@@ -677,7 +689,7 @@ class AbstractCollection extends AugmentedObject {
   /**
    * Collection.remove - Remove from the collection as a "delete"
    */
-  remove(options) {
+  remove(options = {}) {
     this.sync("delete", this, options);
   };
 
@@ -734,14 +746,13 @@ class AbstractCollection extends AugmentedObject {
     this._byId  = {};
   };
 
-  // Prepare a hash of attributes (or other model) to be added to this
-  // collection.
+  // Prepare a hash of attributes (or other model) to be added to this collection.
   _prepareModel(attrs, options) {
     if (this._isModel(attrs)) {
       if (!attrs.collection) attrs.collection = this;
       return attrs;
     }
-    options = options ? _clone(options) : {};
+    options = options ? clone(options) : {};
     options.collection = this;
     const model = new AbstractModel(attrs, options); // used to be this.model, may be a problem if a custom model is passed.
     if (!model.validationError) {
@@ -753,19 +764,21 @@ class AbstractCollection extends AugmentedObject {
 
   // Internal method called by both remove and set.
   _removeModels(models, options) {
-    let removed = [];
-    for (let i = 0; i &lt; models.length; i++) {
-      let model = this.get(models[i]);
+    // console.debug("_remove models", models);
+    const removed = [];
+    let i = 0;
+    const l = models.length;
+    for (i = 0; i &lt; l; i++) {
+      const model = this.get(models[i]);
       if (!model) continue;
 
-      let index = this.at(model);
+      const index = this.at(model);
       this.models.splice(index, 1);
       this.length--;
 
-      // Remove references before triggering "remove" event to prevent an
-      // infinite loop. #3693
+      // Remove references before triggering "remove" event to prevent an infinite loop.
       delete this._byId[model.cid];
-      let id = this.modelId(model._attributes);
+      const id = this.modelId(model._attributes);
       if (id != null) delete this._byId[id];
 
       if (!options.silent) {
@@ -831,7 +844,7 @@ export default AbstractCollection;
 	</div>
 	<footer>
 				<div class="footer-option"><a href='http://www.augmentedjs.com'>Augmented.js Homepage</a></div>
-			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Oct 4th 2019 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
+			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> on Wed May 13th 2020 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

@@ -3,6 +3,7 @@ import { extend, isString, isFunction, some, splice, sortObjects } from "next-co
 import AbstractModel from "../model/abstractModel.js";
 import { ValidationFramework } from "next-core-validation";
 import CollectionIterator from "./iterator.js";
+import { clone } from "lodash";
 
 const findModelByMatchingProperties = (set, properties) => {
   return set.filter( (entry) => {
@@ -11,8 +12,6 @@ const findModelByMatchingProperties = (set, properties) => {
     });
   });
 };
-
-import { clone as _clone } from "lodash.clone";
 
 // Default options for `Collection#set`.
 const setOptions = {
@@ -32,7 +31,7 @@ const addOptions = {
  * <li>Validation and Schemas</li>
  * <li>Security</li>
  * </ul>
- * @extends Object
+ * @extends AugmentedObject
  */
 class AbstractCollection extends AugmentedObject {
   constructor(models, options) {
@@ -104,20 +103,33 @@ class AbstractCollection extends AugmentedObject {
    * Add a model, or list of models to the set. `models` may be
    * Models or raw JavaScript objects to be converted to Models, or any
    * combination of the two.
+   * @deprecated call addModels
    */
   add(models, options) {
+    return this.addModels(models, options);
+  };
+
+  /**
+   * Add a model, or list of models to the set. `models` may be
+   * Models or raw JavaScript objects to be converted to Models, or any
+   * combination of the two.
+   * @param {Model|array} models Models to add or single model
+   * @param {object} options Option s to add
+   * @returns {Model} Return the added (or merged) model (or models).
+   */
+  addModels(models, options) {
     return this.set(models, extend({ merge: false }, options, addOptions));
   };
 
   /** Remove a model, or a list of models from the set.
   */
-  remove(models, options) {
+  removeModels(models = [], options = {}) {
     options = extend({}, options);
-    const singular = Array.isArray(models);
+    const singular = !Array.isArray(models);
     models = singular ? [models] : models.slice();
-    let removed = this._removeModels(models, options);
+    const removed = this._removeModels(models, options);
     if (!options.silent && removed.length) {
-      options.changes = {added: [], merged: [], removed: removed};
+      options.changes = { added: [], merged: [], removed: removed };
       this.trigger("update", this, options);
     }
     return singular ? removed[0] : removed;
@@ -278,7 +290,7 @@ class AbstractCollection extends AugmentedObject {
    * Useful for bulk operations and optimizations.
    */
   reset(models, options) {
-    options = options ? _clone(options) : {};
+    options = options ? clone(options) : {};
     for (let i = 0; i < this.models.length; i++) {
       this._removeReference(this.models[i], options);
     }
@@ -377,7 +389,7 @@ class AbstractCollection extends AugmentedObject {
 
   /** Return models with matching attributes. Useful for simple cases of `filter`.
     * @param {object} attrs properties to match
-    * @returns {Augmented.AbstractModel|array} models that matched
+    * @returns {Model|array} models that matched
    */
   where(attrs, first) {
     if (first) {
@@ -438,7 +450,7 @@ class AbstractCollection extends AugmentedObject {
    * wait for the server to agree.
    */
   create(model, options) {
-    options = options ? _clone(options) : {};
+    options = options ? clone(options) : {};
     let wait = options.wait;
     model = this._prepareModel(model, options);
     if (!model) return false;
@@ -577,7 +589,7 @@ class AbstractCollection extends AugmentedObject {
   /**
    * Collection.remove - Remove from the collection as a "delete"
    */
-  remove(options) {
+  remove(options = {}) {
     this.sync("delete", this, options);
   };
 
@@ -640,7 +652,7 @@ class AbstractCollection extends AugmentedObject {
       if (!attrs.collection) attrs.collection = this;
       return attrs;
     }
-    options = options ? _clone(options) : {};
+    options = options ? clone(options) : {};
     options.collection = this;
     const model = new AbstractModel(attrs, options); // used to be this.model, may be a problem if a custom model is passed.
     if (!model.validationError) {
@@ -652,18 +664,21 @@ class AbstractCollection extends AugmentedObject {
 
   // Internal method called by both remove and set.
   _removeModels(models, options) {
-    let removed = [];
-    for (let i = 0; i < models.length; i++) {
-      let model = this.get(models[i]);
+    // console.debug("_remove models", models);
+    const removed = [];
+    let i = 0;
+    const l = models.length;
+    for (i = 0; i < l; i++) {
+      const model = this.get(models[i]);
       if (!model) continue;
 
-      let index = this.at(model);
+      const index = this.at(model);
       this.models.splice(index, 1);
       this.length--;
 
       // Remove references before triggering "remove" event to prevent an infinite loop.
       delete this._byId[model.cid];
-      let id = this.modelId(model._attributes);
+      const id = this.modelId(model._attributes);
       if (id != null) delete this._byId[id];
 
       if (!options.silent) {

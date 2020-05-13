@@ -137,7 +137,6 @@
           "object",
           "oper",
           "primit",
-          "quot;change&quot",
           "set",
           "state",
           "updat"
@@ -168,24 +167,24 @@
         "AbstractModel.html#unset": [
           "abstractmodel#unset",
           "attribut",
+          "chang",
           "doesn't",
           "exist",
           "fire",
           "function",
           "model",
           "noop",
-          "quot;change&quot",
           "remov",
           "unset"
         ],
         "AbstractModel.html#clear": [
           "abstractmodel#clear",
           "attribut",
+          "chang",
           "clear",
           "fire",
           "function",
-          "model",
-          "quot;change&quot"
+          "model"
         ],
         "AbstractModel.html#toJSON": [
           "abstractmodel#tojson",
@@ -295,7 +294,6 @@
           "last",
           "model",
           "name",
-          "quot;change&quot",
           "specifi"
         ],
         "AbstractModel.html#changedAttributes": [
@@ -328,12 +326,12 @@
         "AbstractModel.html#previous": [
           "abstractmodel#previ",
           "attribut",
+          "chang",
           "event",
           "fire",
           "function",
           "last",
           "previou",
-          "quot;change&quot",
           "record",
           "time",
           "valu"
@@ -341,12 +339,12 @@
         "AbstractModel.html#previousAttributes": [
           "abstractmodel#previousattribut",
           "attribut",
+          "chang",
           "event",
           "function",
           "model",
           "previou",
           "previousattribut",
-          "quot;change&quot",
           "time"
         ],
         "AbstractModel.html#supportsValidation": [
@@ -391,12 +389,11 @@
         ],
         "AbstractModel.html#sync": [
           "abstractmodel#sync",
-          "bound",
-          "call",
           "data",
           "function",
           "model",
-          "rest",
+          "need",
+          "overrid",
           "sync"
         ],
         "AbstractModel.html#reset": [
@@ -459,7 +456,7 @@
           "collect",
           "function",
           "json",
-          "models&quot",
+          "model",
           "represent",
           "tojson"
         ],
@@ -477,13 +474,30 @@
           "set",
           "two"
         ],
-        "AbstractCollection.html#remove": [
-          "abstractcollection#remov",
-          "collect",
-          "collection.remov",
+        "AbstractCollection.html#addModels": [
+          "abstractcollection#addmodel",
+          "add",
+          "addmodel",
+          "combin",
+          "convert",
           "function",
-          "quot;delete&quot",
-          "remov"
+          "javascript",
+          "list",
+          "model",
+          "object",
+          "option",
+          "raw",
+          "set",
+          "two"
+        ],
+        "AbstractCollection.html#removeModels": [
+          "abstractcollection#removemodel",
+          "function",
+          "list",
+          "model",
+          "remov",
+          "removemodel",
+          "set"
         ],
         "AbstractCollection.html#set": [
           "abstractcollection#set",
@@ -662,7 +676,7 @@
           "call",
           "circumst",
           "collect",
-          "don&quot;t",
+          "don\"t",
           "each",
           "forc",
           "function",
@@ -817,8 +831,8 @@
           "abstractcollection#sav",
           "collect",
           "collection.sav",
+          "creat",
           "function",
-          "quot;create&quot",
           "save"
         ],
         "AbstractCollection.html#update": [
@@ -826,8 +840,15 @@
           "collect",
           "collection.upd",
           "function",
-          "quot;update&quot",
           "updat"
+        ],
+        "AbstractCollection.html#remove": [
+          "abstractcollection#remov",
+          "collect",
+          "collection.remov",
+          "delet",
+          "function",
+          "remov"
         ],
         "AbstractCollection.html#sortByKey": [
           "abstractcollection#sortbykey",
@@ -865,7 +886,7 @@
           "tostr"
         ]
       },
-      "length": 77
+      "length": 79
     },
     "tokenStore": {
       "root": {
@@ -1820,6 +1841,26 @@
                                                         "ref": "AbstractCollection.html#add",
                                                         "tf": 1150
                                                       }
+                                                    },
+                                                    "m": {
+                                                      "docs": {},
+                                                      "o": {
+                                                        "docs": {},
+                                                        "d": {
+                                                          "docs": {},
+                                                          "e": {
+                                                            "docs": {},
+                                                            "l": {
+                                                              "docs": {
+                                                                "AbstractCollection.html#addModels": {
+                                                                  "ref": "AbstractCollection.html#addModels",
+                                                                  "tf": 1150
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
                                                     }
                                                   }
                                                 },
@@ -1845,6 +1886,29 @@
                                                           "AbstractCollection.html#remove": {
                                                             "ref": "AbstractCollection.html#remove",
                                                             "tf": 1150
+                                                          }
+                                                        },
+                                                        "e": {
+                                                          "docs": {},
+                                                          "m": {
+                                                            "docs": {},
+                                                            "o": {
+                                                              "docs": {},
+                                                              "d": {
+                                                                "docs": {},
+                                                                "e": {
+                                                                  "docs": {},
+                                                                  "l": {
+                                                                    "docs": {
+                                                                      "AbstractCollection.html#removeModels": {
+                                                                        "ref": "AbstractCollection.html#removeModels",
+                                                                        "tf": 1150
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
                                                           }
                                                         }
                                                       }
@@ -2629,6 +2693,10 @@
                   "ref": "AbstractCollection.html#add",
                   "tf": 753.5714285714286
                 },
+                "AbstractCollection.html#addModels": {
+                  "ref": "AbstractCollection.html#addModels",
+                  "tf": 3.571428571428571
+                },
                 "AbstractCollection.html#reset": {
                   "ref": "AbstractCollection.html#reset",
                   "tf": 4
@@ -2644,6 +2712,26 @@
                 "AbstractCollection.html#create": {
                   "ref": "AbstractCollection.html#create",
                   "tf": 2.941176470588235
+                }
+              },
+              "m": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "d": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "l": {
+                        "docs": {
+                          "AbstractCollection.html#addModels": {
+                            "ref": "AbstractCollection.html#addModels",
+                            "tf": 683.3333333333334
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -2977,6 +3065,10 @@
                           "ref": "AbstractCollection.html#add",
                           "tf": 3.571428571428571
                         },
+                        "AbstractCollection.html#addModels": {
+                          "ref": "AbstractCollection.html#addModels",
+                          "tf": 3.571428571428571
+                        },
                         "AbstractCollection.html#parse": {
                           "ref": "AbstractCollection.html#parse",
                           "tf": 4.545454545454546
@@ -3018,6 +3110,10 @@
                     "docs": {
                       "AbstractCollection.html#add": {
                         "ref": "AbstractCollection.html#add",
+                        "tf": 3.571428571428571
+                      },
+                      "AbstractCollection.html#addModels": {
+                        "ref": "AbstractCollection.html#addModels",
                         "tf": 3.571428571428571
                       }
                     }
@@ -3105,10 +3201,6 @@
                     "ref": "AbstractModel.html#url",
                     "tf": 3.8461538461538463
                   },
-                  "AbstractModel.html#sync": {
-                    "ref": "AbstractModel.html#sync",
-                    "tf": 8.333333333333332
-                  },
                   "AbstractCollection.html#sort": {
                     "ref": "AbstractCollection.html#sort",
                     "tf": 2.7777777777777777
@@ -3150,11 +3242,19 @@
                   "docs": {
                     "AbstractModel.html#set": {
                       "ref": "AbstractModel.html#set",
-                      "tf": 2.631578947368421
+                      "tf": 5.263157894736842
+                    },
+                    "AbstractModel.html#unset": {
+                      "ref": "AbstractModel.html#unset",
+                      "tf": 5
+                    },
+                    "AbstractModel.html#clear": {
+                      "ref": "AbstractModel.html#clear",
+                      "tf": 10
                     },
                     "AbstractModel.html#fetch": {
                       "ref": "AbstractModel.html#fetch",
-                      "tf": 3.8461538461538463
+                      "tf": 7.6923076923076925
                     },
                     "AbstractModel.html#url": {
                       "ref": "AbstractModel.html#url",
@@ -3162,11 +3262,19 @@
                     },
                     "AbstractModel.html#hasChanged": {
                       "ref": "AbstractModel.html#hasChanged",
-                      "tf": 8.333333333333332
+                      "tf": 12.5
                     },
                     "AbstractModel.html#changedAttributes": {
                       "ref": "AbstractModel.html#changedAttributes",
                       "tf": 4.838709677419355
+                    },
+                    "AbstractModel.html#previous": {
+                      "ref": "AbstractModel.html#previous",
+                      "tf": 5.555555555555555
+                    },
+                    "AbstractModel.html#previousAttributes": {
+                      "ref": "AbstractModel.html#previousAttributes",
+                      "tf": 8.333333333333332
                     }
                   },
                   "e": {
@@ -3231,6 +3339,10 @@
                     "AbstractCollection.html#clone": {
                       "ref": "AbstractCollection.html#clone",
                       "tf": 7.142857142857142
+                    },
+                    "AbstractCollection.html#save": {
+                      "ref": "AbstractCollection.html#save",
+                      "tf": 12.5
                     }
                   }
                 }
@@ -3391,6 +3503,10 @@
                     "AbstractModel.html#destroy": {
                       "ref": "AbstractModel.html#destroy",
                       "tf": 25
+                    },
+                    "AbstractCollection.html#remove": {
+                      "ref": "AbstractCollection.html#remove",
+                      "tf": 12.5
                     }
                   }
                 }
@@ -3436,28 +3552,13 @@
                   }
                 }
               },
-              "&": {
+              "\"": {
                 "docs": {},
-                "q": {
-                  "docs": {},
-                  "u": {
-                    "docs": {},
-                    "o": {
-                      "docs": {},
-                      "t": {
-                        "docs": {},
-                        ";": {
-                          "docs": {},
-                          "t": {
-                            "docs": {
-                              "AbstractCollection.html#sort": {
-                                "ref": "AbstractCollection.html#sort",
-                                "tf": 2.7777777777777777
-                              }
-                            }
-                          }
-                        }
-                      }
+                "t": {
+                  "docs": {
+                    "AbstractCollection.html#sort": {
+                      "ref": "AbstractCollection.html#sort",
+                      "tf": 2.7777777777777777
                     }
                   }
                 }
@@ -3500,7 +3601,7 @@
                   },
                   "AbstractModel.html#sync": {
                     "ref": "AbstractModel.html#sync",
-                    "tf": 8.333333333333332
+                    "tf": 10
                   },
                   "AbstractModel.html#reset": {
                     "ref": "AbstractModel.html#reset",
@@ -3903,6 +4004,10 @@
                     "ref": "AbstractModel.html#changedAttributes",
                     "tf": 3.225806451612903
                   },
+                  "AbstractModel.html#sync": {
+                    "ref": "AbstractModel.html#sync",
+                    "tf": 10
+                  },
                   "AbstractCollection.html#sort": {
                     "ref": "AbstractCollection.html#sort",
                     "tf": 2.7777777777777777
@@ -4097,9 +4202,9 @@
                       "ref": "AbstractModel.html#destroy",
                       "tf": 5.555555555555555
                     },
-                    "AbstractCollection.html#remove": {
-                      "ref": "AbstractCollection.html#remove",
-                      "tf": 762.5
+                    "AbstractCollection.html#removeModels": {
+                      "ref": "AbstractCollection.html#removeModels",
+                      "tf": 10
                     },
                     "AbstractCollection.html#set": {
                       "ref": "AbstractCollection.html#set",
@@ -4116,6 +4221,33 @@
                     "AbstractCollection.html#shift": {
                       "ref": "AbstractCollection.html#shift",
                       "tf": 12.5
+                    },
+                    "AbstractCollection.html#remove": {
+                      "ref": "AbstractCollection.html#remove",
+                      "tf": 762.5
+                    }
+                  },
+                  "e": {
+                    "docs": {},
+                    "m": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "d": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "l": {
+                              "docs": {
+                                "AbstractCollection.html#removeModels": {
+                                  "ref": "AbstractCollection.html#removeModels",
+                                  "tf": 750
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -4238,10 +4370,6 @@
                   "AbstractModel.html#url": {
                     "ref": "AbstractModel.html#url",
                     "tf": 3.8461538461538463
-                  },
-                  "AbstractModel.html#sync": {
-                    "ref": "AbstractModel.html#sync",
-                    "tf": 8.333333333333332
                   }
                 }
               },
@@ -4343,6 +4471,10 @@
               "docs": {
                 "AbstractCollection.html#add": {
                   "ref": "AbstractCollection.html#add",
+                  "tf": 3.571428571428571
+                },
+                "AbstractCollection.html#addModels": {
+                  "ref": "AbstractCollection.html#addModels",
                   "tf": 3.571428571428571
                 }
               }
@@ -4478,8 +4610,12 @@
                   "ref": "AbstractCollection.html#add",
                   "tf": 3.571428571428571
                 },
-                "AbstractCollection.html#remove": {
-                  "ref": "AbstractCollection.html#remove",
+                "AbstractCollection.html#addModels": {
+                  "ref": "AbstractCollection.html#addModels",
+                  "tf": 3.571428571428571
+                },
+                "AbstractCollection.html#removeModels": {
+                  "ref": "AbstractCollection.html#removeModels",
                   "tf": 10
                 },
                 "AbstractCollection.html#set": {
@@ -4722,7 +4858,7 @@
                   },
                   "AbstractModel.html#sync": {
                     "ref": "AbstractModel.html#sync",
-                    "tf": 758.3333333333334
+                    "tf": 760
                   },
                   "AbstractCollection.html#sync": {
                     "ref": "AbstractCollection.html#sync",
@@ -4955,8 +5091,12 @@
                     "ref": "AbstractCollection.html#add",
                     "tf": 3.571428571428571
                   },
-                  "AbstractCollection.html#remove": {
-                    "ref": "AbstractCollection.html#remove",
+                  "AbstractCollection.html#addModels": {
+                    "ref": "AbstractCollection.html#addModels",
+                    "tf": 3.571428571428571
+                  },
+                  "AbstractCollection.html#removeModels": {
+                    "ref": "AbstractCollection.html#removeModels",
                     "tf": 10
                   },
                   "AbstractCollection.html#set": {
@@ -5194,23 +5334,6 @@
               }
             }
           },
-          "o": {
-            "docs": {},
-            "u": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "d": {
-                  "docs": {
-                    "AbstractModel.html#sync": {
-                      "ref": "AbstractModel.html#sync",
-                      "tf": 8.333333333333332
-                    }
-                  }
-                }
-              }
-            }
-          },
           "u": {
             "docs": {},
             "l": {
@@ -5386,8 +5509,12 @@
                             "ref": "AbstractCollection.html#add",
                             "tf": 110
                           },
-                          "AbstractCollection.html#remove": {
-                            "ref": "AbstractCollection.html#remove",
+                          "AbstractCollection.html#addModels": {
+                            "ref": "AbstractCollection.html#addModels",
+                            "tf": 110
+                          },
+                          "AbstractCollection.html#removeModels": {
+                            "ref": "AbstractCollection.html#removeModels",
                             "tf": 110
                           },
                           "AbstractCollection.html#set": {
@@ -5512,6 +5639,10 @@
                           },
                           "AbstractCollection.html#update": {
                             "ref": "AbstractCollection.html#update",
+                            "tf": 110
+                          },
+                          "AbstractCollection.html#remove": {
+                            "ref": "AbstractCollection.html#remove",
                             "tf": 110
                           },
                           "AbstractCollection.html#sortByKey": {
@@ -5745,6 +5876,10 @@
                               "AbstractCollection.html#add": {
                                 "ref": "AbstractCollection.html#add",
                                 "tf": 3.571428571428571
+                              },
+                              "AbstractCollection.html#addModels": {
+                                "ref": "AbstractCollection.html#addModels",
+                                "tf": 3.571428571428571
                               }
                             },
                             "'": {
@@ -5890,7 +6025,7 @@
                     },
                     "AbstractModel.html#sync": {
                       "ref": "AbstractModel.html#sync",
-                      "tf": 8.333333333333332
+                      "tf": 10
                     },
                     "AbstractModel.html#reset": {
                       "ref": "AbstractModel.html#reset",
@@ -5908,12 +6043,20 @@
                       "ref": "AbstractModel.html#update",
                       "tf": 12.5
                     },
+                    "AbstractCollection.html#toJSON": {
+                      "ref": "AbstractCollection.html#toJSON",
+                      "tf": 8.333333333333332
+                    },
                     "AbstractCollection.html#add": {
                       "ref": "AbstractCollection.html#add",
                       "tf": 17.857142857142858
                     },
-                    "AbstractCollection.html#remove": {
-                      "ref": "AbstractCollection.html#remove",
+                    "AbstractCollection.html#addModels": {
+                      "ref": "AbstractCollection.html#addModels",
+                      "tf": 51.19047619047619
+                    },
+                    "AbstractCollection.html#removeModels": {
+                      "ref": "AbstractCollection.html#removeModels",
                       "tf": 20
                     },
                     "AbstractCollection.html#set": {
@@ -6018,29 +6161,6 @@
                       "AbstractModel.html#url": {
                         "ref": "AbstractModel.html#url",
                         "tf": 3.8461538461538463
-                      }
-                    }
-                  },
-                  "s": {
-                    "docs": {},
-                    "&": {
-                      "docs": {},
-                      "q": {
-                        "docs": {},
-                        "u": {
-                          "docs": {},
-                          "o": {
-                            "docs": {},
-                            "t": {
-                              "docs": {
-                                "AbstractCollection.html#toJSON": {
-                                  "ref": "AbstractCollection.html#toJSON",
-                                  "tf": 8.333333333333332
-                                }
-                              }
-                            }
-                          }
-                        }
                       }
                     }
                   },
@@ -6272,6 +6392,17 @@
                       }
                     }
                   }
+                },
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "AbstractCollection.html#addModels": {
+                        "ref": "AbstractCollection.html#addModels",
+                        "tf": 33.33333333333333
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -6326,6 +6457,10 @@
                         "ref": "AbstractCollection.html#add",
                         "tf": 3.571428571428571
                       },
+                      "AbstractCollection.html#addModels": {
+                        "ref": "AbstractCollection.html#addModels",
+                        "tf": 3.571428571428571
+                      },
                       "AbstractCollection.html#get": {
                         "ref": "AbstractCollection.html#get",
                         "tf": 7.142857142857142
@@ -6351,6 +6486,10 @@
                         "AbstractModel.html#url": {
                           "ref": "AbstractModel.html#url",
                           "tf": 3.8461538461538463
+                        },
+                        "AbstractModel.html#sync": {
+                          "ref": "AbstractModel.html#sync",
+                          "tf": 10
                         }
                       }
                     }
@@ -6937,6 +7076,10 @@
                 "AbstractCollection.html#add": {
                   "ref": "AbstractCollection.html#add",
                   "tf": 3.571428571428571
+                },
+                "AbstractCollection.html#addModels": {
+                  "ref": "AbstractCollection.html#addModels",
+                  "tf": 3.571428571428571
                 }
               }
             }
@@ -7012,7 +7155,7 @@
                     },
                     "AbstractCollection.html#update": {
                       "ref": "AbstractCollection.html#update",
-                      "tf": 762.5
+                      "tf": 775
                     }
                   }
                 }
@@ -7519,194 +7662,6 @@
             }
           }
         },
-        "q": {
-          "docs": {},
-          "u": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                ";": {
-                  "docs": {},
-                  "c": {
-                    "docs": {},
-                    "h": {
-                      "docs": {},
-                      "a": {
-                        "docs": {},
-                        "n": {
-                          "docs": {},
-                          "g": {
-                            "docs": {},
-                            "e": {
-                              "docs": {},
-                              "&": {
-                                "docs": {},
-                                "q": {
-                                  "docs": {},
-                                  "u": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {
-                                          "AbstractModel.html#set": {
-                                            "ref": "AbstractModel.html#set",
-                                            "tf": 2.631578947368421
-                                          },
-                                          "AbstractModel.html#unset": {
-                                            "ref": "AbstractModel.html#unset",
-                                            "tf": 5
-                                          },
-                                          "AbstractModel.html#clear": {
-                                            "ref": "AbstractModel.html#clear",
-                                            "tf": 10
-                                          },
-                                          "AbstractModel.html#fetch": {
-                                            "ref": "AbstractModel.html#fetch",
-                                            "tf": 3.8461538461538463
-                                          },
-                                          "AbstractModel.html#hasChanged": {
-                                            "ref": "AbstractModel.html#hasChanged",
-                                            "tf": 4.166666666666666
-                                          },
-                                          "AbstractModel.html#previous": {
-                                            "ref": "AbstractModel.html#previous",
-                                            "tf": 5.555555555555555
-                                          },
-                                          "AbstractModel.html#previousAttributes": {
-                                            "ref": "AbstractModel.html#previousAttributes",
-                                            "tf": 8.333333333333332
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "r": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "a": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "e": {
-                              "docs": {},
-                              "&": {
-                                "docs": {},
-                                "q": {
-                                  "docs": {},
-                                  "u": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {
-                                          "AbstractCollection.html#save": {
-                                            "ref": "AbstractCollection.html#save",
-                                            "tf": 12.5
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "u": {
-                    "docs": {},
-                    "p": {
-                      "docs": {},
-                      "d": {
-                        "docs": {},
-                        "a": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "e": {
-                              "docs": {},
-                              "&": {
-                                "docs": {},
-                                "q": {
-                                  "docs": {},
-                                  "u": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {
-                                          "AbstractCollection.html#update": {
-                                            "ref": "AbstractCollection.html#update",
-                                            "tf": 12.5
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "d": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "l": {
-                        "docs": {},
-                        "e": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "e": {
-                              "docs": {},
-                              "&": {
-                                "docs": {},
-                                "q": {
-                                  "docs": {},
-                                  "u": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {
-                                          "AbstractCollection.html#remove": {
-                                            "ref": "AbstractCollection.html#remove",
-                                            "tf": 12.5
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
         "w": {
           "docs": {},
           "a": {
@@ -7783,12 +7738,13 @@
           }
         }
       },
-      "length": 721
+      "length": 731
     },
     "corpusTokens": [
       "abstract",
       "abstractcollect",
       "abstractcollection#add",
+      "abstractcollection#addmodel",
       "abstractcollection#at",
       "abstractcollection#clon",
       "abstractcollection#cr",
@@ -7810,6 +7766,7 @@
       "abstractcollection#preiniti",
       "abstractcollection#push",
       "abstractcollection#remov",
+      "abstractcollection#removemodel",
       "abstractcollection#reset",
       "abstractcollection#s",
       "abstractcollection#sav",
@@ -7861,6 +7818,7 @@
       "abstractmodel#valu",
       "ad",
       "add",
+      "addmodel",
       "again",
       "against",
       "agre",
@@ -7878,7 +7836,6 @@
       "befor",
       "begin",
       "between",
-      "bound",
       "browser",
       "bulk",
       "call",
@@ -7914,7 +7871,7 @@
       "differ",
       "document",
       "doesn't",
-      "don&quot;t",
+      "don\"t",
       "done",
       "each",
       "empti",
@@ -7984,7 +7941,6 @@
       "model#set",
       "model'",
       "modelid",
-      "models&quot",
       "modern",
       "more",
       "name",
@@ -8002,6 +7958,7 @@
       "oper",
       "optim",
       "optimist",
+      "option",
       "order",
       "out",
       "overrid",
@@ -8022,16 +7979,13 @@
       "proxi",
       "pure",
       "push",
-      "quot;change&quot",
-      "quot;create&quot",
-      "quot;delete&quot",
-      "quot;update&quot",
       "raw",
       "re",
       "readm",
       "record",
       "refer",
       "remov",
+      "removemodel",
       "represent",
       "reset",
       "respond",
@@ -8189,7 +8143,7 @@
       "name": "set",
       "tags": "AbstractModel#set set",
       "summary": "",
-      "description": "Set a hash of model attributes on the object, firing &quot;change&quot;. This is the core primitive operation of a model, updating the data and notifying anyone who needs to know about the change in state."
+      "description": "Set a hash of model attributes on the object, firing \"change\". This is the core primitive operation of a model, updating the data and notifying anyone who needs to know about the change in state."
     },
     "AbstractModel.html#escape": {
       "id": "AbstractModel.html#escape",
@@ -8229,7 +8183,7 @@
       "name": "unset",
       "tags": "AbstractModel#unset unset",
       "summary": "",
-      "description": "Remove an attribute from the model, firing &quot;change&quot;. unset is a noop if the attribute doesn't exist."
+      "description": "Remove an attribute from the model, firing \"change\". unset is a noop if the attribute doesn't exist."
     },
     "AbstractModel.html#clear": {
       "id": "AbstractModel.html#clear",
@@ -8239,7 +8193,7 @@
       "name": "clear",
       "tags": "AbstractModel#clear clear",
       "summary": "",
-      "description": "Clear all attributes on the model, firing &quot;change&quot;."
+      "description": "Clear all attributes on the model, firing \"change\"."
     },
     "AbstractModel.html#toJSON": {
       "id": "AbstractModel.html#toJSON",
@@ -8349,7 +8303,7 @@
       "name": "hasChanged",
       "tags": "AbstractModel#hasChanged hasChanged",
       "summary": "",
-      "description": "Determine if the model has changed since the last &quot;change&quot; event. If you specify an attribute name, determine if that attribute has changed."
+      "description": "Determine if the model has changed since the last \"change\" event. If you specify an attribute name, determine if that attribute has changed."
     },
     "AbstractModel.html#changedAttributes": {
       "id": "AbstractModel.html#changedAttributes",
@@ -8369,7 +8323,7 @@
       "name": "previous",
       "tags": "AbstractModel#previous previous",
       "summary": "",
-      "description": "Get the previous value of an attribute, recorded at the time the last &quot;change&quot; event was fired."
+      "description": "Get the previous value of an attribute, recorded at the time the last \"change\" event was fired."
     },
     "AbstractModel.html#previousAttributes": {
       "id": "AbstractModel.html#previousAttributes",
@@ -8379,7 +8333,7 @@
       "name": "previousAttributes",
       "tags": "AbstractModel#previousAttributes previousAttributes",
       "summary": "",
-      "description": "Get all of the attributes of the model at the time of the previous &quot;change&quot; event."
+      "description": "Get all of the attributes of the model at the time of the previous \"change\" event."
     },
     "AbstractModel.html#supportsValidation": {
       "id": "AbstractModel.html#supportsValidation",
@@ -8429,7 +8383,7 @@
       "name": "sync",
       "tags": "AbstractModel#sync sync",
       "summary": "",
-      "description": "Sync model data to bound REST call"
+      "description": "Sync model data (Should override as needed)"
     },
     "AbstractModel.html#reset": {
       "id": "AbstractModel.html#reset",
@@ -8500,7 +8454,7 @@
       "name": "toJSON",
       "tags": "AbstractCollection#toJSON toJSON",
       "summary": "",
-      "description": "The JSON representation of a Collection is an array of the models&quot; attributes."
+      "description": "The JSON representation of a Collection is an array of the models\" attributes."
     },
     "AbstractCollection.html#add": {
       "id": "AbstractCollection.html#add",
@@ -8512,15 +8466,25 @@
       "summary": "",
       "description": "Add a model, or list of models to the set. models may be Models or raw JavaScript objects to be converted to Models, or any combination of the two."
     },
-    "AbstractCollection.html#remove": {
-      "id": "AbstractCollection.html#remove",
+    "AbstractCollection.html#addModels": {
+      "id": "AbstractCollection.html#addModels",
       "kind": "function",
-      "title": "remove()",
-      "longname": "AbstractCollection#remove",
-      "name": "remove",
-      "tags": "AbstractCollection#remove remove",
+      "title": "addModels( models, options )",
+      "longname": "AbstractCollection#addModels",
+      "name": "addModels",
+      "tags": "AbstractCollection#addModels addModels",
       "summary": "",
-      "description": "Collection.remove - Remove from the collection as a &quot;delete&quot;"
+      "description": "Add a model, or list of models to the set. models may be Models or raw JavaScript objects to be converted to Models, or any combination of the two."
+    },
+    "AbstractCollection.html#removeModels": {
+      "id": "AbstractCollection.html#removeModels",
+      "kind": "function",
+      "title": "removeModels()",
+      "longname": "AbstractCollection#removeModels",
+      "name": "removeModels",
+      "tags": "AbstractCollection#removeModels removeModels",
+      "summary": "",
+      "description": "Remove a model, or a list of models from the set."
     },
     "AbstractCollection.html#set": {
       "id": "AbstractCollection.html#set",
@@ -8670,7 +8634,7 @@
       "name": "sort",
       "tags": "AbstractCollection#sort sort",
       "summary": "",
-      "description": "Force the collection to re-sort itself. You don&quot;t need to call this under normal circumstances, as the set will maintain sort order as each item is added."
+      "description": "Force the collection to re-sort itself. You don\"t need to call this under normal circumstances, as the set will maintain sort order as each item is added."
     },
     "AbstractCollection.html#pluck": {
       "id": "AbstractCollection.html#pluck",
@@ -8820,7 +8784,7 @@
       "name": "save",
       "tags": "AbstractCollection#save save",
       "summary": "",
-      "description": "Collection.save - Saves the collection as a &quot;create&quot;"
+      "description": "Collection.save - Saves the collection as a \"create\""
     },
     "AbstractCollection.html#update": {
       "id": "AbstractCollection.html#update",
@@ -8830,7 +8794,17 @@
       "name": "update",
       "tags": "AbstractCollection#update update",
       "summary": "",
-      "description": "Collection.update - Updates the collection as an &quot;update&quot;"
+      "description": "Collection.update - Updates the collection as an \"update\""
+    },
+    "AbstractCollection.html#remove": {
+      "id": "AbstractCollection.html#remove",
+      "kind": "function",
+      "title": "remove()",
+      "longname": "AbstractCollection#remove",
+      "name": "remove",
+      "tags": "AbstractCollection#remove remove",
+      "summary": "",
+      "description": "Collection.remove - Remove from the collection as a \"delete\""
     },
     "AbstractCollection.html#sortByKey": {
       "id": "AbstractCollection.html#sortByKey",
