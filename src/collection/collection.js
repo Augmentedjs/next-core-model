@@ -1,5 +1,5 @@
 import { AugmentedObject } from "next-core-object";
-import { extend, uniqueId, isString, isFunction, some, splice, sortObjects } from "next-core-utilities";
+import { extend, isString, isFunction, some, splice, sortObjects } from "next-core-utilities";
 import AbstractModel from "../model/abstractModel.js";
 import { ValidationFramework } from "next-core-validation";
 import CollectionIterator from "./iterator.js";
@@ -12,7 +12,7 @@ const findModelByMatchingProperties = (set, properties) => {
   });
 };
 
-const _clone = require("lodash.clone");
+import { clone as _clone } from "lodash.clone";
 
 // Default options for `Collection#set`.
 const setOptions = {
@@ -634,8 +634,7 @@ class AbstractCollection extends AugmentedObject {
     this._byId  = {};
   };
 
-  // Prepare a hash of attributes (or other model) to be added to this
-  // collection.
+  // Prepare a hash of attributes (or other model) to be added to this collection.
   _prepareModel(attrs, options) {
     if (this._isModel(attrs)) {
       if (!attrs.collection) attrs.collection = this;
@@ -662,8 +661,7 @@ class AbstractCollection extends AugmentedObject {
       this.models.splice(index, 1);
       this.length--;
 
-      // Remove references before triggering "remove" event to prevent an
-      // infinite loop. #3693
+      // Remove references before triggering "remove" event to prevent an infinite loop.
       delete this._byId[model.cid];
       let id = this.modelId(model._attributes);
       if (id != null) delete this._byId[id];

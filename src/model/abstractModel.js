@@ -3,15 +3,17 @@ import { extend, uniqueId, allKeys } from "next-core-utilities";
 import { ValidationFramework } from "next-core-validation";
 
 // for now
-const _clone = require("lodash.clone");
-const _result = require("lodash.result");
-const _isEmpty = require("lodash.isempty");
-const _has = require("lodash.has");
-const _isEqual = require("lodash.isequal");
-const _defaults = require("lodash.defaults");
-const _iteratee = require("lodash.iteratee");
-const _defer = require("lodash.defer");
-const _escape = require("lodash.escape");
+const _clone = require("lodash.clone"); // 6
+const _result = require("lodash.result"); // 4
+//const _isEmpty = require("lodash.isempty"); // 2
+const _isEmpty = obj => [Object, Array].includes((obj || {}).constructor) && !Object.entries((obj || {})).length;
+
+const _has = require("lodash.has"); // 2
+const _isEqual = require("lodash.isequal"); // 4
+const _defaults = require("lodash.defaults"); // 2
+const _iteratee = require("lodash.iteratee"); // 2
+const _defer = require("lodash.defer"); // 2
+const _escape = require("lodash.escape"); // 2
 
 const wrapError = (model, options) => {
   if (model) {
@@ -223,14 +225,14 @@ class AbstractModel extends AugmentedObject {
   /** Escape the attribute data
    */
   escape(attribute) {
-    return _escape(this.get(attr));
+    return _escape(this.get(attribute));
   };
 
   /** Has an attribute in the Model
    * @returns {bolean} Returns true if exists
    */
   has(attribute) {
-    return this.get(attr) !== null;
+    return this.get(attribute) !== null;
   };
 
   /** Special-cased proxy to underscore's `matches` method.
