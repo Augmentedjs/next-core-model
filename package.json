@@ -1,6 +1,6 @@
 {
   "name": "next-core-model",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "The Augmented.js Next - Model & Collection.",
   "main": "dist/core-next-model.js",
   "scripts": {

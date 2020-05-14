@@ -311,7 +311,7 @@ class AbstractCollection extends AugmentedObject {
    */
   pop(options) {
     const model = this.at(this.length - 1);
-    return this.remove(model, options);
+    return this.removeModels(model, options);
   };
 
   /** Add a model to the beginning of the collection.
@@ -324,7 +324,7 @@ class AbstractCollection extends AugmentedObject {
    */
   shift(options) {
     const model = this.at(0);
-    return this.remove(model, options);
+    return this.removeModels(model, options);
   };
 
   /** Slice out a sub-array of models from the collection.
@@ -573,21 +573,21 @@ class AbstractCollection extends AugmentedObject {
   };
 
   /**
-   * Collection.save - Saves the collection as a "create"
+   * save - Saves the collection as a "create"
    */
   save(options) {
     this.sync("create", this, options);
   };
 
   /**
-   * Collection.update - Updates the collection as an "update"
+   * update - Updates the collection as an "update"
    */
   update(options) {
     this.sync("update", this, options);
   };
 
   /**
-   * Collection.remove - Remove from the collection as a "delete"
+   * remove - Remove from the collection as a "delete"
    */
   remove(options = {}) {
     this.sync("delete", this, options);
@@ -615,7 +615,7 @@ class AbstractCollection extends AugmentedObject {
     return (this.length === 0);
   };
   /**
-   * Collection.size - returns the size of the collection
+   * size - returns the size of the collection
    * @returns {number} returns the size of the collection
    */
   size() {
@@ -722,7 +722,7 @@ class AbstractCollection extends AugmentedObject {
   _onModelEvent(event, model, collection, options) {
     if (model) {
       if ((event === "add" || event === "remove") && collection !== this) return;
-      if (event === "destroy") this.remove(model, options);
+      if (event === "destroy") this.removeModels(model, options);
       if (event === "change") {
         let prevId = this.modelId(model.previousAttributes());
         let id = this.modelId(model._attributes);
