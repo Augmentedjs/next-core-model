@@ -35,12 +35,25 @@ class AbstractModel extends AugmentedObject {
     this.cidPrefix = "c";
     this.defaults = {};
     this.validationError = null;
-    this.urlRoot = "";
+    /**
+     * uri root property
+     * @property {string} uriRoot Root of the URI
+     */
+    this.uriRoot = "";
     this._pending = false;
     this._changing = false;
     this._previousAttributes = null;
     this._attributes = (attributes) ? attributes : {};
+    /**
+     * Schema property
+     * @property {object} schema The JSON schema from this model
+     */
     this.schema = null;
+
+    /**
+     * Validation Message property
+     * @property {object} validationMessages The property holding validation message data
+     */
     this.validationMessages = {
      valid: true
     };
@@ -66,15 +79,13 @@ class AbstractModel extends AugmentedObject {
     this.initialize(args);
   };
 
-  /**
-   * Schema property
-   * @property {object} schema The JSON schema from this model
-   */
+  get urlRoot() {
+    return this.uriRoot;
+  };
 
-  /**
-   * Validation Message property
-   * @property {object} validationMessages The property holding validation message data
-   */
+  set urlRoot(root) {
+    return this.uriRoot = root;
+  };
 
   preinitialize(...args) {
   };
@@ -371,15 +382,22 @@ class AbstractModel extends AugmentedObject {
     return request;
   };
 
-  /** Default URL for the model's representation on the server -- if you're
+  /** Default URL for the model's representation on the server -- use uri()
+   * @deprecated use uri
+   */
+  url() {
+    return this.uri();
+  };
+
+  /** Default URI for the model's representation on the server -- if you're
    * using restful methods, override this to change the endpoint
    * that will be called.
    */
-  url() {
+  uri() {
     let base =
-      result(this, "urlRoot") ||
-      result(this.collection, "url") ||
-      urlError();
+      result(this, "uriRoot") ||
+      result(this.collection, "uri") ||
+      uriError();
     if (this.isNew()) {
       return base;
     }

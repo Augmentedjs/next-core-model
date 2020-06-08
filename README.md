@@ -10,122 +10,123 @@ Augmented.js Next Core - Model & Collection
 
 -   [AbstractModel](#abstractmodel)
     -   [Parameters](#parameters)
-    -   [preinitialize](#preinitialize)
-        -   [Parameters](#parameters-1)
+    -   [uriRoot](#uriroot)
         -   [Properties](#properties)
-    -   [preinitialize](#preinitialize-1)
-        -   [Parameters](#parameters-2)
+    -   [schema](#schema)
         -   [Properties](#properties-1)
+    -   [validationMessages](#validationmessages)
+        -   [Properties](#properties-2)
     -   [get](#get)
-        -   [Parameters](#parameters-3)
+        -   [Parameters](#parameters-1)
     -   [set](#set)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-2)
     -   [escape](#escape)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-3)
     -   [has](#has)
-        -   [Parameters](#parameters-6)
+        -   [Parameters](#parameters-4)
     -   [matches](#matches)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-5)
     -   [unset](#unset)
-        -   [Parameters](#parameters-8)
+        -   [Parameters](#parameters-6)
     -   [clear](#clear)
-        -   [Parameters](#parameters-9)
+        -   [Parameters](#parameters-7)
     -   [toJSON](#tojson)
     -   [fetch](#fetch)
-        -   [Parameters](#parameters-10)
+        -   [Parameters](#parameters-8)
     -   [fetch](#fetch-1)
-        -   [Parameters](#parameters-11)
+        -   [Parameters](#parameters-9)
     -   [save](#save)
-        -   [Parameters](#parameters-12)
+        -   [Parameters](#parameters-10)
     -   [save](#save-1)
-        -   [Parameters](#parameters-13)
+        -   [Parameters](#parameters-11)
     -   [destroy](#destroy)
-        -   [Parameters](#parameters-14)
+        -   [Parameters](#parameters-12)
     -   [destroy](#destroy-1)
-        -   [Parameters](#parameters-15)
+        -   [Parameters](#parameters-13)
     -   [url](#url)
+    -   [uri](#uri)
     -   [keys](#keys)
     -   [values](#values)
     -   [parse](#parse)
-        -   [Parameters](#parameters-16)
+        -   [Parameters](#parameters-14)
     -   [clone](#clone)
     -   [isNew](#isnew)
     -   [hasChanged](#haschanged)
-        -   [Parameters](#parameters-17)
+        -   [Parameters](#parameters-15)
     -   [changedAttributes](#changedattributes)
-        -   [Parameters](#parameters-18)
+        -   [Parameters](#parameters-16)
     -   [previous](#previous)
-        -   [Parameters](#parameters-19)
+        -   [Parameters](#parameters-17)
     -   [previousAttributes](#previousattributes)
     -   [supportsValidation](#supportsvalidation)
     -   [isValid](#isvalid)
-        -   [Parameters](#parameters-20)
+        -   [Parameters](#parameters-18)
     -   [validate](#validate)
     -   [getValidationMessages](#getvalidationmessages)
     -   [sync](#sync)
-        -   [Parameters](#parameters-21)
+        -   [Parameters](#parameters-19)
     -   [reset](#reset)
-        -   [Parameters](#parameters-22)
+        -   [Parameters](#parameters-20)
     -   [isEmpty](#isempty)
     -   [toString](#tostring)
     -   [update](#update)
-        -   [Parameters](#parameters-23)
+        -   [Parameters](#parameters-21)
 -   [AbstractCollection](#abstractcollection)
-    -   [Parameters](#parameters-24)
-    -   [preinitialize](#preinitialize-2)
-        -   [Parameters](#parameters-25)
-        -   [Properties](#properties-2)
-    -   [preinitialize](#preinitialize-3)
-        -   [Parameters](#parameters-26)
+    -   [Parameters](#parameters-22)
+    -   [preinitialize](#preinitialize)
+        -   [Parameters](#parameters-23)
         -   [Properties](#properties-3)
+    -   [preinitialize](#preinitialize-1)
+        -   [Parameters](#parameters-24)
+        -   [Properties](#properties-4)
     -   [toJSON](#tojson-1)
     -   [add](#add)
-        -   [Parameters](#parameters-27)
+        -   [Parameters](#parameters-25)
     -   [addModels](#addmodels)
-        -   [Parameters](#parameters-28)
+        -   [Parameters](#parameters-26)
     -   [removeModels](#removemodels)
-        -   [Parameters](#parameters-29)
+        -   [Parameters](#parameters-27)
     -   [set](#set-1)
-        -   [Parameters](#parameters-30)
+        -   [Parameters](#parameters-28)
     -   [reset](#reset-1)
-        -   [Parameters](#parameters-31)
+        -   [Parameters](#parameters-29)
     -   [push](#push)
-        -   [Parameters](#parameters-32)
+        -   [Parameters](#parameters-30)
     -   [pop](#pop)
-        -   [Parameters](#parameters-33)
+        -   [Parameters](#parameters-31)
     -   [unshift](#unshift)
-        -   [Parameters](#parameters-34)
+        -   [Parameters](#parameters-32)
     -   [shift](#shift)
-        -   [Parameters](#parameters-35)
+        -   [Parameters](#parameters-33)
     -   [slice](#slice)
-        -   [Parameters](#parameters-36)
+        -   [Parameters](#parameters-34)
     -   [get](#get-1)
-        -   [Parameters](#parameters-37)
+        -   [Parameters](#parameters-35)
     -   [has](#has-1)
-        -   [Parameters](#parameters-38)
+        -   [Parameters](#parameters-36)
     -   [at](#at)
-        -   [Parameters](#parameters-39)
+        -   [Parameters](#parameters-37)
     -   [find](#find)
-        -   [Parameters](#parameters-40)
+        -   [Parameters](#parameters-38)
     -   [filter](#filter)
-        -   [Parameters](#parameters-41)
+        -   [Parameters](#parameters-39)
     -   [where](#where)
-        -   [Parameters](#parameters-42)
+        -   [Parameters](#parameters-40)
     -   [findWhere](#findwhere)
-        -   [Parameters](#parameters-43)
+        -   [Parameters](#parameters-41)
     -   [sort](#sort)
-        -   [Parameters](#parameters-44)
+        -   [Parameters](#parameters-42)
     -   [pluck](#pluck)
-        -   [Parameters](#parameters-45)
+        -   [Parameters](#parameters-43)
     -   [fetch](#fetch-2)
-        -   [Parameters](#parameters-46)
+        -   [Parameters](#parameters-44)
     -   [create](#create)
-        -   [Parameters](#parameters-47)
+        -   [Parameters](#parameters-45)
     -   [parse](#parse-1)
-        -   [Parameters](#parameters-48)
+        -   [Parameters](#parameters-46)
     -   [clone](#clone-1)
     -   [modelId](#modelid)
-        -   [Parameters](#parameters-49)
+        -   [Parameters](#parameters-47)
     -   [values](#values-1)
     -   [keys](#keys-1)
     -   [entries](#entries)
@@ -134,20 +135,20 @@ Augmented.js Next Core - Model & Collection
     -   [getValidationMessages](#getvalidationmessages-1)
     -   [validate](#validate-1)
     -   [sync](#sync-1)
-        -   [Parameters](#parameters-50)
+        -   [Parameters](#parameters-48)
     -   [save](#save-2)
-        -   [Parameters](#parameters-51)
+        -   [Parameters](#parameters-49)
     -   [update](#update-1)
-        -   [Parameters](#parameters-52)
+        -   [Parameters](#parameters-50)
     -   [remove](#remove)
-        -   [Parameters](#parameters-53)
+        -   [Parameters](#parameters-51)
     -   [sortByKey](#sortbykey)
-        -   [Parameters](#parameters-54)
+        -   [Parameters](#parameters-52)
     -   [isEmpty](#isempty-1)
     -   [size](#size)
     -   [toString](#tostring-1)
 -   [CollectionIterator](#collectioniterator)
-    -   [Parameters](#parameters-55)
+    -   [Parameters](#parameters-53)
     -   [next](#next)
 
 ## AbstractModel
@@ -167,25 +168,25 @@ Supports: <ul>
 -   `options`   (optional, default `{}`)
 -   `args` **...any** 
 
-### preinitialize
+### uriRoot
+
+uri root property
+
+#### Properties
+
+-   `uriRoot` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Root of the URI
+
+### schema
 
 Schema property
-
-#### Parameters
-
--   `args` **...any** 
 
 #### Properties
 
 -   `schema` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** The JSON schema from this model
 
-### preinitialize
+### validationMessages
 
 Validation Message property
-
-#### Parameters
-
--   `args` **...any** 
 
 #### Properties
 
@@ -318,7 +319,16 @@ destroy - Deletes the model as a 'delete'
 
 ### url
 
-Default URL for the model's representation on the server -- if you're
+Default URL for the model's representation on the server -- use uri()
+
+**Meta**
+
+-   **deprecated**: use uri
+
+
+### uri
+
+Default URI for the model's representation on the server -- if you're
 using restful methods, override this to change the endpoint
 that will be called.
 
@@ -774,7 +784,7 @@ Collecion.sync
 
 ### save
 
-Collection.save - Saves the collection as a "create"
+save - Saves the collection as a "create"
 
 #### Parameters
 
@@ -782,7 +792,7 @@ Collection.save - Saves the collection as a "create"
 
 ### update
 
-Collection.update - Updates the collection as an "update"
+update - Updates the collection as an "update"
 
 #### Parameters
 
@@ -790,7 +800,7 @@ Collection.update - Updates the collection as an "update"
 
 ### remove
 
-Collection.remove - Remove from the collection as a "delete"
+remove - Remove from the collection as a "delete"
 
 #### Parameters
 
@@ -812,7 +822,7 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 
 ### size
 
-Collection.size - returns the size of the collection
+size - returns the size of the collection
 
 Returns **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** returns the size of the collection
 

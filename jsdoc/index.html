@@ -258,12 +258,12 @@
 <li><a href="#parameters-27">Parameters</a></li>
 </ul>
 </li>
-<li><a href="#remove">remove</a>
+<li><a href="#addmodels">addModels</a>
 <ul>
 <li><a href="#parameters-28">Parameters</a></li>
 </ul>
 </li>
-<li><a href="#remove-1">remove</a>
+<li><a href="#removemodels">removeModels</a>
 <ul>
 <li><a href="#parameters-29">Parameters</a></li>
 </ul>
@@ -391,9 +391,14 @@
 <li><a href="#parameters-52">Parameters</a></li>
 </ul>
 </li>
-<li><a href="#sortbykey">sortByKey</a>
+<li><a href="#remove">remove</a>
 <ul>
 <li><a href="#parameters-53">Parameters</a></li>
+</ul>
+</li>
+<li><a href="#sortbykey">sortByKey</a>
+<ul>
+<li><a href="#parameters-54">Parameters</a></li>
 </ul>
 </li>
 <li><a href="#isempty-1">isEmpty</a></li>
@@ -403,7 +408,7 @@
 </li>
 <li><a href="#collectioniterator">CollectionIterator</a>
 <ul>
-<li><a href="#parameters-54">Parameters</a></li>
+<li><a href="#parameters-55">Parameters</a></li>
 <li><a href="#next">next</a></li>
 </ul>
 </li>
@@ -418,7 +423,7 @@ Supports: <ul></p>
 <h3>Parameters</h3>
 <ul>
 <li><code>attributes</code></li>
-<li><code>options</code></li>
+<li><code>options</code>   (optional, default <code>{}</code>)</li>
 <li><code>args</code> <strong>...any</strong></li>
 </ul>
 <h3>preinitialize</h3>
@@ -498,7 +503,7 @@ if the attribute doesn't exist.</p>
 local attributes. Any changed attributes will trigger a &quot;change&quot; event.</p>
 <h4>Parameters</h4>
 <ul>
-<li><code>options</code></li>
+<li><code>options</code>   (optional, default <code>{}</code>)</li>
 </ul>
 <h3>fetch</h3>
 <p>fetch - Fetches the model as a 'get'</p>
@@ -514,7 +519,7 @@ state will be <code>set</code> again.</p>
 <ul>
 <li><code>key</code></li>
 <li><code>val</code></li>
-<li><code>options</code></li>
+<li><code>options</code>   (optional, default <code>{}</code>)</li>
 </ul>
 <h3>save</h3>
 <p>save - Saves the model as a 'create'</p>
@@ -528,7 +533,7 @@ Optimistically removes the model from its collection, if it has one.<br>
 If <code>wait: true</code> is passed, waits for the server to respond before removal.</p>
 <h4>Parameters</h4>
 <ul>
-<li><code>options</code></li>
+<li><code>options</code>   (optional, default <code>{}</code>)</li>
 </ul>
 <h3>destroy</h3>
 <p>destroy - Deletes the model as a 'delete'</p>
@@ -592,7 +597,7 @@ determining if there <em>would be</em> a change.</p>
 Runs two level validation, attribute-level then JSON Schema</p>
 <h4>Parameters</h4>
 <ul>
-<li><code>options</code></li>
+<li><code>options</code>   (optional, default <code>{}</code>)</li>
 </ul>
 <p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></strong> Returns True if this model is valid</p>
 <h3>validate</h3>
@@ -602,7 +607,7 @@ Runs two level validation, attribute-level then JSON Schema</p>
 <p>Gets the validation messages only in an array</p>
 <p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">array</a></strong> Returns array of messages from validation</p>
 <h3>sync</h3>
-<p>Sync model data to bound REST call</p>
+<p>Sync model data (Should override as needed)</p>
 <h4>Parameters</h4>
 <ul>
 <li><code>method</code></li>
@@ -628,7 +633,7 @@ Runs two level validation, attribute-level then JSON Schema</p>
 <li><code>options</code></li>
 </ul>
 <h2>AbstractCollection</h2>
-<p><strong>Extends Object</strong></p>
+<p><strong>Extends AugmentedObject</strong></p>
 <p>Abstract Augmented Collection <br/><br>
 Supports: <ul></p>
 <li>Validation and Schemas</li>
@@ -673,18 +678,26 @@ combination of the two.</p>
 <li><code>models</code></li>
 <li><code>options</code></li>
 </ul>
-<h3>remove</h3>
+<p><strong>Meta</strong></p>
+<ul>
+<li><strong>deprecated</strong>: call addModels</li>
+</ul>
+<h3>addModels</h3>
+<p>Add a model, or list of models to the set. <code>models</code> may be<br>
+Models or raw JavaScript objects to be converted to Models, or any<br>
+combination of the two.</p>
+<h4>Parameters</h4>
+<ul>
+<li><code>models</code> <strong>(Model | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">array</a>)</strong> Models to add or single model</li>
+<li><code>options</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Option s to add</li>
+</ul>
+<p>Returns <strong>Model</strong> Return the added (or merged) model (or models).</p>
+<h3>removeModels</h3>
 <p>Remove a model, or a list of models from the set.</p>
 <h4>Parameters</h4>
 <ul>
-<li><code>models</code></li>
-<li><code>options</code></li>
-</ul>
-<h3>remove</h3>
-<p>Collection.remove - Remove from the collection as a &quot;delete&quot;</p>
-<h4>Parameters</h4>
-<ul>
-<li><code>options</code></li>
+<li><code>models</code>   (optional, default <code>[]</code>)</li>
+<li><code>options</code>   (optional, default <code>{}</code>)</li>
 </ul>
 <h3>set</h3>
 <p>Update a collection by <code>set</code>-ing a new list of models, adding new ones,<br>
@@ -778,7 +791,7 @@ properties, or an attributes object that is transformed through modelId.</p>
 <li><code>attrs</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> properties to match</li>
 <li><code>first</code></li>
 </ul>
-<p>Returns <strong>(Augmented.AbstractModel | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">array</a>)</strong> models that matched</p>
+<p>Returns <strong>(Model | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">array</a>)</strong> models that matched</p>
 <h3>findWhere</h3>
 <p>Return the first model with matching attributes. Useful for simple cases<br>
 of <code>find</code>.</p>
@@ -869,6 +882,12 @@ collection. The default implementation is just to pass it through.</p>
 <ul>
 <li><code>options</code></li>
 </ul>
+<h3>remove</h3>
+<p>Collection.remove - Remove from the collection as a &quot;delete&quot;</p>
+<h4>Parameters</h4>
+<ul>
+<li><code>options</code>   (optional, default <code>{}</code>)</li>
+</ul>
 <h3>sortByKey</h3>
 <p>sortByKey - Sorts the collection by a property key</p>
 <h4>Parameters</h4>
@@ -907,7 +926,7 @@ calls to the next method always return done.</p></article>
 	</div>
 	<footer>
 				<div class="footer-option"><a href='http://www.augmentedjs.com'>Augmented.js Homepage</a></div>
-			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> on Wed May 13th 2020 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
+			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> on Mon Jun 8th 2020 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

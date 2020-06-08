@@ -105,13 +105,27 @@
           "support",
           "valid"
         ],
-        "AbstractModel.html#preinitialize": [
-          "abstractmodel#preiniti",
-          "function",
-          "messag",
-          "preiniti",
+        "AbstractModel.html#uriRoot": [
+          "abstractmodel#uriroot",
+          "member",
           "properti",
-          "valid"
+          "root",
+          "uri",
+          "uriroot"
+        ],
+        "AbstractModel.html#schema": [
+          "abstractmodel#schema",
+          "member",
+          "properti",
+          "schema"
+        ],
+        "AbstractModel.html#validationMessages": [
+          "abstractmodel#validationmessag",
+          "member",
+          "messag",
+          "properti",
+          "valid",
+          "validationmessag"
         ],
         "AbstractModel.html#get": [
           "abstractmodel#get",
@@ -216,6 +230,17 @@
         ],
         "AbstractModel.html#url": [
           "abstractmodel#url",
+          "default",
+          "function",
+          "model'",
+          "represent",
+          "server",
+          "uri",
+          "url",
+          "us"
+        ],
+        "AbstractModel.html#uri": [
+          "abstractmodel#uri",
           "call",
           "chang",
           "default",
@@ -227,7 +252,7 @@
           "represent",
           "rest",
           "server",
-          "url",
+          "uri",
           "us",
           "you'r"
         ],
@@ -830,7 +855,6 @@
         "AbstractCollection.html#save": [
           "abstractcollection#sav",
           "collect",
-          "collection.sav",
           "creat",
           "function",
           "save"
@@ -838,14 +862,12 @@
         "AbstractCollection.html#update": [
           "abstractcollection#upd",
           "collect",
-          "collection.upd",
           "function",
           "updat"
         ],
         "AbstractCollection.html#remove": [
           "abstractcollection#remov",
           "collect",
-          "collection.remov",
           "delet",
           "function",
           "remov"
@@ -871,7 +893,6 @@
         "AbstractCollection.html#size": [
           "abstractcollection#s",
           "collect",
-          "collection.s",
           "function",
           "return",
           "size"
@@ -886,7 +907,7 @@
           "tostr"
         ]
       },
-      "length": 79
+      "length": 82
     },
     "tokenStore": {
       "root": {
@@ -1038,160 +1059,68 @@
                                   },
                                   "#": {
                                     "docs": {},
-                                    "p": {
+                                    "u": {
                                       "docs": {},
                                       "r": {
                                         "docs": {},
-                                        "e": {
-                                          "docs": {},
-                                          "i": {
+                                        "i": {
+                                          "docs": {
+                                            "AbstractModel.html#uri": {
+                                              "ref": "AbstractModel.html#uri",
+                                              "tf": 1150
+                                            }
+                                          },
+                                          "r": {
                                             "docs": {},
-                                            "n": {
+                                            "o": {
                                               "docs": {},
-                                              "i": {
+                                              "o": {
                                                 "docs": {},
                                                 "t": {
-                                                  "docs": {},
-                                                  "i": {
-                                                    "docs": {
-                                                      "AbstractModel.html#preinitialize": {
-                                                        "ref": "AbstractModel.html#preinitialize",
-                                                        "tf": 1150
-                                                      }
+                                                  "docs": {
+                                                    "AbstractModel.html#uriRoot": {
+                                                      "ref": "AbstractModel.html#uriRoot",
+                                                      "tf": 1150
                                                     }
                                                   }
                                                 }
                                               }
                                             }
-                                          },
-                                          "v": {
+                                          }
+                                        },
+                                        "l": {
+                                          "docs": {
+                                            "AbstractModel.html#url": {
+                                              "ref": "AbstractModel.html#url",
+                                              "tf": 1150
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "n": {
+                                        "docs": {},
+                                        "s": {
+                                          "docs": {},
+                                          "e": {
                                             "docs": {},
-                                            "i": {
+                                            "t": {
                                               "docs": {
-                                                "AbstractModel.html#previous": {
-                                                  "ref": "AbstractModel.html#previous",
+                                                "AbstractModel.html#unset": {
+                                                  "ref": "AbstractModel.html#unset",
                                                   "tf": 1150
-                                                }
-                                              },
-                                              "o": {
-                                                "docs": {},
-                                                "u": {
-                                                  "docs": {},
-                                                  "s": {
-                                                    "docs": {},
-                                                    "a": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {},
-                                                        "t": {
-                                                          "docs": {},
-                                                          "r": {
-                                                            "docs": {},
-                                                            "i": {
-                                                              "docs": {},
-                                                              "b": {
-                                                                "docs": {},
-                                                                "u": {
-                                                                  "docs": {},
-                                                                  "t": {
-                                                                    "docs": {
-                                                                      "AbstractModel.html#previousAttributes": {
-                                                                        "ref": "AbstractModel.html#previousAttributes",
-                                                                        "tf": 1150
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
                                                 }
                                               }
                                             }
                                           }
                                         }
                                       },
-                                      "a": {
+                                      "p": {
                                         "docs": {},
-                                        "r": {
-                                          "docs": {},
-                                          "s": {
-                                            "docs": {
-                                              "AbstractModel.html#parse": {
-                                                "ref": "AbstractModel.html#parse",
-                                                "tf": 1150
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "g": {
-                                      "docs": {},
-                                      "e": {
-                                        "docs": {},
-                                        "t": {
+                                        "d": {
                                           "docs": {
-                                            "AbstractModel.html#get": {
-                                              "ref": "AbstractModel.html#get",
-                                              "tf": 1300
-                                            }
-                                          },
-                                          "v": {
-                                            "docs": {},
-                                            "a": {
-                                              "docs": {},
-                                              "l": {
-                                                "docs": {},
-                                                "i": {
-                                                  "docs": {},
-                                                  "d": {
-                                                    "docs": {},
-                                                    "a": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {},
-                                                        "i": {
-                                                          "docs": {},
-                                                          "o": {
-                                                            "docs": {},
-                                                            "n": {
-                                                              "docs": {},
-                                                              "m": {
-                                                                "docs": {},
-                                                                "e": {
-                                                                  "docs": {},
-                                                                  "s": {
-                                                                    "docs": {},
-                                                                    "s": {
-                                                                      "docs": {},
-                                                                      "a": {
-                                                                        "docs": {},
-                                                                        "g": {
-                                                                          "docs": {
-                                                                            "AbstractModel.html#getValidationMessages": {
-                                                                              "ref": "AbstractModel.html#getValidationMessages",
-                                                                              "tf": 1150
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
+                                            "AbstractModel.html#update": {
+                                              "ref": "AbstractModel.html#update",
+                                              "tf": 1150
                                             }
                                           }
                                         }
@@ -1199,6 +1128,26 @@
                                     },
                                     "s": {
                                       "docs": {},
+                                      "c": {
+                                        "docs": {},
+                                        "h": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "m": {
+                                              "docs": {},
+                                              "a": {
+                                                "docs": {
+                                                  "AbstractModel.html#schema": {
+                                                    "ref": "AbstractModel.html#schema",
+                                                    "tf": 1150
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
                                       "e": {
                                         "docs": {},
                                         "t": {
@@ -1277,6 +1226,139 @@
                                         }
                                       }
                                     },
+                                    "v": {
+                                      "docs": {},
+                                      "a": {
+                                        "docs": {},
+                                        "l": {
+                                          "docs": {},
+                                          "i": {
+                                            "docs": {},
+                                            "d": {
+                                              "docs": {
+                                                "AbstractModel.html#validate": {
+                                                  "ref": "AbstractModel.html#validate",
+                                                  "tf": 1150
+                                                }
+                                              },
+                                              "a": {
+                                                "docs": {},
+                                                "t": {
+                                                  "docs": {},
+                                                  "i": {
+                                                    "docs": {},
+                                                    "o": {
+                                                      "docs": {},
+                                                      "n": {
+                                                        "docs": {},
+                                                        "m": {
+                                                          "docs": {},
+                                                          "e": {
+                                                            "docs": {},
+                                                            "s": {
+                                                              "docs": {},
+                                                              "s": {
+                                                                "docs": {},
+                                                                "a": {
+                                                                  "docs": {},
+                                                                  "g": {
+                                                                    "docs": {
+                                                                      "AbstractModel.html#validationMessages": {
+                                                                        "ref": "AbstractModel.html#validationMessages",
+                                                                        "tf": 1150
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "u": {
+                                            "docs": {
+                                              "AbstractModel.html#values": {
+                                                "ref": "AbstractModel.html#values",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "g": {
+                                      "docs": {},
+                                      "e": {
+                                        "docs": {},
+                                        "t": {
+                                          "docs": {
+                                            "AbstractModel.html#get": {
+                                              "ref": "AbstractModel.html#get",
+                                              "tf": 1300
+                                            }
+                                          },
+                                          "v": {
+                                            "docs": {},
+                                            "a": {
+                                              "docs": {},
+                                              "l": {
+                                                "docs": {},
+                                                "i": {
+                                                  "docs": {},
+                                                  "d": {
+                                                    "docs": {},
+                                                    "a": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {},
+                                                        "i": {
+                                                          "docs": {},
+                                                          "o": {
+                                                            "docs": {},
+                                                            "n": {
+                                                              "docs": {},
+                                                              "m": {
+                                                                "docs": {},
+                                                                "e": {
+                                                                  "docs": {},
+                                                                  "s": {
+                                                                    "docs": {},
+                                                                    "s": {
+                                                                      "docs": {},
+                                                                      "a": {
+                                                                        "docs": {},
+                                                                        "g": {
+                                                                          "docs": {
+                                                                            "AbstractModel.html#getValidationMessages": {
+                                                                              "ref": "AbstractModel.html#getValidationMessages",
+                                                                              "tf": 1150
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
                                     "e": {
                                       "docs": {},
                                       "s": {
@@ -1346,48 +1428,6 @@
                                                   "tf": 1150
                                                 }
                                               }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "u": {
-                                      "docs": {},
-                                      "n": {
-                                        "docs": {},
-                                        "s": {
-                                          "docs": {},
-                                          "e": {
-                                            "docs": {},
-                                            "t": {
-                                              "docs": {
-                                                "AbstractModel.html#unset": {
-                                                  "ref": "AbstractModel.html#unset",
-                                                  "tf": 1150
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "r": {
-                                        "docs": {},
-                                        "l": {
-                                          "docs": {
-                                            "AbstractModel.html#url": {
-                                              "ref": "AbstractModel.html#url",
-                                              "tf": 1150
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "p": {
-                                        "docs": {},
-                                        "d": {
-                                          "docs": {
-                                            "AbstractModel.html#update": {
-                                              "ref": "AbstractModel.html#update",
-                                              "tf": 1150
                                             }
                                           }
                                         }
@@ -1568,27 +1608,71 @@
                                         }
                                       }
                                     },
-                                    "v": {
+                                    "p": {
                                       "docs": {},
                                       "a": {
                                         "docs": {},
-                                        "l": {
+                                        "r": {
                                           "docs": {},
-                                          "u": {
+                                          "s": {
                                             "docs": {
-                                              "AbstractModel.html#values": {
-                                                "ref": "AbstractModel.html#values",
+                                              "AbstractModel.html#parse": {
+                                                "ref": "AbstractModel.html#parse",
                                                 "tf": 1150
                                               }
                                             }
-                                          },
-                                          "i": {
+                                          }
+                                        }
+                                      },
+                                      "r": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "v": {
                                             "docs": {},
-                                            "d": {
+                                            "i": {
                                               "docs": {
-                                                "AbstractModel.html#validate": {
-                                                  "ref": "AbstractModel.html#validate",
+                                                "AbstractModel.html#previous": {
+                                                  "ref": "AbstractModel.html#previous",
                                                   "tf": 1150
+                                                }
+                                              },
+                                              "o": {
+                                                "docs": {},
+                                                "u": {
+                                                  "docs": {},
+                                                  "s": {
+                                                    "docs": {},
+                                                    "a": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {},
+                                                        "t": {
+                                                          "docs": {},
+                                                          "r": {
+                                                            "docs": {},
+                                                            "i": {
+                                                              "docs": {},
+                                                              "b": {
+                                                                "docs": {},
+                                                                "u": {
+                                                                  "docs": {},
+                                                                  "t": {
+                                                                    "docs": {
+                                                                      "AbstractModel.html#previousAttributes": {
+                                                                        "ref": "AbstractModel.html#previousAttributes",
+                                                                        "tf": 1150
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
                                                 }
                                               }
                                             }
@@ -2953,62 +3037,6 @@
                                   }
                                 }
                               }
-                            },
-                            ".": {
-                              "docs": {},
-                              "s": {
-                                "docs": {
-                                  "AbstractCollection.html#size": {
-                                    "ref": "AbstractCollection.html#size",
-                                    "tf": 12.5
-                                  }
-                                },
-                                "a": {
-                                  "docs": {},
-                                  "v": {
-                                    "docs": {
-                                      "AbstractCollection.html#save": {
-                                        "ref": "AbstractCollection.html#save",
-                                        "tf": 12.5
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              "u": {
-                                "docs": {},
-                                "p": {
-                                  "docs": {},
-                                  "d": {
-                                    "docs": {
-                                      "AbstractCollection.html#update": {
-                                        "ref": "AbstractCollection.html#update",
-                                        "tf": 12.5
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              "r": {
-                                "docs": {},
-                                "e": {
-                                  "docs": {},
-                                  "m": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "v": {
-                                        "docs": {
-                                          "AbstractCollection.html#remove": {
-                                            "ref": "AbstractCollection.html#remove",
-                                            "tf": 12.5
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
                             }
                           }
                         }
@@ -3197,8 +3225,8 @@
                     "ref": "CollectionIterator.html#next",
                     "tf": 3.3333333333333335
                   },
-                  "AbstractModel.html#url": {
-                    "ref": "AbstractModel.html#url",
+                  "AbstractModel.html#uri": {
+                    "ref": "AbstractModel.html#uri",
                     "tf": 3.8461538461538463
                   },
                   "AbstractCollection.html#sort": {
@@ -3256,8 +3284,8 @@
                       "ref": "AbstractModel.html#fetch",
                       "tf": 7.6923076923076925
                     },
-                    "AbstractModel.html#url": {
-                      "ref": "AbstractModel.html#url",
+                    "AbstractModel.html#uri": {
+                      "ref": "AbstractModel.html#uri",
                       "tf": 3.8461538461538463
                     },
                     "AbstractModel.html#hasChanged": {
@@ -3440,6 +3468,10 @@
                       "docs": {
                         "AbstractModel.html#url": {
                           "ref": "AbstractModel.html#url",
+                          "tf": 7.142857142857142
+                        },
+                        "AbstractModel.html#uri": {
+                          "ref": "AbstractModel.html#uri",
                           "tf": 3.8461538461538463
                         },
                         "AbstractModel.html#parse": {
@@ -4224,7 +4256,7 @@
                     },
                     "AbstractCollection.html#remove": {
                       "ref": "AbstractCollection.html#remove",
-                      "tf": 762.5
+                      "tf": 775
                     }
                   },
                   "e": {
@@ -4367,8 +4399,8 @@
               },
               "t": {
                 "docs": {
-                  "AbstractModel.html#url": {
-                    "ref": "AbstractModel.html#url",
+                  "AbstractModel.html#uri": {
+                    "ref": "AbstractModel.html#uri",
                     "tf": 3.8461538461538463
                   }
                 }
@@ -4405,6 +4437,10 @@
                           "docs": {
                             "AbstractModel.html#url": {
                               "ref": "AbstractModel.html#url",
+                              "tf": 7.142857142857142
+                            },
+                            "AbstractModel.html#uri": {
+                              "ref": "AbstractModel.html#uri",
                               "tf": 3.8461538461538463
                             },
                             "AbstractCollection.html#toJSON": {
@@ -4449,6 +4485,20 @@
                         "tf": 8.333333333333332
                       }
                     }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "AbstractModel.html#uriRoot": {
+                    "ref": "AbstractModel.html#uriRoot",
+                    "tf": 16.666666666666664
                   }
                 }
               }
@@ -4534,7 +4584,7 @@
                 "docs": {
                   "AbstractCollection.html#size": {
                     "ref": "AbstractCollection.html#size",
-                    "tf": 762.5
+                    "tf": 775
                   }
                 }
               }
@@ -4553,6 +4603,10 @@
                       "AbstractModel.html": {
                         "ref": "AbstractModel.html",
                         "tf": 10
+                      },
+                      "AbstractModel.html#schema": {
+                        "ref": "AbstractModel.html#schema",
+                        "tf": 775
                       },
                       "AbstractModel.html#isValid": {
                         "ref": "AbstractModel.html#isValid",
@@ -4658,6 +4712,10 @@
                       },
                       "AbstractModel.html#url": {
                         "ref": "AbstractModel.html#url",
+                        "tf": 7.142857142857142
+                      },
+                      "AbstractModel.html#uri": {
+                        "ref": "AbstractModel.html#uri",
                         "tf": 3.8461538461538463
                       },
                       "AbstractModel.html#isNew": {
@@ -4840,7 +4898,7 @@
                   },
                   "AbstractCollection.html#save": {
                     "ref": "AbstractCollection.html#save",
-                    "tf": 762.5
+                    "tf": 775
                   }
                 }
               }
@@ -5373,10 +5431,6 @@
                             "ref": "CollectionIterator.html#next",
                             "tf": 110
                           },
-                          "AbstractModel.html#preinitialize": {
-                            "ref": "AbstractModel.html#preinitialize",
-                            "tf": 110
-                          },
                           "AbstractModel.html#get": {
                             "ref": "AbstractModel.html#get",
                             "tf": 110
@@ -5423,6 +5477,10 @@
                           },
                           "AbstractModel.html#url": {
                             "ref": "AbstractModel.html#url",
+                            "tf": 110
+                          },
+                          "AbstractModel.html#uri": {
+                            "ref": "AbstractModel.html#uri",
                             "tf": 110
                           },
                           "AbstractModel.html#keys": {
@@ -6160,6 +6218,10 @@
                       },
                       "AbstractModel.html#url": {
                         "ref": "AbstractModel.html#url",
+                        "tf": 7.142857142857142
+                      },
+                      "AbstractModel.html#uri": {
+                        "ref": "AbstractModel.html#uri",
                         "tf": 3.8461538461538463
                       }
                     }
@@ -6229,9 +6291,34 @@
                         "ref": "AbstractModel.html#matches",
                         "tf": 8.333333333333332
                       },
-                      "AbstractModel.html#url": {
-                        "ref": "AbstractModel.html#url",
+                      "AbstractModel.html#uri": {
+                        "ref": "AbstractModel.html#uri",
                         "tf": 3.8461538461538463
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "b": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "AbstractModel.html#uriRoot": {
+                        "ref": "AbstractModel.html#uriRoot",
+                        "tf": 110
+                      },
+                      "AbstractModel.html#schema": {
+                        "ref": "AbstractModel.html#schema",
+                        "tf": 110
+                      },
+                      "AbstractModel.html#validationMessages": {
+                        "ref": "AbstractModel.html#validationMessages",
+                        "tf": 110
                       }
                     }
                   }
@@ -6246,8 +6333,8 @@
                   "docs": {},
                   "g": {
                     "docs": {
-                      "AbstractModel.html#preinitialize": {
-                        "ref": "AbstractModel.html#preinitialize",
+                      "AbstractModel.html#validationMessages": {
+                        "ref": "AbstractModel.html#validationMessages",
                         "tf": 16.666666666666664
                       },
                       "AbstractModel.html#getValidationMessages": {
@@ -6483,8 +6570,8 @@
                     "docs": {},
                     "d": {
                       "docs": {
-                        "AbstractModel.html#url": {
-                          "ref": "AbstractModel.html#url",
+                        "AbstractModel.html#uri": {
+                          "ref": "AbstractModel.html#uri",
                           "tf": 3.8461538461538463
                         },
                         "AbstractModel.html#sync": {
@@ -6628,8 +6715,16 @@
                       "docs": {},
                       "i": {
                         "docs": {
-                          "AbstractModel.html#preinitialize": {
-                            "ref": "AbstractModel.html#preinitialize",
+                          "AbstractModel.html#uriRoot": {
+                            "ref": "AbstractModel.html#uriRoot",
+                            "tf": 16.666666666666664
+                          },
+                          "AbstractModel.html#schema": {
+                            "ref": "AbstractModel.html#schema",
+                            "tf": 25
+                          },
+                          "AbstractModel.html#validationMessages": {
+                            "ref": "AbstractModel.html#validationMessages",
                             "tf": 16.666666666666664
                           },
                           "AbstractCollection.html#preinitialize": {
@@ -6670,32 +6765,25 @@
                 }
               }
             },
-            "e": {
+            "i": {
               "docs": {},
-              "i": {
+              "m": {
                 "docs": {},
-                "n": {
+                "i": {
                   "docs": {},
-                  "i": {
-                    "docs": {},
-                    "t": {
-                      "docs": {},
-                      "i": {
-                        "docs": {
-                          "AbstractModel.html#preinitialize": {
-                            "ref": "AbstractModel.html#preinitialize",
-                            "tf": 750
-                          },
-                          "AbstractCollection.html#preinitialize": {
-                            "ref": "AbstractCollection.html#preinitialize",
-                            "tf": 750
-                          }
-                        }
+                  "t": {
+                    "docs": {
+                      "AbstractModel.html#set": {
+                        "ref": "AbstractModel.html#set",
+                        "tf": 2.631578947368421
                       }
                     }
                   }
                 }
-              },
+              }
+            },
+            "e": {
+              "docs": {},
               "v": {
                 "docs": {},
                 "i": {
@@ -6749,6 +6837,26 @@
                   }
                 }
               },
+              "i": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "i": {
+                        "docs": {
+                          "AbstractCollection.html#preinitialize": {
+                            "ref": "AbstractCollection.html#preinitialize",
+                            "tf": 750
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
               "s": {
                 "docs": {},
                 "e": {
@@ -6761,23 +6869,6 @@
                           "ref": "AbstractCollection.html#set",
                           "tf": 1.7857142857142856
                         }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "m": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "AbstractModel.html#set": {
-                        "ref": "AbstractModel.html#set",
-                        "tf": 2.631578947368421
                       }
                     }
                   }
@@ -7109,6 +7200,10 @@
               },
               "AbstractModel.html#url": {
                 "ref": "AbstractModel.html#url",
+                "tf": 7.142857142857142
+              },
+              "AbstractModel.html#uri": {
+                "ref": "AbstractModel.html#uri",
                 "tf": 3.8461538461538463
               },
               "AbstractModel.html#changedAttributes": {
@@ -7126,6 +7221,50 @@
               "AbstractCollection.html#findWhere": {
                 "ref": "AbstractCollection.html#findWhere",
                 "tf": 5.555555555555555
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "i": {
+              "docs": {
+                "AbstractModel.html#uriRoot": {
+                  "ref": "AbstractModel.html#uriRoot",
+                  "tf": 16.666666666666664
+                },
+                "AbstractModel.html#url": {
+                  "ref": "AbstractModel.html#url",
+                  "tf": 7.142857142857142
+                },
+                "AbstractModel.html#uri": {
+                  "ref": "AbstractModel.html#uri",
+                  "tf": 753.8461538461538
+                }
+              },
+              "r": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractModel.html#uriRoot": {
+                          "ref": "AbstractModel.html#uriRoot",
+                          "tf": 750
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "l": {
+              "docs": {
+                "AbstractModel.html#url": {
+                  "ref": "AbstractModel.html#url",
+                  "tf": 757.1428571428571
+                }
               }
             }
           },
@@ -7155,7 +7294,7 @@
                     },
                     "AbstractCollection.html#update": {
                       "ref": "AbstractCollection.html#update",
-                      "tf": 775
+                      "tf": 787.5
                     }
                   }
                 }
@@ -7281,17 +7420,6 @@
                 }
               }
             }
-          },
-          "r": {
-            "docs": {},
-            "l": {
-              "docs": {
-                "AbstractModel.html#url": {
-                  "ref": "AbstractModel.html#url",
-                  "tf": 753.8461538461538
-                }
-              }
-            }
           }
         },
         "e": {
@@ -7410,8 +7538,8 @@
                       "docs": {},
                       "t": {
                         "docs": {
-                          "AbstractModel.html#url": {
-                            "ref": "AbstractModel.html#url",
+                          "AbstractModel.html#uri": {
+                            "ref": "AbstractModel.html#uri",
                             "tf": 3.8461538461538463
                           }
                         }
@@ -7501,8 +7629,8 @@
                       "ref": "AbstractModel.html",
                       "tf": 10
                     },
-                    "AbstractModel.html#preinitialize": {
-                      "ref": "AbstractModel.html#preinitialize",
+                    "AbstractModel.html#validationMessages": {
+                      "ref": "AbstractModel.html#validationMessages",
                       "tf": 16.666666666666664
                     },
                     "AbstractModel.html#supportsValidation": {
@@ -7544,6 +7672,44 @@
                     "AbstractCollection.html#validate": {
                       "ref": "AbstractCollection.html#validate",
                       "tf": 775
+                    }
+                  },
+                  "a": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "n": {
+                            "docs": {},
+                            "m": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "s": {
+                                  "docs": {},
+                                  "s": {
+                                    "docs": {},
+                                    "a": {
+                                      "docs": {},
+                                      "g": {
+                                        "docs": {
+                                          "AbstractModel.html#validationMessages": {
+                                            "ref": "AbstractModel.html#validationMessages",
+                                            "tf": 750
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -7727,8 +7893,8 @@
                 "docs": {},
                 "r": {
                   "docs": {
-                    "AbstractModel.html#url": {
-                      "ref": "AbstractModel.html#url",
+                    "AbstractModel.html#uri": {
+                      "ref": "AbstractModel.html#uri",
                       "tf": 3.8461538461538463
                     }
                   }
@@ -7738,7 +7904,7 @@
           }
         }
       },
-      "length": 731
+      "length": 746
     },
     "corpusTokens": [
       "abstract",
@@ -7801,11 +7967,11 @@
       "abstractmodel#key",
       "abstractmodel#match",
       "abstractmodel#pars",
-      "abstractmodel#preiniti",
       "abstractmodel#previ",
       "abstractmodel#previousattribut",
       "abstractmodel#reset",
       "abstractmodel#sav",
+      "abstractmodel#schema",
       "abstractmodel#set",
       "abstractmodel#supportsvalid",
       "abstractmodel#sync",
@@ -7813,8 +7979,11 @@
       "abstractmodel#tostr",
       "abstractmodel#unset",
       "abstractmodel#upd",
+      "abstractmodel#uri",
+      "abstractmodel#uriroot",
       "abstractmodel#url",
       "abstractmodel#valid",
+      "abstractmodel#validationmessag",
       "abstractmodel#valu",
       "ad",
       "add",
@@ -7849,10 +8018,6 @@
       "clone",
       "collecion.sync",
       "collect",
-      "collection.remov",
-      "collection.s",
-      "collection.sav",
-      "collection.upd",
       "collectioniter",
       "collectioniterator#next",
       "combin",
@@ -7934,6 +8099,7 @@
       "loop",
       "maintain",
       "match",
+      "member",
       "merg",
       "messag",
       "method",
@@ -7993,6 +8159,7 @@
       "rest",
       "return",
       "rewrit",
+      "root",
       "run",
       "save",
       "schema",
@@ -8033,9 +8200,12 @@
       "unset",
       "unshift",
       "updat",
+      "uri",
+      "uriroot",
       "url",
       "us",
       "valid",
+      "validationmessag",
       "valu",
       "view",
       "wait",
@@ -8115,13 +8285,33 @@
       "description": "AbstractModel Supports: Validation and Schemas Security",
       "body": ""
     },
-    "AbstractModel.html#preinitialize": {
-      "id": "AbstractModel.html#preinitialize",
-      "kind": "function",
-      "title": "preinitialize()",
-      "longname": "AbstractModel#preinitialize",
-      "name": "preinitialize",
-      "tags": "AbstractModel#preinitialize preinitialize",
+    "AbstractModel.html#uriRoot": {
+      "id": "AbstractModel.html#uriRoot",
+      "kind": "member",
+      "title": "uriRoot",
+      "longname": "AbstractModel#uriRoot",
+      "name": "uriRoot",
+      "tags": "AbstractModel#uriRoot uriRoot",
+      "summary": "",
+      "description": "uri root property"
+    },
+    "AbstractModel.html#schema": {
+      "id": "AbstractModel.html#schema",
+      "kind": "member",
+      "title": "schema",
+      "longname": "AbstractModel#schema",
+      "name": "schema",
+      "tags": "AbstractModel#schema schema",
+      "summary": "",
+      "description": "Schema property"
+    },
+    "AbstractModel.html#validationMessages": {
+      "id": "AbstractModel.html#validationMessages",
+      "kind": "member",
+      "title": "validationMessages",
+      "longname": "AbstractModel#validationMessages",
+      "name": "validationMessages",
+      "tags": "AbstractModel#validationMessages validationMessages",
       "summary": "",
       "description": "Validation Message property"
     },
@@ -8243,7 +8433,17 @@
       "name": "url",
       "tags": "AbstractModel#url url",
       "summary": "",
-      "description": "Default URL for the model's representation on the server -- if you're using restful methods, override this to change the endpoint that will be called."
+      "description": "Default URL for the model's representation on the server -- use uri()"
+    },
+    "AbstractModel.html#uri": {
+      "id": "AbstractModel.html#uri",
+      "kind": "function",
+      "title": "uri()",
+      "longname": "AbstractModel#uri",
+      "name": "uri",
+      "tags": "AbstractModel#uri uri",
+      "summary": "",
+      "description": "Default URI for the model's representation on the server -- if you're using restful methods, override this to change the endpoint that will be called."
     },
     "AbstractModel.html#keys": {
       "id": "AbstractModel.html#keys",
@@ -8784,7 +8984,7 @@
       "name": "save",
       "tags": "AbstractCollection#save save",
       "summary": "",
-      "description": "Collection.save - Saves the collection as a \"create\""
+      "description": "save - Saves the collection as a \"create\""
     },
     "AbstractCollection.html#update": {
       "id": "AbstractCollection.html#update",
@@ -8794,7 +8994,7 @@
       "name": "update",
       "tags": "AbstractCollection#update update",
       "summary": "",
-      "description": "Collection.update - Updates the collection as an \"update\""
+      "description": "update - Updates the collection as an \"update\""
     },
     "AbstractCollection.html#remove": {
       "id": "AbstractCollection.html#remove",
@@ -8804,7 +9004,7 @@
       "name": "remove",
       "tags": "AbstractCollection#remove remove",
       "summary": "",
-      "description": "Collection.remove - Remove from the collection as a \"delete\""
+      "description": "remove - Remove from the collection as a \"delete\""
     },
     "AbstractCollection.html#sortByKey": {
       "id": "AbstractCollection.html#sortByKey",
@@ -8834,7 +9034,7 @@
       "name": "size",
       "tags": "AbstractCollection#size size",
       "summary": "",
-      "description": "Collection.size - returns the size of the collection"
+      "description": "size - returns the size of the collection"
     },
     "AbstractCollection.html#toString": {
       "id": "AbstractCollection.html#toString",
