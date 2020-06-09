@@ -56,7 +56,6 @@ describe("Given an Abstract Model", () => {
 
     it("can set with data and fires a change event", async () => {
       await model.set({ "x": "x" });
-      //console.log(model._events);
       expect(await model.get("x")).to.equal("x");
     });
   });
@@ -65,8 +64,33 @@ describe("Given an Abstract Model", () => {
     it("can set with data on construction", async () => {
       const model = new Model.AbstractModel( { "data" : "xyz" });
       const data = await model.get("data");
-      //console.log(model._events);
       expect(data).to.equal("xyz");
+    });
+
+    it("does not leak data to another model", async () => {
+      await model.set({ "data": "123", "x": "x", "y": 2 });
+      const model2 = new Model.AbstractModel({ "data" : "xyz", "x": "y" });
+      const data1 = await model.toJSON();
+      const data2 = await model2.toJSON();
+      expect(data1).to.deep.equal({ "data": "123", "x": "x", "y": 2 });
+      expect(data2).to.deep.equal({ "data" : "xyz", "x": "y" });
+      expect(data1).to.not.equal(data2);
+      expect(model._attributes).to.not.equal(model2._attributes);
+      expect(model._attributes).to.deep.equal(data1);
+      expect(model2._attributes).to.deep.equal(data2);
+    });
+
+    it("does not leak data to another model on contruction", async () => {
+      model = new Model.AbstractModel({ "data": "123", "x": "x", "y": 2 });
+      const model2 = new Model.AbstractModel({ "data" : "xyz", "x": "y" });
+      const data1 = await model.toJSON();
+      const data2 = await model2.toJSON();
+      expect(data1).to.deep.equal({ "data": "123", "x": "x", "y": 2 });
+      expect(data2).to.deep.equal({ "data" : "xyz", "x": "y" });
+      expect(data1).to.not.equal(data2);
+      expect(model._attributes).to.not.equal(model2._attributes);
+      expect(model._attributes).to.deep.equal(data1);
+      expect(model2._attributes).to.deep.equal(data2);
     });
   });
 });

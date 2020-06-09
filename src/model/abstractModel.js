@@ -44,6 +44,8 @@ class AbstractModel extends AugmentedObject {
     this._changing = false;
     this._previousAttributes = null;
     this._attributes = (attributes) ? attributes : {};
+
+    // console.debug("next core model", this._attributes);
     /**
      * Schema property
      * @property {object} schema The JSON schema from this model
@@ -104,7 +106,7 @@ class AbstractModel extends AugmentedObject {
    * the core primitive operation of a model, updating the data and notifying
    * anyone who needs to know about the change in state.
    */
-  set(key, val, options) {
+  set(key, value, options) {
     if (key === null) {
       return this;
     }
@@ -112,10 +114,10 @@ class AbstractModel extends AugmentedObject {
     let attrs;
     if (typeof key === "object") {
       attrs = key;
-      options = val;
+      options = value;
       //console.debug("key is an object", attrs);
     } else {
-      (attrs = {})[key] = val;
+      (attrs = {})[key] = value;
     }
 
     if (!options) {
@@ -142,15 +144,15 @@ class AbstractModel extends AugmentedObject {
       this.changed = {};
     }
 
-    let current = this._attributes;
-    let changed = this.changed;
-    const prev    = this._previousAttributes;
+    const current = this._attributes;
+    const changed = this.changed;
+    const prev  = this._previousAttributes;
 
     let attr;
     // For each `set` attribute, update or delete the current value.
     for (attr in attrs) {
       //console.debug("attr to set", attr);
-      val = attrs[attr];
+      const val = attrs[attr];
       //console.debug("attr value set", attrs[attr]);
       //console.debug("current[attr], val", current[attr], val);
       if ( (typeof current[attr] === "string") && (typeof val === "string") && current[attr] !== val ) {

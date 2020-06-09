@@ -211,7 +211,7 @@ anyone who needs to know about the change in state.
 #### Parameters
 
 -   `key`  
--   `val`  
+-   `value`  
 -   `options`  
 
 ### escape
