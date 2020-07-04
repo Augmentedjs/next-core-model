@@ -1,6 +1,6 @@
 const data = [
   { "Name": "Bob", "ID": 123, "Email": "bob@augmentedjs.org" },
-  { "Name": "Jonathan", "ID": 234, "Email": "jonathon@augmentedjs.org" },
+  { "Name": "Jonathan", "ID": 234, "Email": "jonathan@augmentedjs.org" },
   { "Name": "Corey", "ID": 345, "Email": "corey@augmentedjs.org" },
   { "Name": "Seema", "ID": 456, "Email": "seema@augmentedjs.org" },
   { "Name": "Karen", "ID": 567, "Email": "karen@augmentedjs.org" }
@@ -147,16 +147,45 @@ describe("Given an Augmented Collection", () => {
     expect(await result[0].get("Name")).to.equal("Bob");
   });
 
-  it("can remove a model from a collection", async () => {
+  it("can remove first model from a collection", async () => {
+    const compare = [
+      { "Name": "Jonathan", "ID": 234, "Email": "jonathan@augmentedjs.org" },
+      { "Name": "Corey", "ID": 345, "Email": "corey@augmentedjs.org" },
+      { "Name": "Seema", "ID": 456, "Email": "seema@augmentedjs.org" },
+      { "Name": "Karen", "ID": 567, "Email": "karen@augmentedjs.org" }
+    ];
+
     await c.addModels(data);
     const model = await c.find({ "Name": "Bob" });
     const orgSize = await c.size();
-    const result = await c.removeModels(model);
+    const removed = await c.removeModels(model);
     const size = await c.size();
 
     expect(model).to.not.be.undefined;
-    expect(await result.get("Name")).to.equal("Bob");
     expect(orgSize).to.not.equal(size);
     expect(size).to.not.equal(0);
+    expect(removed).to.not.be.undefined;
+    expect(c.toJSON()).to.deep.equal(compare);
+  });
+
+  it("can remove a model from a collection", async () => {
+    const compare = [
+      { "Name": "Bob", "ID": 123, "Email": "bob@augmentedjs.org" },
+      { "Name": "Jonathan", "ID": 234, "Email": "jonathan@augmentedjs.org" },
+      { "Name": "Corey", "ID": 345, "Email": "corey@augmentedjs.org" },
+      { "Name": "Karen", "ID": 567, "Email": "karen@augmentedjs.org" }
+    ];
+
+    await c.addModels(data);
+    const model = await c.find({ "Name": "Seema" });
+    const orgSize = await c.size();
+    const removed = await c.removeModels(model);
+    const size = await c.size();
+
+    expect(model).to.not.be.undefined;
+    expect(orgSize).to.not.equal(size);
+    expect(size).to.not.equal(0);
+    expect(removed).to.not.be.undefined;
+    expect(c.toJSON()).to.deep.equal(compare);
   });
 });

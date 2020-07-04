@@ -13,6 +13,12 @@ const findModelByMatchingProperties = (set, properties) => {
   });
 };
 
+const whereIndex = (set, properties) => {
+  return set.findIndex((collectionItem) =>
+    Object.keys(properties).every(key =>
+      collectionItem.hasOwnProperty(key) && properties[key] === collectionItem[key]));
+};
+
 // Default options for `Collection#set`.
 const setOptions = {
   add: true,
@@ -34,7 +40,7 @@ const addOptions = {
  * @extends AugmentedObject
  */
 class AbstractCollection extends AugmentedObject {
-  constructor(models, options) {
+  constructor(models, options = {}) {
     super(options);
 
     this.length = 0;
@@ -45,9 +51,6 @@ class AbstractCollection extends AugmentedObject {
       valid: true
     };
 
-    if (!options) {
-      options = {};
-    }
     this.preinitialize(models, options);
     if (options.model) {
       this.model = options.model;
@@ -105,7 +108,7 @@ class AbstractCollection extends AugmentedObject {
    * combination of the two.
    * @deprecated call addModels
    */
-  add(models, options) {
+  add(models, options = {}) {
     return this.addModels(models, options);
   };
 
@@ -128,6 +131,9 @@ class AbstractCollection extends AugmentedObject {
     const singular = !Array.isArray(models);
     models = singular ? [models] : models.slice();
     const removed = this._removeModels(models, options);
+
+    console.debug("removed ret", removed);
+
     if (!options.silent && removed.length) {
       options.changes = { added: [], merged: [], removed: removed };
       this.trigger("update", this, options);
@@ -140,7 +146,7 @@ class AbstractCollection extends AugmentedObject {
    * already exist in the collection, as necessary. Similar to **Model#set**,
    * the core operation for updating the data contained by the collection.
    */
-  set(models, options) {
+  set(models, options = {}) {
     if (models === null) {
       return;
     }
@@ -409,7 +415,7 @@ class AbstractCollection extends AugmentedObject {
    * normal circumstances, as the set will maintain sort order as each item
    * is added.
    */
-  sort(options) {
+  sort(options = {}) {
     let comparator = this.comparator;
     if (!comparator) throw new Error("Cannot sort a set without a comparator");
     options || (options = {});
@@ -442,8 +448,7 @@ class AbstractCollection extends AugmentedObject {
   /**
    * Fetch the collection
    */
-  fetch(options) {
-  };
+  fetch(options) {};
 
   /** Create a new instance of a model in this collection. Add the model to the
    * collection immediately, unless `wait: true` is passed, in which case we
@@ -569,20 +574,19 @@ class AbstractCollection extends AugmentedObject {
   /**
    * Collecion.sync
    */
-  sync(method, model, options) {
-  };
+  sync(method, model, options) {};
 
   /**
    * save - Saves the collection as a "create"
    */
-  save(options) {
+  save(options = {}) {
     this.sync("create", this, options);
   };
 
   /**
    * update - Updates the collection as an "update"
    */
-  update(options) {
+  update(options = {}) {
     this.sync("update", this, options);
   };
 
@@ -664,16 +668,26 @@ class AbstractCollection extends AugmentedObject {
 
   // Internal method called by both remove and set.
   _removeModels(models, options) {
-    // console.debug("_remove models", models);
+    // console.debug("_removeModels", models);
     const removed = [];
     let i = 0;
     const l = models.length;
     for (i = 0; i < l; i++) {
-      const model = this.get(models[i]);
+      let model = this.get(models[i]);
       if (!model) continue;
+      let json = model;
+      if (model.toJSON) {
+        json = model.toJSON();
+      }
+      const index = whereIndex(this.toJSON(), json);
+      // console.debug("model index", index);
+      if (index === undefined || typeof index !== "number") {
+        continue;
+      }
 
-      const index = this.at(model);
       this.models.splice(index, 1);
+      // console.debug("models", this.models);
+
       this.length--;
 
       // Remove references before triggering "remove" event to prevent an infinite loop.
@@ -695,11 +709,14 @@ class AbstractCollection extends AugmentedObject {
   // Method for checking whether an object should be considered a model for
   // the purposes of adding to the collection.
   _isModel(model) {
+    if (!model) {
+      return false;
+    }
     return model instanceof AbstractModel;
   };
 
   // Internal method to create a model's ties to a collection.
-  _addReference(model, options) {
+  _addReference(model, options = {}) {
     this._byId[model.cid] = model;
     let id = this.modelId(model._attributes);
     if (id != null) this._byId[id] = model;
@@ -707,7 +724,7 @@ class AbstractCollection extends AugmentedObject {
   };
 
   // Internal method to sever a model's ties to a collection.
-  _removeReference(model, options) {
+  _removeReference(model, options = {}) {
     delete this._byId[model.cid];
     let id = this.modelId(model._attributes);
     if (id != null) delete this._byId[id];
