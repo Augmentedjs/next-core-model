@@ -3,7 +3,16 @@ import { extend, uniqueId } from "next-core-utilities";
 import { ValidationFramework } from "next-core-validation";
 
 // for now
-import { clone, has, result, defaults, isEqual, iteratee, defer, escape } from "lodash";
+// import { clone, has, result, defaults, isEqual, iteratee, defer, escape } from "lodash";
+
+import clone from "lodash/clone";
+import has from "lodash/has";
+import result from "lodash/result";
+import defaults from "lodash/defaults";
+import isEqual from "lodash/isEqual";
+import iteratee from "lodash/iteratee";
+import defer from "lodash/defer";
+import escape from "lodash/escape";
 
 const _isEmpty = obj => [Object, Array].includes((obj || {}).constructor) && !Object.entries((obj || {})).length;
 

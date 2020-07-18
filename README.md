@@ -475,7 +475,7 @@ Supports: <ul>
 ### Parameters
 
 -   `models`  
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### preinitialize
 
@@ -517,7 +517,7 @@ combination of the two.
 #### Parameters
 
 -   `models`  
--   `options`  
+-   `options`   (optional, default `{}`)
 
 **Meta**
 
@@ -556,7 +556,7 @@ the core operation for updating the data contained by the collection.
 #### Parameters
 
 -   `models`  
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### reset
 
@@ -685,7 +685,7 @@ is added.
 
 #### Parameters
 
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### pluck
 
@@ -788,7 +788,7 @@ save - Saves the collection as a "create"
 
 #### Parameters
 
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### update
 
@@ -796,7 +796,7 @@ update - Updates the collection as an "update"
 
 #### Parameters
 
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### remove
 

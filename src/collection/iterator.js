@@ -6,7 +6,7 @@
 // methods on Collection, respectively.
 const ITERATOR_VALUES = 1;
 const ITERATOR_KEYS = 2;
-const ITERATOR_KEYSVALUES = 3;
+// const ITERATOR_KEYSVALUES = 3;
 
 /** A CollectionIterator implements JavaScript's Iterator protocol, allowing the
  * use of `for of` loops in modern browsers and interoperation between

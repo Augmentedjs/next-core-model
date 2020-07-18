@@ -3,7 +3,8 @@ import { extend, isString, isFunction, some, splice, sortObjects } from "next-co
 import AbstractModel from "../model/abstractModel.js";
 import { ValidationFramework } from "next-core-validation";
 import CollectionIterator from "./iterator.js";
-import { clone } from "lodash";
+// import { clone } from "lodash";
+import clone from "lodash/clone";
 
 const findModelByMatchingProperties = (set, properties) => {
   return set.filter( (entry) => {

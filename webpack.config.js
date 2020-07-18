@@ -44,11 +44,59 @@ module.exports = {
       amd: "next-core-validation",
       root: "next-core-validation"
     },
-    "lodash": {
-      commonjs: "lodash",
-      commonjs2: "lodash",
-      amd: "lodash",
-      root: "lodash"
+    "lodash.clone": {
+      commonjs: "lodash.clone",
+      commonjs2: "lodash.clone",
+      amd: "lodash.clone",
+      root: "lodash.clone"
+    },
+    "lodash.defaults": {
+      commonjs: "lodash.defaults",
+      commonjs2: "lodash.defaults",
+      amd: "lodash.defaults",
+      root: "lodash.defaults"
+    },
+    "lodash.defer": {
+      commonjs: "lodash.defer",
+      commonjs2: "lodash.defer",
+      amd: "lodash.defer",
+      root: "lodash.defer"
+    },
+    "lodash.escape": {
+      commonjs: "lodash.escape",
+      commonjs2: "lodash.escape",
+      amd: "lodash.escape",
+      root: "lodash.escape"
+    },
+    "lodash.has": {
+      commonjs: "lodash.has",
+      commonjs2: "lodash.has",
+      amd: "lodash.has",
+      root: "lodash.has"
+    },
+    "lodash.isempty": {
+      commonjs: "lodash.isempty",
+      commonjs2: "lodash.isempty",
+      amd: "lodash.isempty",
+      root: "lodash.isempty"
+    },
+    "lodash.isequal": {
+      commonjs: "lodash.clone",
+      commonjs2: "lodash.clone",
+      amd: "lodash.clone",
+      root: "lodash.clone"
+    },
+    "lodash.iteratee": {
+      commonjs: "lodash.iteratee",
+      commonjs2: "lodash.iteratee",
+      amd: "lodash.iteratee",
+      root: "lodash.iteratee"
+    },
+    "lodash.result": {
+      commonjs: "lodash.result",
+      commonjs2: "lodash.result",
+      amd: "lodash.result",
+      root: "lodash.result"
     }
   },
   stats: "errors-only",
